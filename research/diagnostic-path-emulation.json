@@ -1,0 +1,62 @@
+[
+  {
+    "case": "mode_gate",
+    "startup_counter_raw": 499,
+    "token_matches": true,
+    "enabled": 1
+  },
+  {
+    "case": "mode_gate",
+    "startup_counter_raw": 499,
+    "token_matches": false,
+    "enabled": 0
+  },
+  {
+    "case": "mode_gate",
+    "startup_counter_raw": 500,
+    "token_matches": true,
+    "enabled": 0
+  },
+  {
+    "case": "mode_gate",
+    "startup_counter_raw": 500,
+    "token_matches": false,
+    "enabled": 0
+  },
+  {
+    "case": "framed_diagnostic",
+    "index": 48,
+    "valid_crc": true,
+    "before_raw": 12345,
+    "after_raw": 12345,
+    "response_frame": "55aa08e630393000008d90",
+    "stubbed": "queue insertion only"
+  },
+  {
+    "case": "framed_diagnostic",
+    "index": 48,
+    "valid_crc": false,
+    "before_raw": 12345,
+    "after_raw": 12345,
+    "response_frame": null,
+    "stubbed": "queue insertion only"
+  },
+  {
+    "case": "framed_diagnostic",
+    "index": 1,
+    "valid_crc": true,
+    "before_raw": 60,
+    "after_raw": 61,
+    "response_frame": "55aa06e6013d00c4fc",
+    "stubbed": "queue insertion only"
+  },
+  {
+    "case": "framed_diagnostic",
+    "index": 1,
+    "valid_crc": false,
+    "before_raw": 60,
+    "after_raw": 60,
+    "response_frame": null,
+    "stubbed": "queue insertion only"
+  }
+]

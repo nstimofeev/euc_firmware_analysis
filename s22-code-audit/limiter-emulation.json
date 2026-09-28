@@ -1,0 +1,186 @@
+[
+  {
+    "version": 235,
+    "entry": "0x80156d0",
+    "source_sha256": "3354a12174c93a5bf2296b8ec5984dd67e897ecd646dc123e5c314b97b7a1f44",
+    "synthetic_request": 1000,
+    "synthetic_BuscurLimit": 7500,
+    "synthetic_IbusRateRT": 10,
+    "synthetic_g_average_iq": 10000,
+    "trace": [
+      {
+        "call": 1,
+        "accumulator_before": 5000,
+        "accumulator_after": 4999,
+        "output_raw": 852,
+        "buscurlmt_vq_raw": 852
+      },
+      {
+        "call": 1001,
+        "accumulator_before": 4000,
+        "accumulator_after": 3999,
+        "output_raw": 810,
+        "buscurlmt_vq_raw": 810
+      },
+      {
+        "call": 5001,
+        "accumulator_before": 1,
+        "accumulator_after": 1,
+        "output_raw": 642,
+        "buscurlmt_vq_raw": 642
+      },
+      {
+        "call": 10001,
+        "accumulator_before": 1,
+        "accumulator_after": 1,
+        "output_raw": 642,
+        "buscurlmt_vq_raw": 642
+      },
+      {
+        "call": 15001,
+        "accumulator_before": 1,
+        "accumulator_after": 1,
+        "output_raw": 642,
+        "buscurlmt_vq_raw": 642
+      }
+    ]
+  },
+  {
+    "version": 235,
+    "entry": "0x80156d0",
+    "source_sha256": "3354a12174c93a5bf2296b8ec5984dd67e897ecd646dc123e5c314b97b7a1f44",
+    "synthetic_request": -1000,
+    "synthetic_BuscurLimit": 7500,
+    "synthetic_IbusRateRT": 10,
+    "synthetic_g_average_iq": -10000,
+    "trace": [
+      {
+        "call": 1,
+        "accumulator_before": 5000,
+        "accumulator_after": 4999,
+        "output_raw": -852,
+        "buscurlmt_vq_raw": 852
+      },
+      {
+        "call": 1001,
+        "accumulator_before": 4000,
+        "accumulator_after": 3999,
+        "output_raw": -810,
+        "buscurlmt_vq_raw": 810
+      },
+      {
+        "call": 5001,
+        "accumulator_before": 1,
+        "accumulator_after": 1,
+        "output_raw": -642,
+        "buscurlmt_vq_raw": 642
+      },
+      {
+        "call": 10001,
+        "accumulator_before": 1,
+        "accumulator_after": 1,
+        "output_raw": -642,
+        "buscurlmt_vq_raw": 642
+      },
+      {
+        "call": 15001,
+        "accumulator_before": 1,
+        "accumulator_after": 1,
+        "output_raw": -642,
+        "buscurlmt_vq_raw": 642
+      }
+    ]
+  },
+  {
+    "version": 236,
+    "entry": "0x8015758",
+    "source_sha256": "95d9227f37cff11a42f9481d6056772ed326e71fb17b3ff7d7c53bbcf73d6e14",
+    "synthetic_request": 1000,
+    "synthetic_BuscurLimit": 7500,
+    "synthetic_IbusRateRT": 10,
+    "synthetic_g_average_iq": 10000,
+    "trace": [
+      {
+        "call": 1,
+        "accumulator_before": 15000,
+        "accumulator_after": 14999,
+        "output_raw": 852,
+        "buscurlmt_vq_raw": 852
+      },
+      {
+        "call": 1001,
+        "accumulator_before": 14000,
+        "accumulator_after": 13999,
+        "output_raw": 840,
+        "buscurlmt_vq_raw": 840
+      },
+      {
+        "call": 5001,
+        "accumulator_before": 10000,
+        "accumulator_after": 9999,
+        "output_raw": 780,
+        "buscurlmt_vq_raw": 780
+      },
+      {
+        "call": 10001,
+        "accumulator_before": 5000,
+        "accumulator_after": 4999,
+        "output_raw": 714,
+        "buscurlmt_vq_raw": 714
+      },
+      {
+        "call": 15001,
+        "accumulator_before": 1,
+        "accumulator_after": 1,
+        "output_raw": 642,
+        "buscurlmt_vq_raw": 642
+      }
+    ]
+  },
+  {
+    "version": 236,
+    "entry": "0x8015758",
+    "source_sha256": "95d9227f37cff11a42f9481d6056772ed326e71fb17b3ff7d7c53bbcf73d6e14",
+    "synthetic_request": -1000,
+    "synthetic_BuscurLimit": 7500,
+    "synthetic_IbusRateRT": 10,
+    "synthetic_g_average_iq": -10000,
+    "trace": [
+      {
+        "call": 1,
+        "accumulator_before": 15000,
+        "accumulator_after": 14999,
+        "output_raw": -852,
+        "buscurlmt_vq_raw": 852
+      },
+      {
+        "call": 1001,
+        "accumulator_before": 14000,
+        "accumulator_after": 13999,
+        "output_raw": -840,
+        "buscurlmt_vq_raw": 840
+      },
+      {
+        "call": 5001,
+        "accumulator_before": 10000,
+        "accumulator_after": 9999,
+        "output_raw": -780,
+        "buscurlmt_vq_raw": 780
+      },
+      {
+        "call": 10001,
+        "accumulator_before": 5000,
+        "accumulator_after": 4999,
+        "output_raw": -714,
+        "buscurlmt_vq_raw": 714
+      },
+      {
+        "call": 15001,
+        "accumulator_before": 1,
+        "accumulator_after": 1,
+        "output_raw": -642,
+        "buscurlmt_vq_raw": 642
+      }
+    ]
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "version": 237,
+    "kilometer_raw": 0,
+    "setting_cap_raw": 46
+  },
+  {
+    "version": 237,
+    "kilometer_raw": 999,
+    "setting_cap_raw": 46
+  },
+  {
+    "version": 237,
+    "kilometer_raw": 1000,
+    "setting_cap_raw": 46
+  },
+  {
+    "version": 237,
+    "kilometer_raw": 1001,
+    "setting_cap_raw": 46
+  },
+  {
+    "version": 237,
+    "kilometer_raw": 1999,
+    "setting_cap_raw": 46
+  },
+  {
+    "version": 237,
+    "kilometer_raw": 2000,
+    "setting_cap_raw": 46
+  },
+  {
+    "version": 237,
+    "kilometer_raw": 2001,
+    "setting_cap_raw": 70
+  },
+  {
+    "version": 239,
+    "kilometer_raw": 0,
+    "setting_cap_raw": 46
+  },
+  {
+    "version": 239,
+    "kilometer_raw": 999,
+    "setting_cap_raw": 46
+  },
+  {
+    "version": 239,
+    "kilometer_raw": 1000,
+    "setting_cap_raw": 46
+  },
+  {
+    "version": 239,
+    "kilometer_raw": 1001,
+    "setting_cap_raw": 70
+  },
+  {
+    "version": 239,
+    "kilometer_raw": 1999,
+    "setting_cap_raw": 70
+  },
+  {
+    "version": 239,
+    "kilometer_raw": 2000,
+    "setting_cap_raw": 70
+  },
+  {
+    "version": 239,
+    "kilometer_raw": 2001,
+    "setting_cap_raw": 70
+  }
+]

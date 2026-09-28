@@ -1,0 +1,82 @@
+[
+  {
+    "version": 233,
+    "case": "positive",
+    "calls": 50,
+    "state": 4,
+    "voltage_raw": 12000,
+    "net_raw": 1200,
+    "negative_magnitude_raw": null,
+    "positive_raw": null
+  },
+  {
+    "version": 233,
+    "case": "negative",
+    "calls": 50,
+    "state": 4,
+    "voltage_raw": 12000,
+    "net_raw": -1200,
+    "negative_magnitude_raw": null,
+    "positive_raw": null
+  },
+  {
+    "version": 233,
+    "case": "mixed",
+    "calls": 50,
+    "state": 4,
+    "voltage_raw": 12000,
+    "net_raw": 0,
+    "negative_magnitude_raw": null,
+    "positive_raw": null
+  },
+  {
+    "version": 233,
+    "case": "inactive",
+    "calls": 50,
+    "state": 2,
+    "voltage_raw": 12000,
+    "net_raw": 0,
+    "negative_magnitude_raw": null,
+    "positive_raw": null
+  },
+  {
+    "version": 235,
+    "case": "positive",
+    "calls": 50,
+    "state": 4,
+    "voltage_raw": 12000,
+    "net_raw": 1560,
+    "negative_magnitude_raw": 0,
+    "positive_raw": 1560
+  },
+  {
+    "version": 235,
+    "case": "negative",
+    "calls": 50,
+    "state": 4,
+    "voltage_raw": 12000,
+    "net_raw": -1560,
+    "negative_magnitude_raw": 1560,
+    "positive_raw": 0
+  },
+  {
+    "version": 235,
+    "case": "mixed",
+    "calls": 50,
+    "state": 4,
+    "voltage_raw": 12000,
+    "net_raw": 0,
+    "negative_magnitude_raw": 780,
+    "positive_raw": 780
+  },
+  {
+    "version": 235,
+    "case": "inactive",
+    "calls": 50,
+    "state": 2,
+    "voltage_raw": 12000,
+    "net_raw": 0,
+    "negative_magnitude_raw": 0,
+    "positive_raw": 0
+  }
+]

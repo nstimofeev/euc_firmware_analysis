@@ -1,0 +1,31 @@
+08023aa4: 0020       movs      r0, #0
+08023aa6: 5149       ldr       r1, [pc, #0x144] ; [0x8023bec] = 0x20004ba4 
+08023aa8: 8978       ldrb      r1, [r1, #2]
+08023aaa: 0029       cmp       r1, #0
+08023aac: 5cd1       bne       #0x8023b68
+08023aae: 4f49       ldr       r1, [pc, #0x13c] ; [0x8023bec] = 0x20004ba4 
+08023ab0: 91f8c211   ldrb.w    r1, [r1, #0x1c2]
+08023ab4: 0029       cmp       r1, #0
+08023ab6: 57d1       bne       #0x8023b68
+08023ab8: 00bf       nop       
+08023aba: 09e0       b         #0x8023ad0
+08023abc: 4c4b       ldr       r3, [pc, #0x130] ; [0x8023bf0] = 0x20004cea 
+08023abe: 33f81130   ldrh.w    r3, [r3, r1, lsl #1]
+08023ac2: 1844       add       r0, r3
+08023ac4: 4b4b       ldr       r3, [pc, #0x12c] ; [0x8023bf4] = 0x20004eaa 
+08023ac6: 33f81130   ldrh.w    r3, [r3, r1, lsl #1]
+08023aca: 1844       add       r0, r3
+08023acc: 4b1c       adds      r3, r1, #1
+08023ace: d9b2       uxtb      r1, r3
+08023ad0: 0829       cmp       r1, #8
+08023ad2: f3db       blt       #0x8023abc
+08023ad4: 0146       mov       r1, r0
+08023ad6: c317       asrs      r3, r0, #0x1f
+08023ad8: 00eb1373   add.w     r3, r0, r3, lsr #28
+08023adc: 1b11       asrs      r3, r3, #4
+08023ade: a3f6aa20   subw      r0, r3, #0xaaa
+08023ae2: 0a21       movs      r1, #0xa
+08023ae4: 90fbf1f1   sdiv      r1, r0, r1
+08023ae8: 49b2       sxtb      r1, r1
+08023aea: 394b       ldr       r3, [pc, #0xe4] ; [0x8023bd0] = 0x200030bc TotalVoltage
+08023aec: 83f87c10   strb.w    r1, [r3, #0x7c]

@@ -1,0 +1,40 @@
+[
+  {
+    "name": "BusCurrent",
+    "index": 48,
+    "address": "0x200032c0",
+    "width_from_record_byte5": 4,
+    "write_flag_from_record_byte13": 0,
+    "before_raw": 12345,
+    "after_raw": 12345,
+    "output_helpers_stubbed": [
+      {
+        "helper": "0x800d8b4",
+        "buffer": "08e6303930000000"
+      },
+      {
+        "helper": "0x80207dc",
+        "buffer": "08e6303930000000"
+      }
+    ]
+  },
+  {
+    "name": "pidk_p",
+    "index": 1,
+    "address": "0x20000600",
+    "width_from_record_byte5": 2,
+    "write_flag_from_record_byte13": 1,
+    "before_raw": 60,
+    "after_raw": 61,
+    "output_helpers_stubbed": [
+      {
+        "helper": "0x800d8b4",
+        "buffer": "06e6013d0000"
+      },
+      {
+        "helper": "0x80207dc",
+        "buffer": "06e6013d0000"
+      }
+    ]
+  }
+]

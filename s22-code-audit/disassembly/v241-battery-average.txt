@@ -1,0 +1,53 @@
+080240a0: 0021       movs      r1, #0
+080240a2: 5f48       ldr       r0, [pc, #0x17c] ; [0x8024220] = 0x20004e24 
+080240a4: 8078       ldrb      r0, [r0, #2]
+080240a6: 0028       cmp       r0, #0
+080240a8: 79d1       bne       #0x802419e
+080240aa: 5d48       ldr       r0, [pc, #0x174] ; [0x8024220] = 0x20004e24 
+080240ac: 90f80a03   ldrb.w    r0, [r0, #0x30a]
+080240b0: 0028       cmp       r0, #0
+080240b2: 74d1       bne       #0x802419e
+080240b4: 0022       movs      r2, #0
+080240b6: 00bf       nop       
+080240b8: 25e0       b         #0x8024106
+080240ba: 5a4d       ldr       r5, [pc, #0x168] ; [0x8024224] = 0x200050b2 
+080240bc: 35f81050   ldrh.w    r5, [r5, r0, lsl #1]
+080240c0: 002d       cmp       r5, #0
+080240c2: 0cdd       ble       #0x80240de
+080240c4: 574d       ldr       r5, [pc, #0x15c] ; [0x8024224] = 0x200050b2 
+080240c6: 35f81050   ldrh.w    r5, [r5, r0, lsl #1]
+080240ca: 4ff6ff76   movw      r6, #0xffff
+080240ce: b542       cmp       r5, r6
+080240d0: 05da       bge       #0x80240de
+080240d2: 544d       ldr       r5, [pc, #0x150] ; [0x8024224] = 0x200050b2 
+080240d4: 35f81050   ldrh.w    r5, [r5, r0, lsl #1]
+080240d8: 2944       add       r1, r5
+080240da: 551c       adds      r5, r2, #1
+080240dc: eab2       uxtb      r2, r5
+080240de: 524d       ldr       r5, [pc, #0x148] ; [0x8024228] = 0x200053ba 
+080240e0: 35f81050   ldrh.w    r5, [r5, r0, lsl #1]
+080240e4: 002d       cmp       r5, #0
+080240e6: 0cdd       ble       #0x8024102
+080240e8: 4f4d       ldr       r5, [pc, #0x13c] ; [0x8024228] = 0x200053ba 
+080240ea: 35f81050   ldrh.w    r5, [r5, r0, lsl #1]
+080240ee: 4ff6ff76   movw      r6, #0xffff
+080240f2: b542       cmp       r5, r6
+080240f4: 05da       bge       #0x8024102
+080240f6: 4c4d       ldr       r5, [pc, #0x130] ; [0x8024228] = 0x200053ba 
+080240f8: 35f81050   ldrh.w    r5, [r5, r0, lsl #1]
+080240fc: 2944       add       r1, r5
+080240fe: 551c       adds      r5, r2, #1
+08024100: eab2       uxtb      r2, r5
+08024102: 451c       adds      r5, r0, #1
+08024104: e8b2       uxtb      r0, r5
+08024106: 0828       cmp       r0, #8
+08024108: d7db       blt       #0x80240ba
+0802410a: 02b9       cbnz      r2, #0x802410e
+0802410c: 0122       movs      r2, #1
+0802410e: 91fbf2f0   sdiv      r0, r1, r2
+08024112: a0f6aa21   subw      r1, r0, #0xaaa
+08024116: 0a20       movs      r0, #0xa
+08024118: 91fbf0f0   sdiv      r0, r1, r0
+0802411c: 40b2       sxtb      r0, r0
+0802411e: 394d       ldr       r5, [pc, #0xe4] ; [0x8024204] = 0x200030bc TotalVoltage
+08024120: 85f87c00   strb.w    r0, [r5, #0x7c]

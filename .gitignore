@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.venv/
+*.zip
+*.bundle
+s22-code-audit/functions-*.json
+s22-code-audit/matches-*.json
+s22-code-audit/*.diff
+research/tmp/

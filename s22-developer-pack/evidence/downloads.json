@@ -1,0 +1,107 @@
+[
+  {
+    "version": "241",
+    "url": "https://www.kingsong.vip/upload/firmware/2026/03/31/S22$2026-03-31-10-57-59.bin",
+    "bytes": 132992,
+    "sha256": "20bdf3b17bf37123658f0781bce2596ab3c8c5ba3c4dc6902740896431ce366c",
+    "same_as_previous_download": true
+  },
+  {
+    "version": "239",
+    "url": "https://www.kingsong.vip/upload/firmware/2025/10/16/S22$2025-10-16-11-04-45.bin",
+    "bytes": 131456,
+    "sha256": "ef63d255ba9244b1adc1b684274a1a4bddc4a89bc781271420c760fee0e08f0e",
+    "same_as_previous_download": null
+  },
+  {
+    "version": "237",
+    "url": "https://www.kingsong.vip/upload/firmware/2024/05/22/S22$2024-05-22-11-29-03.bin",
+    "bytes": 131456,
+    "sha256": "1da1e9adfff04edc0d75a9949973e53bdc508c4305a59e4df210eac367d6e1df",
+    "same_as_previous_download": true
+  },
+  {
+    "version": "236",
+    "url": "https://www.kingsong.vip/upload/firmware/2024/01/15/S22$2024-01-15-03-30-14.bin",
+    "bytes": 131072,
+    "sha256": "74eba0d37bfa4cf91af8763293efa3c5e6e61d82ae5afb75cc131b9bf3071ab5",
+    "same_as_previous_download": true
+  },
+  {
+    "version": "235",
+    "url": "https://www.kingsong.vip/upload/firmware/2023/11/21/KS_S22_20231121V235_aes$2023-11-21-01-58-52.bin",
+    "bytes": 130432,
+    "sha256": "0be01a81580eaf6a662512e4f406fa8c9e523d7f42c0bef6a6bc1c0f7bf356a7",
+    "same_as_previous_download": true
+  },
+  {
+    "version": "233",
+    "url": "https://www.kingsong.vip/upload/firmware/2023/10/20/S22$2023-10-20-11-47-05.bin",
+    "bytes": 129920,
+    "sha256": "219757ae48bd9e9f45e6e91eada8bd5da0c23fd9607d9aedac63ec26cbc27825",
+    "same_as_previous_download": true
+  },
+  {
+    "version": "232",
+    "url": "https://www.kingsong.vip/upload/firmware/2023/11/24/KS-S22_20230811V232_aes$2023-11-24-04-40-20.bin",
+    "bytes": 134528,
+    "sha256": "88d334d759a79073d622b4add9cbbd5e0b1baf80f3cf70381af95478a0bb5ef3",
+    "same_as_previous_download": true
+  },
+  {
+    "version": "231",
+    "url": "https://www.kingsong.vip/upload/firmware/2023/07/28/KS-S22_20230728V231_aes$2023-07-28-03-55-45.bin",
+    "bytes": 134144,
+    "sha256": "28362855b4f2d6c945dc89ee888c462dba12ef6ded66b554ef02362aa5f460d7",
+    "same_as_previous_download": true
+  },
+  {
+    "version": "229",
+    "url": "https://www.kingsong.vip/upload/firmware/2023/05/19/2023-05-19-09-25-15.bin",
+    "bytes": 133248,
+    "sha256": "b454466da9abf893e0cc7f0b26bc00761f60bdd518243cf81c74619bcf4396ce",
+    "same_as_previous_download": null
+  },
+  {
+    "version": "227",
+    "url": "https://www.kingsong.vip/upload/firmware/2023/02/01/2023-02-01-03-20-46.bin",
+    "bytes": 132608,
+    "sha256": "c8e739c5b8296c7c5ce01d82c1d010048fa0b6387826b43ca8df0e8eda2af625",
+    "same_as_previous_download": null
+  },
+  {
+    "version": "224",
+    "url": "https://www.kingsong.vip/upload/firmware/2022/11/08/2022-11-08-06-55-06.bin",
+    "bytes": 132224,
+    "sha256": "da86671145ab880c9328933dc24a54d5aaa5f840c0406da1a3b9bc837335d72d",
+    "same_as_previous_download": null
+  },
+  {
+    "version": "223",
+    "url": "https://www.kingsong.vip/upload/firmware/2022/07/08/2022-07-08-09-48-04.bin",
+    "bytes": 131840,
+    "sha256": "7fac2cf0ecd9af7efbeef0027fd2f5e4a1ca6b3bcbf4f097947ed1c2cfc21da2",
+    "same_as_previous_download": null
+  },
+  {
+    "version": "222",
+    "url": "https://www.kingsong.vip/upload/firmware/2022/06/18/2022-06-18-05-22-43.bin",
+    "bytes": 131840,
+    "sha256": "d8e86a96232c6a1cf854e6953dffb790ed6f33d3e9fdc8a1bdf03d1b87b25462",
+    "same_as_previous_download": null
+  },
+  {
+    "version": "221",
+    "url": "https://www.kingsong.vip/upload/firmware/2022/06/02/2022-06-02-10-06-51.bin",
+    "bytes": 131456,
+    "sha256": "eda6aa1cdd583a556daa084e6f21546b861d98ac54a3df5b25f6d0d7fffb121a",
+    "same_as_previous_download": null
+  },
+  {
+    "version": "219",
+    "url": "https://www.kingsong.vip/upload/firmware/2022/04/01/2022-04-01-07-28-37.bin",
+    "bytes": 128640,
+    "sha256": "8aaab3c88c7734abf0aed5080b7b7190189016ddc5992a72defbc2e020322765",
+    "same_as_previous_download": true
+  }
+]

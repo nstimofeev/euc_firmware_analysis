@@ -1,0 +1,95 @@
+0802231a: 184f       ldr       r7, [pc, #0x60] ; [0x802237c] = 0x20000364 g_averX10_iq
+0802231c: 3f68       ldr       r7, [r7]
+0802231e: 4ff0500c   mov.w     ip, #0x50
+08022322: 97fbfcf0   sdiv      r0, r7, ip
+08022326: c821       movs      r1, #0xc8
+08022328: 124f       ldr       r7, [pc, #0x48] ; [0x8022374] = 0x200002b4 commbospeed
+0802232a: 3f68       ldr       r7, [r7]
+0802232c: b7f5c86f   cmp.w     r7, #0x640
+08022330: 26dd       ble       #0x8022380
+08022332: 8842       cmp       r0, r1
+08022334: 01dd       ble       #0x802233a
+08022336: 401a       subs      r0, r0, r1
+08022338: 59e0       b         #0x80223ee
+0802233a: 0020       movs      r0, #0
+0802233c: 57e0       b         #0x80223ee
+0802233e: 0000       movs      r0, r0
+08022340: a832       adds      r2, #0xa8
+08022342: 0020       movs      r0, #0
+08022344: d802       lsls      r0, r3, #0xb
+08022346: 0020       movs      r0, #0
+08022348: 3833       adds      r3, #0x38
+0802234a: 0020       movs      r0, #0
+0802234c: a802       lsls      r0, r5, #0xa
+0802234e: 0020       movs      r0, #0
+08022350: a002       lsls      r0, r4, #0xa
+08022352: 0020       movs      r0, #0
+08022354: a402       lsls      r4, r4, #0xa
+08022356: 0020       movs      r0, #0
+08022358: 0010       asrs      r0, r0, #0x20
+0802235a: fffffe05   vsli.64   q8, q15, #0x3f
+0802235e: 0020       movs      r0, #0
+08022360: b805       lsls      r0, r7, #0x16
+08022362: 0020       movs      r0, #0
+08022364: d002       lsls      r0, r2, #0xb
+08022366: 0020       movs      r0, #0
+08022368: 9802       lsls      r0, r3, #0xa
+0802236a: 0020       movs      r0, #0
+0802236c: d402       lsls      r4, r2, #0xb
+0802236e: 0020       movs      r0, #0
+08022370: b802       lsls      r0, r7, #0xa
+08022372: 0020       movs      r0, #0
+08022374: b402       lsls      r4, r6, #0xa
+08022376: 0020       movs      r0, #0
+08022378: ac02       lsls      r4, r5, #0xa
+0802237a: 0020       movs      r0, #0
+0802237c: 6403       lsls      r4, r4, #0xd
+0802237e: 0020       movs      r0, #0
+08022380: 654f       ldr       r7, [pc, #0x194] ; [0x8022518] = 0x200002b4 commbospeed
+08022382: 3f68       ldr       r7, [r7]
+08022384: 002f       cmp       r7, #0
+08022386: 13dd       ble       #0x80223b0
+08022388: 8842       cmp       r0, r1
+0802238a: 01dd       ble       #0x8022390
+0802238c: 401a       subs      r0, r0, r1
+0802238e: 2ee0       b         #0x80223ee
+08022390: 4f42       rsbs      r7, r1, #0
+08022392: b842       cmp       r0, r7
+08022394: 01dd       ble       #0x802239a
+08022396: 0020       movs      r0, #0
+08022398: 00e0       b         #0x802239c
+0802239a: 0844       add       r0, r1
+0802239c: 5e4f       ldr       r7, [pc, #0x178] ; [0x8022518] = 0x200002b4 commbospeed
+0802239e: 3f68       ldr       r7, [r7]
+080223a0: c7f5c867   rsb.w     r7, r7, #0x640
+080223a4: 4743       muls      r7, r0, r7
+080223a6: 4ff4c86c   mov.w     ip, #0x640
+080223aa: 97fbfcf0   sdiv      r0, r7, ip
+080223ae: 1ee0       b         #0x80223ee
+080223b0: 594f       ldr       r7, [pc, #0x164] ; [0x8022518] = 0x200002b4 commbospeed
+080223b2: 3f68       ldr       r7, [r7]
+080223b4: 17f5c86f   cmn.w     r7, #0x640
+080223b8: 13dd       ble       #0x80223e2
+080223ba: 4f42       rsbs      r7, r1, #0
+080223bc: b842       cmp       r0, r7
+080223be: 01da       bge       #0x80223c4
+080223c0: 0844       add       r0, r1
+080223c2: 14e0       b         #0x80223ee
+080223c4: 8842       cmp       r0, r1
+080223c6: 01dd       ble       #0x80223cc
+080223c8: 401a       subs      r0, r0, r1
+080223ca: 00e0       b         #0x80223ce
+080223cc: 0020       movs      r0, #0
+080223ce: 524f       ldr       r7, [pc, #0x148] ; [0x8022518] = 0x200002b4 commbospeed
+080223d0: 3f68       ldr       r7, [r7]
+080223d2: 07f5c867   add.w     r7, r7, #0x640
+080223d6: 4743       muls      r7, r0, r7
+080223d8: 4ff4c86c   mov.w     ip, #0x640
+080223dc: 97fbfcf0   sdiv      r0, r7, ip
+080223e0: 05e0       b         #0x80223ee
+080223e2: 4f42       rsbs      r7, r1, #0
+080223e4: b842       cmp       r0, r7
+080223e6: 01da       bge       #0x80223ec
+080223e8: 0844       add       r0, r1
+080223ea: 00e0       b         #0x80223ee
+080223ec: 0020       movs      r0, #0

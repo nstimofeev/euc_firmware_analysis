@@ -1,0 +1,104 @@
+[
+  {
+    "from_version": "219",
+    "to_version": "221",
+    "added_names": [
+      "kiloWh",
+      "this_ws"
+    ],
+    "removed_names": []
+  },
+  {
+    "from_version": "221",
+    "to_version": "222",
+    "added_names": [],
+    "removed_names": []
+  },
+  {
+    "from_version": "222",
+    "to_version": "223",
+    "added_names": [],
+    "removed_names": []
+  },
+  {
+    "from_version": "223",
+    "to_version": "224",
+    "added_names": [],
+    "removed_names": []
+  },
+  {
+    "from_version": "224",
+    "to_version": "227",
+    "added_names": [],
+    "removed_names": []
+  },
+  {
+    "from_version": "227",
+    "to_version": "229",
+    "added_names": [
+      "commbospeed",
+      "g_averX10_iq"
+    ],
+    "removed_names": [
+      "commbopcurr",
+      "commbospeed0",
+      "ia",
+      "ib",
+      "ic",
+      "pwmia",
+      "pwmib",
+      "pwmic"
+    ]
+  },
+  {
+    "from_version": "229",
+    "to_version": "231",
+    "added_names": [],
+    "removed_names": []
+  },
+  {
+    "from_version": "231",
+    "to_version": "232",
+    "added_names": [],
+    "removed_names": []
+  },
+  {
+    "from_version": "232",
+    "to_version": "233",
+    "added_names": [],
+    "removed_names": []
+  },
+  {
+    "from_version": "233",
+    "to_version": "235",
+    "added_names": [],
+    "removed_names": []
+  },
+  {
+    "from_version": "235",
+    "to_version": "236",
+    "added_names": [
+      "curr_wsn",
+      "curr_wsp"
+    ],
+    "removed_names": []
+  },
+  {
+    "from_version": "236",
+    "to_version": "237",
+    "added_names": [],
+    "removed_names": []
+  },
+  {
+    "from_version": "237",
+    "to_version": "239",
+    "added_names": [],
+    "removed_names": []
+  },
+  {
+    "from_version": "239",
+    "to_version": "241",
+    "added_names": [],
+    "removed_names": []
+  }
+]

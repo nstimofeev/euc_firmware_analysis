@@ -1,0 +1,67 @@
+08016940: 2de9f04f   push.w    {r4, r5, r6, r7, r8, sb, sl, fp, lr}
+08016944: 8346       mov       fp, r0
+08016946: 0e46       mov       r6, r1
+08016948: 0025       movs      r5, #0
+0801694a: 3078       ldrb      r0, [r6]
+0801694c: 7e28       cmp       r0, #0x7e
+0801694e: 02d0       beq       #0x8016956
+08016950: 0020       movs      r0, #0
+08016952: bde8f08f   pop.w     {r4, r5, r6, r7, r8, sb, sl, fp, pc}
+08016956: 06f10900   add.w     r0, r6, #9
+0801695a: 08f0f7fd   bl        #0x801f54c
+0801695e: 0446       mov       r4, r0
+08016960: 4fea2428   asr.w     r8, r4, #8
+08016964: 04f0ff09   and       sb, r4, #0xff
+08016968: 08f00f00   and       r0, r8, #0xf
+0801696c: 00eb2910   add.w     r0, r0, sb, asr #4
+08016970: 09f00f01   and       r1, sb, #0xf
+08016974: 4718       adds      r7, r0, r1
+08016976: 3846       mov       r0, r7
+08016978: f917       asrs      r1, r7, #0x1f
+0801697a: 07eb1171   add.w     r1, r7, r1, lsr #28
+0801697e: 0911       asrs      r1, r1, #4
+08016980: a7eb0111   sub.w     r1, r7, r1, lsl #4
+08016984: c943       mvns      r1, r1
+08016986: 491c       adds      r1, r1, #1
+08016988: cfb2       uxtb      r7, r1
+0801698a: 07f00f00   and       r0, r7, #0xf
+0801698e: b0eb281f   cmp.w     r0, r8, asr #4
+08016992: 01d0       beq       #0x8016998
+08016994: 0020       movs      r0, #0
+08016996: dce7       b         #0x8016952
+08016998: c4f30b04   ubfx      r4, r4, #0, #0xc
+0801699c: 04f11200   add.w     r0, r4, #0x12
+080169a0: fa28       cmp       r0, #0xfa
+080169a2: 01dd       ble       #0x80169a8
+080169a4: 0020       movs      r0, #0
+080169a6: d4e7       b         #0x8016952
+080169a8: 0020       movs      r0, #0
+080169aa: 05e0       b         #0x80169b8
+080169ac: 411c       adds      r1, r0, #1
+080169ae: 715c       ldrb      r1, [r6, r1]
+080169b0: 2944       add       r1, r5
+080169b2: 8db2       uxth      r5, r1
+080169b4: 411c       adds      r1, r0, #1
+080169b6: c8b2       uxtb      r0, r1
+080169b8: 04f10c01   add.w     r1, r4, #0xc
+080169bc: 8842       cmp       r0, r1
+080169be: f5db       blt       #0x80169ac
+080169c0: 2846       mov       r0, r5
+080169c2: e917       asrs      r1, r5, #0x1f
+080169c4: 05eb1141   add.w     r1, r5, r1, lsr #16
+080169c8: 0914       asrs      r1, r1, #0x10
+080169ca: a5eb0141   sub.w     r1, r5, r1, lsl #16
+080169ce: c943       mvns      r1, r1
+080169d0: 491c       adds      r1, r1, #1
+080169d2: 8db2       uxth      r5, r1
+080169d4: 04f10d01   add.w     r1, r4, #0xd
+080169d8: 8819       adds      r0, r1, r6
+080169da: 08f0b7fd   bl        #0x801f54c
+080169de: 8246       mov       sl, r0
+080169e0: aa45       cmp       sl, r5
+080169e2: 01d0       beq       #0x80169e8
+080169e4: 0020       movs      r0, #0
+080169e6: b4e7       b         #0x8016952
+080169e8: abf80040   strh.w    r4, [fp]
+080169ec: 0120       movs      r0, #1
+080169ee: b0e7       b         #0x8016952

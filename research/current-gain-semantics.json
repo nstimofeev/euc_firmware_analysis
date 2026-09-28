@@ -1,0 +1,62 @@
+[
+  {
+    "version": 227,
+    "k_pcurr": 0,
+    "synthetic_output_raw": 4000,
+    "reads_of_three_zeroed_parameters": []
+  },
+  {
+    "version": 227,
+    "k_pcurr": 1,
+    "synthetic_output_raw": 2000,
+    "reads_of_three_zeroed_parameters": []
+  },
+  {
+    "version": 227,
+    "k_pcurr": 3,
+    "synthetic_output_raw": 1000,
+    "reads_of_three_zeroed_parameters": []
+  },
+  {
+    "version": 227,
+    "k_pcurr": 10,
+    "synthetic_output_raw": 363,
+    "reads_of_three_zeroed_parameters": []
+  },
+  {
+    "version": 227,
+    "k_pcurr": 100,
+    "synthetic_output_raw": 39,
+    "reads_of_three_zeroed_parameters": []
+  },
+  {
+    "version": 229,
+    "k_pcurr": 0,
+    "synthetic_output_raw": 0,
+    "reads_of_three_zeroed_parameters": []
+  },
+  {
+    "version": 229,
+    "k_pcurr": 1,
+    "synthetic_output_raw": 19,
+    "reads_of_three_zeroed_parameters": []
+  },
+  {
+    "version": 229,
+    "k_pcurr": 3,
+    "synthetic_output_raw": 57,
+    "reads_of_three_zeroed_parameters": []
+  },
+  {
+    "version": 229,
+    "k_pcurr": 10,
+    "synthetic_output_raw": 192,
+    "reads_of_three_zeroed_parameters": []
+  },
+  {
+    "version": 229,
+    "k_pcurr": 100,
+    "synthetic_output_raw": 1920,
+    "reads_of_three_zeroed_parameters": []
+  }
+]

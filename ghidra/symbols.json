@@ -1,0 +1,43 @@
+{
+  "233": {
+    "0x0802008c": "update_power_energy_limits"
+  },
+  "235": {
+    "0x0801562c": "diagnostic_table_access",
+    "0x080156d0": "adaptive_bus_limiter",
+    "0x0800863c": "ADC_irq_vector18",
+    "0x0800b734": "motor_current_control",
+    "0x08015088": "dispatch_E0_E7",
+    "0x080164b0": "dispatch_extended_command",
+    "0x08020f00": "uart_frame_router",
+    "0x08023e70": "diagnostic_mode_handshake",
+    "0x0800d8b4": "validate_or_fill_crc16",
+    "0x0800d924": "encode_extended_frame",
+    "0x080201c8": "update_power_energy_limits",
+    "0x08010618": "setup_motor_timer"
+  },
+  "236": {
+    "0x08015758": "adaptive_bus_limiter",
+    "0x0801b368": "charge_state_machine",
+    "0x08010618": "setup_motor_timer"
+  },
+  "237": {
+    "0x0801b3b4": "charge_state_machine",
+    "0x08021fc0": "load_config_initialize_modes",
+    "0x08021510": "serialize_config_flash_slots",
+    "0x08022fb4": "accept_speed_alarm_settings"
+  },
+  "239": {
+    "0x08022fc4": "accept_speed_alarm_settings",
+    "0x08021974": "balance_control_candidate",
+    "0x08023864": "aggregate_telemetry",
+    "0x08013b40": "parse_bms_slot0",
+    "0x0801462c": "parse_bms_slot1"
+  },
+  "241": {
+    "0x08021f5c": "balance_control_candidate",
+    "0x08023e60": "aggregate_telemetry",
+    "0x08013d1c": "parse_bms_indexed",
+    "0x08016940": "validate_bms_ascii_frame"
+  }
+}

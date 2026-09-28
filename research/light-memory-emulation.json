@@ -1,0 +1,114 @@
+[
+  {
+    "version": 236,
+    "case": "boot",
+    "config_before": 0,
+    "config_after": 0,
+    "restored_mode": null
+  },
+  {
+    "version": 237,
+    "case": "boot",
+    "config_before": 0,
+    "config_after": 0,
+    "restored_mode": 0
+  },
+  {
+    "version": 236,
+    "case": "boot",
+    "config_before": 1,
+    "config_after": 0,
+    "restored_mode": null
+  },
+  {
+    "version": 237,
+    "case": "boot",
+    "config_before": 1,
+    "config_after": 0,
+    "restored_mode": 0
+  },
+  {
+    "version": 236,
+    "case": "boot",
+    "config_before": 16,
+    "config_after": 0,
+    "restored_mode": null
+  },
+  {
+    "version": 237,
+    "case": "boot",
+    "config_before": 16,
+    "config_after": 16,
+    "restored_mode": 19
+  },
+  {
+    "version": 236,
+    "case": "boot",
+    "config_before": 17,
+    "config_after": 0,
+    "restored_mode": null
+  },
+  {
+    "version": 237,
+    "case": "boot",
+    "config_before": 17,
+    "config_after": 16,
+    "restored_mode": 19
+  },
+  {
+    "version": 236,
+    "case": "boot",
+    "config_before": 33,
+    "config_after": 0,
+    "restored_mode": null
+  },
+  {
+    "version": 237,
+    "case": "boot",
+    "config_before": 33,
+    "config_after": 32,
+    "restored_mode": 0
+  },
+  {
+    "version": 236,
+    "case": "boot",
+    "config_before": 255,
+    "config_after": 0,
+    "restored_mode": null
+  },
+  {
+    "version": 237,
+    "case": "boot",
+    "config_before": 255,
+    "config_after": 240,
+    "restored_mode": 0
+  },
+  {
+    "version": 237,
+    "case": "selection",
+    "input_subcommand": 18,
+    "config_before": 165,
+    "config_after": 21
+  },
+  {
+    "version": 237,
+    "case": "selection",
+    "input_subcommand": 19,
+    "config_before": 165,
+    "config_after": 21
+  },
+  {
+    "version": 237,
+    "case": "selection",
+    "input_subcommand": 20,
+    "config_before": 165,
+    "config_after": 5
+  },
+  {
+    "version": 237,
+    "case": "selection",
+    "input_subcommand": 21,
+    "config_before": 165,
+    "config_after": 165
+  }
+]

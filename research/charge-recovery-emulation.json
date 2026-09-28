@@ -1,0 +1,174 @@
+[
+  {
+    "case": "status_transition",
+    "status_bits": [
+      2,
+      2
+    ],
+    "prior_latches": [
+      0,
+      0
+    ],
+    "state_after": 2,
+    "counter_after": 999
+  },
+  {
+    "case": "status_transition",
+    "status_bits": [
+      0,
+      2
+    ],
+    "prior_latches": [
+      1,
+      0
+    ],
+    "state_after": 20,
+    "counter_after": 0
+  },
+  {
+    "case": "status_transition",
+    "status_bits": [
+      2,
+      0
+    ],
+    "prior_latches": [
+      0,
+      1
+    ],
+    "state_after": 20,
+    "counter_after": 0
+  },
+  {
+    "case": "status_transition",
+    "status_bits": [
+      0,
+      0
+    ],
+    "prior_latches": [
+      0,
+      0
+    ],
+    "state_after": 2,
+    "counter_after": 999
+  },
+  {
+    "case": "state20",
+    "counter_before": 1799,
+    "BatState": 0,
+    "latch_before": 0,
+    "state_after": 20,
+    "counter_after": 1800
+  },
+  {
+    "case": "state20",
+    "counter_before": 1799,
+    "BatState": 1,
+    "latch_before": 0,
+    "state_after": 20,
+    "counter_after": 1800
+  },
+  {
+    "case": "state20",
+    "counter_before": 1799,
+    "BatState": 1,
+    "latch_before": 1,
+    "state_after": 20,
+    "counter_after": 1800
+  },
+  {
+    "case": "state20",
+    "counter_before": 1800,
+    "BatState": 0,
+    "latch_before": 0,
+    "state_after": 20,
+    "counter_after": 1801
+  },
+  {
+    "case": "state20",
+    "counter_before": 1800,
+    "BatState": 1,
+    "latch_before": 0,
+    "state_after": 20,
+    "counter_after": 1801
+  },
+  {
+    "case": "state20",
+    "counter_before": 1800,
+    "BatState": 1,
+    "latch_before": 1,
+    "state_after": 20,
+    "counter_after": 1801
+  },
+  {
+    "case": "state20",
+    "counter_before": 1801,
+    "BatState": 0,
+    "latch_before": 0,
+    "state_after": 20,
+    "counter_after": 1802
+  },
+  {
+    "case": "state20",
+    "counter_before": 1801,
+    "BatState": 1,
+    "latch_before": 0,
+    "state_after": 2,
+    "counter_after": 1802
+  },
+  {
+    "case": "state20",
+    "counter_before": 1801,
+    "BatState": 1,
+    "latch_before": 1,
+    "state_after": 20,
+    "counter_after": 1802
+  },
+  {
+    "case": "state20",
+    "counter_before": 1999,
+    "BatState": 0,
+    "latch_before": 0,
+    "state_after": 20,
+    "counter_after": 2000
+  },
+  {
+    "case": "state20",
+    "counter_before": 1999,
+    "BatState": 1,
+    "latch_before": 0,
+    "state_after": 2,
+    "counter_after": 2000
+  },
+  {
+    "case": "state20",
+    "counter_before": 1999,
+    "BatState": 1,
+    "latch_before": 1,
+    "state_after": 20,
+    "counter_after": 2000
+  },
+  {
+    "case": "state20",
+    "counter_before": 2000,
+    "BatState": 0,
+    "latch_before": 0,
+    "state_after": 20,
+    "counter_after": 2000
+  },
+  {
+    "case": "state20",
+    "counter_before": 2000,
+    "BatState": 1,
+    "latch_before": 0,
+    "state_after": 2,
+    "counter_after": 2000
+  },
+  {
+    "case": "state20",
+    "counter_before": 2000,
+    "BatState": 1,
+    "latch_before": 1,
+    "state_after": 20,
+    "counter_after": 2000
+  }
+]

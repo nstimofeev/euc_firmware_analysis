@@ -1,0 +1,1086 @@
+{
+  "sha256": "7907467bf563cde3da7909deba57ee0e2e4b3fd0902a7a2ebb9715e988279ebf",
+  "image_base": "0x08008000",
+  "record_count": 119,
+  "runs": [
+    {
+      "start_offset": "0x1f420",
+      "end_offset_exclusive": "0x1fb90",
+      "count": 119
+    }
+  ],
+  "records": [
+    {
+      "record_offset": "0x0001f420",
+      "record_address": "0x08027420",
+      "name": "pidk_acc",
+      "value_address": "0x200005f6",
+      "metadata_raw": "0x00000202",
+      "name_pointer": "0x08027f08",
+      "name_field_raw": "0x00000108"
+    },
+    {
+      "record_offset": "0x0001f430",
+      "record_address": "0x08027430",
+      "name": "pidk_p",
+      "value_address": "0x200005f8",
+      "metadata_raw": "0x00000202",
+      "name_pointer": "0x0802804c",
+      "name_field_raw": "0x00000106"
+    },
+    {
+      "record_offset": "0x0001f440",
+      "record_address": "0x08027440",
+      "name": "pidk_speed",
+      "value_address": "0x200005fa",
+      "metadata_raw": "0x00000202",
+      "name_pointer": "0x08027f74",
+      "name_field_raw": "0x0000010a"
+    },
+    {
+      "record_offset": "0x0001f450",
+      "record_address": "0x08027450",
+      "name": "k_pcurr",
+      "value_address": "0x200005fc",
+      "metadata_raw": "0x00000202",
+      "name_pointer": "0x08028138",
+      "name_field_raw": "0x00000107"
+    },
+    {
+      "record_offset": "0x0001f460",
+      "record_address": "0x08027460",
+      "name": "pidk_cmbfw",
+      "value_address": "0x200005fe",
+      "metadata_raw": "0x00000202",
+      "name_pointer": "0x08028208",
+      "name_field_raw": "0x0000010a"
+    },
+    {
+      "record_offset": "0x0001f470",
+      "record_address": "0x08027470",
+      "name": "pidk_cmbtn",
+      "value_address": "0x20000600",
+      "metadata_raw": "0x00000202",
+      "name_pointer": "0x08028030",
+      "name_field_raw": "0x0000010a"
+    },
+    {
+      "record_offset": "0x0001f480",
+      "record_address": "0x08027480",
+      "name": "pidk_agfac_v",
+      "value_address": "0x20000602",
+      "metadata_raw": "0x00000202",
+      "name_pointer": "0x080281e8",
+      "name_field_raw": "0x0000010c"
+    },
+    {
+      "record_offset": "0x0001f490",
+      "record_address": "0x08027490",
+      "name": "pidk_ncurr",
+      "value_address": "0x20000604",
+      "metadata_raw": "0x00000202",
+      "name_pointer": "0x0802812c",
+      "name_field_raw": "0x0000010a"
+    },
+    {
+      "record_offset": "0x0001f4a0",
+      "record_address": "0x080274a0",
+      "name": "halldebugflg",
+      "value_address": "0x2000032b",
+      "metadata_raw": "0x00000100",
+      "name_pointer": "0x08027fc8",
+      "name_field_raw": "0x0000010c"
+    },
+    {
+      "record_offset": "0x0001f4b0",
+      "record_address": "0x080274b0",
+      "name": "halloffset",
+      "value_address": "0x20000598",
+      "metadata_raw": "0x00000203",
+      "name_pointer": "0x08028174",
+      "name_field_raw": "0x0000010a"
+    },
+    {
+      "record_offset": "0x0001f4c0",
+      "record_address": "0x080274c0",
+      "name": "cartstep",
+      "value_address": "0x20003150",
+      "metadata_raw": "0x00000100",
+      "name_pointer": "0x0802806c",
+      "name_field_raw": "0x00000008"
+    },
+    {
+      "record_offset": "0x0001f4d0",
+      "record_address": "0x080274d0",
+      "name": "motionstep",
+      "value_address": "0x20003270",
+      "metadata_raw": "0x00000100",
+      "name_pointer": "0x08028054",
+      "name_field_raw": "0x0000000a"
+    },
+    {
+      "record_offset": "0x0001f4e0",
+      "record_address": "0x080274e0",
+      "name": "motorstep",
+      "value_address": "0x200032cc",
+      "metadata_raw": "0x00000100",
+      "name_pointer": "0x08028060",
+      "name_field_raw": "0x00000009"
+    },
+    {
+      "record_offset": "0x0001f4f0",
+      "record_address": "0x080274f0",
+      "name": "HallRSP",
+      "value_address": "0x200005b0",
+      "metadata_raw": "0x00000405",
+      "name_pointer": "0x08027e4c",
+      "name_field_raw": "0x00000007"
+    },
+    {
+      "record_offset": "0x0001f500",
+      "record_address": "0x08027500",
+      "name": "VQ",
+      "value_address": "0x20003468",
+      "metadata_raw": "0x00000405",
+      "name_pointer": "0x08027e68",
+      "name_field_raw": "0x00000002"
+    },
+    {
+      "record_offset": "0x0001f510",
+      "record_address": "0x08027510",
+      "name": "VD",
+      "value_address": "0x2000346c",
+      "metadata_raw": "0x00000405",
+      "name_pointer": "0x08027da8",
+      "name_field_raw": "0x00000002"
+    },
+    {
+      "record_offset": "0x0001f520",
+      "record_address": "0x08027520",
+      "name": "IA",
+      "value_address": "0x20003440",
+      "metadata_raw": "0x00000405",
+      "name_pointer": "0x08027da0",
+      "name_field_raw": "0x00000002"
+    },
+    {
+      "record_offset": "0x0001f530",
+      "record_address": "0x08027530",
+      "name": "IB",
+      "value_address": "0x20003444",
+      "metadata_raw": "0x00000405",
+      "name_pointer": "0x08027da4",
+      "name_field_raw": "0x00000002"
+    },
+    {
+      "record_offset": "0x0001f540",
+      "record_address": "0x08027540",
+      "name": "IQCurrent",
+      "value_address": "0x20003458",
+      "metadata_raw": "0x00000405",
+      "name_pointer": "0x080281b0",
+      "name_field_raw": "0x00000009"
+    },
+    {
+      "record_offset": "0x0001f550",
+      "record_address": "0x08027550",
+      "name": "IDCurrent",
+      "value_address": "0x2000345c",
+      "metadata_raw": "0x00000405",
+      "name_pointer": "0x080281a4",
+      "name_field_raw": "0x00000009"
+    },
+    {
+      "record_offset": "0x0001f560",
+      "record_address": "0x08027560",
+      "name": "acce_x",
+      "value_address": "0x2000332c",
+      "metadata_raw": "0x00000405",
+      "name_pointer": "0x08028248",
+      "name_field_raw": "0x00000006"
+    },
+    {
+      "record_offset": "0x0001f570",
+      "record_address": "0x08027570",
+      "name": "acce_y",
+      "value_address": "0x20003330",
+      "metadata_raw": "0x00000405",
+      "name_pointer": "0x08028258",
+      "name_field_raw": "0x00000006"
+    },
+    {
+      "record_offset": "0x0001f580",
+      "record_address": "0x08027580",
+      "name": "acce_z",
+      "value_address": "0x20003334",
+      "metadata_raw": "0x00000405",
+      "name_pointer": "0x08028268",
+      "name_field_raw": "0x00000006"
+    },
+    {
+      "record_offset": "0x0001f590",
+      "record_address": "0x08027590",
+      "name": "gyro_x",
+      "value_address": "0x20003320",
+      "metadata_raw": "0x00000405",
+      "name_pointer": "0x08028250",
+      "name_field_raw": "0x00000006"
+    },
+    {
+      "record_offset": "0x0001f5a0",
+      "record_address": "0x080275a0",
+      "name": "gyro_y",
+      "value_address": "0x20003324",
+      "metadata_raw": "0x00000405",
+      "name_pointer": "0x08028260",
+      "name_field_raw": "0x00000006"
+    },
+    {
+      "record_offset": "0x0001f5b0",
+      "record_address": "0x080275b0",
+      "name": "gyro_z",
+      "value_address": "0x20003328",
+      "metadata_raw": "0x00000405",
+      "name_pointer": "0x08028270",
+      "name_field_raw": "0x00000006"
+    },
+    {
+      "record_offset": "0x0001f5c0",
+      "record_address": "0x080275c0",
+      "name": "pintch",
+      "value_address": "0x20003394",
+      "metadata_raw": "0x00000405",
+      "name_pointer": "0x08027fec",
+      "name_field_raw": "0x00000006"
+    },
+    {
+      "record_offset": "0x0001f5d0",
+      "record_address": "0x080275d0",
+      "name": "pintch_in",
+      "value_address": "0x20003390",
+      "metadata_raw": "0x00000405",
+      "name_pointer": "0x08028024",
+      "name_field_raw": "0x00000009"
+    },
+    {
+      "record_offset": "0x0001f5e0",
+      "record_address": "0x080275e0",
+      "name": "s_acc",
+      "value_address": "0x200033a0",
+      "metadata_raw": "0x00000405",
+      "name_pointer": "0x08027f14",
+      "name_field_raw": "0x00000005"
+    },
+    {
+      "record_offset": "0x0001f5f0",
+      "record_address": "0x080275f0",
+      "name": "sta_pitch",
+      "value_address": "0x20003384",
+      "metadata_raw": "0x00000405",
+      "name_pointer": "0x08027fe0",
+      "name_field_raw": "0x00000009"
+    },
+    {
+      "record_offset": "0x0001f600",
+      "record_address": "0x08027600",
+      "name": "fus_roll",
+      "value_address": "0x20003398",
+      "metadata_raw": "0x00000405",
+      "name_pointer": "0x08028000",
+      "name_field_raw": "0x00000008"
+    },
+    {
+      "record_offset": "0x0001f610",
+      "record_address": "0x08027610",
+      "name": "rollacc",
+      "value_address": "0x200033a4",
+      "metadata_raw": "0x00000405",
+      "name_pointer": "0x08027f24",
+      "name_field_raw": "0x00000007"
+    },
+    {
+      "record_offset": "0x0001f620",
+      "record_address": "0x08027620",
+      "name": "sta_roll",
+      "value_address": "0x20003388",
+      "metadata_raw": "0x00000405",
+      "name_pointer": "0x08027ff4",
+      "name_field_raw": "0x00000008"
+    },
+    {
+      "record_offset": "0x0001f630",
+      "record_address": "0x08027630",
+      "name": "yaw_acc",
+      "value_address": "0x200033a8",
+      "metadata_raw": "0x00000405",
+      "name_pointer": "0x08027f1c",
+      "name_field_raw": "0x00000007"
+    },
+    {
+      "record_offset": "0x0001f640",
+      "record_address": "0x08027640",
+      "name": "angleoffset_int",
+      "value_address": "0x200002a0",
+      "metadata_raw": "0x00000405",
+      "name_pointer": "0x080281d8",
+      "name_field_raw": "0x0000000f"
+    },
+    {
+      "record_offset": "0x0001f650",
+      "record_address": "0x08027650",
+      "name": "LimitSpeed",
+      "value_address": "0x200032a0",
+      "metadata_raw": "0x00000405",
+      "name_pointer": "0x08027f68",
+      "name_field_raw": "0x0000010a"
+    },
+    {
+      "record_offset": "0x0001f660",
+      "record_address": "0x08027660",
+      "name": "g_winespeed_lv",
+      "value_address": "0x200001ec",
+      "metadata_raw": "0x00000405",
+      "name_pointer": "0x080281f8",
+      "name_field_raw": "0x0000000e"
+    },
+    {
+      "record_offset": "0x0001f670",
+      "record_address": "0x08027670",
+      "name": "rollptag_auto",
+      "value_address": "0x200032bc",
+      "metadata_raw": "0x00000405",
+      "name_pointer": "0x0802803c",
+      "name_field_raw": "0x0000000d"
+    },
+    {
+      "record_offset": "0x0001f680",
+      "record_address": "0x08027680",
+      "name": "PhcurrLimit_set",
+      "value_address": "0x20000338",
+      "metadata_raw": "0x00000405",
+      "name_pointer": "0x08028154",
+      "name_field_raw": "0x0000010f"
+    },
+    {
+      "record_offset": "0x0001f690",
+      "record_address": "0x08027690",
+      "name": "PhcurrLimit",
+      "value_address": "0x2000033c",
+      "metadata_raw": "0x00000405",
+      "name_pointer": "0x0802818c",
+      "name_field_raw": "0x0000000b"
+    },
+    {
+      "record_offset": "0x0001f6a0",
+      "record_address": "0x080276a0",
+      "name": "VqIqRateCFG",
+      "value_address": "0x2000030e",
+      "metadata_raw": "0x00000203",
+      "name_pointer": "0x08027dd0",
+      "name_field_raw": "0x0000010b"
+    },
+    {
+      "record_offset": "0x0001f6b0",
+      "record_address": "0x080276b0",
+      "name": "VqIqRateRT",
+      "value_address": "0x20000314",
+      "metadata_raw": "0x00000203",
+      "name_pointer": "0x08027e7c",
+      "name_field_raw": "0x0000000a"
+    },
+    {
+      "record_offset": "0x0001f6c0",
+      "record_address": "0x080276c0",
+      "name": "PhcurrLimit_Vq_P",
+      "value_address": "0x20000344",
+      "metadata_raw": "0x00000405",
+      "name_pointer": "0x08027e54",
+      "name_field_raw": "0x00000010"
+    },
+    {
+      "record_offset": "0x0001f6d0",
+      "record_address": "0x080276d0",
+      "name": "PhcurrLimit_Vq_N",
+      "value_address": "0x20000348",
+      "metadata_raw": "0x00000405",
+      "name_pointer": "0x08027e38",
+      "name_field_raw": "0x00000010"
+    },
+    {
+      "record_offset": "0x0001f6e0",
+      "record_address": "0x080276e0",
+      "name": "BuscurLimit_set",
+      "value_address": "0x20000330",
+      "metadata_raw": "0x00000405",
+      "name_pointer": "0x08028164",
+      "name_field_raw": "0x0000010f"
+    },
+    {
+      "record_offset": "0x0001f6f0",
+      "record_address": "0x080276f0",
+      "name": "BuscurLimit",
+      "value_address": "0x20000334",
+      "metadata_raw": "0x00000405",
+      "name_pointer": "0x08028198",
+      "name_field_raw": "0x0000000b"
+    },
+    {
+      "record_offset": "0x0001f700",
+      "record_address": "0x08027700",
+      "name": "IbusRateRT",
+      "value_address": "0x20000316",
+      "metadata_raw": "0x00000203",
+      "name_pointer": "0x08027e88",
+      "name_field_raw": "0x0000000a"
+    },
+    {
+      "record_offset": "0x0001f710",
+      "record_address": "0x08027710",
+      "name": "buscurrcalc",
+      "value_address": "0x20003298",
+      "metadata_raw": "0x00000405",
+      "name_pointer": "0x08027f38",
+      "name_field_raw": "0x0000000b"
+    },
+    {
+      "record_offset": "0x0001f720",
+      "record_address": "0x08027720",
+      "name": "BusCurrent",
+      "value_address": "0x2000328c",
+      "metadata_raw": "0x00000405",
+      "name_pointer": "0x080281cc",
+      "name_field_raw": "0x0000000a"
+    },
+    {
+      "record_offset": "0x0001f730",
+      "record_address": "0x08027730",
+      "name": "buscurlmt_vq",
+      "value_address": "0x20000350",
+      "metadata_raw": "0x00000405",
+      "name_pointer": "0x080280cc",
+      "name_field_raw": "0x0000000c"
+    },
+    {
+      "record_offset": "0x0001f740",
+      "record_address": "0x08027740",
+      "name": "VqSpeedRateCFG",
+      "value_address": "0x2000030c",
+      "metadata_raw": "0x00000203",
+      "name_pointer": "0x08027dc0",
+      "name_field_raw": "0x0000010e"
+    },
+    {
+      "record_offset": "0x0001f750",
+      "record_address": "0x08027750",
+      "name": "VqSpeedRateRT",
+      "value_address": "0x20000312",
+      "metadata_raw": "0x00000203",
+      "name_pointer": "0x08027e6c",
+      "name_field_raw": "0x0000000d"
+    },
+    {
+      "record_offset": "0x0001f760",
+      "record_address": "0x08027760",
+      "name": "RsSpeedVq",
+      "value_address": "0x200032c4",
+      "metadata_raw": "0x00000405",
+      "name_pointer": "0x0802809c",
+      "name_field_raw": "0x00000009"
+    },
+    {
+      "record_offset": "0x0001f770",
+      "record_address": "0x08027770",
+      "name": "RtIqVq",
+      "value_address": "0x200032c8",
+      "metadata_raw": "0x00000405",
+      "name_pointer": "0x080280a8",
+      "name_field_raw": "0x00000006"
+    },
+    {
+      "record_offset": "0x0001f780",
+      "record_address": "0x08027780",
+      "name": "Rpm",
+      "value_address": "0x200032c2",
+      "metadata_raw": "0x00000203",
+      "name_pointer": "0x08028020",
+      "name_field_raw": "0x00000003"
+    },
+    {
+      "record_offset": "0x0001f790",
+      "record_address": "0x08027790",
+      "name": "TotalVoltage",
+      "value_address": "0x200030ac",
+      "metadata_raw": "0x00000405",
+      "name_pointer": "0x08027f80",
+      "name_field_raw": "0x0000000c"
+    },
+    {
+      "record_offset": "0x0001f7a0",
+      "record_address": "0x080277a0",
+      "name": "TotalVol_show",
+      "value_address": "0x200030b0",
+      "metadata_raw": "0x00000405",
+      "name_pointer": "0x08028238",
+      "name_field_raw": "0x0000000d"
+    },
+    {
+      "record_offset": "0x0001f7b0",
+      "record_address": "0x080277b0",
+      "name": "TotalCurrent",
+      "value_address": "0x200030bc",
+      "metadata_raw": "0x00000405",
+      "name_pointer": "0x080281bc",
+      "name_field_raw": "0x0000000c"
+    },
+    {
+      "record_offset": "0x0001f7c0",
+      "record_address": "0x080277c0",
+      "name": "VehicleSpeed",
+      "value_address": "0x200030b4",
+      "metadata_raw": "0x00000405",
+      "name_pointer": "0x08027f58",
+      "name_field_raw": "0x0000000c"
+    },
+    {
+      "record_offset": "0x0001f7d0",
+      "record_address": "0x080277d0",
+      "name": "speedAcc",
+      "value_address": "0x200030b8",
+      "metadata_raw": "0x00000203",
+      "name_pointer": "0x08027efc",
+      "name_field_raw": "0x00000008"
+    },
+    {
+      "record_offset": "0x0001f7e0",
+      "record_address": "0x080277e0",
+      "name": "VectorVol",
+      "value_address": "0x200030c8",
+      "metadata_raw": "0x00000405",
+      "name_pointer": "0x0802800c",
+      "name_field_raw": "0x00000009"
+    },
+    {
+      "record_offset": "0x0001f7f0",
+      "record_address": "0x080277f0",
+      "name": "MotorTemp",
+      "value_address": "0x200030d2",
+      "metadata_raw": "0x00000203",
+      "name_pointer": "0x08028080",
+      "name_field_raw": "0x00000009"
+    },
+    {
+      "record_offset": "0x0001f800",
+      "record_address": "0x08027800",
+      "name": "MosTemp",
+      "value_address": "0x200030d4",
+      "metadata_raw": "0x00000203",
+      "name_pointer": "0x0802808c",
+      "name_field_raw": "0x00000007"
+    },
+    {
+      "record_offset": "0x0001f810",
+      "record_address": "0x08027810",
+      "name": "CpuTemp",
+      "value_address": "0x200030d6",
+      "metadata_raw": "0x00000203",
+      "name_pointer": "0x08028094",
+      "name_field_raw": "0x00000007"
+    },
+    {
+      "record_offset": "0x0001f820",
+      "record_address": "0x08027820",
+      "name": "GYTemp",
+      "value_address": "0x200030d8",
+      "metadata_raw": "0x00000203",
+      "name_pointer": "0x08028078",
+      "name_field_raw": "0x00000006"
+    },
+    {
+      "record_offset": "0x0001f830",
+      "record_address": "0x08027830",
+      "name": "cpuvol",
+      "value_address": "0x200030dc",
+      "metadata_raw": "0x00000202",
+      "name_pointer": "0x08028018",
+      "name_field_raw": "0x00000006"
+    },
+    {
+      "record_offset": "0x0001f840",
+      "record_address": "0x08027840",
+      "name": "lightad",
+      "value_address": "0x200030de",
+      "metadata_raw": "0x00000202",
+      "name_pointer": "0x08027f50",
+      "name_field_raw": "0x00000007"
+    },
+    {
+      "record_offset": "0x0001f850",
+      "record_address": "0x08027850",
+      "name": "IQCurrent",
+      "value_address": "0x200030c4",
+      "metadata_raw": "0x00000405",
+      "name_pointer": "0x080281b0",
+      "name_field_raw": "0x00000009"
+    },
+    {
+      "record_offset": "0x0001f860",
+      "record_address": "0x08027860",
+      "name": "HallState",
+      "value_address": "0x200030c0",
+      "metadata_raw": "0x00000100",
+      "name_pointer": "0x08027f98",
+      "name_field_raw": "0x00000009"
+    },
+    {
+      "record_offset": "0x0001f870",
+      "record_address": "0x08027870",
+      "name": "cpurate",
+      "value_address": "0x200030da",
+      "metadata_raw": "0x00000100",
+      "name_pointer": "0x08027f90",
+      "name_field_raw": "0x00000007"
+    },
+    {
+      "record_offset": "0x0001f880",
+      "record_address": "0x08027880",
+      "name": "readoutmeter",
+      "value_address": "0x200030f4",
+      "metadata_raw": "0x00000404",
+      "name_pointer": "0x080280f8",
+      "name_field_raw": "0x0000000c"
+    },
+    {
+      "record_offset": "0x0001f890",
+      "record_address": "0x08027890",
+      "name": "kilometer",
+      "value_address": "0x200030f8",
+      "metadata_raw": "0x00000404",
+      "name_pointer": "0x080280dc",
+      "name_field_raw": "0x00000009"
+    },
+    {
+      "record_offset": "0x0001f8a0",
+      "record_address": "0x080278a0",
+      "name": "currentmeter",
+      "value_address": "0x200030fc",
+      "metadata_raw": "0x00000404",
+      "name_pointer": "0x080280e8",
+      "name_field_raw": "0x0000000c"
+    },
+    {
+      "record_offset": "0x0001f8b0",
+      "record_address": "0x080278b0",
+      "name": "commbopcurr",
+      "value_address": "0x200002b4",
+      "metadata_raw": "0x00000404",
+      "name_pointer": "0x08028140",
+      "name_field_raw": "0x0000000b"
+    },
+    {
+      "record_offset": "0x0001f8c0",
+      "record_address": "0x080278c0",
+      "name": "commbospeed0",
+      "value_address": "0x200002b0",
+      "metadata_raw": "0x00000404",
+      "name_pointer": "0x08027d90",
+      "name_field_raw": "0x0000000c"
+    },
+    {
+      "record_offset": "0x0001f8d0",
+      "record_address": "0x080278d0",
+      "name": "manualsetVd",
+      "value_address": "0x2000031c",
+      "metadata_raw": "0x00000203",
+      "name_pointer": "0x08027f44",
+      "name_field_raw": "0x0000010b"
+    },
+    {
+      "record_offset": "0x0001f8e0",
+      "record_address": "0x080278e0",
+      "name": "g_dif_iq",
+      "value_address": "0x20000360",
+      "metadata_raw": "0x00000203",
+      "name_pointer": "0x080280c0",
+      "name_field_raw": "0x00000008"
+    },
+    {
+      "record_offset": "0x0001f8f0",
+      "record_address": "0x080278f0",
+      "name": "g_average_iq",
+      "value_address": "0x2000035c",
+      "metadata_raw": "0x00000405",
+      "name_pointer": "0x080280b0",
+      "name_field_raw": "0x0000000c"
+    },
+    {
+      "record_offset": "0x0001f900",
+      "record_address": "0x08027900",
+      "name": "hall_err",
+      "value_address": "0x2000059c",
+      "metadata_raw": "0x00000404",
+      "name_pointer": "0x08028120",
+      "name_field_raw": "0x00000008"
+    },
+    {
+      "record_offset": "0x0001f910",
+      "record_address": "0x08027910",
+      "name": "allwarnbit",
+      "value_address": "0x20003128",
+      "metadata_raw": "0x00000404",
+      "name_pointer": "0x08028180",
+      "name_field_raw": "0x0000000a"
+    },
+    {
+      "record_offset": "0x0001f920",
+      "record_address": "0x08027920",
+      "name": "AgeModeflg",
+      "value_address": "0x20003143",
+      "metadata_raw": "0x00000100",
+      "name_pointer": "0x08027fb0",
+      "name_field_raw": "0x0000000a"
+    },
+    {
+      "record_offset": "0x0001f930",
+      "record_address": "0x08027930",
+      "name": "AgeChgflg",
+      "value_address": "0x20003144",
+      "metadata_raw": "0x00000100",
+      "name_pointer": "0x08027fbc",
+      "name_field_raw": "0x00000009"
+    },
+    {
+      "record_offset": "0x0001f940",
+      "record_address": "0x08027940",
+      "name": "AgeStepShow",
+      "value_address": "0x20003145",
+      "metadata_raw": "0x00000100",
+      "name_pointer": "0x08028214",
+      "name_field_raw": "0x0000000b"
+    },
+    {
+      "record_offset": "0x0001f950",
+      "record_address": "0x08027950",
+      "name": "ChgStepShow",
+      "value_address": "0x20003146",
+      "metadata_raw": "0x00000100",
+      "name_pointer": "0x08028220",
+      "name_field_raw": "0x0000000b"
+    },
+    {
+      "record_offset": "0x0001f960",
+      "record_address": "0x08027960",
+      "name": "ChgCurrShow",
+      "value_address": "0x20003148",
+      "metadata_raw": "0x00000203",
+      "name_pointer": "0x0802822c",
+      "name_field_raw": "0x0000000b"
+    },
+    {
+      "record_offset": "0x0001f970",
+      "record_address": "0x08027970",
+      "name": "BatState",
+      "value_address": "0x2000311e",
+      "metadata_raw": "0x00000100",
+      "name_pointer": "0x08027fa4",
+      "name_field_raw": "0x00000008"
+    },
+    {
+      "record_offset": "0x0001f980",
+      "record_address": "0x08027980",
+      "name": "Ialfa",
+      "value_address": "0x20003450",
+      "metadata_raw": "0x00000405",
+      "name_pointer": "0x08027ec4",
+      "name_field_raw": "0x00000005"
+    },
+    {
+      "record_offset": "0x0001f990",
+      "record_address": "0x08027990",
+      "name": "Ibeta",
+      "value_address": "0x20003454",
+      "metadata_raw": "0x00000405",
+      "name_pointer": "0x08027ee0",
+      "name_field_raw": "0x00000005"
+    },
+    {
+      "record_offset": "0x0001f9a0",
+      "record_address": "0x080279a0",
+      "name": "Valfa",
+      "value_address": "0x20003470",
+      "metadata_raw": "0x00000405",
+      "name_pointer": "0x08027ecc",
+      "name_field_raw": "0x00000005"
+    },
+    {
+      "record_offset": "0x0001f9b0",
+      "record_address": "0x080279b0",
+      "name": "Vbeta",
+      "value_address": "0x20003474",
+      "metadata_raw": "0x00000405",
+      "name_pointer": "0x08027ee8",
+      "name_field_raw": "0x00000005"
+    },
+    {
+      "record_offset": "0x0001f9c0",
+      "record_address": "0x080279c0",
+      "name": "ia",
+      "value_address": "0x20003478",
+      "metadata_raw": "0x00000405",
+      "name_pointer": "0x08027edc",
+      "name_field_raw": "0x00000002"
+    },
+    {
+      "record_offset": "0x0001f9d0",
+      "record_address": "0x080279d0",
+      "name": "ib",
+      "value_address": "0x2000347c",
+      "metadata_raw": "0x00000405",
+      "name_pointer": "0x08027ef8",
+      "name_field_raw": "0x00000002"
+    },
+    {
+      "record_offset": "0x0001f9e0",
+      "record_address": "0x080279e0",
+      "name": "ic",
+      "value_address": "0x20003480",
+      "metadata_raw": "0x00000405",
+      "name_pointer": "0x08027f34",
+      "name_field_raw": "0x00000002"
+    },
+    {
+      "record_offset": "0x0001f9f0",
+      "record_address": "0x080279f0",
+      "name": "pwmia",
+      "value_address": "0x20003484",
+      "metadata_raw": "0x00000405",
+      "name_pointer": "0x08027ed4",
+      "name_field_raw": "0x00000005"
+    },
+    {
+      "record_offset": "0x0001fa00",
+      "record_address": "0x08027a00",
+      "name": "pwmib",
+      "value_address": "0x20003488",
+      "metadata_raw": "0x00000405",
+      "name_pointer": "0x08027ef0",
+      "name_field_raw": "0x00000005"
+    },
+    {
+      "record_offset": "0x0001fa10",
+      "record_address": "0x08027a10",
+      "name": "pwmic",
+      "value_address": "0x2000348c",
+      "metadata_raw": "0x00000405",
+      "name_pointer": "0x08027f2c",
+      "name_field_raw": "0x00000005"
+    },
+    {
+      "record_offset": "0x0001fa20",
+      "record_address": "0x08027a20",
+      "name": "kiloWh",
+      "value_address": "0x20003114",
+      "metadata_raw": "0x00000404",
+      "name_pointer": "0x08027fd8",
+      "name_field_raw": "0x00000006"
+    },
+    {
+      "record_offset": "0x0001fa30",
+      "record_address": "0x08027a30",
+      "name": "this_ws",
+      "value_address": "0x200032ac",
+      "metadata_raw": "0x00000405",
+      "name_pointer": "0x0802814c",
+      "name_field_raw": "0x00000007"
+    },
+    {
+      "record_offset": "0x0001fa40",
+      "record_address": "0x08027a40",
+      "name": "vttest[0]",
+      "value_address": "0x200037c4",
+      "metadata_raw": "0x00000405",
+      "name_pointer": "0x08027e94",
+      "name_field_raw": "0x00000109"
+    },
+    {
+      "record_offset": "0x0001fa50",
+      "record_address": "0x08027a50",
+      "name": "vttest[1]",
+      "value_address": "0x200037c8",
+      "metadata_raw": "0x00000405",
+      "name_pointer": "0x08027ea0",
+      "name_field_raw": "0x00000109"
+    },
+    {
+      "record_offset": "0x0001fa60",
+      "record_address": "0x08027a60",
+      "name": "vttest[2]",
+      "value_address": "0x200037cc",
+      "metadata_raw": "0x00000405",
+      "name_pointer": "0x08027eac",
+      "name_field_raw": "0x00000109"
+    },
+    {
+      "record_offset": "0x0001fa70",
+      "record_address": "0x08027a70",
+      "name": "vttest[3]",
+      "value_address": "0x200037d0",
+      "metadata_raw": "0x00000405",
+      "name_pointer": "0x08027eb8",
+      "name_field_raw": "0x00000109"
+    },
+    {
+      "record_offset": "0x0001fa80",
+      "record_address": "0x08027a80",
+      "name": "BOOTVERSION",
+      "value_address": "0x08005308",
+      "metadata_raw": "0x00000404",
+      "name_pointer": "0x08027e2c",
+      "name_field_raw": "0x0000000b"
+    },
+    {
+      "record_offset": "0x0001fa90",
+      "record_address": "0x08027a90",
+      "name": "APPVERSION",
+      "value_address": "0x08008308",
+      "metadata_raw": "0x00000404",
+      "name_pointer": "0x08027e20",
+      "name_field_raw": "0x0000000a"
+    },
+    {
+      "record_offset": "0x0001faa0",
+      "record_address": "0x08027aa0",
+      "name": "RUNOKFLG",
+      "value_address": "0x08008310",
+      "metadata_raw": "0x00000404",
+      "name_pointer": "0x08027e08",
+      "name_field_raw": "0x00000008"
+    },
+    {
+      "record_offset": "0x0001fab0",
+      "record_address": "0x08027ab0",
+      "name": "APPSIZE",
+      "value_address": "0x08008314",
+      "metadata_raw": "0x00000404",
+      "name_pointer": "0x08027db8",
+      "name_field_raw": "0x00000007"
+    },
+    {
+      "record_offset": "0x0001fac0",
+      "record_address": "0x08027ac0",
+      "name": "APPCRCCODE",
+      "value_address": "0x08008318",
+      "metadata_raw": "0x00000404",
+      "name_pointer": "0x08027dac",
+      "name_field_raw": "0x0000000a"
+    },
+    {
+      "record_offset": "0x0001fad0",
+      "record_address": "0x08027ad0",
+      "name": "APPCRCCHECK",
+      "value_address": "0x0800831c",
+      "metadata_raw": "0x00000404",
+      "name_pointer": "0x08027e14",
+      "name_field_raw": "0x0000000b"
+    },
+    {
+      "record_offset": "0x0001fae0",
+      "record_address": "0x08027ae0",
+      "name": "VqSpeedRateCFG",
+      "value_address": "0x2000030c",
+      "metadata_raw": "0x00000203",
+      "name_pointer": "0x08027dc0",
+      "name_field_raw": "0x0000000e"
+    },
+    {
+      "record_offset": "0x0001faf0",
+      "record_address": "0x08027af0",
+      "name": "VqIqRateCFG",
+      "value_address": "0x2000030e",
+      "metadata_raw": "0x00000203",
+      "name_pointer": "0x08027dd0",
+      "name_field_raw": "0x0000000b"
+    },
+    {
+      "record_offset": "0x0001fb00",
+      "record_address": "0x08027b00",
+      "name": "IbusRateCFG",
+      "value_address": "0x20000310",
+      "metadata_raw": "0x00000203",
+      "name_pointer": "0x08027ddc",
+      "name_field_raw": "0x0000000b"
+    },
+    {
+      "record_offset": "0x0001fb10",
+      "record_address": "0x08027b10",
+      "name": "VqSprate_vpCFG",
+      "value_address": "0x20000308",
+      "metadata_raw": "0x00000203",
+      "name_pointer": "0x08027de8",
+      "name_field_raw": "0x0000000e"
+    },
+    {
+      "record_offset": "0x0001fb20",
+      "record_address": "0x08027b20",
+      "name": "VqIqrate_vpCFG",
+      "value_address": "0x2000030a",
+      "metadata_raw": "0x00000203",
+      "name_pointer": "0x08027df8",
+      "name_field_raw": "0x0000000e"
+    },
+    {
+      "record_offset": "0x0001fb30",
+      "record_address": "0x08027b30",
+      "name": "halloffset",
+      "value_address": "0x20000598",
+      "metadata_raw": "0x00000203",
+      "name_pointer": "0x08028174",
+      "name_field_raw": "0x0000000a"
+    },
+    {
+      "record_offset": "0x0001fb40",
+      "record_address": "0x08027b40",
+      "name": "motor_spdir",
+      "value_address": "0x20000594",
+      "metadata_raw": "0x00000203",
+      "name_pointer": "0x08028114",
+      "name_field_raw": "0x0000000b"
+    },
+    {
+      "record_offset": "0x0001fb50",
+      "record_address": "0x08027b50",
+      "name": "motor_egdir",
+      "value_address": "0x20000596",
+      "metadata_raw": "0x00000203",
+      "name_pointer": "0x08028108",
+      "name_field_raw": "0x0000000b"
+    },
+    {
+      "record_offset": "0x0001fb60",
+      "record_address": "0x08027b60",
+      "name": "readoutmeter",
+      "value_address": "0x200030f4",
+      "metadata_raw": "0x00000404",
+      "name_pointer": "0x080280f8",
+      "name_field_raw": "0x0000000c"
+    },
+    {
+      "record_offset": "0x0001fb70",
+      "record_address": "0x08027b70",
+      "name": "kilometer",
+      "value_address": "0x200030f8",
+      "metadata_raw": "0x00000404",
+      "name_pointer": "0x080280dc",
+      "name_field_raw": "0x00000009"
+    },
+    {
+      "record_offset": "0x0001fb80",
+      "record_address": "0x08027b80",
+      "name": "currentmeter",
+      "value_address": "0x200030fc",
+      "metadata_raw": "0x00000404",
+      "name_pointer": "0x080280e8",
+      "name_field_raw": "0x0000000c"
+    }
+  ],
+  "image": "S22-v227-decrypted.bin"
+}

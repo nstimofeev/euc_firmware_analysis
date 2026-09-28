@@ -1,0 +1,906 @@
+[
+  {
+    "index": 0,
+    "name": "pidk_acc",
+    "address": "0x200005fe",
+    "width": 2,
+    "record_byte13": 1,
+    "handler_action": "write_RAM_then_echo"
+  },
+  {
+    "index": 1,
+    "name": "pidk_p",
+    "address": "0x20000600",
+    "width": 2,
+    "record_byte13": 1,
+    "handler_action": "write_RAM_then_echo"
+  },
+  {
+    "index": 2,
+    "name": "pidk_speed",
+    "address": "0x20000602",
+    "width": 2,
+    "record_byte13": 1,
+    "handler_action": "write_RAM_then_echo"
+  },
+  {
+    "index": 3,
+    "name": "k_pcurr",
+    "address": "0x20000604",
+    "width": 2,
+    "record_byte13": 1,
+    "handler_action": "write_RAM_then_echo"
+  },
+  {
+    "index": 4,
+    "name": "pidk_cmbfw",
+    "address": "0x20000606",
+    "width": 2,
+    "record_byte13": 1,
+    "handler_action": "write_RAM_then_echo"
+  },
+  {
+    "index": 5,
+    "name": "pidk_cmbtn",
+    "address": "0x20000608",
+    "width": 2,
+    "record_byte13": 1,
+    "handler_action": "write_RAM_then_echo"
+  },
+  {
+    "index": 6,
+    "name": "pidk_agfac_v",
+    "address": "0x2000060a",
+    "width": 2,
+    "record_byte13": 1,
+    "handler_action": "write_RAM_then_echo"
+  },
+  {
+    "index": 7,
+    "name": "pidk_ncurr",
+    "address": "0x2000060c",
+    "width": 2,
+    "record_byte13": 1,
+    "handler_action": "write_RAM_then_echo"
+  },
+  {
+    "index": 8,
+    "name": "halldebugflg",
+    "address": "0x2000032f",
+    "width": 1,
+    "record_byte13": 1,
+    "handler_action": "write_RAM_then_echo"
+  },
+  {
+    "index": 9,
+    "name": "halloffset",
+    "address": "0x200005a0",
+    "width": 2,
+    "record_byte13": 1,
+    "handler_action": "write_RAM_then_echo"
+  },
+  {
+    "index": 10,
+    "name": "cartstep",
+    "address": "0x20003184",
+    "width": 1,
+    "record_byte13": 0,
+    "handler_action": "read_then_echo"
+  },
+  {
+    "index": 11,
+    "name": "motionstep",
+    "address": "0x200032a4",
+    "width": 1,
+    "record_byte13": 0,
+    "handler_action": "read_then_echo"
+  },
+  {
+    "index": 12,
+    "name": "motorstep",
+    "address": "0x2000330c",
+    "width": 1,
+    "record_byte13": 0,
+    "handler_action": "read_then_echo"
+  },
+  {
+    "index": 13,
+    "name": "HallRSP",
+    "address": "0x200005b8",
+    "width": 4,
+    "record_byte13": 0,
+    "handler_action": "read_then_echo"
+  },
+  {
+    "index": 14,
+    "name": "VQ",
+    "address": "0x200034a8",
+    "width": 4,
+    "record_byte13": 0,
+    "handler_action": "read_then_echo"
+  },
+  {
+    "index": 15,
+    "name": "VD",
+    "address": "0x200034ac",
+    "width": 4,
+    "record_byte13": 0,
+    "handler_action": "read_then_echo"
+  },
+  {
+    "index": 16,
+    "name": "IA",
+    "address": "0x20003480",
+    "width": 4,
+    "record_byte13": 0,
+    "handler_action": "read_then_echo"
+  },
+  {
+    "index": 17,
+    "name": "IB",
+    "address": "0x20003484",
+    "width": 4,
+    "record_byte13": 0,
+    "handler_action": "read_then_echo"
+  },
+  {
+    "index": 18,
+    "name": "IQCurrent",
+    "address": "0x20003498",
+    "width": 4,
+    "record_byte13": 0,
+    "handler_action": "read_then_echo"
+  },
+  {
+    "index": 19,
+    "name": "IDCurrent",
+    "address": "0x2000349c",
+    "width": 4,
+    "record_byte13": 0,
+    "handler_action": "read_then_echo"
+  },
+  {
+    "index": 20,
+    "name": "acce_x",
+    "address": "0x2000336c",
+    "width": 4,
+    "record_byte13": 0,
+    "handler_action": "read_then_echo"
+  },
+  {
+    "index": 21,
+    "name": "acce_y",
+    "address": "0x20003370",
+    "width": 4,
+    "record_byte13": 0,
+    "handler_action": "read_then_echo"
+  },
+  {
+    "index": 22,
+    "name": "acce_z",
+    "address": "0x20003374",
+    "width": 4,
+    "record_byte13": 0,
+    "handler_action": "read_then_echo"
+  },
+  {
+    "index": 23,
+    "name": "gyro_x",
+    "address": "0x20003360",
+    "width": 4,
+    "record_byte13": 0,
+    "handler_action": "read_then_echo"
+  },
+  {
+    "index": 24,
+    "name": "gyro_y",
+    "address": "0x20003364",
+    "width": 4,
+    "record_byte13": 0,
+    "handler_action": "read_then_echo"
+  },
+  {
+    "index": 25,
+    "name": "gyro_z",
+    "address": "0x20003368",
+    "width": 4,
+    "record_byte13": 0,
+    "handler_action": "read_then_echo"
+  },
+  {
+    "index": 26,
+    "name": "pintch",
+    "address": "0x200033d4",
+    "width": 4,
+    "record_byte13": 0,
+    "handler_action": "read_then_echo"
+  },
+  {
+    "index": 27,
+    "name": "pintch_in",
+    "address": "0x200033d0",
+    "width": 4,
+    "record_byte13": 0,
+    "handler_action": "read_then_echo"
+  },
+  {
+    "index": 28,
+    "name": "s_acc",
+    "address": "0x200033e0",
+    "width": 4,
+    "record_byte13": 0,
+    "handler_action": "read_then_echo"
+  },
+  {
+    "index": 29,
+    "name": "sta_pitch",
+    "address": "0x200033c4",
+    "width": 4,
+    "record_byte13": 0,
+    "handler_action": "read_then_echo"
+  },
+  {
+    "index": 30,
+    "name": "fus_roll",
+    "address": "0x200033d8",
+    "width": 4,
+    "record_byte13": 0,
+    "handler_action": "read_then_echo"
+  },
+  {
+    "index": 31,
+    "name": "rollacc",
+    "address": "0x200033e4",
+    "width": 4,
+    "record_byte13": 0,
+    "handler_action": "read_then_echo"
+  },
+  {
+    "index": 32,
+    "name": "sta_roll",
+    "address": "0x200033c8",
+    "width": 4,
+    "record_byte13": 0,
+    "handler_action": "read_then_echo"
+  },
+  {
+    "index": 33,
+    "name": "yaw_acc",
+    "address": "0x200033e8",
+    "width": 4,
+    "record_byte13": 0,
+    "handler_action": "read_then_echo"
+  },
+  {
+    "index": 34,
+    "name": "angleoffset_int",
+    "address": "0x200002a8",
+    "width": 4,
+    "record_byte13": 0,
+    "handler_action": "read_then_echo"
+  },
+  {
+    "index": 35,
+    "name": "LimitSpeed",
+    "address": "0x200032d4",
+    "width": 4,
+    "record_byte13": 1,
+    "handler_action": "write_RAM_then_echo"
+  },
+  {
+    "index": 36,
+    "name": "g_winespeed_lv",
+    "address": "0x200001ec",
+    "width": 4,
+    "record_byte13": 0,
+    "handler_action": "read_then_echo"
+  },
+  {
+    "index": 37,
+    "name": "rollptag_auto",
+    "address": "0x200032fc",
+    "width": 4,
+    "record_byte13": 0,
+    "handler_action": "read_then_echo"
+  },
+  {
+    "index": 38,
+    "name": "PhcurrLimit_set",
+    "address": "0x2000033c",
+    "width": 4,
+    "record_byte13": 1,
+    "handler_action": "write_RAM_then_echo"
+  },
+  {
+    "index": 39,
+    "name": "PhcurrLimit",
+    "address": "0x20000340",
+    "width": 4,
+    "record_byte13": 0,
+    "handler_action": "read_then_echo"
+  },
+  {
+    "index": 40,
+    "name": "VqIqRateCFG",
+    "address": "0x20000312",
+    "width": 2,
+    "record_byte13": 1,
+    "handler_action": "write_RAM_then_echo"
+  },
+  {
+    "index": 41,
+    "name": "VqIqRateRT",
+    "address": "0x20000318",
+    "width": 2,
+    "record_byte13": 0,
+    "handler_action": "read_then_echo"
+  },
+  {
+    "index": 42,
+    "name": "PhcurrLimit_Vq_P",
+    "address": "0x20000348",
+    "width": 4,
+    "record_byte13": 0,
+    "handler_action": "read_then_echo"
+  },
+  {
+    "index": 43,
+    "name": "PhcurrLimit_Vq_N",
+    "address": "0x2000034c",
+    "width": 4,
+    "record_byte13": 0,
+    "handler_action": "read_then_echo"
+  },
+  {
+    "index": 44,
+    "name": "BuscurLimit_set",
+    "address": "0x20000334",
+    "width": 4,
+    "record_byte13": 1,
+    "handler_action": "write_RAM_then_echo"
+  },
+  {
+    "index": 45,
+    "name": "BuscurLimit",
+    "address": "0x20000338",
+    "width": 4,
+    "record_byte13": 0,
+    "handler_action": "read_then_echo"
+  },
+  {
+    "index": 46,
+    "name": "IbusRateRT",
+    "address": "0x2000031a",
+    "width": 2,
+    "record_byte13": 0,
+    "handler_action": "read_then_echo"
+  },
+  {
+    "index": 47,
+    "name": "buscurrcalc",
+    "address": "0x200032cc",
+    "width": 4,
+    "record_byte13": 0,
+    "handler_action": "read_then_echo"
+  },
+  {
+    "index": 48,
+    "name": "BusCurrent",
+    "address": "0x200032c0",
+    "width": 4,
+    "record_byte13": 0,
+    "handler_action": "read_then_echo"
+  },
+  {
+    "index": 49,
+    "name": "buscurlmt_vq",
+    "address": "0x20000354",
+    "width": 4,
+    "record_byte13": 0,
+    "handler_action": "read_then_echo"
+  },
+  {
+    "index": 50,
+    "name": "VqSpeedRateCFG",
+    "address": "0x20000310",
+    "width": 2,
+    "record_byte13": 1,
+    "handler_action": "write_RAM_then_echo"
+  },
+  {
+    "index": 51,
+    "name": "VqSpeedRateRT",
+    "address": "0x20000316",
+    "width": 2,
+    "record_byte13": 0,
+    "handler_action": "read_then_echo"
+  },
+  {
+    "index": 52,
+    "name": "RsSpeedVq",
+    "address": "0x20003304",
+    "width": 4,
+    "record_byte13": 0,
+    "handler_action": "read_then_echo"
+  },
+  {
+    "index": 53,
+    "name": "RtIqVq",
+    "address": "0x20003308",
+    "width": 4,
+    "record_byte13": 0,
+    "handler_action": "read_then_echo"
+  },
+  {
+    "index": 54,
+    "name": "Rpm",
+    "address": "0x20003302",
+    "width": 2,
+    "record_byte13": 0,
+    "handler_action": "read_then_echo"
+  },
+  {
+    "index": 55,
+    "name": "TotalVoltage",
+    "address": "0x200030b8",
+    "width": 4,
+    "record_byte13": 0,
+    "handler_action": "read_then_echo"
+  },
+  {
+    "index": 56,
+    "name": "TotalVol_show",
+    "address": "0x200030bc",
+    "width": 4,
+    "record_byte13": 0,
+    "handler_action": "read_then_echo"
+  },
+  {
+    "index": 57,
+    "name": "TotalCurrent",
+    "address": "0x200030c8",
+    "width": 4,
+    "record_byte13": 0,
+    "handler_action": "read_then_echo"
+  },
+  {
+    "index": 58,
+    "name": "VehicleSpeed",
+    "address": "0x200030c0",
+    "width": 4,
+    "record_byte13": 0,
+    "handler_action": "read_then_echo"
+  },
+  {
+    "index": 59,
+    "name": "speedAcc",
+    "address": "0x200030c4",
+    "width": 2,
+    "record_byte13": 0,
+    "handler_action": "read_then_echo"
+  },
+  {
+    "index": 60,
+    "name": "VectorVol",
+    "address": "0x200030d4",
+    "width": 4,
+    "record_byte13": 0,
+    "handler_action": "read_then_echo"
+  },
+  {
+    "index": 61,
+    "name": "MotorTemp",
+    "address": "0x200030de",
+    "width": 2,
+    "record_byte13": 0,
+    "handler_action": "read_then_echo"
+  },
+  {
+    "index": 62,
+    "name": "MosTemp",
+    "address": "0x200030e0",
+    "width": 2,
+    "record_byte13": 0,
+    "handler_action": "read_then_echo"
+  },
+  {
+    "index": 63,
+    "name": "CpuTemp",
+    "address": "0x200030e2",
+    "width": 2,
+    "record_byte13": 0,
+    "handler_action": "read_then_echo"
+  },
+  {
+    "index": 64,
+    "name": "GYTemp",
+    "address": "0x200030e4",
+    "width": 2,
+    "record_byte13": 0,
+    "handler_action": "read_then_echo"
+  },
+  {
+    "index": 65,
+    "name": "cpuvol",
+    "address": "0x200030e8",
+    "width": 2,
+    "record_byte13": 0,
+    "handler_action": "read_then_echo"
+  },
+  {
+    "index": 66,
+    "name": "lightad",
+    "address": "0x200030ea",
+    "width": 2,
+    "record_byte13": 0,
+    "handler_action": "read_then_echo"
+  },
+  {
+    "index": 67,
+    "name": "IQCurrent",
+    "address": "0x200030d0",
+    "width": 4,
+    "record_byte13": 0,
+    "handler_action": "read_then_echo"
+  },
+  {
+    "index": 68,
+    "name": "HallState",
+    "address": "0x200030cc",
+    "width": 1,
+    "record_byte13": 0,
+    "handler_action": "read_then_echo"
+  },
+  {
+    "index": 69,
+    "name": "cpurate",
+    "address": "0x200030e6",
+    "width": 1,
+    "record_byte13": 0,
+    "handler_action": "read_then_echo"
+  },
+  {
+    "index": 70,
+    "name": "readoutmeter",
+    "address": "0x20003100",
+    "width": 4,
+    "record_byte13": 0,
+    "handler_action": "read_then_echo"
+  },
+  {
+    "index": 71,
+    "name": "kilometer",
+    "address": "0x20003104",
+    "width": 4,
+    "record_byte13": 0,
+    "handler_action": "read_then_echo"
+  },
+  {
+    "index": 72,
+    "name": "currentmeter",
+    "address": "0x20003108",
+    "width": 4,
+    "record_byte13": 0,
+    "handler_action": "read_then_echo"
+  },
+  {
+    "index": 73,
+    "name": "commbospeed",
+    "address": "0x200002b4",
+    "width": 4,
+    "record_byte13": 0,
+    "handler_action": "read_then_echo"
+  },
+  {
+    "index": 74,
+    "name": "manualsetVd",
+    "address": "0x20000320",
+    "width": 2,
+    "record_byte13": 1,
+    "handler_action": "write_RAM_then_echo"
+  },
+  {
+    "index": 75,
+    "name": "g_dif_iq",
+    "address": "0x20000368",
+    "width": 2,
+    "record_byte13": 0,
+    "handler_action": "read_then_echo"
+  },
+  {
+    "index": 76,
+    "name": "g_average_iq",
+    "address": "0x20000360",
+    "width": 4,
+    "record_byte13": 0,
+    "handler_action": "read_then_echo"
+  },
+  {
+    "index": 77,
+    "name": "hall_err",
+    "address": "0x200005a4",
+    "width": 4,
+    "record_byte13": 0,
+    "handler_action": "read_then_echo"
+  },
+  {
+    "index": 78,
+    "name": "allwarnbit",
+    "address": "0x2000315c",
+    "width": 4,
+    "record_byte13": 0,
+    "handler_action": "read_then_echo"
+  },
+  {
+    "index": 79,
+    "name": "AgeModeflg",
+    "address": "0x20003177",
+    "width": 1,
+    "record_byte13": 0,
+    "handler_action": "read_then_echo"
+  },
+  {
+    "index": 80,
+    "name": "AgeChgflg",
+    "address": "0x20003178",
+    "width": 1,
+    "record_byte13": 0,
+    "handler_action": "read_then_echo"
+  },
+  {
+    "index": 81,
+    "name": "AgeStepShow",
+    "address": "0x20003179",
+    "width": 1,
+    "record_byte13": 0,
+    "handler_action": "read_then_echo"
+  },
+  {
+    "index": 82,
+    "name": "ChgStepShow",
+    "address": "0x2000317a",
+    "width": 1,
+    "record_byte13": 0,
+    "handler_action": "read_then_echo"
+  },
+  {
+    "index": 83,
+    "name": "ChgCurrShow",
+    "address": "0x2000317c",
+    "width": 2,
+    "record_byte13": 0,
+    "handler_action": "read_then_echo"
+  },
+  {
+    "index": 84,
+    "name": "BatState",
+    "address": "0x2000314e",
+    "width": 1,
+    "record_byte13": 0,
+    "handler_action": "read_then_echo"
+  },
+  {
+    "index": 85,
+    "name": "Ialfa",
+    "address": "0x20003490",
+    "width": 4,
+    "record_byte13": 0,
+    "handler_action": "read_then_echo"
+  },
+  {
+    "index": 86,
+    "name": "Ibeta",
+    "address": "0x20003494",
+    "width": 4,
+    "record_byte13": 0,
+    "handler_action": "read_then_echo"
+  },
+  {
+    "index": 87,
+    "name": "Valfa",
+    "address": "0x200034b0",
+    "width": 4,
+    "record_byte13": 0,
+    "handler_action": "read_then_echo"
+  },
+  {
+    "index": 88,
+    "name": "Vbeta",
+    "address": "0x200034b4",
+    "width": 4,
+    "record_byte13": 0,
+    "handler_action": "read_then_echo"
+  },
+  {
+    "index": 89,
+    "name": "kiloWh",
+    "address": "0x2000313c",
+    "width": 4,
+    "record_byte13": 0,
+    "handler_action": "read_then_echo"
+  },
+  {
+    "index": 90,
+    "name": "this_ws",
+    "address": "0x200032e0",
+    "width": 4,
+    "record_byte13": 0,
+    "handler_action": "read_then_echo"
+  },
+  {
+    "index": 91,
+    "name": "g_averX10_iq",
+    "address": "0x20000364",
+    "width": 4,
+    "record_byte13": 0,
+    "handler_action": "read_then_echo"
+  },
+  {
+    "index": 92,
+    "name": "vttest[0]",
+    "address": "0x20003804",
+    "width": 4,
+    "record_byte13": 1,
+    "handler_action": "write_RAM_then_echo"
+  },
+  {
+    "index": 93,
+    "name": "vttest[1]",
+    "address": "0x20003808",
+    "width": 4,
+    "record_byte13": 1,
+    "handler_action": "write_RAM_then_echo"
+  },
+  {
+    "index": 94,
+    "name": "vttest[2]",
+    "address": "0x2000380c",
+    "width": 4,
+    "record_byte13": 1,
+    "handler_action": "write_RAM_then_echo"
+  },
+  {
+    "index": 95,
+    "name": "vttest[3]",
+    "address": "0x20003810",
+    "width": 4,
+    "record_byte13": 1,
+    "handler_action": "write_RAM_then_echo"
+  },
+  {
+    "index": 96,
+    "name": "BOOTVERSION",
+    "address": "0x8005308",
+    "width": 4,
+    "record_byte13": 0,
+    "handler_action": "read_then_echo"
+  },
+  {
+    "index": 97,
+    "name": "APPVERSION",
+    "address": "0x8008308",
+    "width": 4,
+    "record_byte13": 0,
+    "handler_action": "read_then_echo"
+  },
+  {
+    "index": 98,
+    "name": "RUNOKFLG",
+    "address": "0x8008310",
+    "width": 4,
+    "record_byte13": 0,
+    "handler_action": "read_then_echo"
+  },
+  {
+    "index": 99,
+    "name": "APPSIZE",
+    "address": "0x8008314",
+    "width": 4,
+    "record_byte13": 0,
+    "handler_action": "read_then_echo"
+  },
+  {
+    "index": 100,
+    "name": "APPCRCCODE",
+    "address": "0x8008318",
+    "width": 4,
+    "record_byte13": 0,
+    "handler_action": "read_then_echo"
+  },
+  {
+    "index": 101,
+    "name": "APPCRCCHECK",
+    "address": "0x800831c",
+    "width": 4,
+    "record_byte13": 0,
+    "handler_action": "read_then_echo"
+  },
+  {
+    "index": 102,
+    "name": "VqSpeedRateCFG",
+    "address": "0x20000310",
+    "width": 2,
+    "record_byte13": 0,
+    "handler_action": "read_then_echo"
+  },
+  {
+    "index": 103,
+    "name": "VqIqRateCFG",
+    "address": "0x20000312",
+    "width": 2,
+    "record_byte13": 0,
+    "handler_action": "read_then_echo"
+  },
+  {
+    "index": 104,
+    "name": "IbusRateCFG",
+    "address": "0x20000314",
+    "width": 2,
+    "record_byte13": 0,
+    "handler_action": "read_then_echo"
+  },
+  {
+    "index": 105,
+    "name": "VqSprate_vpCFG",
+    "address": "0x2000030c",
+    "width": 2,
+    "record_byte13": 0,
+    "handler_action": "read_then_echo"
+  },
+  {
+    "index": 106,
+    "name": "VqIqrate_vpCFG",
+    "address": "0x2000030e",
+    "width": 2,
+    "record_byte13": 0,
+    "handler_action": "read_then_echo"
+  },
+  {
+    "index": 107,
+    "name": "halloffset",
+    "address": "0x200005a0",
+    "width": 2,
+    "record_byte13": 0,
+    "handler_action": "read_then_echo"
+  },
+  {
+    "index": 108,
+    "name": "motor_spdir",
+    "address": "0x2000059c",
+    "width": 2,
+    "record_byte13": 0,
+    "handler_action": "read_then_echo"
+  },
+  {
+    "index": 109,
+    "name": "motor_egdir",
+    "address": "0x2000059e",
+    "width": 2,
+    "record_byte13": 0,
+    "handler_action": "read_then_echo"
+  },
+  {
+    "index": 110,
+    "name": "readoutmeter",
+    "address": "0x20003100",
+    "width": 4,
+    "record_byte13": 0,
+    "handler_action": "read_then_echo"
+  },
+  {
+    "index": 111,
+    "name": "kilometer",
+    "address": "0x20003104",
+    "width": 4,
+    "record_byte13": 0,
+    "handler_action": "read_then_echo"
+  },
+  {
+    "index": 112,
+    "name": "currentmeter",
+    "address": "0x20003108",
+    "width": 4,
+    "record_byte13": 0,
+    "handler_action": "read_then_echo"
+  }
+]

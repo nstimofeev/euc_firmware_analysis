@@ -1,0 +1,49 @@
+{
+  "start": "0x801b880",
+  "end_exclusive": "0x801c164",
+  "instructions": 29,
+  "calls": [
+    {
+      "site": "0x801b89a",
+      "target": "0x80206b0"
+    },
+    {
+      "site": "0x801b8b4",
+      "target": "0x802065c"
+    }
+  ],
+  "tables": [],
+  "unresolved": [],
+  "external_tails": [],
+  "asm": [
+    "0801b880: 10b5       push      {r4, lr}",
+    "0801b882: 0446       mov       r4, r0",
+    "0801b884: 6078       ldrb      r0, [r4, #1]",
+    "0801b886: 1328       cmp       r0, #0x13",
+    "0801b888: 0bd0       beq       #0x801b8a2",
+    "0801b88a: d028       cmp       r0, #0xd0",
+    "0801b88c: 08d0       beq       #0x801b8a0",
+    "0801b88e: e928       cmp       r0, #0xe9",
+    "0801b890: 02d0       beq       #0x801b898",
+    "0801b892: ee28       cmp       r0, #0xee",
+    "0801b894: 11d1       bne       #0x801b8ba",
+    "0801b896: 11e0       b         #0x801b8bc",
+    "0801b898: 601c       adds      r0, r4, #1",
+    "0801b89a: 04f009ff   bl        #0x80206b0",
+    "0801b89e: 0de0       b         #0x801b8bc",
+    "0801b8a0: 0ce0       b         #0x801b8bc",
+    "0801b8a2: a078       ldrb      r0, [r4, #2]",
+    "0801b8a4: 40b9       cbnz      r0, #0x801b8b8",
+    "0801b8a6: e078       ldrb      r0, [r4, #3]",
+    "0801b8a8: 30b9       cbnz      r0, #0x801b8b8",
+    "0801b8aa: 0548       ldr       r0, [pc, #0x14] ; [0x801b8c0] = 0x200030b8 TotalVoltage",
+    "0801b8ac: 90f8c900   ldrb.w    r0, [r0, #0xc9]",
+    "0801b8b0: 0128       cmp       r0, #1",
+    "0801b8b2: 01d1       bne       #0x801b8b8",
+    "0801b8b4: 04f0d2fe   bl        #0x802065c",
+    "0801b8b8: 00e0       b         #0x801b8bc",
+    "0801b8ba: 00bf       nop       ",
+    "0801b8bc: 00bf       nop       ",
+    "0801b8be: 10bd       pop       {r4, pc}"
+  ]
+}

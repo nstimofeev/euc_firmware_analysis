@@ -1,0 +1,9077 @@
+[
+  {
+    "version": 219,
+    "mode": "0xe000",
+    "input_u16": 0,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 219,
+    "mode": "0xe000",
+    "input_u16": 99,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 219,
+    "mode": "0xe000",
+    "input_u16": 100,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 219,
+    "mode": "0xe000",
+    "input_u16": 199,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 219,
+    "mode": "0xe000",
+    "input_u16": 20000,
+    "gains": {
+      "pidk_p": 200,
+      "pidk_acc": 200,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 219,
+    "mode": "0xe000",
+    "input_u16": 20001,
+    "gains": {
+      "pidk_p": 200,
+      "pidk_acc": 200,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 219,
+    "mode": "0xe000",
+    "input_u16": 24000,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 240,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 219,
+    "mode": "0xe000",
+    "input_u16": 24001,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 240,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 219,
+    "mode": "0xe000",
+    "input_u16": 64000,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 219,
+    "mode": "0xe000",
+    "input_u16": 64001,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 219,
+    "mode": "0xe000",
+    "input_u16": 65535,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 219,
+    "mode": "0xe001",
+    "input_u16": 0,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 219,
+    "mode": "0xe001",
+    "input_u16": 99,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 219,
+    "mode": "0xe001",
+    "input_u16": 100,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 219,
+    "mode": "0xe001",
+    "input_u16": 199,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 219,
+    "mode": "0xe001",
+    "input_u16": 20000,
+    "gains": {
+      "pidk_p": 200,
+      "pidk_acc": 200,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 219,
+    "mode": "0xe001",
+    "input_u16": 20001,
+    "gains": {
+      "pidk_p": 200,
+      "pidk_acc": 200,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 219,
+    "mode": "0xe001",
+    "input_u16": 24000,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 240,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 219,
+    "mode": "0xe001",
+    "input_u16": 24001,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 240,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 219,
+    "mode": "0xe001",
+    "input_u16": 64000,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 219,
+    "mode": "0xe001",
+    "input_u16": 64001,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 219,
+    "mode": "0xe001",
+    "input_u16": 65535,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 219,
+    "mode": "0xe002",
+    "input_u16": 0,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 219,
+    "mode": "0xe002",
+    "input_u16": 99,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 219,
+    "mode": "0xe002",
+    "input_u16": 100,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 219,
+    "mode": "0xe002",
+    "input_u16": 199,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 219,
+    "mode": "0xe002",
+    "input_u16": 20000,
+    "gains": {
+      "pidk_p": 200,
+      "pidk_acc": 200,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 219,
+    "mode": "0xe002",
+    "input_u16": 20001,
+    "gains": {
+      "pidk_p": 200,
+      "pidk_acc": 200,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 219,
+    "mode": "0xe002",
+    "input_u16": 24000,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 240,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 219,
+    "mode": "0xe002",
+    "input_u16": 24001,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 240,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 219,
+    "mode": "0xe002",
+    "input_u16": 64000,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 219,
+    "mode": "0xe002",
+    "input_u16": 64001,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 219,
+    "mode": "0xe002",
+    "input_u16": 65535,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 219,
+    "mode": "0x0",
+    "input_u16": 0,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 219,
+    "mode": "0x0",
+    "input_u16": 99,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 219,
+    "mode": "0x0",
+    "input_u16": 100,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 219,
+    "mode": "0x0",
+    "input_u16": 199,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 219,
+    "mode": "0x0",
+    "input_u16": 20000,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 219,
+    "mode": "0x0",
+    "input_u16": 20001,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 219,
+    "mode": "0x0",
+    "input_u16": 24000,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 219,
+    "mode": "0x0",
+    "input_u16": 24001,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 219,
+    "mode": "0x0",
+    "input_u16": 64000,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 219,
+    "mode": "0x0",
+    "input_u16": 64001,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 219,
+    "mode": "0x0",
+    "input_u16": 65535,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 219,
+    "mode": "0xffff",
+    "input_u16": 0,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 219,
+    "mode": "0xffff",
+    "input_u16": 99,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 219,
+    "mode": "0xffff",
+    "input_u16": 100,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 219,
+    "mode": "0xffff",
+    "input_u16": 199,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 219,
+    "mode": "0xffff",
+    "input_u16": 20000,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 219,
+    "mode": "0xffff",
+    "input_u16": 20001,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 219,
+    "mode": "0xffff",
+    "input_u16": 24000,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 219,
+    "mode": "0xffff",
+    "input_u16": 24001,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 219,
+    "mode": "0xffff",
+    "input_u16": 64000,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 219,
+    "mode": "0xffff",
+    "input_u16": 64001,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 219,
+    "mode": "0xffff",
+    "input_u16": 65535,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 221,
+    "mode": "0xe000",
+    "input_u16": 0,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 221,
+    "mode": "0xe000",
+    "input_u16": 99,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 221,
+    "mode": "0xe000",
+    "input_u16": 100,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 221,
+    "mode": "0xe000",
+    "input_u16": 199,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 221,
+    "mode": "0xe000",
+    "input_u16": 20000,
+    "gains": {
+      "pidk_p": 200,
+      "pidk_acc": 200,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 221,
+    "mode": "0xe000",
+    "input_u16": 20001,
+    "gains": {
+      "pidk_p": 200,
+      "pidk_acc": 200,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 221,
+    "mode": "0xe000",
+    "input_u16": 24000,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 240,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 221,
+    "mode": "0xe000",
+    "input_u16": 24001,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 240,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 221,
+    "mode": "0xe000",
+    "input_u16": 64000,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 221,
+    "mode": "0xe000",
+    "input_u16": 64001,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 221,
+    "mode": "0xe000",
+    "input_u16": 65535,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 221,
+    "mode": "0xe001",
+    "input_u16": 0,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 221,
+    "mode": "0xe001",
+    "input_u16": 99,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 221,
+    "mode": "0xe001",
+    "input_u16": 100,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 221,
+    "mode": "0xe001",
+    "input_u16": 199,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 221,
+    "mode": "0xe001",
+    "input_u16": 20000,
+    "gains": {
+      "pidk_p": 200,
+      "pidk_acc": 200,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 221,
+    "mode": "0xe001",
+    "input_u16": 20001,
+    "gains": {
+      "pidk_p": 200,
+      "pidk_acc": 200,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 221,
+    "mode": "0xe001",
+    "input_u16": 24000,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 240,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 221,
+    "mode": "0xe001",
+    "input_u16": 24001,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 240,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 221,
+    "mode": "0xe001",
+    "input_u16": 64000,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 221,
+    "mode": "0xe001",
+    "input_u16": 64001,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 221,
+    "mode": "0xe001",
+    "input_u16": 65535,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 221,
+    "mode": "0xe002",
+    "input_u16": 0,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 221,
+    "mode": "0xe002",
+    "input_u16": 99,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 221,
+    "mode": "0xe002",
+    "input_u16": 100,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 221,
+    "mode": "0xe002",
+    "input_u16": 199,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 221,
+    "mode": "0xe002",
+    "input_u16": 20000,
+    "gains": {
+      "pidk_p": 200,
+      "pidk_acc": 200,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 221,
+    "mode": "0xe002",
+    "input_u16": 20001,
+    "gains": {
+      "pidk_p": 200,
+      "pidk_acc": 200,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 221,
+    "mode": "0xe002",
+    "input_u16": 24000,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 240,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 221,
+    "mode": "0xe002",
+    "input_u16": 24001,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 240,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 221,
+    "mode": "0xe002",
+    "input_u16": 64000,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 221,
+    "mode": "0xe002",
+    "input_u16": 64001,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 221,
+    "mode": "0xe002",
+    "input_u16": 65535,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 221,
+    "mode": "0x0",
+    "input_u16": 0,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 221,
+    "mode": "0x0",
+    "input_u16": 99,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 221,
+    "mode": "0x0",
+    "input_u16": 100,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 221,
+    "mode": "0x0",
+    "input_u16": 199,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 221,
+    "mode": "0x0",
+    "input_u16": 20000,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 221,
+    "mode": "0x0",
+    "input_u16": 20001,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 221,
+    "mode": "0x0",
+    "input_u16": 24000,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 221,
+    "mode": "0x0",
+    "input_u16": 24001,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 221,
+    "mode": "0x0",
+    "input_u16": 64000,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 221,
+    "mode": "0x0",
+    "input_u16": 64001,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 221,
+    "mode": "0x0",
+    "input_u16": 65535,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 221,
+    "mode": "0xffff",
+    "input_u16": 0,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 221,
+    "mode": "0xffff",
+    "input_u16": 99,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 221,
+    "mode": "0xffff",
+    "input_u16": 100,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 221,
+    "mode": "0xffff",
+    "input_u16": 199,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 221,
+    "mode": "0xffff",
+    "input_u16": 20000,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 221,
+    "mode": "0xffff",
+    "input_u16": 20001,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 221,
+    "mode": "0xffff",
+    "input_u16": 24000,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 221,
+    "mode": "0xffff",
+    "input_u16": 24001,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 221,
+    "mode": "0xffff",
+    "input_u16": 64000,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 221,
+    "mode": "0xffff",
+    "input_u16": 64001,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 221,
+    "mode": "0xffff",
+    "input_u16": 65535,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 222,
+    "mode": "0xe000",
+    "input_u16": 0,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 222,
+    "mode": "0xe000",
+    "input_u16": 99,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 222,
+    "mode": "0xe000",
+    "input_u16": 100,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 222,
+    "mode": "0xe000",
+    "input_u16": 199,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 222,
+    "mode": "0xe000",
+    "input_u16": 20000,
+    "gains": {
+      "pidk_p": 200,
+      "pidk_acc": 200,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 222,
+    "mode": "0xe000",
+    "input_u16": 20001,
+    "gains": {
+      "pidk_p": 200,
+      "pidk_acc": 200,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 222,
+    "mode": "0xe000",
+    "input_u16": 24000,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 240,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 222,
+    "mode": "0xe000",
+    "input_u16": 24001,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 240,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 222,
+    "mode": "0xe000",
+    "input_u16": 64000,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 222,
+    "mode": "0xe000",
+    "input_u16": 64001,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 222,
+    "mode": "0xe000",
+    "input_u16": 65535,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 222,
+    "mode": "0xe001",
+    "input_u16": 0,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 222,
+    "mode": "0xe001",
+    "input_u16": 99,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 222,
+    "mode": "0xe001",
+    "input_u16": 100,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 222,
+    "mode": "0xe001",
+    "input_u16": 199,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 222,
+    "mode": "0xe001",
+    "input_u16": 20000,
+    "gains": {
+      "pidk_p": 200,
+      "pidk_acc": 200,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 222,
+    "mode": "0xe001",
+    "input_u16": 20001,
+    "gains": {
+      "pidk_p": 200,
+      "pidk_acc": 200,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 222,
+    "mode": "0xe001",
+    "input_u16": 24000,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 240,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 222,
+    "mode": "0xe001",
+    "input_u16": 24001,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 240,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 222,
+    "mode": "0xe001",
+    "input_u16": 64000,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 222,
+    "mode": "0xe001",
+    "input_u16": 64001,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 222,
+    "mode": "0xe001",
+    "input_u16": 65535,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 222,
+    "mode": "0xe002",
+    "input_u16": 0,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 222,
+    "mode": "0xe002",
+    "input_u16": 99,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 222,
+    "mode": "0xe002",
+    "input_u16": 100,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 222,
+    "mode": "0xe002",
+    "input_u16": 199,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 222,
+    "mode": "0xe002",
+    "input_u16": 20000,
+    "gains": {
+      "pidk_p": 200,
+      "pidk_acc": 200,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 222,
+    "mode": "0xe002",
+    "input_u16": 20001,
+    "gains": {
+      "pidk_p": 200,
+      "pidk_acc": 200,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 222,
+    "mode": "0xe002",
+    "input_u16": 24000,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 240,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 222,
+    "mode": "0xe002",
+    "input_u16": 24001,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 240,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 222,
+    "mode": "0xe002",
+    "input_u16": 64000,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 222,
+    "mode": "0xe002",
+    "input_u16": 64001,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 222,
+    "mode": "0xe002",
+    "input_u16": 65535,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 222,
+    "mode": "0x0",
+    "input_u16": 0,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 222,
+    "mode": "0x0",
+    "input_u16": 99,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 222,
+    "mode": "0x0",
+    "input_u16": 100,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 222,
+    "mode": "0x0",
+    "input_u16": 199,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 222,
+    "mode": "0x0",
+    "input_u16": 20000,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 222,
+    "mode": "0x0",
+    "input_u16": 20001,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 222,
+    "mode": "0x0",
+    "input_u16": 24000,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 222,
+    "mode": "0x0",
+    "input_u16": 24001,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 222,
+    "mode": "0x0",
+    "input_u16": 64000,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 222,
+    "mode": "0x0",
+    "input_u16": 64001,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 222,
+    "mode": "0x0",
+    "input_u16": 65535,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 222,
+    "mode": "0xffff",
+    "input_u16": 0,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 222,
+    "mode": "0xffff",
+    "input_u16": 99,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 222,
+    "mode": "0xffff",
+    "input_u16": 100,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 222,
+    "mode": "0xffff",
+    "input_u16": 199,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 222,
+    "mode": "0xffff",
+    "input_u16": 20000,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 222,
+    "mode": "0xffff",
+    "input_u16": 20001,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 222,
+    "mode": "0xffff",
+    "input_u16": 24000,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 222,
+    "mode": "0xffff",
+    "input_u16": 24001,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 222,
+    "mode": "0xffff",
+    "input_u16": 64000,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 222,
+    "mode": "0xffff",
+    "input_u16": 64001,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 222,
+    "mode": "0xffff",
+    "input_u16": 65535,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 223,
+    "mode": "0xe000",
+    "input_u16": 0,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 223,
+    "mode": "0xe000",
+    "input_u16": 99,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 223,
+    "mode": "0xe000",
+    "input_u16": 100,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 223,
+    "mode": "0xe000",
+    "input_u16": 199,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 223,
+    "mode": "0xe000",
+    "input_u16": 20000,
+    "gains": {
+      "pidk_p": 200,
+      "pidk_acc": 200,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 223,
+    "mode": "0xe000",
+    "input_u16": 20001,
+    "gains": {
+      "pidk_p": 200,
+      "pidk_acc": 200,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 223,
+    "mode": "0xe000",
+    "input_u16": 24000,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 240,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 223,
+    "mode": "0xe000",
+    "input_u16": 24001,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 240,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 223,
+    "mode": "0xe000",
+    "input_u16": 64000,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 223,
+    "mode": "0xe000",
+    "input_u16": 64001,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 223,
+    "mode": "0xe000",
+    "input_u16": 65535,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 223,
+    "mode": "0xe001",
+    "input_u16": 0,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 223,
+    "mode": "0xe001",
+    "input_u16": 99,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 223,
+    "mode": "0xe001",
+    "input_u16": 100,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 223,
+    "mode": "0xe001",
+    "input_u16": 199,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 223,
+    "mode": "0xe001",
+    "input_u16": 20000,
+    "gains": {
+      "pidk_p": 200,
+      "pidk_acc": 200,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 223,
+    "mode": "0xe001",
+    "input_u16": 20001,
+    "gains": {
+      "pidk_p": 200,
+      "pidk_acc": 200,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 223,
+    "mode": "0xe001",
+    "input_u16": 24000,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 240,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 223,
+    "mode": "0xe001",
+    "input_u16": 24001,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 240,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 223,
+    "mode": "0xe001",
+    "input_u16": 64000,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 223,
+    "mode": "0xe001",
+    "input_u16": 64001,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 223,
+    "mode": "0xe001",
+    "input_u16": 65535,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 223,
+    "mode": "0xe002",
+    "input_u16": 0,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 223,
+    "mode": "0xe002",
+    "input_u16": 99,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 223,
+    "mode": "0xe002",
+    "input_u16": 100,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 223,
+    "mode": "0xe002",
+    "input_u16": 199,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 223,
+    "mode": "0xe002",
+    "input_u16": 20000,
+    "gains": {
+      "pidk_p": 200,
+      "pidk_acc": 200,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 223,
+    "mode": "0xe002",
+    "input_u16": 20001,
+    "gains": {
+      "pidk_p": 200,
+      "pidk_acc": 200,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 223,
+    "mode": "0xe002",
+    "input_u16": 24000,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 240,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 223,
+    "mode": "0xe002",
+    "input_u16": 24001,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 240,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 223,
+    "mode": "0xe002",
+    "input_u16": 64000,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 223,
+    "mode": "0xe002",
+    "input_u16": 64001,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 223,
+    "mode": "0xe002",
+    "input_u16": 65535,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 223,
+    "mode": "0x0",
+    "input_u16": 0,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 223,
+    "mode": "0x0",
+    "input_u16": 99,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 223,
+    "mode": "0x0",
+    "input_u16": 100,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 223,
+    "mode": "0x0",
+    "input_u16": 199,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 223,
+    "mode": "0x0",
+    "input_u16": 20000,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 223,
+    "mode": "0x0",
+    "input_u16": 20001,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 223,
+    "mode": "0x0",
+    "input_u16": 24000,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 223,
+    "mode": "0x0",
+    "input_u16": 24001,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 223,
+    "mode": "0x0",
+    "input_u16": 64000,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 223,
+    "mode": "0x0",
+    "input_u16": 64001,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 223,
+    "mode": "0x0",
+    "input_u16": 65535,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 223,
+    "mode": "0xffff",
+    "input_u16": 0,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 223,
+    "mode": "0xffff",
+    "input_u16": 99,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 223,
+    "mode": "0xffff",
+    "input_u16": 100,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 223,
+    "mode": "0xffff",
+    "input_u16": 199,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 223,
+    "mode": "0xffff",
+    "input_u16": 20000,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 223,
+    "mode": "0xffff",
+    "input_u16": 20001,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 223,
+    "mode": "0xffff",
+    "input_u16": 24000,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 223,
+    "mode": "0xffff",
+    "input_u16": 24001,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 223,
+    "mode": "0xffff",
+    "input_u16": 64000,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 223,
+    "mode": "0xffff",
+    "input_u16": 64001,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 223,
+    "mode": "0xffff",
+    "input_u16": 65535,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 224,
+    "mode": "0xe000",
+    "input_u16": 0,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 224,
+    "mode": "0xe000",
+    "input_u16": 99,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 224,
+    "mode": "0xe000",
+    "input_u16": 100,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 224,
+    "mode": "0xe000",
+    "input_u16": 199,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 224,
+    "mode": "0xe000",
+    "input_u16": 20000,
+    "gains": {
+      "pidk_p": 200,
+      "pidk_acc": 200,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 224,
+    "mode": "0xe000",
+    "input_u16": 20001,
+    "gains": {
+      "pidk_p": 200,
+      "pidk_acc": 200,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 224,
+    "mode": "0xe000",
+    "input_u16": 24000,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 240,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 224,
+    "mode": "0xe000",
+    "input_u16": 24001,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 240,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 224,
+    "mode": "0xe000",
+    "input_u16": 64000,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 224,
+    "mode": "0xe000",
+    "input_u16": 64001,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 224,
+    "mode": "0xe000",
+    "input_u16": 65535,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 224,
+    "mode": "0xe001",
+    "input_u16": 0,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 224,
+    "mode": "0xe001",
+    "input_u16": 99,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 224,
+    "mode": "0xe001",
+    "input_u16": 100,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 224,
+    "mode": "0xe001",
+    "input_u16": 199,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 224,
+    "mode": "0xe001",
+    "input_u16": 20000,
+    "gains": {
+      "pidk_p": 200,
+      "pidk_acc": 200,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 224,
+    "mode": "0xe001",
+    "input_u16": 20001,
+    "gains": {
+      "pidk_p": 200,
+      "pidk_acc": 200,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 224,
+    "mode": "0xe001",
+    "input_u16": 24000,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 240,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 224,
+    "mode": "0xe001",
+    "input_u16": 24001,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 240,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 224,
+    "mode": "0xe001",
+    "input_u16": 64000,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 224,
+    "mode": "0xe001",
+    "input_u16": 64001,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 224,
+    "mode": "0xe001",
+    "input_u16": 65535,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 224,
+    "mode": "0xe002",
+    "input_u16": 0,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 224,
+    "mode": "0xe002",
+    "input_u16": 99,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 224,
+    "mode": "0xe002",
+    "input_u16": 100,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 224,
+    "mode": "0xe002",
+    "input_u16": 199,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 224,
+    "mode": "0xe002",
+    "input_u16": 20000,
+    "gains": {
+      "pidk_p": 200,
+      "pidk_acc": 200,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 224,
+    "mode": "0xe002",
+    "input_u16": 20001,
+    "gains": {
+      "pidk_p": 200,
+      "pidk_acc": 200,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 224,
+    "mode": "0xe002",
+    "input_u16": 24000,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 240,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 224,
+    "mode": "0xe002",
+    "input_u16": 24001,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 240,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 224,
+    "mode": "0xe002",
+    "input_u16": 64000,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 224,
+    "mode": "0xe002",
+    "input_u16": 64001,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 224,
+    "mode": "0xe002",
+    "input_u16": 65535,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 224,
+    "mode": "0x0",
+    "input_u16": 0,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 224,
+    "mode": "0x0",
+    "input_u16": 99,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 224,
+    "mode": "0x0",
+    "input_u16": 100,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 224,
+    "mode": "0x0",
+    "input_u16": 199,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 224,
+    "mode": "0x0",
+    "input_u16": 20000,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 224,
+    "mode": "0x0",
+    "input_u16": 20001,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 224,
+    "mode": "0x0",
+    "input_u16": 24000,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 224,
+    "mode": "0x0",
+    "input_u16": 24001,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 224,
+    "mode": "0x0",
+    "input_u16": 64000,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 224,
+    "mode": "0x0",
+    "input_u16": 64001,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 224,
+    "mode": "0x0",
+    "input_u16": 65535,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 224,
+    "mode": "0xffff",
+    "input_u16": 0,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 224,
+    "mode": "0xffff",
+    "input_u16": 99,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 224,
+    "mode": "0xffff",
+    "input_u16": 100,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 224,
+    "mode": "0xffff",
+    "input_u16": 199,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 224,
+    "mode": "0xffff",
+    "input_u16": 20000,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 224,
+    "mode": "0xffff",
+    "input_u16": 20001,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 224,
+    "mode": "0xffff",
+    "input_u16": 24000,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 224,
+    "mode": "0xffff",
+    "input_u16": 24001,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 224,
+    "mode": "0xffff",
+    "input_u16": 64000,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 224,
+    "mode": "0xffff",
+    "input_u16": 64001,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 224,
+    "mode": "0xffff",
+    "input_u16": 65535,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 227,
+    "mode": "0xe000",
+    "input_u16": 0,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 227,
+    "mode": "0xe000",
+    "input_u16": 99,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 227,
+    "mode": "0xe000",
+    "input_u16": 100,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 227,
+    "mode": "0xe000",
+    "input_u16": 199,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 227,
+    "mode": "0xe000",
+    "input_u16": 20000,
+    "gains": {
+      "pidk_p": 200,
+      "pidk_acc": 200,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 227,
+    "mode": "0xe000",
+    "input_u16": 20001,
+    "gains": {
+      "pidk_p": 200,
+      "pidk_acc": 200,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 227,
+    "mode": "0xe000",
+    "input_u16": 24000,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 240,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 227,
+    "mode": "0xe000",
+    "input_u16": 24001,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 240,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 227,
+    "mode": "0xe000",
+    "input_u16": 64000,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 227,
+    "mode": "0xe000",
+    "input_u16": 64001,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 227,
+    "mode": "0xe000",
+    "input_u16": 65535,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 227,
+    "mode": "0xe001",
+    "input_u16": 0,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 227,
+    "mode": "0xe001",
+    "input_u16": 99,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 227,
+    "mode": "0xe001",
+    "input_u16": 100,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 227,
+    "mode": "0xe001",
+    "input_u16": 199,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 227,
+    "mode": "0xe001",
+    "input_u16": 20000,
+    "gains": {
+      "pidk_p": 200,
+      "pidk_acc": 200,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 227,
+    "mode": "0xe001",
+    "input_u16": 20001,
+    "gains": {
+      "pidk_p": 200,
+      "pidk_acc": 200,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 227,
+    "mode": "0xe001",
+    "input_u16": 24000,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 240,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 227,
+    "mode": "0xe001",
+    "input_u16": 24001,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 240,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 227,
+    "mode": "0xe001",
+    "input_u16": 64000,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 227,
+    "mode": "0xe001",
+    "input_u16": 64001,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 227,
+    "mode": "0xe001",
+    "input_u16": 65535,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 227,
+    "mode": "0xe002",
+    "input_u16": 0,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 227,
+    "mode": "0xe002",
+    "input_u16": 99,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 227,
+    "mode": "0xe002",
+    "input_u16": 100,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 227,
+    "mode": "0xe002",
+    "input_u16": 199,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 227,
+    "mode": "0xe002",
+    "input_u16": 20000,
+    "gains": {
+      "pidk_p": 200,
+      "pidk_acc": 200,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 227,
+    "mode": "0xe002",
+    "input_u16": 20001,
+    "gains": {
+      "pidk_p": 200,
+      "pidk_acc": 200,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 227,
+    "mode": "0xe002",
+    "input_u16": 24000,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 240,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 227,
+    "mode": "0xe002",
+    "input_u16": 24001,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 240,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 227,
+    "mode": "0xe002",
+    "input_u16": 64000,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 227,
+    "mode": "0xe002",
+    "input_u16": 64001,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 227,
+    "mode": "0xe002",
+    "input_u16": 65535,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 227,
+    "mode": "0x0",
+    "input_u16": 0,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 227,
+    "mode": "0x0",
+    "input_u16": 99,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 227,
+    "mode": "0x0",
+    "input_u16": 100,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 227,
+    "mode": "0x0",
+    "input_u16": 199,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 227,
+    "mode": "0x0",
+    "input_u16": 20000,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 227,
+    "mode": "0x0",
+    "input_u16": 20001,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 227,
+    "mode": "0x0",
+    "input_u16": 24000,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 227,
+    "mode": "0x0",
+    "input_u16": 24001,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 227,
+    "mode": "0x0",
+    "input_u16": 64000,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 227,
+    "mode": "0x0",
+    "input_u16": 64001,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 227,
+    "mode": "0x0",
+    "input_u16": 65535,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 227,
+    "mode": "0xffff",
+    "input_u16": 0,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 227,
+    "mode": "0xffff",
+    "input_u16": 99,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 227,
+    "mode": "0xffff",
+    "input_u16": 100,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 227,
+    "mode": "0xffff",
+    "input_u16": 199,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 227,
+    "mode": "0xffff",
+    "input_u16": 20000,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 227,
+    "mode": "0xffff",
+    "input_u16": 20001,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 227,
+    "mode": "0xffff",
+    "input_u16": 24000,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 227,
+    "mode": "0xffff",
+    "input_u16": 24001,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 227,
+    "mode": "0xffff",
+    "input_u16": 64000,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 227,
+    "mode": "0xffff",
+    "input_u16": 64001,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 227,
+    "mode": "0xffff",
+    "input_u16": 65535,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 229,
+    "mode": "0xe000",
+    "input_u16": 0,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 229,
+    "mode": "0xe000",
+    "input_u16": 99,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 229,
+    "mode": "0xe000",
+    "input_u16": 100,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 229,
+    "mode": "0xe000",
+    "input_u16": 199,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 229,
+    "mode": "0xe000",
+    "input_u16": 20000,
+    "gains": {
+      "pidk_p": 200,
+      "pidk_acc": 200,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 229,
+    "mode": "0xe000",
+    "input_u16": 20001,
+    "gains": {
+      "pidk_p": 200,
+      "pidk_acc": 200,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 229,
+    "mode": "0xe000",
+    "input_u16": 24000,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 240,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 229,
+    "mode": "0xe000",
+    "input_u16": 24001,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 240,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 229,
+    "mode": "0xe000",
+    "input_u16": 64000,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 229,
+    "mode": "0xe000",
+    "input_u16": 64001,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 229,
+    "mode": "0xe000",
+    "input_u16": 65535,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 229,
+    "mode": "0xe001",
+    "input_u16": 0,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 229,
+    "mode": "0xe001",
+    "input_u16": 99,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 229,
+    "mode": "0xe001",
+    "input_u16": 100,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 229,
+    "mode": "0xe001",
+    "input_u16": 199,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 229,
+    "mode": "0xe001",
+    "input_u16": 20000,
+    "gains": {
+      "pidk_p": 200,
+      "pidk_acc": 200,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 229,
+    "mode": "0xe001",
+    "input_u16": 20001,
+    "gains": {
+      "pidk_p": 200,
+      "pidk_acc": 200,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 229,
+    "mode": "0xe001",
+    "input_u16": 24000,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 240,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 229,
+    "mode": "0xe001",
+    "input_u16": 24001,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 240,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 229,
+    "mode": "0xe001",
+    "input_u16": 64000,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 229,
+    "mode": "0xe001",
+    "input_u16": 64001,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 229,
+    "mode": "0xe001",
+    "input_u16": 65535,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 229,
+    "mode": "0xe002",
+    "input_u16": 0,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 229,
+    "mode": "0xe002",
+    "input_u16": 99,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 229,
+    "mode": "0xe002",
+    "input_u16": 100,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 229,
+    "mode": "0xe002",
+    "input_u16": 199,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 229,
+    "mode": "0xe002",
+    "input_u16": 20000,
+    "gains": {
+      "pidk_p": 200,
+      "pidk_acc": 200,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 229,
+    "mode": "0xe002",
+    "input_u16": 20001,
+    "gains": {
+      "pidk_p": 200,
+      "pidk_acc": 200,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 229,
+    "mode": "0xe002",
+    "input_u16": 24000,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 240,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 229,
+    "mode": "0xe002",
+    "input_u16": 24001,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 240,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 229,
+    "mode": "0xe002",
+    "input_u16": 64000,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 229,
+    "mode": "0xe002",
+    "input_u16": 64001,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 229,
+    "mode": "0xe002",
+    "input_u16": 65535,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 229,
+    "mode": "0x0",
+    "input_u16": 0,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 229,
+    "mode": "0x0",
+    "input_u16": 99,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 229,
+    "mode": "0x0",
+    "input_u16": 100,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 229,
+    "mode": "0x0",
+    "input_u16": 199,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 229,
+    "mode": "0x0",
+    "input_u16": 20000,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 229,
+    "mode": "0x0",
+    "input_u16": 20001,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 229,
+    "mode": "0x0",
+    "input_u16": 24000,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 229,
+    "mode": "0x0",
+    "input_u16": 24001,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 229,
+    "mode": "0x0",
+    "input_u16": 64000,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 229,
+    "mode": "0x0",
+    "input_u16": 64001,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 229,
+    "mode": "0x0",
+    "input_u16": 65535,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 229,
+    "mode": "0xffff",
+    "input_u16": 0,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 229,
+    "mode": "0xffff",
+    "input_u16": 99,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 229,
+    "mode": "0xffff",
+    "input_u16": 100,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 229,
+    "mode": "0xffff",
+    "input_u16": 199,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 229,
+    "mode": "0xffff",
+    "input_u16": 20000,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 229,
+    "mode": "0xffff",
+    "input_u16": 20001,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 229,
+    "mode": "0xffff",
+    "input_u16": 24000,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 229,
+    "mode": "0xffff",
+    "input_u16": 24001,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 229,
+    "mode": "0xffff",
+    "input_u16": 64000,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 229,
+    "mode": "0xffff",
+    "input_u16": 64001,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 229,
+    "mode": "0xffff",
+    "input_u16": 65535,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 231,
+    "mode": "0xe000",
+    "input_u16": 0,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 231,
+    "mode": "0xe000",
+    "input_u16": 99,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 231,
+    "mode": "0xe000",
+    "input_u16": 100,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 231,
+    "mode": "0xe000",
+    "input_u16": 199,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 231,
+    "mode": "0xe000",
+    "input_u16": 20000,
+    "gains": {
+      "pidk_p": 200,
+      "pidk_acc": 200,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 231,
+    "mode": "0xe000",
+    "input_u16": 20001,
+    "gains": {
+      "pidk_p": 200,
+      "pidk_acc": 200,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 231,
+    "mode": "0xe000",
+    "input_u16": 24000,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 240,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 231,
+    "mode": "0xe000",
+    "input_u16": 24001,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 240,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 231,
+    "mode": "0xe000",
+    "input_u16": 64000,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 231,
+    "mode": "0xe000",
+    "input_u16": 64001,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 231,
+    "mode": "0xe000",
+    "input_u16": 65535,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 231,
+    "mode": "0xe001",
+    "input_u16": 0,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 231,
+    "mode": "0xe001",
+    "input_u16": 99,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 231,
+    "mode": "0xe001",
+    "input_u16": 100,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 231,
+    "mode": "0xe001",
+    "input_u16": 199,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 231,
+    "mode": "0xe001",
+    "input_u16": 20000,
+    "gains": {
+      "pidk_p": 200,
+      "pidk_acc": 200,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 231,
+    "mode": "0xe001",
+    "input_u16": 20001,
+    "gains": {
+      "pidk_p": 200,
+      "pidk_acc": 200,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 231,
+    "mode": "0xe001",
+    "input_u16": 24000,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 240,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 231,
+    "mode": "0xe001",
+    "input_u16": 24001,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 240,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 231,
+    "mode": "0xe001",
+    "input_u16": 64000,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 231,
+    "mode": "0xe001",
+    "input_u16": 64001,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 231,
+    "mode": "0xe001",
+    "input_u16": 65535,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 231,
+    "mode": "0xe002",
+    "input_u16": 0,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 231,
+    "mode": "0xe002",
+    "input_u16": 99,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 231,
+    "mode": "0xe002",
+    "input_u16": 100,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 231,
+    "mode": "0xe002",
+    "input_u16": 199,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 231,
+    "mode": "0xe002",
+    "input_u16": 20000,
+    "gains": {
+      "pidk_p": 200,
+      "pidk_acc": 200,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 231,
+    "mode": "0xe002",
+    "input_u16": 20001,
+    "gains": {
+      "pidk_p": 200,
+      "pidk_acc": 200,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 231,
+    "mode": "0xe002",
+    "input_u16": 24000,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 240,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 231,
+    "mode": "0xe002",
+    "input_u16": 24001,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 240,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 231,
+    "mode": "0xe002",
+    "input_u16": 64000,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 231,
+    "mode": "0xe002",
+    "input_u16": 64001,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 231,
+    "mode": "0xe002",
+    "input_u16": 65535,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 231,
+    "mode": "0x0",
+    "input_u16": 0,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 231,
+    "mode": "0x0",
+    "input_u16": 99,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 231,
+    "mode": "0x0",
+    "input_u16": 100,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 231,
+    "mode": "0x0",
+    "input_u16": 199,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 231,
+    "mode": "0x0",
+    "input_u16": 20000,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 231,
+    "mode": "0x0",
+    "input_u16": 20001,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 231,
+    "mode": "0x0",
+    "input_u16": 24000,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 231,
+    "mode": "0x0",
+    "input_u16": 24001,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 231,
+    "mode": "0x0",
+    "input_u16": 64000,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 231,
+    "mode": "0x0",
+    "input_u16": 64001,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 231,
+    "mode": "0x0",
+    "input_u16": 65535,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 231,
+    "mode": "0xffff",
+    "input_u16": 0,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 231,
+    "mode": "0xffff",
+    "input_u16": 99,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 231,
+    "mode": "0xffff",
+    "input_u16": 100,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 231,
+    "mode": "0xffff",
+    "input_u16": 199,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 231,
+    "mode": "0xffff",
+    "input_u16": 20000,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 231,
+    "mode": "0xffff",
+    "input_u16": 20001,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 231,
+    "mode": "0xffff",
+    "input_u16": 24000,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 231,
+    "mode": "0xffff",
+    "input_u16": 24001,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 231,
+    "mode": "0xffff",
+    "input_u16": 64000,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 231,
+    "mode": "0xffff",
+    "input_u16": 64001,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 231,
+    "mode": "0xffff",
+    "input_u16": 65535,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 232,
+    "mode": "0xe000",
+    "input_u16": 0,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 232,
+    "mode": "0xe000",
+    "input_u16": 99,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 232,
+    "mode": "0xe000",
+    "input_u16": 100,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 232,
+    "mode": "0xe000",
+    "input_u16": 199,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 232,
+    "mode": "0xe000",
+    "input_u16": 20000,
+    "gains": {
+      "pidk_p": 200,
+      "pidk_acc": 200,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 232,
+    "mode": "0xe000",
+    "input_u16": 20001,
+    "gains": {
+      "pidk_p": 200,
+      "pidk_acc": 200,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 232,
+    "mode": "0xe000",
+    "input_u16": 24000,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 240,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 232,
+    "mode": "0xe000",
+    "input_u16": 24001,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 240,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 232,
+    "mode": "0xe000",
+    "input_u16": 64000,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 232,
+    "mode": "0xe000",
+    "input_u16": 64001,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 232,
+    "mode": "0xe000",
+    "input_u16": 65535,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 232,
+    "mode": "0xe001",
+    "input_u16": 0,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 232,
+    "mode": "0xe001",
+    "input_u16": 99,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 232,
+    "mode": "0xe001",
+    "input_u16": 100,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 232,
+    "mode": "0xe001",
+    "input_u16": 199,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 232,
+    "mode": "0xe001",
+    "input_u16": 20000,
+    "gains": {
+      "pidk_p": 200,
+      "pidk_acc": 200,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 232,
+    "mode": "0xe001",
+    "input_u16": 20001,
+    "gains": {
+      "pidk_p": 200,
+      "pidk_acc": 200,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 232,
+    "mode": "0xe001",
+    "input_u16": 24000,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 240,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 232,
+    "mode": "0xe001",
+    "input_u16": 24001,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 240,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 232,
+    "mode": "0xe001",
+    "input_u16": 64000,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 232,
+    "mode": "0xe001",
+    "input_u16": 64001,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 232,
+    "mode": "0xe001",
+    "input_u16": 65535,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 232,
+    "mode": "0xe002",
+    "input_u16": 0,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 232,
+    "mode": "0xe002",
+    "input_u16": 99,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 232,
+    "mode": "0xe002",
+    "input_u16": 100,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 232,
+    "mode": "0xe002",
+    "input_u16": 199,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 232,
+    "mode": "0xe002",
+    "input_u16": 20000,
+    "gains": {
+      "pidk_p": 200,
+      "pidk_acc": 200,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 232,
+    "mode": "0xe002",
+    "input_u16": 20001,
+    "gains": {
+      "pidk_p": 200,
+      "pidk_acc": 200,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 232,
+    "mode": "0xe002",
+    "input_u16": 24000,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 240,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 232,
+    "mode": "0xe002",
+    "input_u16": 24001,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 240,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 232,
+    "mode": "0xe002",
+    "input_u16": 64000,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 232,
+    "mode": "0xe002",
+    "input_u16": 64001,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 232,
+    "mode": "0xe002",
+    "input_u16": 65535,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 232,
+    "mode": "0x0",
+    "input_u16": 0,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 232,
+    "mode": "0x0",
+    "input_u16": 99,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 232,
+    "mode": "0x0",
+    "input_u16": 100,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 232,
+    "mode": "0x0",
+    "input_u16": 199,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 232,
+    "mode": "0x0",
+    "input_u16": 20000,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 232,
+    "mode": "0x0",
+    "input_u16": 20001,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 232,
+    "mode": "0x0",
+    "input_u16": 24000,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 232,
+    "mode": "0x0",
+    "input_u16": 24001,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 232,
+    "mode": "0x0",
+    "input_u16": 64000,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 232,
+    "mode": "0x0",
+    "input_u16": 64001,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 232,
+    "mode": "0x0",
+    "input_u16": 65535,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 232,
+    "mode": "0xffff",
+    "input_u16": 0,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 232,
+    "mode": "0xffff",
+    "input_u16": 99,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 232,
+    "mode": "0xffff",
+    "input_u16": 100,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 232,
+    "mode": "0xffff",
+    "input_u16": 199,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 232,
+    "mode": "0xffff",
+    "input_u16": 20000,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 232,
+    "mode": "0xffff",
+    "input_u16": 20001,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 232,
+    "mode": "0xffff",
+    "input_u16": 24000,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 232,
+    "mode": "0xffff",
+    "input_u16": 24001,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 232,
+    "mode": "0xffff",
+    "input_u16": 64000,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 232,
+    "mode": "0xffff",
+    "input_u16": 64001,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 232,
+    "mode": "0xffff",
+    "input_u16": 65535,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 233,
+    "mode": "0xe000",
+    "input_u16": 0,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 233,
+    "mode": "0xe000",
+    "input_u16": 99,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 233,
+    "mode": "0xe000",
+    "input_u16": 100,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 233,
+    "mode": "0xe000",
+    "input_u16": 199,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 233,
+    "mode": "0xe000",
+    "input_u16": 20000,
+    "gains": {
+      "pidk_p": 200,
+      "pidk_acc": 200,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 233,
+    "mode": "0xe000",
+    "input_u16": 20001,
+    "gains": {
+      "pidk_p": 200,
+      "pidk_acc": 200,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 233,
+    "mode": "0xe000",
+    "input_u16": 24000,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 240,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 233,
+    "mode": "0xe000",
+    "input_u16": 24001,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 240,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 233,
+    "mode": "0xe000",
+    "input_u16": 64000,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 233,
+    "mode": "0xe000",
+    "input_u16": 64001,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 233,
+    "mode": "0xe000",
+    "input_u16": 65535,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 233,
+    "mode": "0xe001",
+    "input_u16": 0,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 233,
+    "mode": "0xe001",
+    "input_u16": 99,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 233,
+    "mode": "0xe001",
+    "input_u16": 100,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 233,
+    "mode": "0xe001",
+    "input_u16": 199,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 233,
+    "mode": "0xe001",
+    "input_u16": 20000,
+    "gains": {
+      "pidk_p": 200,
+      "pidk_acc": 200,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 233,
+    "mode": "0xe001",
+    "input_u16": 20001,
+    "gains": {
+      "pidk_p": 200,
+      "pidk_acc": 200,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 233,
+    "mode": "0xe001",
+    "input_u16": 24000,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 240,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 233,
+    "mode": "0xe001",
+    "input_u16": 24001,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 240,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 233,
+    "mode": "0xe001",
+    "input_u16": 64000,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 233,
+    "mode": "0xe001",
+    "input_u16": 64001,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 233,
+    "mode": "0xe001",
+    "input_u16": 65535,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 233,
+    "mode": "0xe002",
+    "input_u16": 0,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 233,
+    "mode": "0xe002",
+    "input_u16": 99,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 233,
+    "mode": "0xe002",
+    "input_u16": 100,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 233,
+    "mode": "0xe002",
+    "input_u16": 199,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 233,
+    "mode": "0xe002",
+    "input_u16": 20000,
+    "gains": {
+      "pidk_p": 200,
+      "pidk_acc": 200,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 233,
+    "mode": "0xe002",
+    "input_u16": 20001,
+    "gains": {
+      "pidk_p": 200,
+      "pidk_acc": 200,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 233,
+    "mode": "0xe002",
+    "input_u16": 24000,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 240,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 233,
+    "mode": "0xe002",
+    "input_u16": 24001,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 240,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 233,
+    "mode": "0xe002",
+    "input_u16": 64000,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 233,
+    "mode": "0xe002",
+    "input_u16": 64001,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 233,
+    "mode": "0xe002",
+    "input_u16": 65535,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 233,
+    "mode": "0x0",
+    "input_u16": 0,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 233,
+    "mode": "0x0",
+    "input_u16": 99,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 233,
+    "mode": "0x0",
+    "input_u16": 100,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 233,
+    "mode": "0x0",
+    "input_u16": 199,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 233,
+    "mode": "0x0",
+    "input_u16": 20000,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 233,
+    "mode": "0x0",
+    "input_u16": 20001,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 233,
+    "mode": "0x0",
+    "input_u16": 24000,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 233,
+    "mode": "0x0",
+    "input_u16": 24001,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 233,
+    "mode": "0x0",
+    "input_u16": 64000,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 233,
+    "mode": "0x0",
+    "input_u16": 64001,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 233,
+    "mode": "0x0",
+    "input_u16": 65535,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 233,
+    "mode": "0xffff",
+    "input_u16": 0,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 233,
+    "mode": "0xffff",
+    "input_u16": 99,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 233,
+    "mode": "0xffff",
+    "input_u16": 100,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 233,
+    "mode": "0xffff",
+    "input_u16": 199,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 233,
+    "mode": "0xffff",
+    "input_u16": 20000,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 233,
+    "mode": "0xffff",
+    "input_u16": 20001,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 233,
+    "mode": "0xffff",
+    "input_u16": 24000,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 233,
+    "mode": "0xffff",
+    "input_u16": 24001,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 233,
+    "mode": "0xffff",
+    "input_u16": 64000,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 233,
+    "mode": "0xffff",
+    "input_u16": 64001,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 233,
+    "mode": "0xffff",
+    "input_u16": 65535,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 235,
+    "mode": "0xe000",
+    "input_u16": 0,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 235,
+    "mode": "0xe000",
+    "input_u16": 99,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 235,
+    "mode": "0xe000",
+    "input_u16": 100,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 235,
+    "mode": "0xe000",
+    "input_u16": 199,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 235,
+    "mode": "0xe000",
+    "input_u16": 20000,
+    "gains": {
+      "pidk_p": 200,
+      "pidk_acc": 200,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 235,
+    "mode": "0xe000",
+    "input_u16": 20001,
+    "gains": {
+      "pidk_p": 200,
+      "pidk_acc": 200,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 235,
+    "mode": "0xe000",
+    "input_u16": 24000,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 240,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 235,
+    "mode": "0xe000",
+    "input_u16": 24001,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 240,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 235,
+    "mode": "0xe000",
+    "input_u16": 64000,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 235,
+    "mode": "0xe000",
+    "input_u16": 64001,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 235,
+    "mode": "0xe000",
+    "input_u16": 65535,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 235,
+    "mode": "0xe001",
+    "input_u16": 0,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 235,
+    "mode": "0xe001",
+    "input_u16": 99,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 235,
+    "mode": "0xe001",
+    "input_u16": 100,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 235,
+    "mode": "0xe001",
+    "input_u16": 199,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 235,
+    "mode": "0xe001",
+    "input_u16": 20000,
+    "gains": {
+      "pidk_p": 200,
+      "pidk_acc": 200,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 235,
+    "mode": "0xe001",
+    "input_u16": 20001,
+    "gains": {
+      "pidk_p": 200,
+      "pidk_acc": 200,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 235,
+    "mode": "0xe001",
+    "input_u16": 24000,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 240,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 235,
+    "mode": "0xe001",
+    "input_u16": 24001,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 240,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 235,
+    "mode": "0xe001",
+    "input_u16": 64000,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 235,
+    "mode": "0xe001",
+    "input_u16": 64001,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 235,
+    "mode": "0xe001",
+    "input_u16": 65535,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 235,
+    "mode": "0xe002",
+    "input_u16": 0,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 235,
+    "mode": "0xe002",
+    "input_u16": 99,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 235,
+    "mode": "0xe002",
+    "input_u16": 100,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 235,
+    "mode": "0xe002",
+    "input_u16": 199,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 235,
+    "mode": "0xe002",
+    "input_u16": 20000,
+    "gains": {
+      "pidk_p": 200,
+      "pidk_acc": 200,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 235,
+    "mode": "0xe002",
+    "input_u16": 20001,
+    "gains": {
+      "pidk_p": 200,
+      "pidk_acc": 200,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 235,
+    "mode": "0xe002",
+    "input_u16": 24000,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 240,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 235,
+    "mode": "0xe002",
+    "input_u16": 24001,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 240,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 235,
+    "mode": "0xe002",
+    "input_u16": 64000,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 235,
+    "mode": "0xe002",
+    "input_u16": 64001,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 235,
+    "mode": "0xe002",
+    "input_u16": 65535,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 235,
+    "mode": "0x0",
+    "input_u16": 0,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 235,
+    "mode": "0x0",
+    "input_u16": 99,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 235,
+    "mode": "0x0",
+    "input_u16": 100,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 235,
+    "mode": "0x0",
+    "input_u16": 199,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 235,
+    "mode": "0x0",
+    "input_u16": 20000,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 235,
+    "mode": "0x0",
+    "input_u16": 20001,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 235,
+    "mode": "0x0",
+    "input_u16": 24000,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 235,
+    "mode": "0x0",
+    "input_u16": 24001,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 235,
+    "mode": "0x0",
+    "input_u16": 64000,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 235,
+    "mode": "0x0",
+    "input_u16": 64001,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 235,
+    "mode": "0x0",
+    "input_u16": 65535,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 235,
+    "mode": "0xffff",
+    "input_u16": 0,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 235,
+    "mode": "0xffff",
+    "input_u16": 99,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 235,
+    "mode": "0xffff",
+    "input_u16": 100,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 235,
+    "mode": "0xffff",
+    "input_u16": 199,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 235,
+    "mode": "0xffff",
+    "input_u16": 20000,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 235,
+    "mode": "0xffff",
+    "input_u16": 20001,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 235,
+    "mode": "0xffff",
+    "input_u16": 24000,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 235,
+    "mode": "0xffff",
+    "input_u16": 24001,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 235,
+    "mode": "0xffff",
+    "input_u16": 64000,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 235,
+    "mode": "0xffff",
+    "input_u16": 64001,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 235,
+    "mode": "0xffff",
+    "input_u16": 65535,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 236,
+    "mode": "0xe000",
+    "input_u16": 0,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 236,
+    "mode": "0xe000",
+    "input_u16": 99,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 236,
+    "mode": "0xe000",
+    "input_u16": 100,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 236,
+    "mode": "0xe000",
+    "input_u16": 199,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 236,
+    "mode": "0xe000",
+    "input_u16": 20000,
+    "gains": {
+      "pidk_p": 200,
+      "pidk_acc": 200,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 236,
+    "mode": "0xe000",
+    "input_u16": 20001,
+    "gains": {
+      "pidk_p": 200,
+      "pidk_acc": 200,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 236,
+    "mode": "0xe000",
+    "input_u16": 24000,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 240,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 236,
+    "mode": "0xe000",
+    "input_u16": 24001,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 240,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 236,
+    "mode": "0xe000",
+    "input_u16": 64000,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 236,
+    "mode": "0xe000",
+    "input_u16": 64001,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 236,
+    "mode": "0xe000",
+    "input_u16": 65535,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 236,
+    "mode": "0xe001",
+    "input_u16": 0,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 236,
+    "mode": "0xe001",
+    "input_u16": 99,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 236,
+    "mode": "0xe001",
+    "input_u16": 100,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 236,
+    "mode": "0xe001",
+    "input_u16": 199,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 236,
+    "mode": "0xe001",
+    "input_u16": 20000,
+    "gains": {
+      "pidk_p": 200,
+      "pidk_acc": 200,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 236,
+    "mode": "0xe001",
+    "input_u16": 20001,
+    "gains": {
+      "pidk_p": 200,
+      "pidk_acc": 200,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 236,
+    "mode": "0xe001",
+    "input_u16": 24000,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 240,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 236,
+    "mode": "0xe001",
+    "input_u16": 24001,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 240,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 236,
+    "mode": "0xe001",
+    "input_u16": 64000,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 236,
+    "mode": "0xe001",
+    "input_u16": 64001,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 236,
+    "mode": "0xe001",
+    "input_u16": 65535,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 236,
+    "mode": "0xe002",
+    "input_u16": 0,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 236,
+    "mode": "0xe002",
+    "input_u16": 99,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 236,
+    "mode": "0xe002",
+    "input_u16": 100,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 236,
+    "mode": "0xe002",
+    "input_u16": 199,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 236,
+    "mode": "0xe002",
+    "input_u16": 20000,
+    "gains": {
+      "pidk_p": 200,
+      "pidk_acc": 200,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 236,
+    "mode": "0xe002",
+    "input_u16": 20001,
+    "gains": {
+      "pidk_p": 200,
+      "pidk_acc": 200,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 236,
+    "mode": "0xe002",
+    "input_u16": 24000,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 240,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 236,
+    "mode": "0xe002",
+    "input_u16": 24001,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 240,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 236,
+    "mode": "0xe002",
+    "input_u16": 64000,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 236,
+    "mode": "0xe002",
+    "input_u16": 64001,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 236,
+    "mode": "0xe002",
+    "input_u16": 65535,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 236,
+    "mode": "0x0",
+    "input_u16": 0,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 236,
+    "mode": "0x0",
+    "input_u16": 99,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 236,
+    "mode": "0x0",
+    "input_u16": 100,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 236,
+    "mode": "0x0",
+    "input_u16": 199,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 236,
+    "mode": "0x0",
+    "input_u16": 20000,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 236,
+    "mode": "0x0",
+    "input_u16": 20001,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 236,
+    "mode": "0x0",
+    "input_u16": 24000,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 236,
+    "mode": "0x0",
+    "input_u16": 24001,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 236,
+    "mode": "0x0",
+    "input_u16": 64000,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 236,
+    "mode": "0x0",
+    "input_u16": 64001,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 236,
+    "mode": "0x0",
+    "input_u16": 65535,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 236,
+    "mode": "0xffff",
+    "input_u16": 0,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 236,
+    "mode": "0xffff",
+    "input_u16": 99,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 236,
+    "mode": "0xffff",
+    "input_u16": 100,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 236,
+    "mode": "0xffff",
+    "input_u16": 199,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 236,
+    "mode": "0xffff",
+    "input_u16": 20000,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 236,
+    "mode": "0xffff",
+    "input_u16": 20001,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 236,
+    "mode": "0xffff",
+    "input_u16": 24000,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 236,
+    "mode": "0xffff",
+    "input_u16": 24001,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 236,
+    "mode": "0xffff",
+    "input_u16": 64000,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 236,
+    "mode": "0xffff",
+    "input_u16": 64001,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 236,
+    "mode": "0xffff",
+    "input_u16": 65535,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 237,
+    "mode": "0xe000",
+    "input_u16": 0,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 237,
+    "mode": "0xe000",
+    "input_u16": 99,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 237,
+    "mode": "0xe000",
+    "input_u16": 100,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 237,
+    "mode": "0xe000",
+    "input_u16": 199,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 237,
+    "mode": "0xe000",
+    "input_u16": 20000,
+    "gains": {
+      "pidk_p": 200,
+      "pidk_acc": 200,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 237,
+    "mode": "0xe000",
+    "input_u16": 20001,
+    "gains": {
+      "pidk_p": 200,
+      "pidk_acc": 200,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 237,
+    "mode": "0xe000",
+    "input_u16": 24000,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 240,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 237,
+    "mode": "0xe000",
+    "input_u16": 24001,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 240,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 237,
+    "mode": "0xe000",
+    "input_u16": 64000,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 237,
+    "mode": "0xe000",
+    "input_u16": 64001,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 237,
+    "mode": "0xe000",
+    "input_u16": 65535,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 237,
+    "mode": "0xe001",
+    "input_u16": 0,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 237,
+    "mode": "0xe001",
+    "input_u16": 99,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 237,
+    "mode": "0xe001",
+    "input_u16": 100,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 237,
+    "mode": "0xe001",
+    "input_u16": 199,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 237,
+    "mode": "0xe001",
+    "input_u16": 20000,
+    "gains": {
+      "pidk_p": 200,
+      "pidk_acc": 200,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 237,
+    "mode": "0xe001",
+    "input_u16": 20001,
+    "gains": {
+      "pidk_p": 200,
+      "pidk_acc": 200,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 237,
+    "mode": "0xe001",
+    "input_u16": 24000,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 240,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 237,
+    "mode": "0xe001",
+    "input_u16": 24001,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 240,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 237,
+    "mode": "0xe001",
+    "input_u16": 64000,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 237,
+    "mode": "0xe001",
+    "input_u16": 64001,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 237,
+    "mode": "0xe001",
+    "input_u16": 65535,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 237,
+    "mode": "0xe002",
+    "input_u16": 0,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 237,
+    "mode": "0xe002",
+    "input_u16": 99,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 237,
+    "mode": "0xe002",
+    "input_u16": 100,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 237,
+    "mode": "0xe002",
+    "input_u16": 199,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 237,
+    "mode": "0xe002",
+    "input_u16": 20000,
+    "gains": {
+      "pidk_p": 200,
+      "pidk_acc": 200,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 237,
+    "mode": "0xe002",
+    "input_u16": 20001,
+    "gains": {
+      "pidk_p": 200,
+      "pidk_acc": 200,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 237,
+    "mode": "0xe002",
+    "input_u16": 24000,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 240,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 237,
+    "mode": "0xe002",
+    "input_u16": 24001,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 240,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 237,
+    "mode": "0xe002",
+    "input_u16": 64000,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 237,
+    "mode": "0xe002",
+    "input_u16": 64001,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 237,
+    "mode": "0xe002",
+    "input_u16": 65535,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 237,
+    "mode": "0x0",
+    "input_u16": 0,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 237,
+    "mode": "0x0",
+    "input_u16": 99,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 237,
+    "mode": "0x0",
+    "input_u16": 100,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 237,
+    "mode": "0x0",
+    "input_u16": 199,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 237,
+    "mode": "0x0",
+    "input_u16": 20000,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 237,
+    "mode": "0x0",
+    "input_u16": 20001,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 237,
+    "mode": "0x0",
+    "input_u16": 24000,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 237,
+    "mode": "0x0",
+    "input_u16": 24001,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 237,
+    "mode": "0x0",
+    "input_u16": 64000,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 237,
+    "mode": "0x0",
+    "input_u16": 64001,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 237,
+    "mode": "0x0",
+    "input_u16": 65535,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 237,
+    "mode": "0xffff",
+    "input_u16": 0,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 237,
+    "mode": "0xffff",
+    "input_u16": 99,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 237,
+    "mode": "0xffff",
+    "input_u16": 100,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 237,
+    "mode": "0xffff",
+    "input_u16": 199,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 237,
+    "mode": "0xffff",
+    "input_u16": 20000,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 237,
+    "mode": "0xffff",
+    "input_u16": 20001,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 237,
+    "mode": "0xffff",
+    "input_u16": 24000,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 237,
+    "mode": "0xffff",
+    "input_u16": 24001,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 237,
+    "mode": "0xffff",
+    "input_u16": 64000,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 237,
+    "mode": "0xffff",
+    "input_u16": 64001,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 237,
+    "mode": "0xffff",
+    "input_u16": 65535,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 239,
+    "mode": "0xe000",
+    "input_u16": 0,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 239,
+    "mode": "0xe000",
+    "input_u16": 99,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 239,
+    "mode": "0xe000",
+    "input_u16": 100,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 239,
+    "mode": "0xe000",
+    "input_u16": 199,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 239,
+    "mode": "0xe000",
+    "input_u16": 20000,
+    "gains": {
+      "pidk_p": 200,
+      "pidk_acc": 200,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 239,
+    "mode": "0xe000",
+    "input_u16": 20001,
+    "gains": {
+      "pidk_p": 200,
+      "pidk_acc": 200,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 239,
+    "mode": "0xe000",
+    "input_u16": 24000,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 240,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 239,
+    "mode": "0xe000",
+    "input_u16": 24001,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 240,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 239,
+    "mode": "0xe000",
+    "input_u16": 64000,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 239,
+    "mode": "0xe000",
+    "input_u16": 64001,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 239,
+    "mode": "0xe000",
+    "input_u16": 65535,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 239,
+    "mode": "0xe001",
+    "input_u16": 0,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 239,
+    "mode": "0xe001",
+    "input_u16": 99,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 239,
+    "mode": "0xe001",
+    "input_u16": 100,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 239,
+    "mode": "0xe001",
+    "input_u16": 199,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 239,
+    "mode": "0xe001",
+    "input_u16": 20000,
+    "gains": {
+      "pidk_p": 200,
+      "pidk_acc": 200,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 239,
+    "mode": "0xe001",
+    "input_u16": 20001,
+    "gains": {
+      "pidk_p": 200,
+      "pidk_acc": 200,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 239,
+    "mode": "0xe001",
+    "input_u16": 24000,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 240,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 239,
+    "mode": "0xe001",
+    "input_u16": 24001,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 240,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 239,
+    "mode": "0xe001",
+    "input_u16": 64000,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 239,
+    "mode": "0xe001",
+    "input_u16": 64001,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 239,
+    "mode": "0xe001",
+    "input_u16": 65535,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 239,
+    "mode": "0xe002",
+    "input_u16": 0,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 239,
+    "mode": "0xe002",
+    "input_u16": 99,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 239,
+    "mode": "0xe002",
+    "input_u16": 100,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 239,
+    "mode": "0xe002",
+    "input_u16": 199,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 239,
+    "mode": "0xe002",
+    "input_u16": 20000,
+    "gains": {
+      "pidk_p": 200,
+      "pidk_acc": 200,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 239,
+    "mode": "0xe002",
+    "input_u16": 20001,
+    "gains": {
+      "pidk_p": 200,
+      "pidk_acc": 200,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 239,
+    "mode": "0xe002",
+    "input_u16": 24000,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 240,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 239,
+    "mode": "0xe002",
+    "input_u16": 24001,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 240,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 239,
+    "mode": "0xe002",
+    "input_u16": 64000,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 239,
+    "mode": "0xe002",
+    "input_u16": 64001,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 239,
+    "mode": "0xe002",
+    "input_u16": 65535,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 239,
+    "mode": "0x0",
+    "input_u16": 0,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 239,
+    "mode": "0x0",
+    "input_u16": 99,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 239,
+    "mode": "0x0",
+    "input_u16": 100,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 239,
+    "mode": "0x0",
+    "input_u16": 199,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 239,
+    "mode": "0x0",
+    "input_u16": 20000,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 239,
+    "mode": "0x0",
+    "input_u16": 20001,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 239,
+    "mode": "0x0",
+    "input_u16": 24000,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 239,
+    "mode": "0x0",
+    "input_u16": 24001,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 239,
+    "mode": "0x0",
+    "input_u16": 64000,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 239,
+    "mode": "0x0",
+    "input_u16": 64001,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 239,
+    "mode": "0x0",
+    "input_u16": 65535,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 239,
+    "mode": "0xffff",
+    "input_u16": 0,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 239,
+    "mode": "0xffff",
+    "input_u16": 99,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 239,
+    "mode": "0xffff",
+    "input_u16": 100,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 239,
+    "mode": "0xffff",
+    "input_u16": 199,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 239,
+    "mode": "0xffff",
+    "input_u16": 20000,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 239,
+    "mode": "0xffff",
+    "input_u16": 20001,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 239,
+    "mode": "0xffff",
+    "input_u16": 24000,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 239,
+    "mode": "0xffff",
+    "input_u16": 24001,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 239,
+    "mode": "0xffff",
+    "input_u16": 64000,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 239,
+    "mode": "0xffff",
+    "input_u16": 64001,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 239,
+    "mode": "0xffff",
+    "input_u16": 65535,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 241,
+    "mode": "0xe000",
+    "input_u16": 0,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 241,
+    "mode": "0xe000",
+    "input_u16": 99,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 241,
+    "mode": "0xe000",
+    "input_u16": 100,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 241,
+    "mode": "0xe000",
+    "input_u16": 199,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 241,
+    "mode": "0xe000",
+    "input_u16": 20000,
+    "gains": {
+      "pidk_p": 200,
+      "pidk_acc": 200,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 241,
+    "mode": "0xe000",
+    "input_u16": 20001,
+    "gains": {
+      "pidk_p": 200,
+      "pidk_acc": 200,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 241,
+    "mode": "0xe000",
+    "input_u16": 24000,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 240,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 241,
+    "mode": "0xe000",
+    "input_u16": 24001,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 240,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 241,
+    "mode": "0xe000",
+    "input_u16": 64000,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 241,
+    "mode": "0xe000",
+    "input_u16": 64001,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 241,
+    "mode": "0xe000",
+    "input_u16": 65535,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 241,
+    "mode": "0xe001",
+    "input_u16": 0,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 241,
+    "mode": "0xe001",
+    "input_u16": 99,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 241,
+    "mode": "0xe001",
+    "input_u16": 100,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 241,
+    "mode": "0xe001",
+    "input_u16": 199,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 241,
+    "mode": "0xe001",
+    "input_u16": 20000,
+    "gains": {
+      "pidk_p": 200,
+      "pidk_acc": 200,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 241,
+    "mode": "0xe001",
+    "input_u16": 20001,
+    "gains": {
+      "pidk_p": 200,
+      "pidk_acc": 200,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 241,
+    "mode": "0xe001",
+    "input_u16": 24000,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 240,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 241,
+    "mode": "0xe001",
+    "input_u16": 24001,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 240,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 241,
+    "mode": "0xe001",
+    "input_u16": 64000,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 241,
+    "mode": "0xe001",
+    "input_u16": 64001,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 241,
+    "mode": "0xe001",
+    "input_u16": 65535,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 241,
+    "mode": "0xe002",
+    "input_u16": 0,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 241,
+    "mode": "0xe002",
+    "input_u16": 99,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 241,
+    "mode": "0xe002",
+    "input_u16": 100,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 241,
+    "mode": "0xe002",
+    "input_u16": 199,
+    "gains": {
+      "pidk_p": 1,
+      "pidk_acc": 1,
+      "k_pcurr": 1,
+      "pidk_speed": 1
+    }
+  },
+  {
+    "version": 241,
+    "mode": "0xe002",
+    "input_u16": 20000,
+    "gains": {
+      "pidk_p": 200,
+      "pidk_acc": 200,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 241,
+    "mode": "0xe002",
+    "input_u16": 20001,
+    "gains": {
+      "pidk_p": 200,
+      "pidk_acc": 200,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 241,
+    "mode": "0xe002",
+    "input_u16": 24000,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 240,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 241,
+    "mode": "0xe002",
+    "input_u16": 24001,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 240,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 241,
+    "mode": "0xe002",
+    "input_u16": 64000,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 241,
+    "mode": "0xe002",
+    "input_u16": 64001,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 241,
+    "mode": "0xe002",
+    "input_u16": 65535,
+    "gains": {
+      "pidk_p": 240,
+      "pidk_acc": 640,
+      "k_pcurr": 200,
+      "pidk_speed": 200
+    }
+  },
+  {
+    "version": 241,
+    "mode": "0x0",
+    "input_u16": 0,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 241,
+    "mode": "0x0",
+    "input_u16": 99,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 241,
+    "mode": "0x0",
+    "input_u16": 100,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 241,
+    "mode": "0x0",
+    "input_u16": 199,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 241,
+    "mode": "0x0",
+    "input_u16": 20000,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 241,
+    "mode": "0x0",
+    "input_u16": 20001,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 241,
+    "mode": "0x0",
+    "input_u16": 24000,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 241,
+    "mode": "0x0",
+    "input_u16": 24001,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 241,
+    "mode": "0x0",
+    "input_u16": 64000,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 241,
+    "mode": "0x0",
+    "input_u16": 64001,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 241,
+    "mode": "0x0",
+    "input_u16": 65535,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 241,
+    "mode": "0xffff",
+    "input_u16": 0,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 241,
+    "mode": "0xffff",
+    "input_u16": 99,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 241,
+    "mode": "0xffff",
+    "input_u16": 100,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 241,
+    "mode": "0xffff",
+    "input_u16": 199,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 241,
+    "mode": "0xffff",
+    "input_u16": 20000,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 241,
+    "mode": "0xffff",
+    "input_u16": 20001,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 241,
+    "mode": "0xffff",
+    "input_u16": 24000,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 241,
+    "mode": "0xffff",
+    "input_u16": 24001,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 241,
+    "mode": "0xffff",
+    "input_u16": 64000,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 241,
+    "mode": "0xffff",
+    "input_u16": 64001,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  },
+  {
+    "version": 241,
+    "mode": "0xffff",
+    "input_u16": 65535,
+    "gains": {
+      "pidk_p": 123,
+      "pidk_acc": 123,
+      "k_pcurr": 123,
+      "pidk_speed": 123
+    }
+  }
+]

@@ -1,0 +1,152 @@
+[
+  {
+    "version": 219,
+    "initial_values_raw": {
+      "k_pcurr": 2,
+      "pidk_cmbfw": 0,
+      "pidk_cmbtn": 1,
+      "pidk_agfac_v": 1,
+      "pidk_ncurr": 1
+    }
+  },
+  {
+    "version": 221,
+    "initial_values_raw": {
+      "k_pcurr": 2,
+      "pidk_cmbfw": 0,
+      "pidk_cmbtn": 1,
+      "pidk_agfac_v": 1,
+      "pidk_ncurr": 1
+    }
+  },
+  {
+    "version": 222,
+    "initial_values_raw": {
+      "k_pcurr": 2,
+      "pidk_cmbfw": 0,
+      "pidk_cmbtn": 1,
+      "pidk_agfac_v": 1,
+      "pidk_ncurr": 1
+    }
+  },
+  {
+    "version": 223,
+    "initial_values_raw": {
+      "k_pcurr": 2,
+      "pidk_cmbfw": 0,
+      "pidk_cmbtn": 1,
+      "pidk_agfac_v": 1,
+      "pidk_ncurr": 1
+    }
+  },
+  {
+    "version": 224,
+    "initial_values_raw": {
+      "k_pcurr": 2,
+      "pidk_cmbfw": 0,
+      "pidk_cmbtn": 1,
+      "pidk_agfac_v": 1,
+      "pidk_ncurr": 1
+    }
+  },
+  {
+    "version": 227,
+    "initial_values_raw": {
+      "k_pcurr": 2,
+      "pidk_cmbfw": 0,
+      "pidk_cmbtn": 1,
+      "pidk_agfac_v": 1,
+      "pidk_ncurr": 1
+    }
+  },
+  {
+    "version": 229,
+    "initial_values_raw": {
+      "k_pcurr": 2,
+      "pidk_cmbfw": 0,
+      "pidk_cmbtn": 0,
+      "pidk_agfac_v": 0,
+      "pidk_ncurr": 0
+    }
+  },
+  {
+    "version": 231,
+    "initial_values_raw": {
+      "k_pcurr": 2,
+      "pidk_cmbfw": 0,
+      "pidk_cmbtn": 0,
+      "pidk_agfac_v": 0,
+      "pidk_ncurr": 0
+    }
+  },
+  {
+    "version": 232,
+    "initial_values_raw": {
+      "k_pcurr": 2,
+      "pidk_cmbfw": 0,
+      "pidk_cmbtn": 0,
+      "pidk_agfac_v": 0,
+      "pidk_ncurr": 0
+    }
+  },
+  {
+    "version": 233,
+    "initial_values_raw": {
+      "k_pcurr": 2,
+      "pidk_cmbfw": 0,
+      "pidk_cmbtn": 0,
+      "pidk_agfac_v": 0,
+      "pidk_ncurr": 0
+    }
+  },
+  {
+    "version": 235,
+    "initial_values_raw": {
+      "k_pcurr": 2,
+      "pidk_cmbfw": 0,
+      "pidk_cmbtn": 0,
+      "pidk_agfac_v": 0,
+      "pidk_ncurr": 0
+    }
+  },
+  {
+    "version": 236,
+    "initial_values_raw": {
+      "k_pcurr": 2,
+      "pidk_cmbfw": 0,
+      "pidk_cmbtn": 0,
+      "pidk_agfac_v": 0,
+      "pidk_ncurr": 0
+    }
+  },
+  {
+    "version": 237,
+    "initial_values_raw": {
+      "k_pcurr": 2,
+      "pidk_cmbfw": 0,
+      "pidk_cmbtn": 0,
+      "pidk_agfac_v": 0,
+      "pidk_ncurr": 0
+    }
+  },
+  {
+    "version": 239,
+    "initial_values_raw": {
+      "k_pcurr": 2,
+      "pidk_cmbfw": 0,
+      "pidk_cmbtn": 0,
+      "pidk_agfac_v": 0,
+      "pidk_ncurr": 0
+    }
+  },
+  {
+    "version": 241,
+    "initial_values_raw": {
+      "k_pcurr": 2,
+      "pidk_cmbfw": 0,
+      "pidk_cmbtn": 0,
+      "pidk_agfac_v": 0,
+      "pidk_ncurr": 0
+    }
+  }
+]
