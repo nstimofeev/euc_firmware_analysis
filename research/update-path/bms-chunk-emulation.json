@@ -1,0 +1,117 @@
+{
+  "original_image": "S22-v236-decrypted.bin",
+  "entry": "0x080169cc",
+  "flash_writer_stub": "0x08017764",
+  "response_queue_stub": "0x0800f638",
+  "cases": [
+    {
+      "case": "one_valid",
+      "length": 32,
+      "return": 536993236,
+      "cursor": 1,
+      "calls": [
+        {
+          "function": "0x8017764",
+          "r0": 0,
+          "r1": 536993256,
+          "r2": 1
+        },
+        {
+          "function": "0x800f638",
+          "r0": 536993236,
+          "r1": 0,
+          "r2": 536993254
+        }
+      ]
+    },
+    {
+      "case": "bad_header_crc",
+      "length": 32,
+      "return": 0,
+      "cursor": 0,
+      "calls": []
+    },
+    {
+      "case": "bad_payload_crc",
+      "length": 32,
+      "return": 536993236,
+      "cursor": 0,
+      "calls": [
+        {
+          "function": "0x800f638",
+          "r0": 536993236,
+          "r1": 0,
+          "r2": 536993254
+        }
+      ]
+    },
+    {
+      "case": "wrong_index",
+      "length": 32,
+      "return": 536993236,
+      "cursor": 0,
+      "calls": [
+        {
+          "function": "0x800f638",
+          "r0": 536993236,
+          "r1": 0,
+          "r2": 536993254
+        }
+      ]
+    },
+    {
+      "case": "zero_count",
+      "length": 20,
+      "return": 536993236,
+      "cursor": 0,
+      "calls": [
+        {
+          "function": "0x8017764",
+          "r0": 0,
+          "r1": 536993256,
+          "r2": 0
+        },
+        {
+          "function": "0x800f638",
+          "r0": 536993236,
+          "r1": 0,
+          "r2": 536993254
+        }
+      ]
+    },
+    {
+      "case": "count_37",
+      "length": 464,
+      "return": 536993236,
+      "cursor": 0,
+      "calls": [
+        {
+          "function": "0x800f638",
+          "r0": 536993236,
+          "r1": 0,
+          "r2": 536993254
+        }
+      ]
+    },
+    {
+      "case": "max_36",
+      "length": 452,
+      "return": 536993236,
+      "cursor": 36,
+      "calls": [
+        {
+          "function": "0x8017764",
+          "r0": 0,
+          "r1": 536993256,
+          "r2": 36
+        },
+        {
+          "function": "0x800f638",
+          "r0": 536993236,
+          "r1": 0,
+          "r2": 536993254
+        }
+      ]
+    }
+  ]
+}

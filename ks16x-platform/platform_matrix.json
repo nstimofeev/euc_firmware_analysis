@@ -1,0 +1,300 @@
+{
+  "as_of": "2026-09-29",
+  "scope": "KingSong KS-16X/KS-16XS/KS-16X Pro hardware identification; no firmware compatibility assignment",
+  "sources": {
+    "ecodrift_preproduction": {
+      "url": "https://ecodrift.ru/2019/06/19/predserijnyj-kingsong-ks-16x-pervye-vpechatleniya/",
+      "published": "2019-06-19",
+      "firsthand": true,
+      "kind": "preproduction hands-on"
+    },
+    "ecodrift_early_teardown": {
+      "url": "https://ecodrift.ru/2019/06/24/kingsong-ks-16x-disassembling/",
+      "published": "2019-06-24",
+      "firsthand": true,
+      "kind": "teardown of preproduction sample"
+    },
+    "ecodrift_16xs_comparison": {
+      "url": "https://ecodrift.ru/2019/12/17/razbiraemsya-v-moshhnosti-dvigatelej-na-primere-kingsong-ks-16x-16xs/",
+      "published": "2019-12-17",
+      "firsthand": true,
+      "kind": "comparative teardown"
+    },
+    "ecodrift_2023_teardown": {
+      "url": "https://ecodrift.ru/2023/07/21/kingsong-16x-razbiraem/",
+      "published": "2023-07-21",
+      "firsthand": true,
+      "kind": "teardown of customer wheel"
+    },
+    "ecodrift_14d_pro": {
+      "url": "https://ecodrift.ru/2025/09/29/kingsong-14d-pro-razbiraem/",
+      "published": "2025-09-29",
+      "firsthand": true,
+      "kind": "14D Pro teardown, contextual only"
+    },
+    "kingsong_16x": {
+      "url": "https://kingsongeurope.com/product/kingsong-16x/",
+      "published": null,
+      "accessed": "2026-09-29",
+      "firsthand": true,
+      "kind": "manufacturer specifications"
+    },
+    "kingsong_16xs": {
+      "url": "https://kingsongeurope.com/product/kingsong-16xs/",
+      "published": null,
+      "accessed": "2026-09-29",
+      "firsthand": true,
+      "kind": "manufacturer specifications"
+    },
+    "kingsong_16x_board": {
+      "url": "https://kingsongeurope.com/product/controller-set-4/",
+      "published": null,
+      "accessed": "2026-09-29",
+      "firsthand": true,
+      "kind": "manufacturer parts catalog, P16.000014"
+    },
+    "kingsong_16xs_board": {
+      "url": "https://kingsongeurope.com/product/controller-set-5/",
+      "published": null,
+      "accessed": "2026-09-29",
+      "firsthand": true,
+      "kind": "manufacturer parts catalog, P16.000035"
+    },
+    "kingsong_16xs_motor": {
+      "url": "https://kingsongeurope.com/product/motor-4/",
+      "published": null,
+      "accessed": "2026-09-29",
+      "firsthand": true,
+      "kind": "manufacturer parts catalog, JMAMO00247"
+    },
+    "kingsong_16xs_battery": {
+      "url": "https://kingsongeurope.com/product/battery-pack/",
+      "published": null,
+      "accessed": "2026-09-29",
+      "firsthand": true,
+      "kind": "manufacturer parts catalog, JAABA00002"
+    },
+    "kingsong_16x_pro_release": {
+      "url": "https://www.globenewswire.com/news-release/2025/11/29/3196555/0/en/KINGSONG-Launches-Four-Next-Generation-Electric-Unicycles-Setting-a-New-Benchmark-for-Intelligent-Mobility.html",
+      "published": "2025-11-29",
+      "firsthand": true,
+      "kind": "manufacturer-issued announcement"
+    },
+    "kingsong_16x_pro_manual_copy": {
+      "url": "https://device.report/m/14c611b9d678ea696bfcaf3c74d6491e7a44c7a19e977e90b899b7b57bda55f1_optim.pdf",
+      "published": null,
+      "accessed": "2026-09-29",
+      "firsthand": true,
+      "kind": "copy of KingSong-authored manual, pp. 8-9"
+    },
+    "kingsong_16x_pro_board": {
+      "url": "https://kingsongeurope.com/product/16x-pro-motherboard-set/",
+      "published": null,
+      "accessed": "2026-09-29",
+      "firsthand": true,
+      "kind": "manufacturer parts catalog, P16.000044 / JMAPC00102"
+    },
+    "kingsong_16x_pro_battery": {
+      "url": "https://kingsongeurope.com/product/16x-pro-battery-pack-set/",
+      "published": null,
+      "accessed": "2026-09-29",
+      "firsthand": true,
+      "kind": "manufacturer parts catalog, P16.000038 / two JAABA00074"
+    },
+    "kingsong_16x_pro_motor_listing": {
+      "url": "https://erp.kingsongeurope.com/shop/category/spare-parts-16x-pro-79",
+      "published": null,
+      "accessed": "2026-09-29",
+      "firsthand": true,
+      "kind": "manufacturer parts catalog, motor set P16.000015 listed for 16X and Pro"
+    }
+  },
+  "platform_observations": [
+    {
+      "id": "ks16x_preproduction_2019",
+      "model": "KS-16X",
+      "sample_date": "2019-06",
+      "sample_status": "preproduction",
+      "controller": {
+        "pcb_marking": "KS16X v1.1",
+        "mosfets": null,
+        "mcu": null
+      },
+      "motor": {
+        "magnet_width_mm": 30,
+        "vendor_code": null,
+        "winding": null
+      },
+      "battery": {
+        "packs_observed": 2,
+        "total_Wh": null,
+        "smart_bms": false,
+        "interface": "power, charge, thin overcharge synchronization wire"
+      },
+      "evidence": [
+        "ecodrift_preproduction",
+        "ecodrift_early_teardown"
+      ],
+      "unknown": [
+        "production applicability",
+        "MOSFET count",
+        "MCU",
+        "individual pack label/capacity",
+        "firmware target"
+      ]
+    },
+    {
+      "id": "ks16xs_777_2019",
+      "model": "KS-16XS",
+      "sample_date": "2019-12",
+      "sample_status": "production wheel in firsthand teardown",
+      "controller": {
+        "pcb_marking": "v1.2",
+        "mosfets": 6,
+        "mcu": null,
+        "parts_sku": "P16.000035"
+      },
+      "motor": {
+        "magnet_width_mm": 30,
+        "parts_sku": "JMAMO00247",
+        "motor_set_sku": "P16.000034",
+        "electrical_equivalence_to_16x": null
+      },
+      "battery": {
+        "packs_observed": 1,
+        "total_Wh": 777,
+        "pack_sku": "JAABA00002",
+        "smart_bms": null
+      },
+      "evidence": [
+        "ecodrift_16xs_comparison",
+        "kingsong_16xs",
+        "kingsong_16xs_board",
+        "kingsong_16xs_motor",
+        "kingsong_16xs_battery"
+      ],
+      "unknown": [
+        "MCU",
+        "specific motor winding/Hall phasing",
+        "BMS interface",
+        "firmware target"
+      ]
+    },
+    {
+      "id": "ks16x_1554_2019",
+      "model": "KS-16X",
+      "sample_date": "2019-12",
+      "sample_status": "comparison wheel",
+      "controller": {
+        "pcb_marking": "v1.4",
+        "mosfets": 12,
+        "mcu": null,
+        "parts_sku": "P16.000014"
+      },
+      "motor": {
+        "nominal_W": 2200,
+        "electrical_equivalence_to_16xs": null
+      },
+      "battery": {
+        "packs_observed": 2,
+        "total_Wh": 1554,
+        "smart_bms": null
+      },
+      "evidence": [
+        "ecodrift_16xs_comparison",
+        "kingsong_16x",
+        "kingsong_16x_board"
+      ],
+      "unknown": [
+        "MCU",
+        "motor vendor/winding in this specimen",
+        "specific BMS interface",
+        "firmware target"
+      ]
+    },
+    {
+      "id": "ks16x_2023",
+      "model": "KS-16X",
+      "sample_date": "2023-07",
+      "sample_status": "customer wheel teardown",
+      "controller": {
+        "pcb_marking": "v1.5",
+        "mosfets": null,
+        "mcu": null,
+        "bulk_capacitors": "1000uF 100V"
+      },
+      "motor": {
+        "shell_marking": "KS-16H",
+        "vendor_code": "GF",
+        "winding": "20 strands x 3 turns per tooth",
+        "magnet_width_mm": 30
+      },
+      "battery": {
+        "packs_observed": 2,
+        "total_Wh": null,
+        "smart_bms": null
+      },
+      "evidence": [
+        "ecodrift_2023_teardown"
+      ],
+      "unknown": [
+        "MCU",
+        "MOSFET count",
+        "pack labels",
+        "BMS protocol",
+        "firmware target",
+        "production serial range"
+      ]
+    },
+    {
+      "id": "ks16x_pro_2025",
+      "model": "KS-16X Pro",
+      "launch_date": "2025-11-29",
+      "sample_status": "manufacturer documentation and catalog, not a firsthand 16X Pro teardown",
+      "controller": {
+        "architecture": "modular logic / separate aluminum-substrate driver",
+        "mosfets": 12,
+        "mosfet_package": "TOLL",
+        "mcu": null,
+        "parts_sku": "P16.000044",
+        "controller_sku": "JMAPC00102"
+      },
+      "motor": {
+        "nominal_W": 2200,
+        "advertised_peak_W": 4600,
+        "motor_set_sku": "P16.000015",
+        "replacement_listing_also_16x": true,
+        "electrical_difference_to_16x": null
+      },
+      "battery": {
+        "packs_in_set": 2,
+        "total_Wh": null,
+        "pack_sku": "JAABA00074",
+        "set_sku": "P16.000038",
+        "cells_advertised": "Samsung 35E",
+        "smart_bms": true,
+        "telemetry": "temperature, voltage, current via app",
+        "rated_Wh_in_manual": 1512,
+        "capacity_note": "The inspected user manual lists 1512 Wh; exact pack energy not physically measured."
+      },
+      "evidence": [
+        "kingsong_16x_pro_release",
+        "kingsong_16x_pro_manual_copy",
+        "kingsong_16x_pro_board",
+        "kingsong_16x_pro_battery",
+        "kingsong_16x_pro_motor_listing"
+      ],
+      "unknown": [
+        "MCU",
+        "PCB revision observed in actual 16X Pro",
+        "precise motor internals/Hall phasing",
+        "firmware target"
+      ]
+    }
+  ],
+  "firmware_compatibility": {
+    "all_observations": "unknown",
+    "basis": "No verified manufacturer firmware-to-hardware map, chip identities, bootloader target IDs or cross-flash validation in the cited primary sources. Shared encryption key/base/header, if observed separately, do not establish electrical compatibility."
+  },
+  "caveat": "The user-supplied count >=3 is an investigative lead, not a source establishing three particular KS-16X 1554Wh configurations. A 14D Pro teardown also shows 16XPro Mainboard silkscreen, so silkscreen is not a unique model identifier."
+}

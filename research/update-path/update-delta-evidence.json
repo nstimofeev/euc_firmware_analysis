@@ -1,0 +1,110 @@
+{
+  "uart_dma_irq": [
+    {
+      "version": 235,
+      "entry": "0x08011560",
+      "asserted_literals": [
+        "uVar4 = 0x40 - iVar3;",
+        "DAT_4002005c = 0x40;"
+      ]
+    },
+    {
+      "version": 236,
+      "entry": "0x08011560",
+      "asserted_literals": [
+        "uVar4 = 0x1f0 - iVar3;",
+        "DAT_4002005c = 0x1f0;"
+      ]
+    }
+  ],
+  "uart_dma_init": [
+    {
+      "version": 235,
+      "entry": "0x08011974",
+      "asserted_literals": [
+        "local_54 = 0x40;"
+      ]
+    },
+    {
+      "version": 236,
+      "entry": "0x08011978",
+      "asserted_literals": [
+        "local_54 = 0x1f0;"
+      ]
+    }
+  ],
+  "legacy_dispatch": [
+    {
+      "version": 235,
+      "entry": "0x08011e54",
+      "asserted_literals": [
+        "param_1[0x11] != '\\x10'",
+        "FUN_08016944(local_10);",
+        "DAT_e000ed0c = (uVar8 & 0x700 | 0x5fa0000) + 4;"
+      ]
+    },
+    {
+      "version": 236,
+      "entry": "0x08011e5c",
+      "asserted_literals": [
+        "param_1[0x11] != '\\x10'",
+        "FUN_080169cc(local_10,local_c);",
+        "DAT_e000ed0c = (uVar8 & 0x700 | 0x5fa0000) + 4;"
+      ]
+    }
+  ],
+  "bms_receiver": [
+    {
+      "version": 235,
+      "entry": "0x08016944",
+      "asserted_literals": [
+        "uVar3 == 0x11",
+        "FUN_08017574(DAT_200009ca,local_2c + 2);"
+      ]
+    },
+    {
+      "version": 236,
+      "entry": "0x080169cc",
+      "asserted_literals": [
+        "local_21b == 0x31",
+        "uVar2 < 0x25",
+        "FUN_08017764(DAT_200009ca,auStack_218,uVar2);"
+      ]
+    }
+  ],
+  "bms_writer": [
+    {
+      "version": 235,
+      "entry": "0x08017574",
+      "asserted_literals": [
+        "uVar1 < 3",
+        "param_1 * 0xc + 0x8029008"
+      ]
+    },
+    {
+      "version": 236,
+      "entry": "0x08017764",
+      "asserted_literals": [
+        "uVar2 < param_3",
+        "(param_1 + uVar2) * 0xc + 0x8029008"
+      ]
+    }
+  ],
+  "bms_forward": [
+    {
+      "version": 235,
+      "entry": "0x08018b14",
+      "asserted_literals": [
+        "0x80"
+      ]
+    },
+    {
+      "version": 236,
+      "entry": "0x08018d20",
+      "asserted_literals": [
+        "uVar3 = 0x84;",
+        "param_2 + 0x8029008 + uVar1"
+      ]
+    }
+  ]
+}

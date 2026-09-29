@@ -1,0 +1,51 @@
+[
+  {
+    "from": 212,
+    "to": 220,
+    "from_bytes": 100224,
+    "to_bytes": 101248,
+    "same_offset_equal_bytes": 16192,
+    "overlap_bytes": 100224,
+    "same_offset_equal_fraction": 0.161558,
+    "first_changed_offset": "0x0",
+    "descriptor_count_from": 107,
+    "descriptor_count_to": 107,
+    "descriptor_names_added": [],
+    "descriptor_names_removed": [],
+    "candidate_variant_strings_from": [
+      "KS16X1",
+      "KS16X4"
+    ],
+    "candidate_variant_strings_to": [
+      "KS16X1",
+      "KS16X9"
+    ],
+    "note": "Same-offset byte comparison is not a function-level diff: insertion and linker layout shifts change downstream offsets."
+  },
+  {
+    "from": 220,
+    "to": 223,
+    "from_bytes": 101248,
+    "to_bytes": 102528,
+    "same_offset_equal_bytes": 24752,
+    "overlap_bytes": 101248,
+    "same_offset_equal_fraction": 0.244469,
+    "first_changed_offset": "0x0",
+    "descriptor_count_from": 107,
+    "descriptor_count_to": 109,
+    "descriptor_names_added": [
+      "adcch_tg_en",
+      "g_averX10_iq"
+    ],
+    "descriptor_names_removed": [],
+    "candidate_variant_strings_from": [
+      "KS16X1",
+      "KS16X9"
+    ],
+    "candidate_variant_strings_to": [
+      "KS16X1",
+      "KS16X9"
+    ],
+    "note": "Same-offset byte comparison is not a function-level diff: insertion and linker layout shifts change downstream offsets."
+  }
+]

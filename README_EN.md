@@ -34,3 +34,7 @@ See `ANALYSIS_EXTENDED_RU.md` for UART diagnostic framing/CRC, energy accounting
 New: `PROFILES_AND_CONTROL_RU.md` documents built-in profiles and speed-dependent gain scheduling across all 15 releases. Version 2.29 changes both profile values and the meaning of k_pcurr (divisor in the old current path, multiplier in the new one). Added 450 scheduling trajectories, 825 selector cases, 45 gating cases and 10 full balance-function synthetic cases. Parallel research model: **KingSong 16X**; see `ROADMAP_RU.md`.
 
 Original/decrypted S22 images and reconstructed initialized RAM are included with explicit owner approval (2026-09-29). RAM files are reconstructed from the firmware, not live-device dumps. Use `FIRMWARE_SHA256SUMS.txt` for binaries and `SHA256SUMS.txt` for the remaining tracked material. S22 and 16X research now proceed in parallel, per the owner's updated instruction.
+
+## Parallel research update, 2026-09-29
+
+`ks16x/` contains the official six-entry catalog (three downloadable images), verified decryption and initial binary analysis. `ks16x-platform/` separates observed hardware variants from unknown firmware compatibility. New S22 reports cover BMS warning-level changes (`research/warnings/`), large-block update staging (`research/update-path/`) and conditional task timing (`research/units-timing/`). All publication is owner-authorized; original/decrypted images and reconstructed RAM are included.

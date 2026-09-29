@@ -1,0 +1,15 @@
+{
+  "endpoint": "https://www.kingsong.vip/index.php/api/firmware/getVersionInfo",
+  "method": "POST",
+  "fields": {
+    "firmwareName": "KS-16X",
+    "firmwareVersion": "223",
+    "apiversions": "1.39",
+    "lang": "en",
+    "key": ""
+  },
+  "retrieved_utc": "2026-09-29T02:43:05.586147+00:00",
+  "http_status": 200,
+  "content_type": "application/json",
+  "response_sha256": "11cbb349d8b3d9f128b104d97856a16f822ea906dc285eeb7651af2c3dad7c00"
+}

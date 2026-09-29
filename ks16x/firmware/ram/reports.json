@@ -1,0 +1,62 @@
+[
+  {
+    "source_sha256": "e8d9514d4c83ebe58ff501b990634670d8428fdd60599d8f545242359d78bf1f",
+    "scatter_record_offset": "0x18498",
+    "compressed_source": "0x80204b8",
+    "ram_base": "0x20000000",
+    "ram_size": 2172,
+    "decompressor": "0x800816c",
+    "initialized_ram_sha256": "819339e4d577f7c837d18d201d93ef19dee51e9412953361fba4cb14a7cbe7c1",
+    "model_strings": [
+      {
+        "address": "0x20000829",
+        "text": "KS-16X"
+      },
+      {
+        "address": "0x2000084b",
+        "text": "KSN----------"
+      }
+    ],
+    "image": "KS-16X-v212-decrypted.bin"
+  },
+  {
+    "source_sha256": "46409227bface8b270334a779efb2308a34d32e826b3f88b893a3aaedbbe22f5",
+    "scatter_record_offset": "0x188ac",
+    "compressed_source": "0x80208cc",
+    "ram_base": "0x20000000",
+    "ram_size": 2204,
+    "decompressor": "0x800816c",
+    "initialized_ram_sha256": "896b184a6052c6f63316dfb369e70ebfe0e43ff1f6935eb681fe1782b976f883",
+    "model_strings": [
+      {
+        "address": "0x20000849",
+        "text": "KS-16X"
+      },
+      {
+        "address": "0x2000086b",
+        "text": "KSN----------"
+      }
+    ],
+    "image": "KS-16X-v220-decrypted.bin"
+  },
+  {
+    "source_sha256": "3a8c938c7325d63d9ea54845a99ec7d23c7a2b603a5149a7fdf245eb89d7f215",
+    "scatter_record_offset": "0x18d74",
+    "compressed_source": "0x8020d94",
+    "ram_base": "0x20000000",
+    "ram_size": 2220,
+    "decompressor": "0x800816c",
+    "initialized_ram_sha256": "655406eb5deab20716930b9628bd161a53cbdbc4d9b9987aba43eb5385d55b7d",
+    "model_strings": [
+      {
+        "address": "0x20000859",
+        "text": "KS-16X"
+      },
+      {
+        "address": "0x2000087b",
+        "text": "KSN----------"
+      }
+    ],
+    "image": "KS-16X-v223-decrypted.bin"
+  }
+]

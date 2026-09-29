@@ -1,3 +1,12 @@
+e8d9514d4c83ebe58ff501b990634670d8428fdd60599d8f545242359d78bf1f  ks16x/firmware/KS-16X-v212-decrypted.bin
+804818c3157fb5974c4fe24c929121a1a1b0589ccf2aae36b309bc234be22f7b  ks16x/firmware/KS-16X-v212-original.bin
+46409227bface8b270334a779efb2308a34d32e826b3f88b893a3aaedbbe22f5  ks16x/firmware/KS-16X-v220-decrypted.bin
+085ebfd134b56a1cde8f309bee59468661d8e55fb1f5235bbf62f8474f4237be  ks16x/firmware/KS-16X-v220-original.bin
+3a8c938c7325d63d9ea54845a99ec7d23c7a2b603a5149a7fdf245eb89d7f215  ks16x/firmware/KS-16X-v223-decrypted.bin
+2fddb1c83663db1f465bc4946b420368f848df48e856b01723836d177e27c49e  ks16x/firmware/KS-16X-v223-original.bin
+819339e4d577f7c837d18d201d93ef19dee51e9412953361fba4cb14a7cbe7c1  ks16x/firmware/ram/KS-16X-v212-decrypted-initialized-ram.bin
+896b184a6052c6f63316dfb369e70ebfe0e43ff1f6935eb681fe1782b976f883  ks16x/firmware/ram/KS-16X-v220-decrypted-initialized-ram.bin
+655406eb5deab20716930b9628bd161a53cbdbc4d9b9987aba43eb5385d55b7d  ks16x/firmware/ram/KS-16X-v223-decrypted-initialized-ram.bin
 333fd1b4109cefec10f7be85704b79001d10f091384286189b857f3c36b2fd8b  s22-developer-pack/firmware/decrypted/S22-v219-decrypted.bin
 9ed73bb8545e76b855f2ab6ae40c2531b296c0848f1a939c21a0f6485b884b62  s22-developer-pack/firmware/decrypted/S22-v221-decrypted.bin
 58fb1e96f7ed707d3cf145bb7551a173c1f1bd09541e85dd9bf7f44b92572d68  s22-developer-pack/firmware/decrypted/S22-v222-decrypted.bin

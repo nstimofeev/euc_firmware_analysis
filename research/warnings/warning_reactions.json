@@ -1,0 +1,111 @@
+[
+  {
+    "version": 229,
+    "severe": false,
+    "timeout": false,
+    "output_calls": [],
+    "new_counter": 0,
+    "cooldown": 0
+  },
+  {
+    "version": 229,
+    "severe": false,
+    "timeout": true,
+    "output_calls": [
+      [
+        "0x800fd0e",
+        7
+      ],
+      [
+        "0x8021ebe",
+        14
+      ]
+    ],
+    "new_counter": 0,
+    "cooldown": 200
+  },
+  {
+    "version": 229,
+    "severe": true,
+    "timeout": false,
+    "output_calls": [
+      [
+        "0x800fd0e",
+        7
+      ],
+      [
+        "0x8021ebe",
+        14
+      ]
+    ],
+    "new_counter": 0,
+    "cooldown": 200
+  },
+  {
+    "version": 229,
+    "severe": true,
+    "timeout": true,
+    "output_calls": [
+      [
+        "0x800fd0e",
+        7
+      ],
+      [
+        "0x8021ebe",
+        14
+      ]
+    ],
+    "new_counter": 0,
+    "cooldown": 200
+  },
+  {
+    "version": 231,
+    "severe": false,
+    "timeout": false,
+    "output_calls": [],
+    "new_counter": 0,
+    "cooldown": 0
+  },
+  {
+    "version": 231,
+    "severe": false,
+    "timeout": true,
+    "output_calls": [],
+    "new_counter": 0,
+    "cooldown": 0
+  },
+  {
+    "version": 231,
+    "severe": true,
+    "timeout": false,
+    "output_calls": [
+      [
+        "0x800fd02",
+        7
+      ],
+      [
+        "0x8022172",
+        14
+      ]
+    ],
+    "new_counter": 0,
+    "cooldown": 200
+  },
+  {
+    "version": 231,
+    "severe": true,
+    "timeout": true,
+    "output_calls": [
+      [
+        "0x800fd02",
+        7
+      ],
+      [
+        "0x8022172",
+        14
+      ]
+    ],
+    "new_counter": 0,
+    "cooldown": 200
+  }
+]

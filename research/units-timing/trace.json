@@ -1,0 +1,254 @@
+{
+  "source": "Ghidra C and function-call exports, original decrypted binary/initialized RAM",
+  "profile_tasks": [
+    {
+      "version": 219,
+      "profile_schedule": "0x080148b0",
+      "wrapper": "0x08015840",
+      "task_loop": "0x0800a292",
+      "wait_function": "0x08009880",
+      "wait_timeout_ticks": 100,
+      "clock": {
+        "initialized_clock_word_0x20000000": 72000000,
+        "systick_vector_15": "0x0800a075",
+        "systick_handler": "0x0800a074",
+        "systick_reload_nominal": 719999,
+        "tick_hz_conditional_on_72MHz_hclk": 100
+      }
+    },
+    {
+      "version": 221,
+      "profile_schedule": "0x08014de0",
+      "wrapper": "0x08015d78",
+      "task_loop": "0x0800a292",
+      "wait_function": "0x08009880",
+      "wait_timeout_ticks": 100,
+      "clock": {
+        "initialized_clock_word_0x20000000": 72000000,
+        "systick_vector_15": "0x0800a075",
+        "systick_handler": "0x0800a074",
+        "systick_reload_nominal": 719999,
+        "tick_hz_conditional_on_72MHz_hclk": 100
+      }
+    },
+    {
+      "version": 222,
+      "profile_schedule": "0x08014e98",
+      "wrapper": "0x08015e3e",
+      "task_loop": "0x0800a292",
+      "wait_function": "0x08009880",
+      "wait_timeout_ticks": 100,
+      "clock": {
+        "initialized_clock_word_0x20000000": 72000000,
+        "systick_vector_15": "0x0800a075",
+        "systick_handler": "0x0800a074",
+        "systick_reload_nominal": 719999,
+        "tick_hz_conditional_on_72MHz_hclk": 100
+      }
+    },
+    {
+      "version": 223,
+      "profile_schedule": "0x08014e78",
+      "wrapper": "0x08015e1e",
+      "task_loop": "0x0800a292",
+      "wait_function": "0x08009880",
+      "wait_timeout_ticks": 100,
+      "clock": {
+        "initialized_clock_word_0x20000000": 72000000,
+        "systick_vector_15": "0x0800a075",
+        "systick_handler": "0x0800a074",
+        "systick_reload_nominal": 719999,
+        "tick_hz_conditional_on_72MHz_hclk": 100
+      }
+    },
+    {
+      "version": 224,
+      "profile_schedule": "0x08014e78",
+      "wrapper": "0x08015e58",
+      "task_loop": "0x0800a292",
+      "wait_function": "0x08009880",
+      "wait_timeout_ticks": 100,
+      "clock": {
+        "initialized_clock_word_0x20000000": 72000000,
+        "systick_vector_15": "0x0800a075",
+        "systick_handler": "0x0800a074",
+        "systick_reload_nominal": 719999,
+        "tick_hz_conditional_on_72MHz_hclk": 100
+      }
+    },
+    {
+      "version": 227,
+      "profile_schedule": "0x08014f6c",
+      "wrapper": "0x08015f4c",
+      "task_loop": "0x0800a292",
+      "wait_function": "0x08009880",
+      "wait_timeout_ticks": 100,
+      "clock": {
+        "initialized_clock_word_0x20000000": 72000000,
+        "systick_vector_15": "0x0800a075",
+        "systick_handler": "0x0800a074",
+        "systick_reload_nominal": 719999,
+        "tick_hz_conditional_on_72MHz_hclk": 100
+      }
+    },
+    {
+      "version": 229,
+      "profile_schedule": "0x080151dc",
+      "wrapper": "0x08016258",
+      "task_loop": "0x0800a292",
+      "wait_function": "0x08009880",
+      "wait_timeout_ticks": 100,
+      "clock": {
+        "initialized_clock_word_0x20000000": 72000000,
+        "systick_vector_15": "0x0800a075",
+        "systick_handler": "0x0800a074",
+        "systick_reload_nominal": 719999,
+        "tick_hz_conditional_on_72MHz_hclk": 100
+      }
+    },
+    {
+      "version": 231,
+      "profile_schedule": "0x080151c4",
+      "wrapper": "0x0801626c",
+      "task_loop": "0x0800a292",
+      "wait_function": "0x08009880",
+      "wait_timeout_ticks": 100,
+      "clock": {
+        "initialized_clock_word_0x20000000": 72000000,
+        "systick_vector_15": "0x0800a075",
+        "systick_handler": "0x0800a074",
+        "systick_reload_nominal": 719999,
+        "tick_hz_conditional_on_72MHz_hclk": 100
+      }
+    },
+    {
+      "version": 232,
+      "profile_schedule": "0x080152d8",
+      "wrapper": "0x08016380",
+      "task_loop": "0x0800a292",
+      "wait_function": "0x08009880",
+      "wait_timeout_ticks": 100,
+      "clock": {
+        "initialized_clock_word_0x20000000": 72000000,
+        "systick_vector_15": "0x0800a075",
+        "systick_handler": "0x0800a074",
+        "systick_reload_nominal": 719999,
+        "tick_hz_conditional_on_72MHz_hclk": 100
+      }
+    },
+    {
+      "version": 233,
+      "profile_schedule": "0x080211bc",
+      "wrapper": "0x0801e744",
+      "task_loop": "0x08016894",
+      "wait_function": "0x0800dca8",
+      "wait_timeout_ticks": 100,
+      "clock": {
+        "initialized_clock_word_0x20000000": 72000000,
+        "systick_vector_15": "0x0800e3a9",
+        "systick_handler": "0x0800e3a8",
+        "systick_reload_nominal": 719999,
+        "tick_hz_conditional_on_72MHz_hclk": 100
+      }
+    },
+    {
+      "version": 235,
+      "profile_schedule": "0x08021398",
+      "wrapper": "0x0801e880",
+      "task_loop": "0x08016894",
+      "wait_function": "0x0800dca8",
+      "wait_timeout_ticks": 100,
+      "clock": {
+        "initialized_clock_word_0x20000000": 72000000,
+        "systick_vector_15": "0x0800e3a9",
+        "systick_handler": "0x0800e3a8",
+        "systick_reload_nominal": 719999,
+        "tick_hz_conditional_on_72MHz_hclk": 100
+      }
+    },
+    {
+      "version": 236,
+      "profile_schedule": "0x080215e8",
+      "wrapper": "0x0801eacc",
+      "task_loop": "0x0801691c",
+      "wait_function": "0x0800dca8",
+      "wait_timeout_ticks": 100,
+      "clock": {
+        "initialized_clock_word_0x20000000": 72000000,
+        "systick_vector_15": "0x0800e3a9",
+        "systick_handler": "0x0800e3a8",
+        "systick_reload_nominal": 719999,
+        "tick_hz_conditional_on_72MHz_hclk": 100
+      }
+    },
+    {
+      "version": 237,
+      "profile_schedule": "0x0802174c",
+      "wrapper": "0x0801ec10",
+      "task_loop": "0x08016960",
+      "wait_function": "0x0800dca8",
+      "wait_timeout_ticks": 100,
+      "clock": {
+        "initialized_clock_word_0x20000000": 72000000,
+        "systick_vector_15": "0x0800e3a9",
+        "systick_handler": "0x0800e3a8",
+        "systick_reload_nominal": 719999,
+        "tick_hz_conditional_on_72MHz_hclk": 100
+      }
+    },
+    {
+      "version": 239,
+      "profile_schedule": "0x0802175c",
+      "wrapper": "0x0801ec20",
+      "task_loop": "0x08016970",
+      "wait_function": "0x0800dcb0",
+      "wait_timeout_ticks": 100,
+      "clock": {
+        "initialized_clock_word_0x20000000": 72000000,
+        "systick_vector_15": "0x0800e3b1",
+        "systick_handler": "0x0800e3b0",
+        "systick_reload_nominal": 719999,
+        "tick_hz_conditional_on_72MHz_hclk": 100
+      }
+    },
+    {
+      "version": 241,
+      "profile_schedule": "0x08021d44",
+      "wrapper": "0x0801f1ec",
+      "task_loop": "0x0801640c",
+      "wait_function": "0x0800de8c",
+      "wait_timeout_ticks": 100,
+      "clock": {
+        "initialized_clock_word_0x20000000": 72000000,
+        "systick_vector_15": "0x0800e58d",
+        "systick_handler": "0x0800e58c",
+        "systick_reload_nominal": 719999,
+        "tick_hz_conditional_on_72MHz_hclk": 100
+      }
+    }
+  ],
+  "charge_v237": {
+    "state_machine": "0x0801b3b4",
+    "wrapper": "0x0802479c",
+    "task_loop": "0x08009ea8",
+    "wait_timeout_ticks": 100,
+    "state20_strict_threshold": 1800,
+    "state20_saturation": 2000
+  },
+  "clock_v237": {
+    "initialized_clock_word_0x20000000": 72000000,
+    "systick_vector_15": "0x0800e3a9",
+    "systick_handler": "0x0800e3a8",
+    "systick_reload_nominal": 719999,
+    "tick_hz_conditional_on_72MHz_hclk": 100,
+    "setup": "0x0800e3d0",
+    "tick_decrement": "0x0800e2b4",
+    "wait": "0x0800dca8"
+  },
+  "speed_v237": {
+    "hall_to_filtered_raw": "((HallRSP*78400)/15000 + old*9)/10",
+    "raw_to_VehicleSpeed": "(filtered_raw + old_VehicleSpeed*4)/5",
+    "configured_limit": "config_byte * 1000",
+    "telemetry_field": "VehicleSpeed / 100"
+  }
+}

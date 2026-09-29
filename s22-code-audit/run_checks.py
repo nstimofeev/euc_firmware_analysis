@@ -2,7 +2,7 @@
 import json,subprocess,sys
 from pathlib import Path
 HERE=Path(__file__).resolve().parent
-for script in ['verify_sources.py','emulate_limiter.py','emulate_transition.py','emulate_mileage.py','emulate_battery_average.py','emulate_diagnostics.py','emulate_energy.py','emulate_light_memory.py','emulate_charge_recovery.py','emulate_diagnostic_path.py','emulate_config_storage.py','emulate_timer_setup.py','emulate_bms_frames.py','verify_extended_parameters.py','emulate_current_rescaling.py','extract_profile_map.py','emulate_profiles.py','emulate_current_gain_semantics.py']:
+for script in ['verify_sources.py','emulate_limiter.py','emulate_transition.py','emulate_mileage.py','emulate_battery_average.py','emulate_diagnostics.py','emulate_energy.py','emulate_light_memory.py','emulate_charge_recovery.py','emulate_diagnostic_path.py','emulate_config_storage.py','emulate_timer_setup.py','emulate_bms_frames.py','verify_extended_parameters.py','emulate_current_rescaling.py','extract_profile_map.py','emulate_profiles.py','emulate_current_gain_semantics.py','../research/warnings/emulate_warning_groups.py','../research/update-path/verify_update_delta.py','../research/update-path/emulate_bms_chunk.py','../research/units-timing/trace_timing_speed.py','../research/charge-early/emulate_charge_early.py']:
  p=subprocess.run([sys.executable,str(HERE/script)],text=True,capture_output=True)
  if p.returncode:
   print(p.stdout);print(p.stderr);raise SystemExit(p.returncode)

@@ -1,0 +1,1171 @@
+[
+  {
+    "version": "223",
+    "file": "2024/01/18/KS_16X_20240116V223_big_aes$2024-01-18-10-03-04.bin",
+    "introduction": "主板大包升级跳转配合",
+    "createtime": "1705543430",
+    "status": "1",
+    "useRange": "1",
+    "download": {
+      "url": "https://www.kingsong.vip/upload/firmware/2024/01/18/KS_16X_20240116V223_big_aes$2024-01-18-10-03-04.bin",
+      "bytes": 102528,
+      "sha256": "2fddb1c83663db1f465bc4946b420368f848df48e856b01723836d177e27c49e",
+      "local_name": "KS-16X-v223-original.bin"
+    },
+    "format_tests": [
+      {
+        "method": "as_downloaded",
+        "valid_vector_candidates": []
+      },
+      {
+        "method": "s22_aes256_cbc_zero_iv_full_length",
+        "valid_vector_candidates": [
+          {
+            "base": "0x8008000",
+            "initial_sp": "0x20005f50",
+            "reset_handler": "0x800820d",
+            "plausible_handlers_of_15": 10,
+            "string_pointer_references": 109,
+            "first_16_vectors": [
+              "0x20005f50",
+              "0x800820d",
+              "0x8008215",
+              "0x800a469",
+              "0x8008219",
+              "0x800821b",
+              "0x800821d",
+              "0x0",
+              "0x0",
+              "0x0",
+              "0x0",
+              "0x800821f",
+              "0x8008221",
+              "0x0",
+              "0x800828f",
+              "0x800a075"
+            ]
+          },
+          {
+            "base": "0x8000000",
+            "initial_sp": "0x20005f50",
+            "reset_handler": "0x800820d",
+            "plausible_handlers_of_15": 10,
+            "string_pointer_references": 0,
+            "first_16_vectors": [
+              "0x20005f50",
+              "0x800820d",
+              "0x8008215",
+              "0x800a469",
+              "0x8008219",
+              "0x800821b",
+              "0x800821d",
+              "0x0",
+              "0x0",
+              "0x0",
+              "0x0",
+              "0x800821f",
+              "0x8008221",
+              "0x0",
+              "0x800828f",
+              "0x800a075"
+            ]
+          },
+          {
+            "base": "0x8004000",
+            "initial_sp": "0x20005f50",
+            "reset_handler": "0x800820d",
+            "plausible_handlers_of_15": 10,
+            "string_pointer_references": 0,
+            "first_16_vectors": [
+              "0x20005f50",
+              "0x800820d",
+              "0x8008215",
+              "0x800a469",
+              "0x8008219",
+              "0x800821b",
+              "0x800821d",
+              "0x0",
+              "0x0",
+              "0x0",
+              "0x0",
+              "0x800821f",
+              "0x8008221",
+              "0x0",
+              "0x800828f",
+              "0x800a075"
+            ]
+          }
+        ]
+      }
+    ],
+    "image": {
+      "method": "s22_aes256_cbc_zero_iv_full_length",
+      "bytes": 102528,
+      "sha256": "3a8c938c7325d63d9ea54845a99ec7d23c7a2b603a5149a7fdf245eb89d7f215",
+      "base_candidate": "0x8008000",
+      "vector": {
+        "base": "0x8008000",
+        "initial_sp": "0x20005f50",
+        "reset_handler": "0x800820d",
+        "plausible_handlers_of_15": 10,
+        "string_pointer_references": 109,
+        "first_16_vectors": [
+          "0x20005f50",
+          "0x800820d",
+          "0x8008215",
+          "0x800a469",
+          "0x8008219",
+          "0x800821b",
+          "0x800821d",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x800821f",
+          "0x8008221",
+          "0x0",
+          "0x800828f",
+          "0x800a075"
+        ]
+      },
+      "ascii_string_count": 434,
+      "diagnostic_candidate_count": 109,
+      "diagnostic_names": [
+        "pidk_acc",
+        "pidk_p",
+        "pidk_speed",
+        "k_pcurr",
+        "pidk_cmbfw",
+        "pidk_cmbtn",
+        "pidk_agfac_v",
+        "pidk_ncurr",
+        "halldebugflg",
+        "halloffset",
+        "cartstep",
+        "motionstep",
+        "motorstep",
+        "HallRSP",
+        "VQ",
+        "VD",
+        "IA",
+        "IB",
+        "IQCurrent",
+        "IDCurrent",
+        "acce_x",
+        "acce_y",
+        "acce_z",
+        "gyro_x",
+        "gyro_y",
+        "gyro_z",
+        "pintch",
+        "pintch_in",
+        "s_acc",
+        "sta_pitch",
+        "fus_roll",
+        "rollacc",
+        "sta_roll",
+        "yaw_acc",
+        "angleoffset_int",
+        "LimitSpeed",
+        "g_winespeed_lv",
+        "rollptag_auto",
+        "PhcurrLimit_set",
+        "PhcurrLimit",
+        "VqIqRateCFG",
+        "VqIqRateRT",
+        "PhcurrLimit_Vq_P",
+        "PhcurrLimit_Vq_N",
+        "BuscurLimit_set",
+        "BuscurLimit",
+        "IbusRateRT",
+        "buscurrcalc",
+        "BusCurrent",
+        "buscurlmt_vq",
+        "VqSpeedRateCFG",
+        "VqSpeedRateRT",
+        "RsSpeedVq",
+        "RtIqVq",
+        "Rpm",
+        "TotalVoltage",
+        "TotalVol_show",
+        "TotalCurrent",
+        "VehicleSpeed",
+        "speedAcc",
+        "VectorVol",
+        "MotorTemp",
+        "MosTemp",
+        "CpuTemp",
+        "GYTemp",
+        "cpuvol",
+        "lightad",
+        "IQCurrent",
+        "HallState",
+        "cpurate",
+        "readoutmeter",
+        "kilometer",
+        "currentmeter",
+        "commbopcurr",
+        "commbospeed0",
+        "manualsetVd",
+        "g_dif_iq",
+        "g_average_iq",
+        "hall_err",
+        "allwarnbit",
+        "AgeModeflg",
+        "AgeChgflg",
+        "AgeStepShow",
+        "ChgStepShow",
+        "ChgCurrShow",
+        "BatState",
+        "adcch_tg_en",
+        "g_averX10_iq",
+        "vttest[0]",
+        "vttest[1]",
+        "vttest[2]",
+        "vttest[3]",
+        "BOOTVERSION",
+        "APPVERSION",
+        "RUNOKFLG",
+        "APPSIZE",
+        "APPCRCCODE",
+        "APPCRCCHECK",
+        "VqSpeedRateCFG",
+        "VqIqRateCFG",
+        "IbusRateCFG",
+        "VqSprate_vpCFG",
+        "VqIqrate_vpCFG",
+        "halloffset",
+        "motor_spdir",
+        "motor_egdir",
+        "readoutmeter",
+        "kilometer",
+        "currentmeter"
+      ],
+      "interesting_strings": [
+        {
+          "offset": "0x1887a",
+          "text": "KS16X9"
+        },
+        {
+          "offset": "0x1888c",
+          "text": "KS16X1"
+        },
+        {
+          "offset": "0x188a0",
+          "text": "commbospeed0"
+        },
+        {
+          "offset": "0x188d0",
+          "text": "VqSpeedRateCFG"
+        },
+        {
+          "offset": "0x18948",
+          "text": "PhcurrLimit_Vq_N"
+        },
+        {
+          "offset": "0x18964",
+          "text": "PhcurrLimit_Vq_P"
+        },
+        {
+          "offset": "0x1897c",
+          "text": "VqSpeedRateRT"
+        },
+        {
+          "offset": "0x189f8",
+          "text": "speedAcc"
+        },
+        {
+          "offset": "0x18a28",
+          "text": "buscurrcalc"
+        },
+        {
+          "offset": "0x18a48",
+          "text": "VehicleSpeed"
+        },
+        {
+          "offset": "0x18a58",
+          "text": "LimitSpeed"
+        },
+        {
+          "offset": "0x18a64",
+          "text": "pidk_speed"
+        },
+        {
+          "offset": "0x18a70",
+          "text": "TotalVoltage"
+        },
+        {
+          "offset": "0x18b6c",
+          "text": "GYTemp"
+        },
+        {
+          "offset": "0x18b74",
+          "text": "MotorTemp"
+        },
+        {
+          "offset": "0x18b80",
+          "text": "MosTemp"
+        },
+        {
+          "offset": "0x18b88",
+          "text": "CpuTemp"
+        },
+        {
+          "offset": "0x18b90",
+          "text": "RsSpeedVq"
+        },
+        {
+          "offset": "0x18bec",
+          "text": "currentmeter"
+        },
+        {
+          "offset": "0x18c30",
+          "text": "pidk_ncurr"
+        },
+        {
+          "offset": "0x18c3c",
+          "text": "k_pcurr"
+        },
+        {
+          "offset": "0x18c44",
+          "text": "commbopcurr"
+        },
+        {
+          "offset": "0x18c50",
+          "text": "PhcurrLimit_set"
+        },
+        {
+          "offset": "0x18c88",
+          "text": "PhcurrLimit"
+        },
+        {
+          "offset": "0x18ca0",
+          "text": "IDCurrent"
+        },
+        {
+          "offset": "0x18cac",
+          "text": "IQCurrent"
+        },
+        {
+          "offset": "0x18cb8",
+          "text": "TotalCurrent"
+        },
+        {
+          "offset": "0x18cc8",
+          "text": "BusCurrent"
+        },
+        {
+          "offset": "0x18cf4",
+          "text": "g_winespeed_lv"
+        },
+        {
+          "offset": "0x18d28",
+          "text": "ChgCurrShow"
+        },
+        {
+          "offset": "0x18d4c",
+          "text": "gyro_x"
+        },
+        {
+          "offset": "0x18d5c",
+          "text": "gyro_y"
+        },
+        {
+          "offset": "0x18d6c",
+          "text": "gyro_z"
+        },
+        {
+          "offset": "0x18fb1",
+          "text": "KS-16X"
+        }
+      ]
+    }
+  },
+  {
+    "version": "220",
+    "file": "2022/11/16/2022-11-16-09-08-59.bin",
+    "introduction": "new gyro ,baterry high temperature alarm code 234",
+    "createtime": "1666695773",
+    "status": "1",
+    "useRange": "1",
+    "download": {
+      "url": "https://www.kingsong.vip/upload/firmware/2022/11/16/2022-11-16-09-08-59.bin",
+      "bytes": 101248,
+      "sha256": "085ebfd134b56a1cde8f309bee59468661d8e55fb1f5235bbf62f8474f4237be",
+      "local_name": "KS-16X-v220-original.bin"
+    },
+    "format_tests": [
+      {
+        "method": "as_downloaded",
+        "valid_vector_candidates": []
+      },
+      {
+        "method": "s22_aes256_cbc_zero_iv_full_length",
+        "valid_vector_candidates": [
+          {
+            "base": "0x8008000",
+            "initial_sp": "0x20005f40",
+            "reset_handler": "0x800820d",
+            "plausible_handlers_of_15": 10,
+            "string_pointer_references": 107,
+            "first_16_vectors": [
+              "0x20005f40",
+              "0x800820d",
+              "0x8008215",
+              "0x800a469",
+              "0x8008219",
+              "0x800821b",
+              "0x800821d",
+              "0x0",
+              "0x0",
+              "0x0",
+              "0x0",
+              "0x800821f",
+              "0x8008221",
+              "0x0",
+              "0x800828f",
+              "0x800a075"
+            ]
+          },
+          {
+            "base": "0x8000000",
+            "initial_sp": "0x20005f40",
+            "reset_handler": "0x800820d",
+            "plausible_handlers_of_15": 10,
+            "string_pointer_references": 0,
+            "first_16_vectors": [
+              "0x20005f40",
+              "0x800820d",
+              "0x8008215",
+              "0x800a469",
+              "0x8008219",
+              "0x800821b",
+              "0x800821d",
+              "0x0",
+              "0x0",
+              "0x0",
+              "0x0",
+              "0x800821f",
+              "0x8008221",
+              "0x0",
+              "0x800828f",
+              "0x800a075"
+            ]
+          },
+          {
+            "base": "0x8004000",
+            "initial_sp": "0x20005f40",
+            "reset_handler": "0x800820d",
+            "plausible_handlers_of_15": 10,
+            "string_pointer_references": 0,
+            "first_16_vectors": [
+              "0x20005f40",
+              "0x800820d",
+              "0x8008215",
+              "0x800a469",
+              "0x8008219",
+              "0x800821b",
+              "0x800821d",
+              "0x0",
+              "0x0",
+              "0x0",
+              "0x0",
+              "0x800821f",
+              "0x8008221",
+              "0x0",
+              "0x800828f",
+              "0x800a075"
+            ]
+          }
+        ]
+      }
+    ],
+    "image": {
+      "method": "s22_aes256_cbc_zero_iv_full_length",
+      "bytes": 101248,
+      "sha256": "46409227bface8b270334a779efb2308a34d32e826b3f88b893a3aaedbbe22f5",
+      "base_candidate": "0x8008000",
+      "vector": {
+        "base": "0x8008000",
+        "initial_sp": "0x20005f40",
+        "reset_handler": "0x800820d",
+        "plausible_handlers_of_15": 10,
+        "string_pointer_references": 107,
+        "first_16_vectors": [
+          "0x20005f40",
+          "0x800820d",
+          "0x8008215",
+          "0x800a469",
+          "0x8008219",
+          "0x800821b",
+          "0x800821d",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x800821f",
+          "0x8008221",
+          "0x0",
+          "0x800828f",
+          "0x800a075"
+        ]
+      },
+      "ascii_string_count": 435,
+      "diagnostic_candidate_count": 107,
+      "diagnostic_names": [
+        "pidk_acc",
+        "pidk_p",
+        "pidk_speed",
+        "k_pcurr",
+        "pidk_cmbfw",
+        "pidk_cmbtn",
+        "pidk_agfac_v",
+        "pidk_ncurr",
+        "halldebugflg",
+        "halloffset",
+        "cartstep",
+        "motionstep",
+        "motorstep",
+        "HallRSP",
+        "VQ",
+        "VD",
+        "IA",
+        "IB",
+        "IQCurrent",
+        "IDCurrent",
+        "acce_x",
+        "acce_y",
+        "acce_z",
+        "gyro_x",
+        "gyro_y",
+        "gyro_z",
+        "pintch",
+        "pintch_in",
+        "s_acc",
+        "sta_pitch",
+        "fus_roll",
+        "rollacc",
+        "sta_roll",
+        "yaw_acc",
+        "angleoffset_int",
+        "LimitSpeed",
+        "g_winespeed_lv",
+        "rollptag_auto",
+        "PhcurrLimit_set",
+        "PhcurrLimit",
+        "VqIqRateCFG",
+        "VqIqRateRT",
+        "PhcurrLimit_Vq_P",
+        "PhcurrLimit_Vq_N",
+        "BuscurLimit_set",
+        "BuscurLimit",
+        "IbusRateRT",
+        "buscurrcalc",
+        "BusCurrent",
+        "buscurlmt_vq",
+        "VqSpeedRateCFG",
+        "VqSpeedRateRT",
+        "RsSpeedVq",
+        "RtIqVq",
+        "Rpm",
+        "TotalVoltage",
+        "TotalVol_show",
+        "TotalCurrent",
+        "VehicleSpeed",
+        "speedAcc",
+        "VectorVol",
+        "MotorTemp",
+        "MosTemp",
+        "CpuTemp",
+        "GYTemp",
+        "cpuvol",
+        "lightad",
+        "IQCurrent",
+        "HallState",
+        "cpurate",
+        "readoutmeter",
+        "kilometer",
+        "currentmeter",
+        "commbopcurr",
+        "commbospeed0",
+        "manualsetVd",
+        "g_dif_iq",
+        "g_average_iq",
+        "hall_err",
+        "allwarnbit",
+        "AgeModeflg",
+        "AgeChgflg",
+        "AgeStepShow",
+        "ChgStepShow",
+        "ChgCurrShow",
+        "BatState",
+        "vttest[0]",
+        "vttest[1]",
+        "vttest[2]",
+        "vttest[3]",
+        "BOOTVERSION",
+        "APPVERSION",
+        "RUNOKFLG",
+        "APPSIZE",
+        "APPCRCCODE",
+        "APPCRCCHECK",
+        "VqSpeedRateCFG",
+        "VqIqRateCFG",
+        "IbusRateCFG",
+        "VqSprate_vpCFG",
+        "VqIqrate_vpCFG",
+        "halloffset",
+        "motor_spdir",
+        "motor_egdir",
+        "readoutmeter",
+        "kilometer",
+        "currentmeter"
+      ],
+      "interesting_strings": [
+        {
+          "offset": "0x183ce",
+          "text": "KS16X9"
+        },
+        {
+          "offset": "0x183e0",
+          "text": "KS16X1"
+        },
+        {
+          "offset": "0x183f4",
+          "text": "commbospeed0"
+        },
+        {
+          "offset": "0x18424",
+          "text": "VqSpeedRateCFG"
+        },
+        {
+          "offset": "0x1849c",
+          "text": "PhcurrLimit_Vq_N"
+        },
+        {
+          "offset": "0x184b8",
+          "text": "PhcurrLimit_Vq_P"
+        },
+        {
+          "offset": "0x184d0",
+          "text": "VqSpeedRateRT"
+        },
+        {
+          "offset": "0x1854c",
+          "text": "speedAcc"
+        },
+        {
+          "offset": "0x1857c",
+          "text": "buscurrcalc"
+        },
+        {
+          "offset": "0x1859c",
+          "text": "VehicleSpeed"
+        },
+        {
+          "offset": "0x185ac",
+          "text": "LimitSpeed"
+        },
+        {
+          "offset": "0x185b8",
+          "text": "pidk_speed"
+        },
+        {
+          "offset": "0x185c4",
+          "text": "TotalVoltage"
+        },
+        {
+          "offset": "0x186b4",
+          "text": "GYTemp"
+        },
+        {
+          "offset": "0x186bc",
+          "text": "MotorTemp"
+        },
+        {
+          "offset": "0x186c8",
+          "text": "MosTemp"
+        },
+        {
+          "offset": "0x186d0",
+          "text": "CpuTemp"
+        },
+        {
+          "offset": "0x186d8",
+          "text": "RsSpeedVq"
+        },
+        {
+          "offset": "0x18724",
+          "text": "currentmeter"
+        },
+        {
+          "offset": "0x18768",
+          "text": "pidk_ncurr"
+        },
+        {
+          "offset": "0x18774",
+          "text": "k_pcurr"
+        },
+        {
+          "offset": "0x1877c",
+          "text": "commbopcurr"
+        },
+        {
+          "offset": "0x18788",
+          "text": "PhcurrLimit_set"
+        },
+        {
+          "offset": "0x187c0",
+          "text": "PhcurrLimit"
+        },
+        {
+          "offset": "0x187d8",
+          "text": "IDCurrent"
+        },
+        {
+          "offset": "0x187e4",
+          "text": "IQCurrent"
+        },
+        {
+          "offset": "0x187f0",
+          "text": "TotalCurrent"
+        },
+        {
+          "offset": "0x18800",
+          "text": "BusCurrent"
+        },
+        {
+          "offset": "0x1882c",
+          "text": "g_winespeed_lv"
+        },
+        {
+          "offset": "0x18860",
+          "text": "ChgCurrShow"
+        },
+        {
+          "offset": "0x18884",
+          "text": "gyro_x"
+        },
+        {
+          "offset": "0x18894",
+          "text": "gyro_y"
+        },
+        {
+          "offset": "0x188a4",
+          "text": "gyro_z"
+        },
+        {
+          "offset": "0x18aea",
+          "text": "KS-16X"
+        }
+      ]
+    }
+  },
+  {
+    "version": "212",
+    "file": "2021/11/24/2021-11-24-02-46-03.bin",
+    "introduction": "电压采样优化",
+    "createtime": "1637028656",
+    "status": "1",
+    "useRange": "1",
+    "download": {
+      "url": "https://www.kingsong.vip/upload/firmware/2021/11/24/2021-11-24-02-46-03.bin",
+      "bytes": 100224,
+      "sha256": "804818c3157fb5974c4fe24c929121a1a1b0589ccf2aae36b309bc234be22f7b",
+      "local_name": "KS-16X-v212-original.bin"
+    },
+    "format_tests": [
+      {
+        "method": "as_downloaded",
+        "valid_vector_candidates": []
+      },
+      {
+        "method": "s22_aes256_cbc_zero_iv_full_length",
+        "valid_vector_candidates": [
+          {
+            "base": "0x8008000",
+            "initial_sp": "0x20005f20",
+            "reset_handler": "0x800820d",
+            "plausible_handlers_of_15": 10,
+            "string_pointer_references": 104,
+            "first_16_vectors": [
+              "0x20005f20",
+              "0x800820d",
+              "0x8008215",
+              "0x800a469",
+              "0x8008219",
+              "0x800821b",
+              "0x800821d",
+              "0x0",
+              "0x0",
+              "0x0",
+              "0x0",
+              "0x800821f",
+              "0x8008221",
+              "0x0",
+              "0x800828f",
+              "0x800a075"
+            ]
+          },
+          {
+            "base": "0x8000000",
+            "initial_sp": "0x20005f20",
+            "reset_handler": "0x800820d",
+            "plausible_handlers_of_15": 10,
+            "string_pointer_references": 0,
+            "first_16_vectors": [
+              "0x20005f20",
+              "0x800820d",
+              "0x8008215",
+              "0x800a469",
+              "0x8008219",
+              "0x800821b",
+              "0x800821d",
+              "0x0",
+              "0x0",
+              "0x0",
+              "0x0",
+              "0x800821f",
+              "0x8008221",
+              "0x0",
+              "0x800828f",
+              "0x800a075"
+            ]
+          },
+          {
+            "base": "0x8004000",
+            "initial_sp": "0x20005f20",
+            "reset_handler": "0x800820d",
+            "plausible_handlers_of_15": 10,
+            "string_pointer_references": 0,
+            "first_16_vectors": [
+              "0x20005f20",
+              "0x800820d",
+              "0x8008215",
+              "0x800a469",
+              "0x8008219",
+              "0x800821b",
+              "0x800821d",
+              "0x0",
+              "0x0",
+              "0x0",
+              "0x0",
+              "0x800821f",
+              "0x8008221",
+              "0x0",
+              "0x800828f",
+              "0x800a075"
+            ]
+          }
+        ]
+      }
+    ],
+    "image": {
+      "method": "s22_aes256_cbc_zero_iv_full_length",
+      "bytes": 100224,
+      "sha256": "e8d9514d4c83ebe58ff501b990634670d8428fdd60599d8f545242359d78bf1f",
+      "base_candidate": "0x8008000",
+      "vector": {
+        "base": "0x8008000",
+        "initial_sp": "0x20005f20",
+        "reset_handler": "0x800820d",
+        "plausible_handlers_of_15": 10,
+        "string_pointer_references": 104,
+        "first_16_vectors": [
+          "0x20005f20",
+          "0x800820d",
+          "0x8008215",
+          "0x800a469",
+          "0x8008219",
+          "0x800821b",
+          "0x800821d",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x800821f",
+          "0x8008221",
+          "0x0",
+          "0x800828f",
+          "0x800a075"
+        ]
+      },
+      "ascii_string_count": 426,
+      "diagnostic_candidate_count": 107,
+      "diagnostic_names": [
+        "pidk_acc",
+        "pidk_p",
+        "pidk_speed",
+        "k_pcurr",
+        "pidk_cmbfw",
+        "pidk_cmbtn",
+        "pidk_agfac_v",
+        "pidk_ncurr",
+        "halldebugflg",
+        "halloffset",
+        "cartstep",
+        "motionstep",
+        "motorstep",
+        "HallRSP",
+        "VQ",
+        "VD",
+        "IA",
+        "IB",
+        "IQCurrent",
+        "IDCurrent",
+        "acce_x",
+        "acce_y",
+        "acce_z",
+        "gyro_x",
+        "gyro_y",
+        "gyro_z",
+        "pintch",
+        "pintch_in",
+        "s_acc",
+        "sta_pitch",
+        "fus_roll",
+        "rollacc",
+        "sta_roll",
+        "yaw_acc",
+        "angleoffset_int",
+        "LimitSpeed",
+        "g_winespeed_lv",
+        "rollptag_auto",
+        "PhcurrLimit_set",
+        "PhcurrLimit",
+        "VqIqRateCFG",
+        "VqIqRateRT",
+        "PhcurrLimit_Vq_P",
+        "PhcurrLimit_Vq_N",
+        "BuscurLimit_set",
+        "BuscurLimit",
+        "IbusRateRT",
+        "buscurrcalc",
+        "BusCurrent",
+        "buscurlmt_vq",
+        "VqSpeedRateCFG",
+        "VqSpeedRateRT",
+        "RsSpeedVq",
+        "RtIqVq",
+        "Rpm",
+        "TotalVoltage",
+        "TotalVol_show",
+        "TotalCurrent",
+        "VehicleSpeed",
+        "speedAcc",
+        "VectorVol",
+        "MotorTemp",
+        "MosTemp",
+        "CpuTemp",
+        "GYTemp",
+        "cpuvol",
+        "lightad",
+        "IQCurrent",
+        "HallState",
+        "cpurate",
+        "readoutmeter",
+        "kilometer",
+        "currentmeter",
+        "commbopcurr",
+        "commbospeed0",
+        "manualsetVd",
+        "g_dif_iq",
+        "g_average_iq",
+        "hall_err",
+        "allwarnbit",
+        "AgeModeflg",
+        "AgeChgflg",
+        "AgeStepShow",
+        "ChgStepShow",
+        "ChgCurrShow",
+        "BatState",
+        "vttest[0]",
+        "vttest[1]",
+        "vttest[2]",
+        "vttest[3]",
+        "BOOTVERSION",
+        "APPVERSION",
+        "RUNOKFLG",
+        "APPSIZE",
+        "APPCRCCODE",
+        "APPCRCCHECK",
+        "VqSpeedRateCFG",
+        "VqIqRateCFG",
+        "IbusRateCFG",
+        "VqSprate_vpCFG",
+        "VqIqrate_vpCFG",
+        "halloffset",
+        "motor_spdir",
+        "motor_egdir",
+        "readoutmeter",
+        "kilometer",
+        "currentmeter"
+      ],
+      "interesting_strings": [
+        {
+          "offset": "0x17fde",
+          "text": "KS16X4"
+        },
+        {
+          "offset": "0x17ff0",
+          "text": "KS16X1"
+        },
+        {
+          "offset": "0x18004",
+          "text": "commbospeed0"
+        },
+        {
+          "offset": "0x18034",
+          "text": "VqSpeedRateCFG"
+        },
+        {
+          "offset": "0x180ac",
+          "text": "PhcurrLimit_Vq_N"
+        },
+        {
+          "offset": "0x180c8",
+          "text": "PhcurrLimit_Vq_P"
+        },
+        {
+          "offset": "0x180e0",
+          "text": "VqSpeedRateRT"
+        },
+        {
+          "offset": "0x18138",
+          "text": "speedAcc"
+        },
+        {
+          "offset": "0x18168",
+          "text": "buscurrcalc"
+        },
+        {
+          "offset": "0x18188",
+          "text": "VehicleSpeed"
+        },
+        {
+          "offset": "0x18198",
+          "text": "LimitSpeed"
+        },
+        {
+          "offset": "0x181a4",
+          "text": "pidk_speed"
+        },
+        {
+          "offset": "0x181b0",
+          "text": "TotalVoltage"
+        },
+        {
+          "offset": "0x182a0",
+          "text": "GYTemp"
+        },
+        {
+          "offset": "0x182a8",
+          "text": "MotorTemp"
+        },
+        {
+          "offset": "0x182b4",
+          "text": "MosTemp"
+        },
+        {
+          "offset": "0x182bc",
+          "text": "CpuTemp"
+        },
+        {
+          "offset": "0x182c4",
+          "text": "RsSpeedVq"
+        },
+        {
+          "offset": "0x18310",
+          "text": "currentmeter"
+        },
+        {
+          "offset": "0x18354",
+          "text": "pidk_ncurr"
+        },
+        {
+          "offset": "0x18360",
+          "text": "k_pcurr"
+        },
+        {
+          "offset": "0x18368",
+          "text": "commbopcurr"
+        },
+        {
+          "offset": "0x18374",
+          "text": "PhcurrLimit_set"
+        },
+        {
+          "offset": "0x183ac",
+          "text": "PhcurrLimit"
+        },
+        {
+          "offset": "0x183c4",
+          "text": "IDCurrent"
+        },
+        {
+          "offset": "0x183d0",
+          "text": "IQCurrent"
+        },
+        {
+          "offset": "0x183dc",
+          "text": "TotalCurrent"
+        },
+        {
+          "offset": "0x183ec",
+          "text": "BusCurrent"
+        },
+        {
+          "offset": "0x18418",
+          "text": "g_winespeed_lv"
+        },
+        {
+          "offset": "0x1844c",
+          "text": "ChgCurrShow"
+        },
+        {
+          "offset": "0x18470",
+          "text": "gyro_x"
+        },
+        {
+          "offset": "0x18480",
+          "text": "gyro_y"
+        },
+        {
+          "offset": "0x18490",
+          "text": "gyro_z"
+        },
+        {
+          "offset": "0x186d6",
+          "text": "KS-16X"
+        }
+      ]
+    }
+  },
+  {
+    "version": "207",
+    "file": "",
+    "introduction": "",
+    "createtime": "1616549576",
+    "status": "1",
+    "useRange": "1",
+    "download": null
+  },
+  {
+    "version": "203",
+    "file": "",
+    "introduction": "",
+    "createtime": "1602573664",
+    "status": "1",
+    "useRange": "1",
+    "download": null
+  },
+  {
+    "version": "202",
+    "file": "",
+    "introduction": "",
+    "createtime": "1589337465",
+    "status": "1",
+    "useRange": "1",
+    "download": null
+  }
+]

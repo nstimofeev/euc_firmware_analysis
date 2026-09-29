@@ -1,0 +1,983 @@
+[
+  {
+    "record_offset": "0x18118",
+    "value_address": "0x200005e6",
+    "metadata_raw": "0x202",
+    "name_pointer": "0x8020a04",
+    "name_field_raw": "0x108",
+    "width_candidate": 2,
+    "name": "pidk_acc"
+  },
+  {
+    "record_offset": "0x18128",
+    "value_address": "0x200005e8",
+    "metadata_raw": "0x202",
+    "name_pointer": "0x8020b40",
+    "name_field_raw": "0x106",
+    "width_candidate": 2,
+    "name": "pidk_p"
+  },
+  {
+    "record_offset": "0x18138",
+    "value_address": "0x200005ea",
+    "metadata_raw": "0x202",
+    "name_pointer": "0x8020a64",
+    "name_field_raw": "0x10a",
+    "width_candidate": 2,
+    "name": "pidk_speed"
+  },
+  {
+    "record_offset": "0x18148",
+    "value_address": "0x200005ec",
+    "metadata_raw": "0x202",
+    "name_pointer": "0x8020c3c",
+    "name_field_raw": "0x107",
+    "width_candidate": 2,
+    "name": "k_pcurr"
+  },
+  {
+    "record_offset": "0x18158",
+    "value_address": "0x200005ee",
+    "metadata_raw": "0x202",
+    "name_pointer": "0x8020d04",
+    "name_field_raw": "0x10a",
+    "width_candidate": 2,
+    "name": "pidk_cmbfw"
+  },
+  {
+    "record_offset": "0x18168",
+    "value_address": "0x200005f0",
+    "metadata_raw": "0x202",
+    "name_pointer": "0x8020b24",
+    "name_field_raw": "0x10a",
+    "width_candidate": 2,
+    "name": "pidk_cmbtn"
+  },
+  {
+    "record_offset": "0x18178",
+    "value_address": "0x200005f2",
+    "metadata_raw": "0x202",
+    "name_pointer": "0x8020ce4",
+    "name_field_raw": "0x10c",
+    "width_candidate": 2,
+    "name": "pidk_agfac_v"
+  },
+  {
+    "record_offset": "0x18188",
+    "value_address": "0x200005f4",
+    "metadata_raw": "0x202",
+    "name_pointer": "0x8020c30",
+    "name_field_raw": "0x10a",
+    "width_candidate": 2,
+    "name": "pidk_ncurr"
+  },
+  {
+    "record_offset": "0x18198",
+    "value_address": "0x20000337",
+    "metadata_raw": "0x100",
+    "name_pointer": "0x8020ab8",
+    "name_field_raw": "0x10c",
+    "width_candidate": 1,
+    "name": "halldebugflg"
+  },
+  {
+    "record_offset": "0x181a8",
+    "value_address": "0x2000058c",
+    "metadata_raw": "0x203",
+    "name_pointer": "0x8020c70",
+    "name_field_raw": "0x10a",
+    "width_candidate": 2,
+    "name": "halloffset"
+  },
+  {
+    "record_offset": "0x181b8",
+    "value_address": "0x20002ef2",
+    "metadata_raw": "0x100",
+    "name_pointer": "0x8020b60",
+    "name_field_raw": "0x8",
+    "width_candidate": 1,
+    "name": "cartstep"
+  },
+  {
+    "record_offset": "0x181c8",
+    "value_address": "0x20003010",
+    "metadata_raw": "0x100",
+    "name_pointer": "0x8020b48",
+    "name_field_raw": "0xa",
+    "width_candidate": 1,
+    "name": "motionstep"
+  },
+  {
+    "record_offset": "0x181d8",
+    "value_address": "0x20003060",
+    "metadata_raw": "0x100",
+    "name_pointer": "0x8020b54",
+    "name_field_raw": "0x9",
+    "width_candidate": 1,
+    "name": "motorstep"
+  },
+  {
+    "record_offset": "0x181e8",
+    "value_address": "0x200005a4",
+    "metadata_raw": "0x405",
+    "name_pointer": "0x802095c",
+    "name_field_raw": "0x7",
+    "width_candidate": 4,
+    "name": "HallRSP"
+  },
+  {
+    "record_offset": "0x181f8",
+    "value_address": "0x2000322c",
+    "metadata_raw": "0x405",
+    "name_pointer": "0x8020978",
+    "name_field_raw": "0x2",
+    "width_candidate": 4,
+    "name": "VQ"
+  },
+  {
+    "record_offset": "0x18208",
+    "value_address": "0x20003230",
+    "metadata_raw": "0x405",
+    "name_pointer": "0x80208b8",
+    "name_field_raw": "0x2",
+    "width_candidate": 4,
+    "name": "VD"
+  },
+  {
+    "record_offset": "0x18218",
+    "value_address": "0x20003204",
+    "metadata_raw": "0x405",
+    "name_pointer": "0x80208b0",
+    "name_field_raw": "0x2",
+    "width_candidate": 4,
+    "name": "IA"
+  },
+  {
+    "record_offset": "0x18228",
+    "value_address": "0x20003208",
+    "metadata_raw": "0x405",
+    "name_pointer": "0x80208b4",
+    "name_field_raw": "0x2",
+    "width_candidate": 4,
+    "name": "IB"
+  },
+  {
+    "record_offset": "0x18238",
+    "value_address": "0x2000321c",
+    "metadata_raw": "0x405",
+    "name_pointer": "0x8020cac",
+    "name_field_raw": "0x9",
+    "width_candidate": 4,
+    "name": "IQCurrent"
+  },
+  {
+    "record_offset": "0x18248",
+    "value_address": "0x20003220",
+    "metadata_raw": "0x405",
+    "name_pointer": "0x8020ca0",
+    "name_field_raw": "0x9",
+    "width_candidate": 4,
+    "name": "IDCurrent"
+  },
+  {
+    "record_offset": "0x18258",
+    "value_address": "0x200030c4",
+    "metadata_raw": "0x405",
+    "name_pointer": "0x8020d44",
+    "name_field_raw": "0x6",
+    "width_candidate": 4,
+    "name": "acce_x"
+  },
+  {
+    "record_offset": "0x18268",
+    "value_address": "0x200030c8",
+    "metadata_raw": "0x405",
+    "name_pointer": "0x8020d54",
+    "name_field_raw": "0x6",
+    "width_candidate": 4,
+    "name": "acce_y"
+  },
+  {
+    "record_offset": "0x18278",
+    "value_address": "0x200030cc",
+    "metadata_raw": "0x405",
+    "name_pointer": "0x8020d64",
+    "name_field_raw": "0x6",
+    "width_candidate": 4,
+    "name": "acce_z"
+  },
+  {
+    "record_offset": "0x18288",
+    "value_address": "0x200030b8",
+    "metadata_raw": "0x405",
+    "name_pointer": "0x8020d4c",
+    "name_field_raw": "0x6",
+    "width_candidate": 4,
+    "name": "gyro_x"
+  },
+  {
+    "record_offset": "0x18298",
+    "value_address": "0x200030bc",
+    "metadata_raw": "0x405",
+    "name_pointer": "0x8020d5c",
+    "name_field_raw": "0x6",
+    "width_candidate": 4,
+    "name": "gyro_y"
+  },
+  {
+    "record_offset": "0x182a8",
+    "value_address": "0x200030c0",
+    "metadata_raw": "0x405",
+    "name_pointer": "0x8020d6c",
+    "name_field_raw": "0x6",
+    "width_candidate": 4,
+    "name": "gyro_z"
+  },
+  {
+    "record_offset": "0x182b8",
+    "value_address": "0x2000312c",
+    "metadata_raw": "0x405",
+    "name_pointer": "0x8020ad4",
+    "name_field_raw": "0x6",
+    "width_candidate": 4,
+    "name": "pintch"
+  },
+  {
+    "record_offset": "0x182c8",
+    "value_address": "0x20003128",
+    "metadata_raw": "0x405",
+    "name_pointer": "0x8020b18",
+    "name_field_raw": "0x9",
+    "width_candidate": 4,
+    "name": "pintch_in"
+  },
+  {
+    "record_offset": "0x182d8",
+    "value_address": "0x20003138",
+    "metadata_raw": "0x405",
+    "name_pointer": "0x8020a10",
+    "name_field_raw": "0x5",
+    "width_candidate": 4,
+    "name": "s_acc"
+  },
+  {
+    "record_offset": "0x182e8",
+    "value_address": "0x2000311c",
+    "metadata_raw": "0x405",
+    "name_pointer": "0x8020ac8",
+    "name_field_raw": "0x9",
+    "width_candidate": 4,
+    "name": "sta_pitch"
+  },
+  {
+    "record_offset": "0x182f8",
+    "value_address": "0x20003130",
+    "metadata_raw": "0x405",
+    "name_pointer": "0x8020ae8",
+    "name_field_raw": "0x8",
+    "width_candidate": 4,
+    "name": "fus_roll"
+  },
+  {
+    "record_offset": "0x18308",
+    "value_address": "0x2000313c",
+    "metadata_raw": "0x405",
+    "name_pointer": "0x8020a20",
+    "name_field_raw": "0x7",
+    "width_candidate": 4,
+    "name": "rollacc"
+  },
+  {
+    "record_offset": "0x18318",
+    "value_address": "0x20003120",
+    "metadata_raw": "0x405",
+    "name_pointer": "0x8020adc",
+    "name_field_raw": "0x8",
+    "width_candidate": 4,
+    "name": "sta_roll"
+  },
+  {
+    "record_offset": "0x18328",
+    "value_address": "0x20003140",
+    "metadata_raw": "0x405",
+    "name_pointer": "0x8020a18",
+    "name_field_raw": "0x7",
+    "width_candidate": 4,
+    "name": "yaw_acc"
+  },
+  {
+    "record_offset": "0x18338",
+    "value_address": "0x20000284",
+    "metadata_raw": "0x405",
+    "name_pointer": "0x8020cd4",
+    "name_field_raw": "0xf",
+    "width_candidate": 4,
+    "name": "angleoffset_int"
+  },
+  {
+    "record_offset": "0x18348",
+    "value_address": "0x20003040",
+    "metadata_raw": "0x405",
+    "name_pointer": "0x8020a58",
+    "name_field_raw": "0x10a",
+    "width_candidate": 4,
+    "name": "LimitSpeed"
+  },
+  {
+    "record_offset": "0x18358",
+    "value_address": "0x200001dc",
+    "metadata_raw": "0x405",
+    "name_pointer": "0x8020cf4",
+    "name_field_raw": "0xe",
+    "width_candidate": 4,
+    "name": "g_winespeed_lv"
+  },
+  {
+    "record_offset": "0x18368",
+    "value_address": "0x20003050",
+    "metadata_raw": "0x405",
+    "name_pointer": "0x8020b30",
+    "name_field_raw": "0xd",
+    "width_candidate": 4,
+    "name": "rollptag_auto"
+  },
+  {
+    "record_offset": "0x18378",
+    "value_address": "0x20000344",
+    "metadata_raw": "0x405",
+    "name_pointer": "0x8020c50",
+    "name_field_raw": "0x10f",
+    "width_candidate": 4,
+    "name": "PhcurrLimit_set"
+  },
+  {
+    "record_offset": "0x18388",
+    "value_address": "0x20000348",
+    "metadata_raw": "0x405",
+    "name_pointer": "0x8020c88",
+    "name_field_raw": "0xb",
+    "width_candidate": 4,
+    "name": "PhcurrLimit"
+  },
+  {
+    "record_offset": "0x18398",
+    "value_address": "0x2000031a",
+    "metadata_raw": "0x203",
+    "name_pointer": "0x80208e0",
+    "name_field_raw": "0x10b",
+    "width_candidate": 2,
+    "name": "VqIqRateCFG"
+  },
+  {
+    "record_offset": "0x183a8",
+    "value_address": "0x20000320",
+    "metadata_raw": "0x203",
+    "name_pointer": "0x802098c",
+    "name_field_raw": "0xa",
+    "width_candidate": 2,
+    "name": "VqIqRateRT"
+  },
+  {
+    "record_offset": "0x183b8",
+    "value_address": "0x20000350",
+    "metadata_raw": "0x405",
+    "name_pointer": "0x8020964",
+    "name_field_raw": "0x10",
+    "width_candidate": 4,
+    "name": "PhcurrLimit_Vq_P"
+  },
+  {
+    "record_offset": "0x183c8",
+    "value_address": "0x20000354",
+    "metadata_raw": "0x405",
+    "name_pointer": "0x8020948",
+    "name_field_raw": "0x10",
+    "width_candidate": 4,
+    "name": "PhcurrLimit_Vq_N"
+  },
+  {
+    "record_offset": "0x183d8",
+    "value_address": "0x2000033c",
+    "metadata_raw": "0x405",
+    "name_pointer": "0x8020c60",
+    "name_field_raw": "0x10f",
+    "width_candidate": 4,
+    "name": "BuscurLimit_set"
+  },
+  {
+    "record_offset": "0x183e8",
+    "value_address": "0x20000340",
+    "metadata_raw": "0x405",
+    "name_pointer": "0x8020c94",
+    "name_field_raw": "0xb",
+    "width_candidate": 4,
+    "name": "BuscurLimit"
+  },
+  {
+    "record_offset": "0x183f8",
+    "value_address": "0x20000322",
+    "metadata_raw": "0x203",
+    "name_pointer": "0x8020998",
+    "name_field_raw": "0xa",
+    "width_candidate": 2,
+    "name": "IbusRateRT"
+  },
+  {
+    "record_offset": "0x18408",
+    "value_address": "0x20003038",
+    "metadata_raw": "0x405",
+    "name_pointer": "0x8020a28",
+    "name_field_raw": "0xb",
+    "width_candidate": 4,
+    "name": "buscurrcalc"
+  },
+  {
+    "record_offset": "0x18418",
+    "value_address": "0x2000302c",
+    "metadata_raw": "0x405",
+    "name_pointer": "0x8020cc8",
+    "name_field_raw": "0xa",
+    "width_candidate": 4,
+    "name": "BusCurrent"
+  },
+  {
+    "record_offset": "0x18428",
+    "value_address": "0x2000035c",
+    "metadata_raw": "0x405",
+    "name_pointer": "0x8020bd0",
+    "name_field_raw": "0xc",
+    "width_candidate": 4,
+    "name": "buscurlmt_vq"
+  },
+  {
+    "record_offset": "0x18438",
+    "value_address": "0x20000318",
+    "metadata_raw": "0x203",
+    "name_pointer": "0x80208d0",
+    "name_field_raw": "0x10e",
+    "width_candidate": 2,
+    "name": "VqSpeedRateCFG"
+  },
+  {
+    "record_offset": "0x18448",
+    "value_address": "0x2000031e",
+    "metadata_raw": "0x203",
+    "name_pointer": "0x802097c",
+    "name_field_raw": "0xd",
+    "width_candidate": 2,
+    "name": "VqSpeedRateRT"
+  },
+  {
+    "record_offset": "0x18458",
+    "value_address": "0x20003058",
+    "metadata_raw": "0x405",
+    "name_pointer": "0x8020b90",
+    "name_field_raw": "0x9",
+    "width_candidate": 4,
+    "name": "RsSpeedVq"
+  },
+  {
+    "record_offset": "0x18468",
+    "value_address": "0x2000305c",
+    "metadata_raw": "0x405",
+    "name_pointer": "0x8020b9c",
+    "name_field_raw": "0x6",
+    "width_candidate": 4,
+    "name": "RtIqVq"
+  },
+  {
+    "record_offset": "0x18478",
+    "value_address": "0x20003054",
+    "metadata_raw": "0x203",
+    "name_pointer": "0x8020b08",
+    "name_field_raw": "0x3",
+    "width_candidate": 2,
+    "name": "Rpm"
+  },
+  {
+    "record_offset": "0x18488",
+    "value_address": "0x20002e74",
+    "metadata_raw": "0x405",
+    "name_pointer": "0x8020a70",
+    "name_field_raw": "0xc",
+    "width_candidate": 4,
+    "name": "TotalVoltage"
+  },
+  {
+    "record_offset": "0x18498",
+    "value_address": "0x20002e78",
+    "metadata_raw": "0x405",
+    "name_pointer": "0x8020d34",
+    "name_field_raw": "0xd",
+    "width_candidate": 4,
+    "name": "TotalVol_show"
+  },
+  {
+    "record_offset": "0x184a8",
+    "value_address": "0x20002e84",
+    "metadata_raw": "0x405",
+    "name_pointer": "0x8020cb8",
+    "name_field_raw": "0xc",
+    "width_candidate": 4,
+    "name": "TotalCurrent"
+  },
+  {
+    "record_offset": "0x184b8",
+    "value_address": "0x20002e7c",
+    "metadata_raw": "0x405",
+    "name_pointer": "0x8020a48",
+    "name_field_raw": "0xc",
+    "width_candidate": 4,
+    "name": "VehicleSpeed"
+  },
+  {
+    "record_offset": "0x184c8",
+    "value_address": "0x20002e80",
+    "metadata_raw": "0x203",
+    "name_pointer": "0x80209f8",
+    "name_field_raw": "0x8",
+    "width_candidate": 2,
+    "name": "speedAcc"
+  },
+  {
+    "record_offset": "0x184d8",
+    "value_address": "0x20002e90",
+    "metadata_raw": "0x405",
+    "name_pointer": "0x8020af4",
+    "name_field_raw": "0x9",
+    "width_candidate": 4,
+    "name": "VectorVol"
+  },
+  {
+    "record_offset": "0x184e8",
+    "value_address": "0x20002e9a",
+    "metadata_raw": "0x203",
+    "name_pointer": "0x8020b74",
+    "name_field_raw": "0x9",
+    "width_candidate": 2,
+    "name": "MotorTemp"
+  },
+  {
+    "record_offset": "0x184f8",
+    "value_address": "0x20002e9c",
+    "metadata_raw": "0x203",
+    "name_pointer": "0x8020b80",
+    "name_field_raw": "0x7",
+    "width_candidate": 2,
+    "name": "MosTemp"
+  },
+  {
+    "record_offset": "0x18508",
+    "value_address": "0x20002e9e",
+    "metadata_raw": "0x203",
+    "name_pointer": "0x8020b88",
+    "name_field_raw": "0x7",
+    "width_candidate": 2,
+    "name": "CpuTemp"
+  },
+  {
+    "record_offset": "0x18518",
+    "value_address": "0x20002ea0",
+    "metadata_raw": "0x203",
+    "name_pointer": "0x8020b6c",
+    "name_field_raw": "0x6",
+    "width_candidate": 2,
+    "name": "GYTemp"
+  },
+  {
+    "record_offset": "0x18528",
+    "value_address": "0x20002ea4",
+    "metadata_raw": "0x202",
+    "name_pointer": "0x8020b00",
+    "name_field_raw": "0x6",
+    "width_candidate": 2,
+    "name": "cpuvol"
+  },
+  {
+    "record_offset": "0x18538",
+    "value_address": "0x20002ea6",
+    "metadata_raw": "0x202",
+    "name_pointer": "0x8020a40",
+    "name_field_raw": "0x7",
+    "width_candidate": 2,
+    "name": "lightad"
+  },
+  {
+    "record_offset": "0x18548",
+    "value_address": "0x20002e8c",
+    "metadata_raw": "0x405",
+    "name_pointer": "0x8020cac",
+    "name_field_raw": "0x9",
+    "width_candidate": 4,
+    "name": "IQCurrent"
+  },
+  {
+    "record_offset": "0x18558",
+    "value_address": "0x20002e88",
+    "metadata_raw": "0x100",
+    "name_pointer": "0x8020a88",
+    "name_field_raw": "0x9",
+    "width_candidate": 1,
+    "name": "HallState"
+  },
+  {
+    "record_offset": "0x18568",
+    "value_address": "0x20002ea2",
+    "metadata_raw": "0x100",
+    "name_pointer": "0x8020a80",
+    "name_field_raw": "0x7",
+    "width_candidate": 1,
+    "name": "cpurate"
+  },
+  {
+    "record_offset": "0x18578",
+    "value_address": "0x20002ebc",
+    "metadata_raw": "0x404",
+    "name_pointer": "0x8020bfc",
+    "name_field_raw": "0xc",
+    "width_candidate": 4,
+    "name": "readoutmeter"
+  },
+  {
+    "record_offset": "0x18588",
+    "value_address": "0x20002ec0",
+    "metadata_raw": "0x404",
+    "name_pointer": "0x8020be0",
+    "name_field_raw": "0x9",
+    "width_candidate": 4,
+    "name": "kilometer"
+  },
+  {
+    "record_offset": "0x18598",
+    "value_address": "0x20002ec4",
+    "metadata_raw": "0x404",
+    "name_pointer": "0x8020bec",
+    "name_field_raw": "0xc",
+    "width_candidate": 4,
+    "name": "currentmeter"
+  },
+  {
+    "record_offset": "0x185a8",
+    "value_address": "0x2000029c",
+    "metadata_raw": "0x404",
+    "name_pointer": "0x8020c44",
+    "name_field_raw": "0xb",
+    "width_candidate": 4,
+    "name": "commbopcurr"
+  },
+  {
+    "record_offset": "0x185b8",
+    "value_address": "0x20000298",
+    "metadata_raw": "0x404",
+    "name_pointer": "0x80208a0",
+    "name_field_raw": "0xc",
+    "width_candidate": 4,
+    "name": "commbospeed0"
+  },
+  {
+    "record_offset": "0x185c8",
+    "value_address": "0x20000328",
+    "metadata_raw": "0x203",
+    "name_pointer": "0x8020a34",
+    "name_field_raw": "0x10b",
+    "width_candidate": 2,
+    "name": "manualsetVd"
+  },
+  {
+    "record_offset": "0x185d8",
+    "value_address": "0x20000370",
+    "metadata_raw": "0x203",
+    "name_pointer": "0x8020bc4",
+    "name_field_raw": "0x8",
+    "width_candidate": 2,
+    "name": "g_dif_iq"
+  },
+  {
+    "record_offset": "0x185e8",
+    "value_address": "0x20000368",
+    "metadata_raw": "0x405",
+    "name_pointer": "0x8020bb4",
+    "name_field_raw": "0xc",
+    "width_candidate": 4,
+    "name": "g_average_iq"
+  },
+  {
+    "record_offset": "0x185f8",
+    "value_address": "0x20000590",
+    "metadata_raw": "0x404",
+    "name_pointer": "0x8020c24",
+    "name_field_raw": "0x8",
+    "width_candidate": 4,
+    "name": "hall_err"
+  },
+  {
+    "record_offset": "0x18608",
+    "value_address": "0x20002edc",
+    "metadata_raw": "0x404",
+    "name_pointer": "0x8020c7c",
+    "name_field_raw": "0xa",
+    "width_candidate": 4,
+    "name": "allwarnbit"
+  },
+  {
+    "record_offset": "0x18618",
+    "value_address": "0x20002ee5",
+    "metadata_raw": "0x100",
+    "name_pointer": "0x8020aa0",
+    "name_field_raw": "0xa",
+    "width_candidate": 1,
+    "name": "AgeModeflg"
+  },
+  {
+    "record_offset": "0x18628",
+    "value_address": "0x20002ee6",
+    "metadata_raw": "0x100",
+    "name_pointer": "0x8020aac",
+    "name_field_raw": "0x9",
+    "width_candidate": 1,
+    "name": "AgeChgflg"
+  },
+  {
+    "record_offset": "0x18638",
+    "value_address": "0x20002ee7",
+    "metadata_raw": "0x100",
+    "name_pointer": "0x8020d10",
+    "name_field_raw": "0xb",
+    "width_candidate": 1,
+    "name": "AgeStepShow"
+  },
+  {
+    "record_offset": "0x18648",
+    "value_address": "0x20002ee8",
+    "metadata_raw": "0x100",
+    "name_pointer": "0x8020d1c",
+    "name_field_raw": "0xb",
+    "width_candidate": 1,
+    "name": "ChgStepShow"
+  },
+  {
+    "record_offset": "0x18658",
+    "value_address": "0x20002eea",
+    "metadata_raw": "0x203",
+    "name_pointer": "0x8020d28",
+    "name_field_raw": "0xb",
+    "width_candidate": 2,
+    "name": "ChgCurrShow"
+  },
+  {
+    "record_offset": "0x18668",
+    "value_address": "0x20002eda",
+    "metadata_raw": "0x100",
+    "name_pointer": "0x8020a94",
+    "name_field_raw": "0x8",
+    "width_candidate": 1,
+    "name": "BatState"
+  },
+  {
+    "record_offset": "0x18678",
+    "value_address": "0x200002f8",
+    "metadata_raw": "0x404",
+    "name_pointer": "0x8020b0c",
+    "name_field_raw": "0x10b",
+    "width_candidate": 4,
+    "name": "adcch_tg_en"
+  },
+  {
+    "record_offset": "0x18688",
+    "value_address": "0x2000036c",
+    "metadata_raw": "0x405",
+    "name_pointer": "0x8020ba4",
+    "name_field_raw": "0xc",
+    "width_candidate": 4,
+    "name": "g_averX10_iq"
+  },
+  {
+    "record_offset": "0x18698",
+    "value_address": "0x20003544",
+    "metadata_raw": "0x405",
+    "name_pointer": "0x80209a4",
+    "name_field_raw": "0x109",
+    "width_candidate": 4,
+    "name": "vttest[0]"
+  },
+  {
+    "record_offset": "0x186a8",
+    "value_address": "0x20003548",
+    "metadata_raw": "0x405",
+    "name_pointer": "0x80209b0",
+    "name_field_raw": "0x109",
+    "width_candidate": 4,
+    "name": "vttest[1]"
+  },
+  {
+    "record_offset": "0x186b8",
+    "value_address": "0x2000354c",
+    "metadata_raw": "0x405",
+    "name_pointer": "0x80209bc",
+    "name_field_raw": "0x109",
+    "width_candidate": 4,
+    "name": "vttest[2]"
+  },
+  {
+    "record_offset": "0x186c8",
+    "value_address": "0x20003550",
+    "metadata_raw": "0x405",
+    "name_pointer": "0x80209c8",
+    "name_field_raw": "0x109",
+    "width_candidate": 4,
+    "name": "vttest[3]"
+  },
+  {
+    "record_offset": "0x186d8",
+    "value_address": "0x8005308",
+    "metadata_raw": "0x404",
+    "name_pointer": "0x802093c",
+    "name_field_raw": "0xb",
+    "width_candidate": 4,
+    "name": "BOOTVERSION"
+  },
+  {
+    "record_offset": "0x186e8",
+    "value_address": "0x8008308",
+    "metadata_raw": "0x404",
+    "name_pointer": "0x8020930",
+    "name_field_raw": "0xa",
+    "width_candidate": 4,
+    "name": "APPVERSION"
+  },
+  {
+    "record_offset": "0x186f8",
+    "value_address": "0x8008310",
+    "metadata_raw": "0x404",
+    "name_pointer": "0x8020918",
+    "name_field_raw": "0x8",
+    "width_candidate": 4,
+    "name": "RUNOKFLG"
+  },
+  {
+    "record_offset": "0x18708",
+    "value_address": "0x8008314",
+    "metadata_raw": "0x404",
+    "name_pointer": "0x80208c8",
+    "name_field_raw": "0x7",
+    "width_candidate": 4,
+    "name": "APPSIZE"
+  },
+  {
+    "record_offset": "0x18718",
+    "value_address": "0x8008318",
+    "metadata_raw": "0x404",
+    "name_pointer": "0x80208bc",
+    "name_field_raw": "0xa",
+    "width_candidate": 4,
+    "name": "APPCRCCODE"
+  },
+  {
+    "record_offset": "0x18728",
+    "value_address": "0x800831c",
+    "metadata_raw": "0x404",
+    "name_pointer": "0x8020924",
+    "name_field_raw": "0xb",
+    "width_candidate": 4,
+    "name": "APPCRCCHECK"
+  },
+  {
+    "record_offset": "0x18738",
+    "value_address": "0x20000318",
+    "metadata_raw": "0x203",
+    "name_pointer": "0x80208d0",
+    "name_field_raw": "0xe",
+    "width_candidate": 2,
+    "name": "VqSpeedRateCFG"
+  },
+  {
+    "record_offset": "0x18748",
+    "value_address": "0x2000031a",
+    "metadata_raw": "0x203",
+    "name_pointer": "0x80208e0",
+    "name_field_raw": "0xb",
+    "width_candidate": 2,
+    "name": "VqIqRateCFG"
+  },
+  {
+    "record_offset": "0x18758",
+    "value_address": "0x2000031c",
+    "metadata_raw": "0x203",
+    "name_pointer": "0x80208ec",
+    "name_field_raw": "0xb",
+    "width_candidate": 2,
+    "name": "IbusRateCFG"
+  },
+  {
+    "record_offset": "0x18768",
+    "value_address": "0x20000314",
+    "metadata_raw": "0x203",
+    "name_pointer": "0x80208f8",
+    "name_field_raw": "0xe",
+    "width_candidate": 2,
+    "name": "VqSprate_vpCFG"
+  },
+  {
+    "record_offset": "0x18778",
+    "value_address": "0x20000316",
+    "metadata_raw": "0x203",
+    "name_pointer": "0x8020908",
+    "name_field_raw": "0xe",
+    "width_candidate": 2,
+    "name": "VqIqrate_vpCFG"
+  },
+  {
+    "record_offset": "0x18788",
+    "value_address": "0x2000058c",
+    "metadata_raw": "0x203",
+    "name_pointer": "0x8020c70",
+    "name_field_raw": "0xa",
+    "width_candidate": 2,
+    "name": "halloffset"
+  },
+  {
+    "record_offset": "0x18798",
+    "value_address": "0x20000588",
+    "metadata_raw": "0x203",
+    "name_pointer": "0x8020c18",
+    "name_field_raw": "0xb",
+    "width_candidate": 2,
+    "name": "motor_spdir"
+  },
+  {
+    "record_offset": "0x187a8",
+    "value_address": "0x2000058a",
+    "metadata_raw": "0x203",
+    "name_pointer": "0x8020c0c",
+    "name_field_raw": "0xb",
+    "width_candidate": 2,
+    "name": "motor_egdir"
+  },
+  {
+    "record_offset": "0x187b8",
+    "value_address": "0x20002ebc",
+    "metadata_raw": "0x404",
+    "name_pointer": "0x8020bfc",
+    "name_field_raw": "0xc",
+    "width_candidate": 4,
+    "name": "readoutmeter"
+  },
+  {
+    "record_offset": "0x187c8",
+    "value_address": "0x20002ec0",
+    "metadata_raw": "0x404",
+    "name_pointer": "0x8020be0",
+    "name_field_raw": "0x9",
+    "width_candidate": 4,
+    "name": "kilometer"
+  },
+  {
+    "record_offset": "0x187d8",
+    "value_address": "0x20002ec4",
+    "metadata_raw": "0x404",
+    "name_pointer": "0x8020bec",
+    "name_field_raw": "0xc",
+    "width_candidate": 4,
+    "name": "currentmeter"
+  }
+]
