@@ -1,0 +1,38 @@
+{
+  "task": "06_update_trust_boundary",
+  "as_of": "2026-09-30",
+  "status": "completed_first_evidence_slice",
+  "outputs": [
+    "research/update-trust-boundary/REPORT_RU.md",
+    "research/update-trust-boundary/TRUST_BOUNDARY_EVIDENCE.json",
+    "research/update-trust-boundary/extract_descriptors.py",
+    "research/update-trust-boundary/descriptor-evidence.json"
+  ],
+  "completed": [
+    "Separated verified bundled inputs from historical evidence in sibling scratch workspaces that is not part of this repository.",
+    "Validated descriptors for the exact bundled corpus: 15 S22 plus 3 KS-16X images; SHA-256 checked against FIRMWARE_SHA256SUMS.txt before interpretation.",
+    "Kept signature verification and target bootloader policy unknown; no physical dump is required for the current phone-only scope."
+  ],
+  "open_questions": [
+    "No S22 or KS-16X bootloader image is in the bundled corpus; loader extent, MCU Flash layout and acceptance policy remain unknown. The nominal pre-app interval is only an inference from application base 0x08008000.",
+    "Meaning and consumer of service word at S22 Flash address 0x0803a800 remain unknown without relevant bootloader/update code.",
+    "Main-board transport integrity checks and bootloader acceptance/version/signature policy remain unknown.",
+    "Android APKs and detailed updater decompilations referenced by historical notes are in sibling ../s22-platform-research, not this repository; app-side integrity/signature remains unaudited here.",
+    "KS-16X app checksum values reproduce descriptor arithmetic, but code that consumes/enforces those fields is not established."
+  ],
+  "verification": [
+    {
+      "command": "python research/update-trust-boundary/extract_descriptors.py",
+      "result": "PASS; exact 18-image corpus (15 S22, 3 KS-16X), all hashes matched FIRMWARE_SHA256SUMS.txt, descriptor relation 18/18, body sums 11/11 nonzero APPSIZE; seven APPSIZE=0 not summed."
+    },
+    {
+      "command": "python -m json.tool research/update-trust-boundary/TRUST_BOUNDARY_EVIDENCE.json",
+      "result": "PASS"
+    },
+    {
+      "command": "python -m json.tool research/update-trust-boundary/descriptor-evidence.json",
+      "result": "PASS"
+    }
+  ],
+  "next_specific_step": "For the current phone-only scope, continue with static analysis of bundled application/update artifacts and keep the bootloader policy unknown; no physical dump is required. If bootloader behavior later becomes in scope, use a user-provided/authorized image and identify MCU/layout before interpreting it."
+}

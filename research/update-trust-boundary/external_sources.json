@@ -1,0 +1,25 @@
+{
+  "note": "URLs and hashes recovered from previous local provenance; URLs not re-fetched in this integration. Mutable download URLs require hash verification.",
+  "artifacts": [
+    {
+      "artifact": "KS-XE-public-flash-dump.bin",
+      "url": "https://raw.githubusercontent.com/BenjaminSoelberg/kingsong-firmware/main/wilfa-eway-E2520-sn_KSXE4100000000000-sw_v1.31-hw_v2.00CH.bin",
+      "sha256": "a3277fd12df7635eaa37ce7b01428e8f41576c683d46e930eb4ec06667fec9e1",
+      "scope": "Comparative other-model dump; not S22/16X bootloader"
+    },
+    {
+      "artifact": "SoftTuner139-original.apk",
+      "url": "https://raw.githubusercontent.com/BenjaminSoelberg/kingsong-soft-tuner-hack/main/KingSong_SoftTuner_139_original.apk",
+      "size": 7593022,
+      "sha256": "23abbf159a6f061a6f577b2627a7817dc2f326b76c8a4cd8bb49d1129025e4e1",
+      "scope": "External Android input; not required by descriptor extractor"
+    },
+    {
+      "artifact": "SoftTuner-current.apk",
+      "url": "https://www.kingsong.vip/upload/android_version/kingsongSoftTuner.apk",
+      "size": 38097276,
+      "sha256": "c121e8072279d8f57dbfa23a254a12ceab6a73b556580cc1e3fee3436fd7c5a0",
+      "scope": "External Android input; not required by descriptor extractor"
+    }
+  ]
+}

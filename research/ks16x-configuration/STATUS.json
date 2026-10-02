@@ -1,0 +1,21 @@
+{
+  "scope": "First offline slice tracing KS16X1/KS16X4/KS16X9 consumers in decrypted 2.12, 2.20, 2.23",
+  "completed": [
+    "Verified all six decrypted-image and restored-RAM SHA-256 values against fixed expectations",
+    "Located exact Flash string bytes and literal-pool pointer words in all three images",
+    "Disassembled range-check consumer and caller in each image; traced RAM buffer and state bit/flag"
+  ],
+  "open_questions": [
+    "Where and from what source is the runtime RAM identifier buffer written?",
+    "Which later consumers read state bit 0x800 and the separate flag byte?",
+    "Does any branch actually load hardware-specific motor, board, gyro or battery configuration?",
+    "What MCU, controller revision, motor, battery/BMS and bootloader match each image?"
+  ],
+  "verification": {
+    "command": "../s22-analysis-venv/bin/python research/ks16x-configuration/trace_model_range.py",
+    "result": "PASS: 3 image/RAM SHA-256 pairs, string literal pools, and three call sites; generated model_range_evidence.json"
+  },
+  "next_step": "Trace writes to RAM identifier buffers 0x20002f32/0x20002f52/0x20002f62 and reads of the state bit and flag, then identify any settings-load branch with address-grounded data flow.",
+  "physical_device_actions": "none",
+  "hardware_mapping": "unknown"
+}

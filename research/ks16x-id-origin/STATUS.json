@@ -1,0 +1,22 @@
+{
+  "scope": "Offline origin of checked KS16X identifier and downstream flag, versions 2.12/2.20/2.23",
+  "completed": [
+    "Proved the RAM identifier is copied as 20 bytes from one of two saved Flash blocks after KS prefix checks in all three images",
+    "Verified Flash pointer tables and original instruction ranges against three SHA-256-pinned application images",
+    "Traced flag-driven 18-byte identifier clearing and four further flag reader contexts per image",
+    "Executed six boundary/prefix inputs per image in original Thumb range-check instructions"
+  ],
+  "open_questions": [
+    "Actual contents of saved Flash blocks 0x0803c000 and 0x0803c800 on a device, and the full write/update provenance",
+    "Which independent reader consumes exactly status bit 0x800 rather than the separate flag byte?",
+    "Full call ordering of reset, saved-configuration read, and range check",
+    "Hardware identities and firmware compatibility remain unknown"
+  ],
+  "verification": {
+    "command": "python research/ks16x-id-origin/trace_id_origin.py",
+    "result": "PASS: 3 SHA-256 images, two saved Flash copy addresses per image, source/reset/consumer instruction assertions, 18 original-Thumb runs",
+    "evidence": "research/ks16x-id-origin/evidence.json"
+  },
+  "next_step": "Trace references to the state halfword at offsets +0x22 and the complete call graph between Flash load, range check, and flag-driven reset; do not infer hardware compatibility.",
+  "physical_device_actions": "none"
+}

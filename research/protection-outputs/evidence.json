@@ -1,0 +1,469 @@
+{
+  "229": {
+    "firmware_sha256": "cb005b9361d22a53cda1ed30f2d33ba8c748360c01d27c7b990a707e7003be68",
+    "initialized_ram_sha256": "d205362ad3a48b753bdbc3eb9e81d1374db19c745257fcdaeeea21c85df4bc4f",
+    "warning": [
+      {
+        "severe": 0,
+        "missing": 0,
+        "counter": 11,
+        "cooldown_in": 0,
+        "motor_gate": 0,
+        "calls": [],
+        "flags": "0x0",
+        "pending": 0,
+        "counter_out": 0,
+        "cooldown_out": 0
+      },
+      {
+        "severe": 1,
+        "missing": 0,
+        "counter": 11,
+        "cooldown_in": 0,
+        "motor_gate": 0,
+        "calls": [
+          [
+            "0x800fd0e",
+            7
+          ],
+          [
+            "0x8021ebe",
+            14
+          ]
+        ],
+        "flags": "0x20",
+        "pending": 14,
+        "counter_out": 0,
+        "cooldown_out": 200
+      },
+      {
+        "severe": 0,
+        "missing": 1,
+        "counter": 11,
+        "cooldown_in": 0,
+        "motor_gate": 0,
+        "calls": [
+          [
+            "0x800fd0e",
+            7
+          ],
+          [
+            "0x8021ebe",
+            14
+          ]
+        ],
+        "flags": "0x20",
+        "pending": 14,
+        "counter_out": 0,
+        "cooldown_out": 200
+      },
+      {
+        "severe": 1,
+        "missing": 1,
+        "counter": 11,
+        "cooldown_in": 0,
+        "motor_gate": 0,
+        "calls": [
+          [
+            "0x800fd0e",
+            7
+          ],
+          [
+            "0x8021ebe",
+            14
+          ]
+        ],
+        "flags": "0x20",
+        "pending": 14,
+        "counter_out": 0,
+        "cooldown_out": 200
+      },
+      {
+        "severe": 1,
+        "missing": 0,
+        "counter": 9,
+        "cooldown_in": 0,
+        "motor_gate": 0,
+        "calls": [],
+        "flags": "0x0",
+        "pending": 0,
+        "counter_out": 10,
+        "cooldown_out": 0
+      },
+      {
+        "severe": 1,
+        "missing": 0,
+        "counter": 11,
+        "cooldown_in": 2,
+        "motor_gate": 0,
+        "calls": [],
+        "flags": "0x0",
+        "pending": 0,
+        "counter_out": 0,
+        "cooldown_out": 1
+      },
+      {
+        "severe": 1,
+        "missing": 0,
+        "counter": 11,
+        "cooldown_in": 0,
+        "motor_gate": 1,
+        "calls": [
+          [
+            "0x8021ebe",
+            14
+          ]
+        ],
+        "flags": "0x0",
+        "pending": 14,
+        "counter_out": 0,
+        "cooldown_out": 200
+      },
+      {
+        "severe": 1,
+        "missing": 0,
+        "counter": 11,
+        "cooldown_in": 1,
+        "motor_gate": 0,
+        "calls": [
+          [
+            "0x800fd0e",
+            7
+          ],
+          [
+            "0x8021ebe",
+            14
+          ]
+        ],
+        "flags": "0x20",
+        "pending": 14,
+        "counter_out": 0,
+        "cooldown_out": 200
+      }
+    ],
+    "consumer": [
+      {
+        "pending": 14,
+        "busy": 0,
+        "constructor_args": [
+          14
+        ],
+        "pc": "0x8022038"
+      },
+      {
+        "pending": 0,
+        "busy": 0,
+        "constructor_args": [],
+        "pc": "0x8070000"
+      },
+      {
+        "pending": 14,
+        "busy": 1,
+        "constructor_args": [],
+        "pc": "0x8070000"
+      }
+    ],
+    "construct": {
+      "code": 14,
+      "ring_index": 1,
+      "record_type_at_plus_8": 14,
+      "record_header_hex": "90104501000000000e000000",
+      "source_frame_type_at_plus_8": 14
+    },
+    "motion": [
+      {
+        "initial_motion_state": 3,
+        "initial_flags": "0x4",
+        "final_motion_state": 4,
+        "pending_after_motion": 0
+      },
+      {
+        "initial_motion_state": 3,
+        "initial_flags": "0x24",
+        "final_motion_state": 7,
+        "pending_after_motion": 225
+      }
+    ],
+    "linked_warning_motion": [
+      {
+        "severe": 0,
+        "missing": 0,
+        "flags_after_warning": "0x4",
+        "pending_after_warning": 0,
+        "motion_state_after_next_tick": 4
+      },
+      {
+        "severe": 1,
+        "missing": 0,
+        "flags_after_warning": "0x24",
+        "pending_after_warning": 14,
+        "motion_state_after_next_tick": 7
+      },
+      {
+        "severe": 0,
+        "missing": 1,
+        "flags_after_warning": "0x24",
+        "pending_after_warning": 14,
+        "motion_state_after_next_tick": 7
+      }
+    ],
+    "linked_bms_aggregate": [
+      {
+        "status_byte_0": 0,
+        "missing_counter_each": 0,
+        "aggregated_severe": 0,
+        "aggregated_missing_flag": false,
+        "flags_after_warning": "0x4",
+        "pending_after_warning": 0,
+        "motion_state_after_next_tick": 4
+      },
+      {
+        "status_byte_0": 2,
+        "missing_counter_each": 0,
+        "aggregated_severe": 1,
+        "aggregated_missing_flag": false,
+        "flags_after_warning": "0x24",
+        "pending_after_warning": 14,
+        "motion_state_after_next_tick": 7
+      },
+      {
+        "status_byte_0": 0,
+        "missing_counter_each": 21,
+        "aggregated_severe": 0,
+        "aggregated_missing_flag": true,
+        "flags_after_warning": "0x24",
+        "pending_after_warning": 14,
+        "motion_state_after_next_tick": 7
+      }
+    ]
+  },
+  "231": {
+    "firmware_sha256": "ce3fafd837474142bb4f3cbe135f6c670835e63c63d28fe93836ab952c99d1ca",
+    "initialized_ram_sha256": "7bf994220b60045a53414978035722f6e6758f457f85c83b032be5404674c77b",
+    "warning": [
+      {
+        "severe": 0,
+        "missing": 0,
+        "counter": 11,
+        "cooldown_in": 0,
+        "motor_gate": 0,
+        "calls": [],
+        "flags": "0x0",
+        "pending": 0,
+        "counter_out": 0,
+        "cooldown_out": 0
+      },
+      {
+        "severe": 1,
+        "missing": 0,
+        "counter": 11,
+        "cooldown_in": 0,
+        "motor_gate": 0,
+        "calls": [
+          [
+            "0x800fd02",
+            7
+          ],
+          [
+            "0x8022172",
+            14
+          ]
+        ],
+        "flags": "0x20",
+        "pending": 14,
+        "counter_out": 0,
+        "cooldown_out": 200
+      },
+      {
+        "severe": 0,
+        "missing": 1,
+        "counter": 11,
+        "cooldown_in": 0,
+        "motor_gate": 0,
+        "calls": [],
+        "flags": "0x0",
+        "pending": 0,
+        "counter_out": 0,
+        "cooldown_out": 0
+      },
+      {
+        "severe": 1,
+        "missing": 1,
+        "counter": 11,
+        "cooldown_in": 0,
+        "motor_gate": 0,
+        "calls": [
+          [
+            "0x800fd02",
+            7
+          ],
+          [
+            "0x8022172",
+            14
+          ]
+        ],
+        "flags": "0x20",
+        "pending": 14,
+        "counter_out": 0,
+        "cooldown_out": 200
+      },
+      {
+        "severe": 1,
+        "missing": 0,
+        "counter": 9,
+        "cooldown_in": 0,
+        "motor_gate": 0,
+        "calls": [],
+        "flags": "0x0",
+        "pending": 0,
+        "counter_out": 10,
+        "cooldown_out": 0
+      },
+      {
+        "severe": 1,
+        "missing": 0,
+        "counter": 11,
+        "cooldown_in": 2,
+        "motor_gate": 0,
+        "calls": [],
+        "flags": "0x0",
+        "pending": 0,
+        "counter_out": 0,
+        "cooldown_out": 1
+      },
+      {
+        "severe": 1,
+        "missing": 0,
+        "counter": 11,
+        "cooldown_in": 0,
+        "motor_gate": 1,
+        "calls": [
+          [
+            "0x8022172",
+            14
+          ]
+        ],
+        "flags": "0x0",
+        "pending": 14,
+        "counter_out": 0,
+        "cooldown_out": 200
+      },
+      {
+        "severe": 1,
+        "missing": 0,
+        "counter": 11,
+        "cooldown_in": 1,
+        "motor_gate": 0,
+        "calls": [
+          [
+            "0x800fd02",
+            7
+          ],
+          [
+            "0x8022172",
+            14
+          ]
+        ],
+        "flags": "0x20",
+        "pending": 14,
+        "counter_out": 0,
+        "cooldown_out": 200
+      }
+    ],
+    "consumer": [
+      {
+        "pending": 14,
+        "busy": 0,
+        "constructor_args": [
+          14
+        ],
+        "pc": "0x80222ee"
+      },
+      {
+        "pending": 0,
+        "busy": 0,
+        "constructor_args": [],
+        "pc": "0x8070000"
+      },
+      {
+        "pending": 14,
+        "busy": 1,
+        "constructor_args": [],
+        "pc": "0x8070000"
+      }
+    ],
+    "construct": {
+      "code": 14,
+      "ring_index": 1,
+      "record_type_at_plus_8": 14,
+      "record_header_hex": "90104501000000000e000000",
+      "source_frame_type_at_plus_8": 14
+    },
+    "motion": [
+      {
+        "initial_motion_state": 3,
+        "initial_flags": "0x4",
+        "final_motion_state": 4,
+        "pending_after_motion": 0
+      },
+      {
+        "initial_motion_state": 3,
+        "initial_flags": "0x24",
+        "final_motion_state": 7,
+        "pending_after_motion": 225
+      }
+    ],
+    "linked_warning_motion": [
+      {
+        "severe": 0,
+        "missing": 0,
+        "flags_after_warning": "0x4",
+        "pending_after_warning": 0,
+        "motion_state_after_next_tick": 4
+      },
+      {
+        "severe": 1,
+        "missing": 0,
+        "flags_after_warning": "0x24",
+        "pending_after_warning": 14,
+        "motion_state_after_next_tick": 7
+      },
+      {
+        "severe": 0,
+        "missing": 1,
+        "flags_after_warning": "0x4",
+        "pending_after_warning": 0,
+        "motion_state_after_next_tick": 4
+      }
+    ],
+    "linked_bms_aggregate": [
+      {
+        "status_byte_0": 0,
+        "missing_counter_each": 0,
+        "aggregated_severe": 0,
+        "aggregated_missing_flag": false,
+        "flags_after_warning": "0x4",
+        "pending_after_warning": 0,
+        "motion_state_after_next_tick": 4
+      },
+      {
+        "status_byte_0": 2,
+        "missing_counter_each": 0,
+        "aggregated_severe": 1,
+        "aggregated_missing_flag": false,
+        "flags_after_warning": "0x24",
+        "pending_after_warning": 14,
+        "motion_state_after_next_tick": 7
+      },
+      {
+        "status_byte_0": 0,
+        "missing_counter_each": 21,
+        "aggregated_severe": 0,
+        "aggregated_missing_flag": true,
+        "flags_after_warning": "0x4",
+        "pending_after_warning": 0,
+        "motion_state_after_next_tick": 4
+      }
+    ]
+  }
+}

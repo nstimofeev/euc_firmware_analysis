@@ -1,0 +1,17 @@
+{
+  "state": "first_slice_complete",
+  "completed": [
+    "Original Thumb parser execution with bounded synthetic cases in v235 and v241",
+    "Original-instruction locations for serial check, default-path clear, repeated parser call and downstream bus-limit read",
+    "Confirmed rejected prefix with ASCII 02 still writes 8000; repeat parser on empty serial does not restore prior value"
+  ],
+  "open_questions": [
+    "Complete boot-path execution including Flash slot selection and nested default helpers",
+    "Later indirect or diagnostic writes to BuscurLimit_set and their ordering on a running device",
+    "Any indirect serial-driven writes to motor_spdir, motor_egdir, halloffset or Hall tables",
+    "Effective preserved Flash settings and absent bootloader for a particular wheel"
+  ],
+  "verification_command": "python research/s22-serial-effects/trace_serial_effects.py",
+  "verification_result": "pass; v235/v241 synthetic cases and pointer addresses asserted, evidence.json reproduced",
+  "next_step": "Trace complete startup write set to 0x20000334 under bounded synthetic Flash slots, then diagnostic indirect write paths; keep live-device and bootloader conclusions separate."
+}

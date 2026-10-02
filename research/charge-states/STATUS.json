@@ -1,0 +1,31 @@
+{
+  "task": "S22 charge state machine v237/v241 first complete slice",
+  "completed": [
+    "Decoded all 21 jump-table targets in v237 and v241 from original firmware bytes",
+    "Documented v237 dispatch, entry path, state transitions, counters, flags, MMIO calls, ordering, and common tail with code addresses",
+    "Identified v241 changed BMS status addresses and late-counter inputs while comparing corresponding branches",
+    "Executed eight bounded original-Thumb transition cases in v237/v241 and recorded RAM and MMIO writes"
+  ],
+  "artifacts": [
+    "research/charge-states/REPORT_RU.md",
+    "research/charge-states/emulate_transitions.py",
+    "research/charge-states/transitions.json",
+    "research/charge-states/STATUS.json"
+  ],
+  "open_questions": [
+    "Bounded original-code emulation of v237/v241 2-to-3, 2-to-4, 2-to-8, 2-to-9, and entry 2-to-5 branch boundaries",
+    "External writers and initializer paths for all transition counters and flags",
+    "Interaction of BMS falling-edge 2-to-20 with subsequent state-2 priority checks in the same call",
+    "Physical circuit identity of observed MMIO addresses cannot be inferred without board evidence",
+    "Real elapsed time varies with the event-driven caller and cannot be inferred unconditionally from counters"
+  ],
+  "verification": {
+    "command": "cd /workspace/scratch/b7efaac7930c/euc_firmware_analysis && ../s22-analysis-venv/bin/python research/charge-states/emulate_transitions.py",
+    "result": "8 bounded original-Thumb cases passed; transitions.json regenerated",
+    "input_sha256": {
+      "S22-v237-decrypted.bin": "d98e8302df3a331660e5ff76be0e828608aee88ae57d0c25147d8b2a314ad904",
+      "S22-v241-decrypted.bin": "99491754f5478caf5d97a5fa31c0a17bc7be55f0c14ee3f87058b55916fe9509"
+    }
+  },
+  "next_step": "Emulate the omitted state-2 boundary paths with controlled callback from FUN_0801785c and include the common tail to study simultaneous writes."
+}

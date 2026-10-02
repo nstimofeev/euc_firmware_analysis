@@ -1,0 +1,31 @@
+{
+  "task": "S22 2.37/2.41 charge-state-2 boundaries and same-call priority",
+  "completed": [
+    "56 bounded full-call original-Thumb cases through common tail (28 per version)",
+    "Verified 2-to-3/4/8/9/5 thresholds at and just below counters, including strict voltage/current/percent comparisons",
+    "Executed original percent producer 0x0801785c/0x08017450 with no stub",
+    "Captured state-20 overwritten later in the same call by 6/3/4/8/9, dual BMS edge, two late state-9 branches, and pre-dispatch state-5 priority",
+    "Captured common-tail RAM status bits and bit-band write 1 then 0 in one call"
+  ],
+  "artifacts": [
+    "research/charge-boundaries/REPORT_RU.md",
+    "research/charge-boundaries/emulate_boundaries.py",
+    "research/charge-boundaries/evidence.json",
+    "research/charge-boundaries/STATUS.json"
+  ],
+  "verification": {
+    "command": "cd /workspace/scratch/b7efaac7930c/euc_firmware_analysis && python research/charge-boundaries/emulate_boundaries.py",
+    "result": "56 original-Thumb boundary cases passed",
+    "input_sha256": {
+      "S22-v237-decrypted.bin": "d98e8302df3a331660e5ff76be0e828608aee88ae57d0c25147d8b2a314ad904",
+      "S22-v241-decrypted.bin": "99491754f5478caf5d97a5fa31c0a17bc7be55f0c14ee3f87058b55916fe9509"
+    }
+  },
+  "open_questions": [
+    "External writers and lifecycle of charge counters/flags",
+    "Real-world co-reachability of the synthetic input combinations",
+    "Physical units of RAM voltage/current values and electric function of MMIO outputs",
+    "Event-driven real-time duration of each counter interval"
+  ],
+  "next_step": "Cross-reference external writers/initializers of counters and BMS latch flags; correlate MMIO lines with board evidence before assigning circuit meaning."
+}

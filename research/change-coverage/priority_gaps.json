@@ -1,0 +1,74 @@
+{
+  "prioritized_unverified_changes": [
+    {
+      "priority": "P1",
+      "question": "2.22 warning codes 225/233 → BMS bits → reaction",
+      "coverage_status": "unverified",
+      "known_addresses": null,
+      "why_prioritized": "Named-code mapping and path to motor reaction are safety-relevant; existing warning analysis explicitly leaves these links open."
+    },
+    {
+      "priority": "P2",
+      "question": "2.21 charge ratio 50–100% and termination behavior",
+      "coverage_status": "unverified",
+      "known_addresses": null,
+      "why_prioritized": "User-visible battery/charging behavior; locate setting storage and charge-state consumers."
+    },
+    {
+      "priority": "P3",
+      "question": "2.21 total-mileage reset on upgrade",
+      "coverage_status": "partially_verified",
+      "known_addresses": null,
+      "why_prioritized": "Release warning is established; determine exact migration/reset path and which mileage field resets."
+    },
+    {
+      "priority": "P4",
+      "question": "2.23 charge enable vs main-power rail mapping",
+      "coverage_status": "partially_verified",
+      "known_addresses": "0x08014344–0x08014352; 0x422101b0; 0x40011010/0x40011014",
+      "why_prioritized": "Instruction sequence verified but board net/GPIO identity is unknown."
+    },
+    {
+      "priority": "P5",
+      "question": "2.27 tiltback equivalence and threshold/actuator path",
+      "coverage_status": "unverified",
+      "known_addresses": null,
+      "why_prioritized": "Translate phrase 'same as other wheels' into explicit comparisons and follow control output."
+    },
+    {
+      "priority": "P6",
+      "question": "2.33 trip-log creation/layout/lifecycle",
+      "coverage_status": "unverified",
+      "known_addresses": null,
+      "why_prioritized": "Energy accumulator delta is known but log record structure, persistence, and exposure are not."
+    },
+    {
+      "priority": "P7",
+      "question": "2.33 two manual-light levels and 2.31 APP brightness control",
+      "coverage_status": "unverified",
+      "known_addresses": null,
+      "why_prioritized": "A persisted mode bit is known; command, level mapping, and lamp output path remain unverified."
+    },
+    {
+      "priority": "P8",
+      "question": "2.35 Pro+ Bluetooth name delivery and introduction",
+      "coverage_status": "partially_verified",
+      "known_addresses": "v235 0x0801b8c4; v241 0x0801c1f0",
+      "why_prioritized": "Serial gate and name construction traced; compare v233 and trace BLE transmission of constructed name."
+    },
+    {
+      "priority": "P9",
+      "question": "2.36 mainboard update large-packet flow and acceptance",
+      "coverage_status": "unverified",
+      "known_addresses": null,
+      "why_prioritized": "Updater absent; determine bootloader source and packet limits before inferring compatibility."
+    },
+    {
+      "priority": "P10",
+      "question": "2.24 unit switch, 1728 Wh variant, stand/headlight, BMS tips",
+      "coverage_status": "unverified",
+      "known_addresses": null,
+      "why_prioritized": "Four short tags lack exact behaviors and code locations; split into individually testable claims during follow-up."
+    }
+  ]
+}

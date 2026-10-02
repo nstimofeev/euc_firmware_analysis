@@ -1,0 +1,233 @@
+{
+  "scope": "single branch to common tail, original Thumb, inert MMIO",
+  "input_sha256": {
+    "s22-developer-pack/firmware/decrypted/S22-v237-decrypted.bin": "d98e8302df3a331660e5ff76be0e828608aee88ae57d0c25147d8b2a314ad904",
+    "s22-developer-pack/firmware/decrypted/S22-v241-decrypted.bin": "99491754f5478caf5d97a5fa31c0a17bc7be55f0c14ee3f87058b55916fe9509"
+  },
+  "dispatch": {
+    "237": {
+      "tbb_address": "0x801b464",
+      "instruction_bytes": "dfe800f0",
+      "table_bytes": "0b1980fefdfcfb7cfaf9f87c7c7c7c7c7c7c7c7c59",
+      "state_targets": {
+        "0": "0x801b47e",
+        "1": "0x801b49a",
+        "2": "0x801b568",
+        "3": "0x801b664",
+        "4": "0x801b662",
+        "5": "0x801b660",
+        "6": "0x801b65e",
+        "7": "0x801b560",
+        "8": "0x801b65c",
+        "9": "0x801b65a",
+        "10": "0x801b658",
+        "11": "0x801b560",
+        "12": "0x801b560",
+        "13": "0x801b560",
+        "14": "0x801b560",
+        "15": "0x801b560",
+        "16": "0x801b560",
+        "17": "0x801b560",
+        "18": "0x801b560",
+        "19": "0x801b560",
+        "20": "0x801b51a"
+      }
+    },
+    "241": {
+      "tbb_address": "0x801ba40",
+      "instruction_bytes": "dfe800f0",
+      "table_bytes": "0b1980fefdfcfb7cfaf9f87c7c7c7c7c7c7c7c7c59",
+      "state_targets": {
+        "0": "0x801ba5a",
+        "1": "0x801ba76",
+        "2": "0x801bb44",
+        "3": "0x801bc40",
+        "4": "0x801bc3e",
+        "5": "0x801bc3c",
+        "6": "0x801bc3a",
+        "7": "0x801bb3c",
+        "8": "0x801bc38",
+        "9": "0x801bc36",
+        "10": "0x801bc34",
+        "11": "0x801bb3c",
+        "12": "0x801bb3c",
+        "13": "0x801bb3c",
+        "14": "0x801bb3c",
+        "15": "0x801bb3c",
+        "16": "0x801bb3c",
+        "17": "0x801bb3c",
+        "18": "0x801bb3c",
+        "19": "0x801bb3c",
+        "20": "0x801baf6"
+      }
+    }
+  },
+  "cases": [
+    {
+      "version": 237,
+      "case": "0_to_1",
+      "initial_state": 0,
+      "entry": "0x801b47e",
+      "stop_before": "0x801b9ac",
+      "state_after": 1,
+      "observed_ram": {
+        "0x20000690": 50
+      },
+      "mmio_writes": []
+    },
+    {
+      "version": 237,
+      "case": "1_to_2_out_of_range",
+      "initial_state": 1,
+      "entry": "0x801b49a",
+      "stop_before": "0x801b9ac",
+      "state_after": 2,
+      "observed_ram": {
+        "0x20000698": 40,
+        "0x2000064a": 1000,
+        "0x20000648": 2
+      },
+      "mmio_writes": [
+        {
+          "pc": "0x800baee",
+          "address": "0x40011014",
+          "size": 4,
+          "value": 2
+        }
+      ]
+    },
+    {
+      "version": 237,
+      "case": "2_to_6_age_mode",
+      "initial_state": 2,
+      "entry": "0x801b568",
+      "stop_before": "0x801b9ac",
+      "state_after": 6,
+      "observed_ram": {
+        "0x20000668": 100,
+        "0x20000664": 0,
+        "0x2000069a": 0
+      },
+      "mmio_writes": [
+        {
+          "pc": "0x801b60e",
+          "address": "0x422101b0",
+          "size": 4,
+          "value": 1
+        },
+        {
+          "pc": "0x800baf2",
+          "address": "0x40011010",
+          "size": 4,
+          "value": 2
+        }
+      ]
+    },
+    {
+      "version": 237,
+      "case": "6_to_2_voltage_low",
+      "initial_state": 6,
+      "entry": "0x801b94a",
+      "stop_before": "0x801b9ac",
+      "state_after": 2,
+      "observed_ram": {
+        "0x20000664": 100,
+        "0x20000673": 0,
+        "0x20000684": 0,
+        "0x20000674": 0,
+        "0x20000672": 0
+      },
+      "mmio_writes": [
+        {
+          "pc": "0x800baee",
+          "address": "0x40011014",
+          "size": 4,
+          "value": 2
+        }
+      ]
+    },
+    {
+      "version": 241,
+      "case": "0_to_1",
+      "initial_state": 0,
+      "entry": "0x801ba5a",
+      "stop_before": "0x801bf88",
+      "state_after": 1,
+      "observed_ram": {
+        "0x20000690": 50
+      },
+      "mmio_writes": []
+    },
+    {
+      "version": 241,
+      "case": "1_to_2_out_of_range",
+      "initial_state": 1,
+      "entry": "0x801ba76",
+      "stop_before": "0x801bf88",
+      "state_after": 2,
+      "observed_ram": {
+        "0x20000698": 40,
+        "0x2000064a": 1000,
+        "0x20000648": 2
+      },
+      "mmio_writes": [
+        {
+          "pc": "0x800bcd6",
+          "address": "0x40011014",
+          "size": 4,
+          "value": 2
+        }
+      ]
+    },
+    {
+      "version": 241,
+      "case": "2_to_6_age_mode",
+      "initial_state": 2,
+      "entry": "0x801bb44",
+      "stop_before": "0x801bf88",
+      "state_after": 6,
+      "observed_ram": {
+        "0x20000668": 100,
+        "0x20000664": 0,
+        "0x2000069a": 0
+      },
+      "mmio_writes": [
+        {
+          "pc": "0x801bbea",
+          "address": "0x422101b0",
+          "size": 4,
+          "value": 1
+        },
+        {
+          "pc": "0x800bcda",
+          "address": "0x40011010",
+          "size": 4,
+          "value": 2
+        }
+      ]
+    },
+    {
+      "version": 241,
+      "case": "6_to_2_voltage_low",
+      "initial_state": 6,
+      "entry": "0x801bf26",
+      "stop_before": "0x801bf88",
+      "state_after": 2,
+      "observed_ram": {
+        "0x20000664": 100,
+        "0x20000673": 0,
+        "0x20000684": 0,
+        "0x20000674": 0,
+        "0x20000672": 0
+      },
+      "mmio_writes": [
+        {
+          "pc": "0x800bcd6",
+          "address": "0x40011014",
+          "size": 4,
+          "value": 2
+        }
+      ]
+    }
+  ]
+}

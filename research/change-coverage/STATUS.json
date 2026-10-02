@@ -1,0 +1,38 @@
+{
+  "task": "S22 adjacent-release change coverage, 15 versions / 14 adjacent pairs",
+  "as_of": "2026-09-29",
+  "status": "completed_first_reproducible_slice",
+  "outputs": [
+    "REPORT_RU.md",
+    "coverage_evidence.json",
+    "priority_gaps.json",
+    "build_coverage.py"
+  ],
+  "completed": [
+    "Mapped 39 atomic manufacturer-note claims to verified, partially verified, or unverified status and available report/evidence paths.",
+    "Generated structural inventory of 15 function exports and the 14 adjacent version pairs, including source hashes.",
+    "Prioritized ten unresolved claim clusters; no unsupported code addresses were invented.",
+    "Did not run an all-pairs fuzzy matcher."
+  ],
+  "open_questions": [
+    "Semantically analyze the early 2.21 and 2.22 user-facing claims, especially charge ratio, mileage migration, warning-code mapping, and calibration interface.",
+    "Resolve 2.24 short release tags and 2.27 tiltback semantics.",
+    "Trace trip-log lifecycle, brightness commands/output, Pro+ Bluetooth naming, and mainboard updater acceptance.",
+    "Current coverage labels are curated mappings to existing work; code does not automatically infer semantic coverage."
+  ],
+  "verification": [
+    {
+      "command": "python research/change-coverage/build_coverage.py",
+      "result": "passed; regenerated coverage_evidence.json and priority_gaps.json"
+    },
+    {
+      "command": "python -m py_compile research/change-coverage/build_coverage.py",
+      "result": "passed"
+    },
+    {
+      "command": "Python JSON checks: 15 versions, 14 adjacent pairs, 39 claims, 10 priority gaps, all input/evidence paths resolve",
+      "result": "passed"
+    }
+  ],
+  "next_concrete_step": "Address the 2.21 and 2.22 gaps from their release claim to specific functions, then append the findings and update this coverage register."
+}

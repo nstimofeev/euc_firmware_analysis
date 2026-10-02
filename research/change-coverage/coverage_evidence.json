@@ -1,0 +1,807 @@
+{
+  "method": "Curated claim-to-existing-report mapping; reproducible inventory of Ghidra function exports. No fuzzy function matcher run.",
+  "coverage_status_definitions": {
+    "verified": "Specific stated behavior supported by addressed comparative machine-code analysis and/or bounded execution; scope in note applies.",
+    "partially_verified": "Some material part of claim is supported; note states unresolved portion.",
+    "unverified": "Available evidence does not establish the claim; not evidence that the code lacks it."
+  },
+  "adjacent_pairs": [
+    {
+      "from_version": 219,
+      "to_version": 221,
+      "release_claim_ids": [
+        "S22-221-06",
+        "S22-221-07",
+        "S22-221-08",
+        "S22-221-09",
+        "S22-221-10",
+        "S22-221-11"
+      ],
+      "structural_function_delta": 10,
+      "semantic_delta_estimate": null
+    },
+    {
+      "from_version": 221,
+      "to_version": 222,
+      "release_claim_ids": [
+        "S22-222-12",
+        "S22-222-13",
+        "S22-222-14"
+      ],
+      "structural_function_delta": 0,
+      "semantic_delta_estimate": null
+    },
+    {
+      "from_version": 222,
+      "to_version": 223,
+      "release_claim_ids": [
+        "S22-223-15"
+      ],
+      "structural_function_delta": 0,
+      "semantic_delta_estimate": null
+    },
+    {
+      "from_version": 223,
+      "to_version": 224,
+      "release_claim_ids": [
+        "S22-224-16",
+        "S22-224-17",
+        "S22-224-18",
+        "S22-224-19"
+      ],
+      "structural_function_delta": 0,
+      "semantic_delta_estimate": null
+    },
+    {
+      "from_version": 224,
+      "to_version": 227,
+      "release_claim_ids": [
+        "S22-227-20",
+        "S22-227-21"
+      ],
+      "structural_function_delta": 0,
+      "semantic_delta_estimate": null
+    },
+    {
+      "from_version": 227,
+      "to_version": 229,
+      "release_claim_ids": [
+        "S22-229-22"
+      ],
+      "structural_function_delta": 1,
+      "semantic_delta_estimate": null
+    },
+    {
+      "from_version": 229,
+      "to_version": 231,
+      "release_claim_ids": [
+        "S22-231-23",
+        "S22-231-24",
+        "S22-231-25"
+      ],
+      "structural_function_delta": 0,
+      "semantic_delta_estimate": null
+    },
+    {
+      "from_version": 231,
+      "to_version": 232,
+      "release_claim_ids": [
+        "S22-232-26"
+      ],
+      "structural_function_delta": 1,
+      "semantic_delta_estimate": null
+    },
+    {
+      "from_version": 232,
+      "to_version": 233,
+      "release_claim_ids": [
+        "S22-233-27",
+        "S22-233-28"
+      ],
+      "structural_function_delta": -59,
+      "semantic_delta_estimate": null
+    },
+    {
+      "from_version": 233,
+      "to_version": 235,
+      "release_claim_ids": [
+        "S22-235-29",
+        "S22-235-30",
+        "S22-235-31"
+      ],
+      "structural_function_delta": 0,
+      "semantic_delta_estimate": null
+    },
+    {
+      "from_version": 235,
+      "to_version": 236,
+      "release_claim_ids": [
+        "S22-236-32",
+        "S22-236-33",
+        "S22-236-34"
+      ],
+      "structural_function_delta": 0,
+      "semantic_delta_estimate": null
+    },
+    {
+      "from_version": 236,
+      "to_version": 237,
+      "release_claim_ids": [
+        "S22-237-35",
+        "S22-237-36"
+      ],
+      "structural_function_delta": 0,
+      "semantic_delta_estimate": null
+    },
+    {
+      "from_version": 237,
+      "to_version": 239,
+      "release_claim_ids": [
+        "S22-239-37"
+      ],
+      "structural_function_delta": 1,
+      "semantic_delta_estimate": null
+    },
+    {
+      "from_version": 239,
+      "to_version": 241,
+      "release_claim_ids": [
+        "S22-241-38",
+        "S22-241-39"
+      ],
+      "structural_function_delta": 3,
+      "semantic_delta_estimate": null
+    }
+  ],
+  "claim_count": 39,
+  "claims": [
+    {
+      "claim_id": "S22-219-01",
+      "release_version": 219,
+      "manufacturer_claim_summary_en": "tail lamp effects optimized",
+      "coverage_status": "unverified",
+      "evidence_paths": [],
+      "note": "No pre-2.19 image is present; no before/after comparison."
+    },
+    {
+      "claim_id": "S22-219-02",
+      "release_version": 219,
+      "manufacturer_claim_summary_en": "mainboard logging optimized",
+      "coverage_status": "unverified",
+      "evidence_paths": [],
+      "note": "No pre-2.19 image is present; behavior not traced."
+    },
+    {
+      "claim_id": "S22-219-03",
+      "release_version": 219,
+      "manufacturer_claim_summary_en": "BMS warnings displayed and pedal-lift response",
+      "coverage_status": "unverified",
+      "evidence_paths": [],
+      "note": "No pre-2.19 baseline; later warning analysis does not establish this claim."
+    },
+    {
+      "claim_id": "S22-219-04",
+      "release_version": 219,
+      "manufacturer_claim_summary_en": "motor drive optimized for greater output",
+      "coverage_status": "unverified",
+      "evidence_paths": [],
+      "note": "No pre-2.19 image or addressed comparative control-path analysis."
+    },
+    {
+      "claim_id": "S22-219-05",
+      "release_version": 219,
+      "manufacturer_claim_summary_en": "known bugs fixed",
+      "coverage_status": "unverified",
+      "evidence_paths": [],
+      "note": "Unbounded generic manufacturer claim."
+    },
+    {
+      "claim_id": "S22-221-06",
+      "release_version": 221,
+      "manufacturer_claim_summary_en": "APP charge-full ratio configurable from 50% to 100%",
+      "coverage_status": "unverified",
+      "evidence_paths": [],
+      "note": "No semantic tracing of setting, persistence, or charge termination."
+    },
+    {
+      "claim_id": "S22-221-07",
+      "release_version": 221,
+      "manufacturer_claim_summary_en": "energy-consumption calculation added",
+      "coverage_status": "unverified",
+      "evidence_paths": [],
+      "note": "The 2.33→2.35 energy change is investigated; this earlier claim is not."
+    },
+    {
+      "claim_id": "S22-221-08",
+      "release_version": 221,
+      "manufacturer_claim_summary_en": "upgrade clears total mileage",
+      "coverage_status": "partially_verified",
+      "evidence_paths": [
+        "../../s22-developer-pack/release_history.json"
+      ],
+      "note": "Manufacturer explicitly warns of reset; reset path/cause not verified in firmware."
+    },
+    {
+      "claim_id": "S22-221-09",
+      "release_version": 221,
+      "manufacturer_claim_summary_en": "logs, battery parameters, and output power optimized",
+      "coverage_status": "unverified",
+      "evidence_paths": [],
+      "note": "Several separate broad claims; no matching path established."
+    },
+    {
+      "claim_id": "S22-221-10",
+      "release_version": 221,
+      "manufacturer_claim_summary_en": "prevent power-on after switched-off wheel is laid down",
+      "coverage_status": "unverified",
+      "evidence_paths": [],
+      "note": "No relevant transition path traced."
+    },
+    {
+      "claim_id": "S22-221-11",
+      "release_version": 221,
+      "manufacturer_claim_summary_en": "other known bugs fixed",
+      "coverage_status": "unverified",
+      "evidence_paths": [],
+      "note": "Unbounded generic manufacturer claim."
+    },
+    {
+      "claim_id": "S22-222-12",
+      "release_version": 222,
+      "manufacturer_claim_summary_en": "charging BMS high-temperature alert code 225",
+      "coverage_status": "unverified",
+      "evidence_paths": [
+        "../warnings/REPORT_RU.md"
+      ],
+      "note": "Warning bits were traced for 2.29/2.31; mapping code 225 to a status bit is open."
+    },
+    {
+      "claim_id": "S22-222-13",
+      "release_version": 222,
+      "manufacturer_claim_summary_en": "single-cell overcharge warning code 233 while charging",
+      "coverage_status": "unverified",
+      "evidence_paths": [
+        "../warnings/REPORT_RU.md"
+      ],
+      "note": "Warning bits were traced for 2.29/2.31; mapping code 233 to a status bit is open."
+    },
+    {
+      "claim_id": "S22-222-14",
+      "release_version": 222,
+      "manufacturer_claim_summary_en": "BMS voltage calibration interface",
+      "coverage_status": "unverified",
+      "evidence_paths": [],
+      "note": "No command/UI path identified."
+    },
+    {
+      "claim_id": "S22-223-15",
+      "release_version": 223,
+      "manufacturer_claim_summary_en": "enable charging after charging-current zero acquisition; keep main power on",
+      "coverage_status": "partially_verified",
+      "evidence_paths": [
+        "../charge-early/REPORT_RU.md",
+        "../charge-early/charge-early-emulation.json"
+      ],
+      "note": "v222→v223 state-1 path changes post-zero bit-band clearing at 0x08014344–0x08014352; physical GPIO/rail identity and other states remain open."
+    },
+    {
+      "claim_id": "S22-224-16",
+      "release_version": 224,
+      "manufacturer_claim_summary_en": "km-to-inch setting/change",
+      "coverage_status": "unverified",
+      "evidence_paths": [],
+      "note": "Release note is a short tag; exact behavior and code path not established."
+    },
+    {
+      "claim_id": "S22-224-17",
+      "release_version": 224,
+      "manufacturer_claim_summary_en": "1728 Wh battery variant",
+      "coverage_status": "unverified",
+      "evidence_paths": [],
+      "note": "Tag does not identify code branch or supported hardware."
+    },
+    {
+      "claim_id": "S22-224-18",
+      "release_version": 224,
+      "manufacturer_claim_summary_en": "headlight-off while stand is static",
+      "coverage_status": "unverified",
+      "evidence_paths": [],
+      "note": "Tag does not establish condition, behavior, or address."
+    },
+    {
+      "claim_id": "S22-224-19",
+      "release_version": 224,
+      "manufacturer_claim_summary_en": "BMS update tips",
+      "coverage_status": "unverified",
+      "evidence_paths": [],
+      "note": "No specific behavior identified from this note."
+    },
+    {
+      "claim_id": "S22-227-20",
+      "release_version": 227,
+      "manufacturer_claim_summary_en": "tiltback made same as other KingSong wheels",
+      "coverage_status": "unverified",
+      "evidence_paths": [],
+      "note": "No quantified target/comparator and no comparative control-path trace."
+    },
+    {
+      "claim_id": "S22-227-21",
+      "release_version": 227,
+      "manufacturer_claim_summary_en": "BMS runtime and reset interface supported",
+      "coverage_status": "unverified",
+      "evidence_paths": [],
+      "note": "No dedicated command/UI path traced."
+    },
+    {
+      "claim_id": "S22-229-22",
+      "release_version": 229,
+      "manufacturer_claim_summary_en": "dynamic parameters adjusted; test-only release",
+      "coverage_status": "partially_verified",
+      "evidence_paths": [
+        "../../PROFILES_AND_CONTROL_RU.md",
+        "../current-gain-semantics.json"
+      ],
+      "note": "New profiles, speed correction, and current-gain direction traced; complete behavioral intent is not established."
+    },
+    {
+      "claim_id": "S22-231-23",
+      "release_version": 231,
+      "manufacturer_claim_summary_en": "BMS warning severity separated and warning test added",
+      "coverage_status": "partially_verified",
+      "evidence_paths": [
+        "../warnings/REPORT_RU.md",
+        "../warnings/warning_groups.json",
+        "../warnings/warning_reactions.json"
+      ],
+      "note": "Severity-bit regrouping and task helper calls verified at 0x0801e7a4 and 0x0800c622; mapping to named alarm codes, physical tiltback, and app test trigger remain open."
+    },
+    {
+      "claim_id": "S22-231-24",
+      "release_version": 231,
+      "manufacturer_claim_summary_en": "APP headlight brightness adjustment",
+      "coverage_status": "unverified",
+      "evidence_paths": [],
+      "note": "New command / output route not traced."
+    },
+    {
+      "claim_id": "S22-231-25",
+      "release_version": 231,
+      "manufacturer_claim_summary_en": "factory aging-mode entry conditions adjusted",
+      "coverage_status": "unverified",
+      "evidence_paths": [],
+      "note": "Production-mode branch not isolated."
+    },
+    {
+      "claim_id": "S22-232-26",
+      "release_version": 232,
+      "manufacturer_claim_summary_en": "supports new production fixture",
+      "coverage_status": "unverified",
+      "evidence_paths": [],
+      "note": "No production-fixture path identified; note does not establish riding incompatibility."
+    },
+    {
+      "claim_id": "S22-233-27",
+      "release_version": 233,
+      "manufacturer_claim_summary_en": "trip log added",
+      "coverage_status": "unverified",
+      "evidence_paths": [
+        "../../ANALYSIS_EXTENDED_RU.md"
+      ],
+      "note": "2.33→2.35 energy arithmetic is traced, but creation, layout, and lifecycle of the trip log are not."
+    },
+    {
+      "claim_id": "S22-233-28",
+      "release_version": 233,
+      "manufacturer_claim_summary_en": "manual headlight has two brightness levels",
+      "coverage_status": "unverified",
+      "evidence_paths": [],
+      "note": "Later persistence of manual/automatic mode is traced; brightness output levels are not."
+    },
+    {
+      "claim_id": "S22-235-29",
+      "release_version": 235,
+      "manufacturer_claim_summary_en": "trip-log energy accounting corrected",
+      "coverage_status": "partially_verified",
+      "evidence_paths": [
+        "../../ANALYSIS_EXTENDED_RU.md",
+        "../energy-emulation.json"
+      ],
+      "note": "At 0x0802013e–0x080201c2 vs 0x0802027a–0x08020356 arithmetic and separate positive/negative counters verified; physical units/timebase open."
+    },
+    {
+      "claim_id": "S22-235-30",
+      "release_version": 235,
+      "manufacturer_claim_summary_en": "consumed and returned energy tracked separately",
+      "coverage_status": "verified",
+      "evidence_paths": [
+        "../../ANALYSIS_EXTENDED_RU.md",
+        "../energy-emulation.json"
+      ],
+      "note": "Separate counters and synthetic execution verified in 2.35; meanings are code-path meanings, not calibrated physical units."
+    },
+    {
+      "claim_id": "S22-235-31",
+      "release_version": 235,
+      "manufacturer_claim_summary_en": "Pro+ Bluetooth name derived from serial number",
+      "coverage_status": "partially_verified",
+      "evidence_paths": [
+        "../s22-configuration/REPORT_RU.md",
+        "../s22-configuration/evidence.json"
+      ],
+      "note": "v235/v241 serial byte +5 selects S22Pro and plus suffix in name construction; full radio/name delivery and introduction versus v233 not checked."
+    },
+    {
+      "claim_id": "S22-236-32",
+      "release_version": 236,
+      "manufacturer_claim_summary_en": "total-current limit changed for off-road and hill performance",
+      "coverage_status": "verified",
+      "evidence_paths": [
+        "../../ANALYSIS_EXTENDED_RU.md",
+        "../current-rescaling-emulation.json"
+      ],
+      "note": "2.35→2.36 limiter state/divisor changes executed and ADC caller chain located at 0x0800863c; no physical performance test."
+    },
+    {
+      "claim_id": "S22-236-33",
+      "release_version": 236,
+      "manufacturer_claim_summary_en": "BMS firmware retrieval uses larger/faster packets",
+      "coverage_status": "partially_verified",
+      "evidence_paths": [
+        "../update-path/UPDATE_PATH_RU.md",
+        "../update-path/update-delta-evidence.json"
+      ],
+      "note": "Receiver/DMA changes traced at 0x08011560 and 0x08016944→0x080169cc; full transport interoperability and BMS bootloader not established."
+    },
+    {
+      "claim_id": "S22-236-34",
+      "release_version": 236,
+      "manufacturer_claim_summary_en": "mainboard firmware update uses larger/faster packets",
+      "coverage_status": "unverified",
+      "evidence_paths": [
+        "../update-path/UPDATE_PATH_RU.md"
+      ],
+      "note": "The mainboard updater/bootloader is not present in analyzed image; DMA buffer growth alone cannot establish updater acceptance."
+    },
+    {
+      "claim_id": "S22-237-35",
+      "release_version": 237,
+      "manufacturer_claim_summary_en": "charging management optimized",
+      "coverage_status": "partially_verified",
+      "evidence_paths": [
+        "../../ANALYSIS_EXTENDED_RU.md",
+        "../v236-charge.json",
+        "../v237-charge.json"
+      ],
+      "note": "State-table expansion and state 20 path at 0x0801b51a executed; other states and physical charging effects remain open."
+    },
+    {
+      "claim_id": "S22-237-36",
+      "release_version": 237,
+      "manufacturer_claim_summary_en": "APP manual/automatic lighting choice remembered",
+      "coverage_status": "verified",
+      "evidence_paths": [
+        "../../ANALYSIS_EXTENDED_RU.md",
+        "../light-memory-emulation.json",
+        "../config-storage-emulation.json"
+      ],
+      "note": "Mode bit persistence and restore path verified around 0x08021510; brightness meaning of low bits remains open."
+    },
+    {
+      "claim_id": "S22-239-37",
+      "release_version": 239,
+      "manufacturer_claim_summary_en": "initial speed unlimit after 1 km",
+      "coverage_status": "partially_verified",
+      "evidence_paths": [
+        "../speed-units/REPORT_RU.md",
+        "../../ANALYSIS_EXTENDED_RU.md"
+      ],
+      "note": "Threshold >2000→>1000 verified in settings handler; exact manufacturer phrase and all unlock conditions are not established."
+    },
+    {
+      "claim_id": "S22-241-38",
+      "release_version": 241,
+      "manufacturer_claim_summary_en": "balance algorithm change addresses near-stop braking jerk",
+      "coverage_status": "partially_verified",
+      "evidence_paths": [
+        "../../ANALYSIS_EXTENDED_RU.md"
+      ],
+      "note": "Current correction fades at prior speed boundary and averaging rejects 0/65535; broader ride/physical claim not testable offline."
+    },
+    {
+      "claim_id": "S22-241-39",
+      "release_version": 241,
+      "manufacturer_claim_summary_en": "compatible with new battery architecture",
+      "coverage_status": "partially_verified",
+      "evidence_paths": [
+        "../../ANALYSIS_EXTENDED_RU.md",
+        "../v241-bms-parser.json",
+        "../v241-bms-frame-validator.json"
+      ],
+      "note": "Expected 0x42 replies of 93/104 bytes are accepted; the full new BMS protocol and hardware matrix are open."
+    }
+  ],
+  "function_inventory": [
+    {
+      "version": 219,
+      "program": "S22-v219-decrypted.bin",
+      "functions_json": "decompiled/v219/functions.json",
+      "sha256": "64cdd863fb09660f58b131291130807329c9894378012b2c28bc35edbd62a87c",
+      "functions_exported": 671,
+      "functions_decompiled": 671,
+      "functions_failed": 0,
+      "first_entry": "0x08008138",
+      "last_entry": "0x08023c08",
+      "entry_span_bytes_inclusive": 113361,
+      "sum_reported_body_bytes": 103632,
+      "direct_call_edges_listed": 1225,
+      "unique_direct_call_targets": 563,
+      "functions_with_decompile_flag_false": 0
+    },
+    {
+      "version": 221,
+      "program": "S22-v221-decrypted.bin",
+      "functions_json": "decompiled/v221/functions.json",
+      "sha256": "defb5cd3acc5eae781cef81569ab352aef3b181a0ccd1d378c4ce02623a579bd",
+      "functions_exported": 681,
+      "functions_decompiled": 681,
+      "functions_failed": 0,
+      "first_entry": "0x08008138",
+      "last_entry": "0x08024690",
+      "entry_span_bytes_inclusive": 116057,
+      "sum_reported_body_bytes": 105748,
+      "direct_call_edges_listed": 1243,
+      "unique_direct_call_targets": 569,
+      "functions_with_decompile_flag_false": 0
+    },
+    {
+      "version": 222,
+      "program": "S22-v222-decrypted.bin",
+      "functions_json": "decompiled/v222/functions.json",
+      "sha256": "5ccd5073fd1d5d2491282b54bc4156d00627c43ef4b0297fdd4e665e05d340ae",
+      "functions_exported": 681,
+      "functions_decompiled": 681,
+      "functions_failed": 0,
+      "first_entry": "0x08008138",
+      "last_entry": "0x08024844",
+      "entry_span_bytes_inclusive": 116493,
+      "sum_reported_body_bytes": 106556,
+      "direct_call_edges_listed": 1243,
+      "unique_direct_call_targets": 569,
+      "functions_with_decompile_flag_false": 0
+    },
+    {
+      "version": 223,
+      "program": "S22-v223-decrypted.bin",
+      "functions_json": "decompiled/v223/functions.json",
+      "sha256": "47de37623276f4bd149f62afcd57c75ad9ecc8046ea1e31683eeeedac66442cd",
+      "functions_exported": 681,
+      "functions_decompiled": 681,
+      "functions_failed": 0,
+      "first_entry": "0x08008138",
+      "last_entry": "0x08024824",
+      "entry_span_bytes_inclusive": 116461,
+      "sum_reported_body_bytes": 106532,
+      "direct_call_edges_listed": 1243,
+      "unique_direct_call_targets": 569,
+      "functions_with_decompile_flag_false": 0
+    },
+    {
+      "version": 224,
+      "program": "S22-v224-decrypted.bin",
+      "functions_json": "decompiled/v224/functions.json",
+      "sha256": "2d0c7cb506d4b8dc1f1ece743f8f01bfd4191372415a1c8eb21db2edc91a6f49",
+      "functions_exported": 681,
+      "functions_decompiled": 681,
+      "functions_failed": 0,
+      "first_entry": "0x08008138",
+      "last_entry": "0x080249d0",
+      "entry_span_bytes_inclusive": 116889,
+      "sum_reported_body_bytes": 106946,
+      "direct_call_edges_listed": 1248,
+      "unique_direct_call_targets": 569,
+      "functions_with_decompile_flag_false": 0
+    },
+    {
+      "version": 227,
+      "program": "S22-v227-decrypted.bin",
+      "functions_json": "decompiled/v227/functions.json",
+      "sha256": "50f69c99796baf0ee132b510d5ea414a68349547e9578f1470f6a5c8afa8907b",
+      "functions_exported": 681,
+      "functions_decompiled": 681,
+      "functions_failed": 0,
+      "first_entry": "0x08008138",
+      "last_entry": "0x08024b74",
+      "entry_span_bytes_inclusive": 117309,
+      "sum_reported_body_bytes": 107354,
+      "direct_call_edges_listed": 1248,
+      "unique_direct_call_targets": 569,
+      "functions_with_decompile_flag_false": 0
+    },
+    {
+      "version": 229,
+      "program": "S22-v229-decrypted.bin",
+      "functions_json": "decompiled/v229/functions.json",
+      "sha256": "6c56c54eee96a1f82243594a25ffd089ebcc77e968a7db42452070578ea4ded4",
+      "functions_exported": 682,
+      "functions_decompiled": 682,
+      "functions_failed": 0,
+      "first_entry": "0x08008138",
+      "last_entry": "0x08024e80",
+      "entry_span_bytes_inclusive": 118089,
+      "sum_reported_body_bytes": 108104,
+      "direct_call_edges_listed": 1249,
+      "unique_direct_call_targets": 569,
+      "functions_with_decompile_flag_false": 0
+    },
+    {
+      "version": 231,
+      "program": "S22-v231-decrypted.bin",
+      "functions_json": "decompiled/v231/functions.json",
+      "sha256": "ddf0a0bba7f538b4e7228f1b44c89393a6c21f07f578ff632b566826e168f219",
+      "functions_exported": 682,
+      "functions_decompiled": 682,
+      "functions_failed": 0,
+      "first_entry": "0x08008138",
+      "last_entry": "0x080251a0",
+      "entry_span_bytes_inclusive": 118889,
+      "sum_reported_body_bytes": 108706,
+      "direct_call_edges_listed": 1250,
+      "unique_direct_call_targets": 569,
+      "functions_with_decompile_flag_false": 0
+    },
+    {
+      "version": 232,
+      "program": "S22-v232-decrypted.bin",
+      "functions_json": "decompiled/v232/functions.json",
+      "sha256": "8c969d4dac73da25e2f8e088586f1005cfc85f0732d873fb67e906c891b5af07",
+      "functions_exported": 683,
+      "functions_decompiled": 683,
+      "functions_failed": 0,
+      "first_entry": "0x08008138",
+      "last_entry": "0x08025330",
+      "entry_span_bytes_inclusive": 119289,
+      "sum_reported_body_bytes": 109080,
+      "direct_call_edges_listed": 1254,
+      "unique_direct_call_targets": 569,
+      "functions_with_decompile_flag_false": 0
+    },
+    {
+      "version": 233,
+      "program": "S22-v233-decrypted.bin",
+      "functions_json": "decompiled/v233/functions.json",
+      "sha256": "c940366112fcf7d2ec5f87e7bed7c66a20614eaca5d6026c978c7017687dddcd",
+      "functions_exported": 624,
+      "functions_decompiled": 624,
+      "functions_failed": 0,
+      "first_entry": "0x08008138",
+      "last_entry": "0x080241e4",
+      "entry_span_bytes_inclusive": 114861,
+      "sum_reported_body_bytes": 103996,
+      "direct_call_edges_listed": 1145,
+      "unique_direct_call_targets": 566,
+      "functions_with_decompile_flag_false": 0
+    },
+    {
+      "version": 235,
+      "program": "S22-v235-decrypted.bin",
+      "functions_json": "decompiled/v235/functions.json",
+      "sha256": "fe831254fd0dafdf5eb98c69059653308050fb1323473242eea88f6dc08e1a44",
+      "functions_exported": 624,
+      "functions_decompiled": 624,
+      "functions_failed": 0,
+      "first_entry": "0x08008138",
+      "last_entry": "0x080243c0",
+      "entry_span_bytes_inclusive": 115337,
+      "sum_reported_body_bytes": 104444,
+      "direct_call_edges_listed": 1145,
+      "unique_direct_call_targets": 566,
+      "functions_with_decompile_flag_false": 0
+    },
+    {
+      "version": 236,
+      "program": "S22-v236-decrypted.bin",
+      "functions_json": "decompiled/v236/functions.json",
+      "sha256": "6ab9a81c2afe9c0b128ca1c7e856133244852c3da335f0c907fcc3157ba524c4",
+      "functions_exported": 624,
+      "functions_decompiled": 624,
+      "functions_failed": 0,
+      "first_entry": "0x08008138",
+      "last_entry": "0x08024610",
+      "entry_span_bytes_inclusive": 115929,
+      "sum_reported_body_bytes": 104942,
+      "direct_call_edges_listed": 1145,
+      "unique_direct_call_targets": 566,
+      "functions_with_decompile_flag_false": 0
+    },
+    {
+      "version": 237,
+      "program": "S22-v237-decrypted.bin",
+      "functions_json": "decompiled/v237/functions.json",
+      "sha256": "ac04ac74f51079f5e694e5556f7d8dddf3e06c10d28885134a0f7215fd9e2c1a",
+      "functions_exported": 624,
+      "functions_decompiled": 624,
+      "functions_failed": 0,
+      "first_entry": "0x08008138",
+      "last_entry": "0x0802479c",
+      "entry_span_bytes_inclusive": 116325,
+      "sum_reported_body_bytes": 105230,
+      "direct_call_edges_listed": 1145,
+      "unique_direct_call_targets": 566,
+      "functions_with_decompile_flag_false": 0
+    },
+    {
+      "version": 239,
+      "program": "S22-v239-decrypted.bin",
+      "functions_json": "decompiled/v239/functions.json",
+      "sha256": "f6de23ca74a1791f7df3421b5d4e3906d2f3ebda24ba2952edcc7b35674692b7",
+      "functions_exported": 625,
+      "functions_decompiled": 625,
+      "functions_failed": 0,
+      "first_entry": "0x08008138",
+      "last_entry": "0x080247ac",
+      "entry_span_bytes_inclusive": 116341,
+      "sum_reported_body_bytes": 105244,
+      "direct_call_edges_listed": 1145,
+      "unique_direct_call_targets": 566,
+      "functions_with_decompile_flag_false": 0
+    },
+    {
+      "version": 241,
+      "program": "S22-v241-decrypted.bin",
+      "functions_json": "decompiled/v241/functions.json",
+      "sha256": "bd6e974335d8d4b48a63b6410e3b2f7b29694a2c3ddc90dadbb904deaffd2093",
+      "functions_exported": 628,
+      "functions_decompiled": 628,
+      "functions_failed": 0,
+      "first_entry": "0x08008138",
+      "last_entry": "0x08024de0",
+      "entry_span_bytes_inclusive": 117929,
+      "sum_reported_body_bytes": 106920,
+      "direct_call_edges_listed": 1147,
+      "unique_direct_call_targets": 570,
+      "functions_with_decompile_flag_false": 0
+    }
+  ],
+  "function_inventory_caveat": "Exported function entries, Ghidra body_bytes, and direct call relationships are structural inventory only. Entry span is not executable extent; function count deltas are not added/removed behavior. Ghidra decompilation success is not semantic coverage.",
+  "input_sha256": {
+    "CHANGELOG_EVIDENCE_RU.md": "a7893718dea3036c0ad212c2abfc4051d3ad9727690acccadcb6c3722441dbb6",
+    "s22-developer-pack/release_history.json": "15788335a379321030ee974904935c013d4ad55e42bb419763841382b3897cca",
+    "decompiled/v219/functions.json": "64cdd863fb09660f58b131291130807329c9894378012b2c28bc35edbd62a87c",
+    "decompiled/v221/functions.json": "defb5cd3acc5eae781cef81569ab352aef3b181a0ccd1d378c4ce02623a579bd",
+    "decompiled/v222/functions.json": "5ccd5073fd1d5d2491282b54bc4156d00627c43ef4b0297fdd4e665e05d340ae",
+    "decompiled/v223/functions.json": "47de37623276f4bd149f62afcd57c75ad9ecc8046ea1e31683eeeedac66442cd",
+    "decompiled/v224/functions.json": "2d0c7cb506d4b8dc1f1ece743f8f01bfd4191372415a1c8eb21db2edc91a6f49",
+    "decompiled/v227/functions.json": "50f69c99796baf0ee132b510d5ea414a68349547e9578f1470f6a5c8afa8907b",
+    "decompiled/v229/functions.json": "6c56c54eee96a1f82243594a25ffd089ebcc77e968a7db42452070578ea4ded4",
+    "decompiled/v231/functions.json": "ddf0a0bba7f538b4e7228f1b44c89393a6c21f07f578ff632b566826e168f219",
+    "decompiled/v232/functions.json": "8c969d4dac73da25e2f8e088586f1005cfc85f0732d873fb67e906c891b5af07",
+    "decompiled/v233/functions.json": "c940366112fcf7d2ec5f87e7bed7c66a20614eaca5d6026c978c7017687dddcd",
+    "decompiled/v235/functions.json": "fe831254fd0dafdf5eb98c69059653308050fb1323473242eea88f6dc08e1a44",
+    "decompiled/v236/functions.json": "6ab9a81c2afe9c0b128ca1c7e856133244852c3da335f0c907fcc3157ba524c4",
+    "decompiled/v237/functions.json": "ac04ac74f51079f5e694e5556f7d8dddf3e06c10d28885134a0f7215fd9e2c1a",
+    "decompiled/v239/functions.json": "f6de23ca74a1791f7df3421b5d4e3906d2f3ebda24ba2952edcc7b35674692b7",
+    "decompiled/v241/functions.json": "bd6e974335d8d4b48a63b6410e3b2f7b29694a2c3ddc90dadbb904deaffd2093",
+    "ANALYSIS_EXTENDED_RU.md": "4cc38ee8e82eea1bab79546b18933735dbf7b0a082e7ea8821f979d393c5b250",
+    "PROFILES_AND_CONTROL_RU.md": "fb95999d3419df9fd811ec4584ad953a505a61305cfa0d9bd244eb078ee08516",
+    "research/warnings/REPORT_RU.md": "4488afef8aade5788db5b7ce7293aa992b5ffd77df55997f95381482740d3b08",
+    "research/charge-early/REPORT_RU.md": "df4c3076fb6fd7f60c2d7527ec027c046c2392522464f4e65638d551126db9bc",
+    "research/charge-early/charge-early-emulation.json": "79919177f125912f066b8d1069b5908badf4ac0c89d11e67b38210e2d05da941",
+    "research/current-gain-semantics.json": "53d69766a2ba7da0f25134fecc954a2a7745a457825c83c31f6dbc46fae4cb73",
+    "research/warnings/warning_groups.json": "4b0f73b77db15a010a21c7b4d7da2444e9770397ab66ee7182771457e0154cc4",
+    "research/warnings/warning_reactions.json": "91f9974bf784e7b64e783d17fc6b8500fe2914b9803a6ac5b57abd2533b68306",
+    "research/energy-emulation.json": "167c5031c6a8813211026db25b2a06255876ac51bd181af0b3485c893841f66b",
+    "research/s22-configuration/REPORT_RU.md": "4551e258058975d6cc277e27bf1e381c2b22edcafca335d1a689845b9978f62d",
+    "research/s22-configuration/evidence.json": "d6de58b043a175f33122dd6e82a98cc35a2a960ff1f03f3a13d03f09ca213c92",
+    "research/current-rescaling-emulation.json": "2f76267978e63eeca6051e44564880175d326486f120fa5f129a06e15861d743",
+    "research/update-path/UPDATE_PATH_RU.md": "fa9cbef734d98f6d6b130138af44264e98bd8b093b3b49286e4c14cb646d5399",
+    "research/update-path/update-delta-evidence.json": "ef13d385a3dfb6ab6a2396c1f3db906934d7ff3ace35e9759c8657d5f04a949e",
+    "research/v236-charge.json": "85c8e30068fdbcab2af5aafbff7b1c5d511a7c7a7c9a8931ae036b4f91c8230a",
+    "research/v237-charge.json": "c6a8c18c1716f8328dea49b1ad37618853a4c048d11b4f0d3218477094e92326",
+    "research/light-memory-emulation.json": "3fb2bd57f40c2b7c6f99fd538585bc7041bec756910809a4a14550b969b28abb",
+    "research/config-storage-emulation.json": "d138cb25c3a3718e0d9051a9c2a0af063605b25de8eef9b0c8e1f07aa006acdb",
+    "research/speed-units/REPORT_RU.md": "344aa47e84a830fc71f1db92fc03931124c155e897c88695484f8ecf73a6a6f0",
+    "research/v241-bms-parser.json": "55d2daa4de2d18b1f0fad6411b5ae14b42e28ab2d6555c53683a670c21c442a1",
+    "research/v241-bms-frame-validator.json": "00344f37d5750b14c51c27aae8a05fabbe279085c35afe57c6a08d5681a3f75a"
+  },
+  "tool": "Python 3 standard library; no external packages"
+}

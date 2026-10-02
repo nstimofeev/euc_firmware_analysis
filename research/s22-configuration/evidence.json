@@ -1,0 +1,314 @@
+{
+  "scope": "offline selected application functions; no live Flash contents",
+  "image_base": "0x08008000",
+  "versions": {
+    "219": {
+      "sha256": {
+        "application": "333fd1b4109cefec10f7be85704b79001d10f091384286189b857f3c36b2fd8b",
+        "initialized_ram": "b9bf8d22773975124e42cd63a3dce4598770713f874b7b93751c9c23f38257c7"
+      },
+      "serial_parser": "0x0801a15a",
+      "comparison_literal_bounds": [
+        "KSSA01",
+        "KSSA04"
+      ],
+      "diagnostic_initialized": {
+        "motor_spdir": {
+          "ram": "0x20000578",
+          "initial_signed_16": 1,
+          "diagnostic_record": "0x08026bb4"
+        },
+        "motor_egdir": {
+          "ram": "0x2000057a",
+          "initial_signed_16": -1,
+          "diagnostic_record": "0x08026bc4"
+        },
+        "halloffset": {
+          "ram": "0x2000057c",
+          "initial_signed_16": 32767,
+          "diagnostic_record": "0x08026544"
+        }
+      }
+    },
+    "235": {
+      "sha256": {
+        "application": "3354a12174c93a5bf2296b8ec5984dd67e897ecd646dc123e5c314b97b7a1f44",
+        "initialized_ram": "8da7ee952e75bd3fac3b4ad48cf1ae9665dab9435852bf8405eb3ad0cb3d48f9"
+      },
+      "serial_parser": "0x0800f250",
+      "comparison_literal_bounds": [
+        "KSSA01",
+        "KSSA09"
+      ],
+      "diagnostic_initialized": {
+        "motor_spdir": {
+          "ram": "0x2000059c",
+          "initial_signed_16": 1,
+          "diagnostic_record": "0x0802729c"
+        },
+        "motor_egdir": {
+          "ram": "0x2000059e",
+          "initial_signed_16": -1,
+          "diagnostic_record": "0x080272ac"
+        },
+        "halloffset": {
+          "ram": "0x200005a0",
+          "initial_signed_16": 32767,
+          "diagnostic_record": "0x08026c6c"
+        }
+      },
+      "original_instructions": {
+        "serial_parser": [
+          "0800f250  push {r4,lr}",
+          "0800f252  mov r2,r0",
+          "0800f254  movs r1,#0x0",
+          "0800f256  movs r3,#0x1",
+          "0800f258  b 0x0800f286",
+          "0800f25a  ldr r0,[0x0800f2dc]",
+          "0800f25c  ldrb r0,[r0,r1]",
+          "0800f25e  cmp r0,#0x0",
+          "0800f260  ble 0x0800f282",
+          "0800f262  ldr r0,[0x0800f2e0]",
+          "0800f264  ldrb r0,[r0,r1]",
+          "0800f266  cmp r0,#0x0",
+          "0800f268  ble 0x0800f282",
+          "0800f26a  ldrb r0,[r2,r1]",
+          "0800f26c  ldr r4,[0x0800f2e0]",
+          "0800f26e  ldrb r4,[r4,r1]",
+          "0800f270  cmp r0,r4",
+          "0800f272  blt 0x0800f27e",
+          "0800f274  ldrb r0,[r2,r1]",
+          "0800f276  ldr r4,[0x0800f2dc]",
+          "0800f278  ldrb r4,[r4,r1]",
+          "0800f27a  cmp r0,r4",
+          "0800f27c  ble 0x0800f282",
+          "0800f27e  movs r3,#0x0",
+          "0800f280  b 0x0800f28a",
+          "0800f282  adds r0,r1,#0x1",
+          "0800f284  uxtb r1,r0",
+          "0800f286  cmp r1,#0x11",
+          "0800f288  blt 0x0800f25a",
+          "0800f28a  nop",
+          "0800f28c  movs r0,#0x1",
+          "0800f28e  ldr r4,[0x0800f2e4]",
+          "0800f290  strh.w r0,[r4,#0x5c]",
+          "0800f294  movs r0,#0x0",
+          "0800f296  strh.w r0,[r4,#0xa4]",
+          "0800f29a  ldrb r0,[r2,#0x4]",
+          "0800f29c  cmp r0,#0x30",
+          "0800f29e  bne 0x0800f2ae",
+          "0800f2a0  ldrb r0,[r2,#0x5]",
+          "0800f2a2  cmp r0,#0x32",
+          "0800f2a4  bne 0x0800f2ae",
+          "0800f2a6  mov.w r0,#0x1f40",
+          "0800f2aa  ldr r4,[0x0800f2e8]",
+          "0800f2ac  str r0,[r4,#0x0]",
+          "0800f2ae  cbz r3,0x0800f2c6",
+          "0800f2b0  ldr r0,[0x0800f2ec]",
+          "0800f2b2  ldrh r0,[r0,#0x22]",
+          "0800f2b4  bic r0,r0,#0x800",
+          "0800f2b8  ldr r4,[0x0800f2ec]",
+          "0800f2ba  strh r0,[r4,#0x22]",
+          "0800f2bc  movs r0,#0x0",
+          "0800f2be  ldr r4,[0x0800f2f0]",
+          "0800f2c0  strb r0,[r4,#0x0]",
+          "0800f2c2  movs r0,#0x1",
+          "0800f2c4  pop {r4,pc}",
+          "0800f2c6  ldr r0,[0x0800f2ec]",
+          "0800f2c8  ldrh r0,[r0,#0x22]",
+          "0800f2ca  orr r0,r0,#0x800",
+          "0800f2ce  ldr r4,[0x0800f2ec]",
+          "0800f2d0  strh r0,[r4,#0x22]",
+          "0800f2d2  movs r0,#0x1",
+          "0800f2d4  ldr r4,[0x0800f2f0]",
+          "0800f2d6  strb r0,[r4,#0x0]",
+          "0800f2d8  movs r0,#0x0"
+        ],
+        "bluetooth_selector": [
+          "0801b8fe  ldr r0,[0x0801bcd4]",
+          "0801b900  ldrb.w r0,[r0,#0x67]",
+          "0801b904  cmp r0,#0x37",
+          "0801b906  blt 0x0801b94a",
+          "0801b908  movs r1,#0x6",
+          "0801b90a  ldr r2,[0x0801bcd8]",
+          "0801b90c  strb r1,[r2,#0x0]",
+          "0801b90e  movs r0,#0x0",
+          "0801b910  b 0x0801b922",
+          "0801b912  adds r1,r0,#0x3",
+          "0801b914  ldr r2,[0x0801bcdc]",
+          "0801b916  ldrb r2,[r2,r1]",
+          "0801b918  adds r1,r1,#0x6",
+          "0801b91a  ldr r3,[0x0801bce0]",
+          "0801b91c  strb r2,[r3,r1]",
+          "0801b91e  adds r1,r0,#0x1",
+          "0801b920  uxtb r0,r1",
+          "0801b922  ldr r1,[0x0801bcd8]",
+          "0801b924  ldrb r1,[r1,#0x0]",
+          "0801b926  cmp r0,r1",
+          "0801b928  blt 0x0801b912",
+          "0801b92a  ldr r1,[0x0801bcd4]",
+          "0801b92c  ldrb.w r1,[r1,#0x67]",
+          "0801b930  cmp r1,#0x39",
+          "0801b932  bne 0x0801b948",
+          "0801b934  movs r2,#0x2b",
+          "0801b936  add.w r1,r0,#0x9",
+          "0801b93a  ldr r3,[0x0801bce0]",
+          "0801b93c  strb r2,[r3,r1]"
+        ]
+      },
+      "config_loader": "0x08021c0c",
+      "config_checksum": "0x08020fa0",
+      "config_copy": "0x08021038",
+      "serial_fallback": "0x08021064",
+      "flash_slot_pointer_table": "0x8026650",
+      "flash_slots": [
+        "0x803c000",
+        "0x803c800"
+      ],
+      "checksum_words": 66,
+      "copied_words": 66,
+      "bluetooth_name_selector": "0x0801b8c4",
+      "angle_consumer": "0x0800bc14"
+    },
+    "241": {
+      "sha256": {
+        "application": "99491754f5478caf5d97a5fa31c0a17bc7be55f0c14ee3f87058b55916fe9509",
+        "initialized_ram": "aaa8b3bc063cf1c0f7e200d01b6c1c204161abd764ad9b7dbce6048866a7ffea"
+      },
+      "serial_parser": "0x0800f438",
+      "comparison_literal_bounds": [
+        "KSSA01",
+        "KSSA09"
+      ],
+      "diagnostic_initialized": {
+        "motor_spdir": {
+          "ram": "0x2000059c",
+          "initial_signed_16": 1,
+          "diagnostic_record": "0x08027cdc"
+        },
+        "motor_egdir": {
+          "ram": "0x2000059e",
+          "initial_signed_16": -1,
+          "diagnostic_record": "0x08027cec"
+        },
+        "halloffset": {
+          "ram": "0x200005a0",
+          "initial_signed_16": 32767,
+          "diagnostic_record": "0x0802768c"
+        }
+      },
+      "original_instructions": {
+        "serial_parser": [
+          "0800f438  push {r4,lr}",
+          "0800f43a  mov r2,r0",
+          "0800f43c  movs r1,#0x0",
+          "0800f43e  movs r3,#0x1",
+          "0800f440  b 0x0800f46e",
+          "0800f442  ldr r0,[0x0800f4c4]",
+          "0800f444  ldrb r0,[r0,r1]",
+          "0800f446  cmp r0,#0x0",
+          "0800f448  ble 0x0800f46a",
+          "0800f44a  ldr r0,[0x0800f4c8]",
+          "0800f44c  ldrb r0,[r0,r1]",
+          "0800f44e  cmp r0,#0x0",
+          "0800f450  ble 0x0800f46a",
+          "0800f452  ldrb r0,[r2,r1]",
+          "0800f454  ldr r4,[0x0800f4c8]",
+          "0800f456  ldrb r4,[r4,r1]",
+          "0800f458  cmp r0,r4",
+          "0800f45a  blt 0x0800f466",
+          "0800f45c  ldrb r0,[r2,r1]",
+          "0800f45e  ldr r4,[0x0800f4c4]",
+          "0800f460  ldrb r4,[r4,r1]",
+          "0800f462  cmp r0,r4",
+          "0800f464  ble 0x0800f46a",
+          "0800f466  movs r3,#0x0",
+          "0800f468  b 0x0800f472",
+          "0800f46a  adds r0,r1,#0x1",
+          "0800f46c  uxtb r1,r0",
+          "0800f46e  cmp r1,#0x11",
+          "0800f470  blt 0x0800f442",
+          "0800f472  nop",
+          "0800f474  movs r0,#0x1",
+          "0800f476  ldr r4,[0x0800f4cc]",
+          "0800f478  strh.w r0,[r4,#0x5c]",
+          "0800f47c  movs r0,#0x0",
+          "0800f47e  strh.w r0,[r4,#0xa4]",
+          "0800f482  ldrb r0,[r2,#0x4]",
+          "0800f484  cmp r0,#0x30",
+          "0800f486  bne 0x0800f496",
+          "0800f488  ldrb r0,[r2,#0x5]",
+          "0800f48a  cmp r0,#0x32",
+          "0800f48c  bne 0x0800f496",
+          "0800f48e  mov.w r0,#0x1f40",
+          "0800f492  ldr r4,[0x0800f4d0]",
+          "0800f494  str r0,[r4,#0x0]",
+          "0800f496  cbz r3,0x0800f4ae",
+          "0800f498  ldr r0,[0x0800f4d4]",
+          "0800f49a  ldrh r0,[r0,#0x22]",
+          "0800f49c  bic r0,r0,#0x800",
+          "0800f4a0  ldr r4,[0x0800f4d4]",
+          "0800f4a2  strh r0,[r4,#0x22]",
+          "0800f4a4  movs r0,#0x0",
+          "0800f4a6  ldr r4,[0x0800f4d8]",
+          "0800f4a8  strb r0,[r4,#0x0]",
+          "0800f4aa  movs r0,#0x1",
+          "0800f4ac  pop {r4,pc}",
+          "0800f4ae  ldr r0,[0x0800f4d4]",
+          "0800f4b0  ldrh r0,[r0,#0x22]",
+          "0800f4b2  orr r0,r0,#0x800",
+          "0800f4b6  ldr r4,[0x0800f4d4]",
+          "0800f4b8  strh r0,[r4,#0x22]",
+          "0800f4ba  movs r0,#0x1",
+          "0800f4bc  ldr r4,[0x0800f4d8]",
+          "0800f4be  strb r0,[r4,#0x0]",
+          "0800f4c0  movs r0,#0x0"
+        ],
+        "bluetooth_selector": [
+          "0801c22a  ldr r0,[0x0801c600]",
+          "0801c22c  ldrb.w r0,[r0,#0x67]",
+          "0801c230  cmp r0,#0x37",
+          "0801c232  blt 0x0801c276",
+          "0801c234  movs r1,#0x6",
+          "0801c236  ldr r2,[0x0801c604]",
+          "0801c238  strb r1,[r2,#0x0]",
+          "0801c23a  movs r0,#0x0",
+          "0801c23c  b 0x0801c24e",
+          "0801c23e  adds r1,r0,#0x3",
+          "0801c240  ldr r2,[0x0801c608]",
+          "0801c242  ldrb r2,[r2,r1]",
+          "0801c244  adds r1,r1,#0x6",
+          "0801c246  ldr r3,[0x0801c60c]",
+          "0801c248  strb r2,[r3,r1]",
+          "0801c24a  adds r1,r0,#0x1",
+          "0801c24c  uxtb r0,r1",
+          "0801c24e  ldr r1,[0x0801c604]",
+          "0801c250  ldrb r1,[r1,#0x0]",
+          "0801c252  cmp r0,r1",
+          "0801c254  blt 0x0801c23e",
+          "0801c256  ldr r1,[0x0801c600]",
+          "0801c258  ldrb.w r1,[r1,#0x67]",
+          "0801c25c  cmp r1,#0x39",
+          "0801c25e  bne 0x0801c274",
+          "0801c260  movs r2,#0x2b",
+          "0801c262  add.w r1,r0,#0x9",
+          "0801c266  ldr r3,[0x0801c60c]",
+          "0801c268  strb r2,[r3,r1]"
+        ]
+      },
+      "config_loader": "0x080225b8",
+      "config_checksum": "0x08021934",
+      "config_copy": "0x080219cc",
+      "serial_fallback": "0x080219f8",
+      "flash_slot_pointer_table": "0x8027070",
+      "flash_slots": [
+        "0x803c000",
+        "0x803c800"
+      ],
+      "checksum_words": 66,
+      "copied_words": 66,
+      "bluetooth_name_selector": "0x0801c1f0",
+      "angle_consumer": "0x0800bdfc"
+    }
+  }
+}

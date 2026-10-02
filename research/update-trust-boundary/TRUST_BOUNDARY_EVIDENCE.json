@@ -1,0 +1,188 @@
+{
+  "scope": "offline evidence inventory for S22 and KS-16X update and image-trust boundaries",
+  "generated": "2026-09-30",
+  "source_reports": [
+    "research/update-path/UPDATE_PATH_RU.md",
+    "ks16x/REPORT_RU.md",
+    "../s22-research/README_RU.md (external sibling workspace; not bundled)",
+    "../s22-platform-research/provenance.json (external sibling workspace; not bundled)"
+  ],
+  "app_base": {
+    "address": "0x08008000",
+    "s22_evidence": "s22-developer-pack/firmware/decrypted/ (bundled app images); older detailed report ../s22-research/README_RU.md is external",
+    "ks16x_evidence": "ks16x/REPORT_RU.md",
+    "interpretation": "available decrypted OTA files map to application; preceding low Flash is not included"
+  },
+  "categories": [
+    {
+      "category": "AES file encryption",
+      "status": "affirmative evidence",
+      "finding": "OTA file format for examined S22 and KS-16X images is AES-256-CBC, zero IV, whole-file input, no PKCS#7 stripping. KS-XE public flash-dump bootloader implements AES routines; original ARM CBC/AES code matches host decryption for S22 sample and KS-16X images decrypt to valid app vectors, code and descriptor structures.",
+      "evidence": [
+        {
+          "file": "../s22-research/evidence/KS-XE-public-flash-dump.bin (external sibling workspace; not bundled)",
+          "sha256": "a3277fd12df7635eaa37ce7b01428e8f41576c683d46e930eb4ec06667fec9e1",
+          "offset": "0x2610",
+          "detail": "32-byte key in KS-XE dump; functions 0x08001c88 setup, 0x08001cc8 CBC, 0x08001bac receive/decrypt loop per s22-research/README_RU.md"
+        },
+        {
+          "file": "../s22-research/verify_bootloader.py (external sibling workspace; not bundled)",
+          "detail": "executes ARM Thumb functions 0x08001c88 and 0x08001cc8 and compares 128 decrypted S22 v2.35 bytes"
+        },
+        {
+          "file": "ks16x/REPORT_RU.md",
+          "detail": "same AES-CBC format and exact reverse encryption for local KS-16X v2.12/v2.20/v2.23 images; image hashes and decrypted hashes recorded in ks16x/SHA256SUMS.txt"
+        }
+      ],
+      "limit": "The flash dump identifies its own loader banner as KS-XE scooter (CH32F103CP), not S22 or 16X. Matching AES support does not prove that S22 or 16X bootloaders share its policy or accept arbitrary images."
+    },
+    {
+      "category": "Transport CRC",
+      "status": "affirmative only for S22 BMS subprotocol; main-board update CRC unknown",
+      "finding": "S22 v2.36 BMS block frame path checks header and payload CRC-16 (poly 0x1021, init 0) before staging writes; these are error checks, not authentication. Main-board updater path has no established CRC result in this evidence slice.",
+      "evidence": [
+        {
+          "file": "research/update-path/UPDATE_PATH_RU.md",
+          "address": "0x08015ce4",
+          "detail": "CRC-16 function; 0x080169cc parses 0x7a/0x31 BMS blocks; validates header [2:18], index/count and payload; calls writer 0x08017764 only after checks"
+        },
+        {
+          "file": "research/update-path/bms-chunk-emulation.json",
+          "detail": "bounded Unicorn execution of S22 v2.36 receiver block, stubbing Flash writer and response queue"
+        }
+      ],
+      "limit": "This is BMS firmware transfer inside the application and is not evidence about the main-board bootloader protocol."
+    },
+    {
+      "category": "Flash service flags and transitions",
+      "status": "application request confirmed; bootloader interpretation unknown",
+      "finding": "S22 app dispatch branch writes a service word through 0x08022b48 -> 0x08022d98 at Flash 0x0803a800, then requests MCU reset through AIRCR 0xe000ed0c with SYSRESETREQ. The condition and reset path are present in v2.35/v2.36 app code. Exact marker semantics and bootloader transition after reset are unknown.",
+      "evidence": [
+        {
+          "file": "research/update-path/UPDATE_PATH_RU.md",
+          "addresses": [
+            "0x08011e54 (v2.35)",
+            "0x08011e5c (v2.36)",
+            "0x08022b48",
+            "0x08022d98",
+            "0x0803a800",
+            "0xe000ed0c"
+          ],
+          "detail": "legacy dispatcher gates branch on 0x20003181 == 1 and abs(VehicleSpeed) < 1000; service-word writer precedes reset"
+        },
+        {
+          "file": "s22-code-audit/diagnostic-access-v235.json",
+          "addresses": [
+            "0x08008310",
+            "0x08008314",
+            "0x08008318",
+            "0x0800831c"
+          ],
+          "detail": "S22 image parameter table names RUNOKFLG, APPSIZE, APPCRCCODE, APPCRCCHECK at these Flash addresses"
+        },
+        {
+          "file": "ks16x/evidence/diagnostics-v223.json",
+          "detail": "KS-16X app descriptors point to BOOTVERSION value 0x08005308 and app values beginning 0x08008308; RUNOKFLG/APPSIZE/APPCRCCODE/APPCRCCHECK fields are in the app region"
+        }
+      ],
+      "limit": "Named fields and one app-side marker/reset sequence do not reveal bootloader state machine or acceptance policy."
+    },
+    {
+      "category": "Application integrity check",
+      "status": "descriptor/additive checks verified for sample images; loader enforcement only partly known",
+      "finding": "S22 v2.19/v2.31/v2.32/v2.35 and KS-16X v2.12/v2.20/v2.23 descriptor body values match sum of little-endian uint32 words modulo 2^32. APPCRCCHECK matches (APPSIZE + APPCRCCODE + 0x14502367) modulo 2^32. In S22 v2.35 app code at 0x080163b4 checks this relation; it is not a cryptographic signature. S22 v2.33/v2.36/v2.37/v2.41 carry sentinel RUNOKFLG=0x268479df, APPSIZE=0, APPCRCCODE=0x12345678, APPCRCCHECK=0x268479df, so these descriptors do not provide a verifiable body sum.",
+      "evidence": [
+        {
+          "file": "research/update-trust-boundary/descriptor-evidence.json",
+          "detail": "reproducible per-image descriptor/body sum extraction with SHA-256 and exact offsets"
+        },
+        {
+          "file": "../s22-research/verify_integrity.py (external sibling workspace; not bundled)",
+          "address": "0x080163b4",
+          "detail": "script documents and verifies the S22 descriptor relation; explicitly states it is not signature verification"
+        },
+        {
+          "file": "research/update-path/UPDATE_PATH_RU.md",
+          "detail": "source analysis distinguishes BMS CRC and additive checksums from app authenticity"
+        }
+      ],
+      "limit": "S22 app function verifies descriptor arithmetic in that app build; actual bootloader policy and KS-16X code enforcement have not been established. Successful checksums in shipped images do not demonstrate anti-tamper acceptance behavior."
+    },
+    {
+      "category": "Cryptographic signature",
+      "status": "unknown",
+      "finding": "No affirmative signature-verification key, signature structure or verified signature routine is established by the inspected app descriptor/transport material. No claim of unsigned firmware is made.",
+      "evidence": [
+        {
+          "file": "../s22-research/README_RU.md (external sibling workspace; not bundled)",
+          "detail": "explicitly limits conclusions because S22 bootloader image is absent"
+        },
+        {
+          "file": "research/update-path/UPDATE_PATH_RU.md",
+          "detail": "AES and CRC evidence expressly do not determine modified-image acceptance"
+        }
+      ],
+      "limit": "Absence of crypto strings, parsed signatures or a signed trailer in these inputs cannot rule out checks in missing code or an undocumented format."
+    }
+  ],
+  "updater_apps": [
+    {
+      "file": "../s22-platform-research/SoftTuner139-original.apk (external sibling workspace; not bundled)",
+      "sha256": "23abbf159a6f061a6f577b2627a7817dc2f326b76c8a4cd8bb49d1129025e4e1",
+      "evidence_file": "../s22-platform-research/old-app-update-dalvik.txt (external sibling workspace; not bundled)",
+      "detail": "DeviceUpdateViewModel downloadFirmWare/updateFirmware/startUpdataFirmware uses BleFirmwareUtil, initializes file size/path, sends ConstantBle.updateFirmware() over BleService.writeData(), and registers parseData() response listeners. This excerpt does not establish whether BleFirmwareUtil performs content authentication/checksum."
+    },
+    {
+      "file": "../s22-platform-research/SoftTuner-current.apk (external sibling workspace; not bundled)",
+      "sha256": "c121e8072279d8f57dbfa23a254a12ceab6a73b556580cc1e3fee3436fd7c5a0",
+      "evidence_file": "../s22-platform-research/provenance.json (external sibling workspace; not bundled)",
+      "detail": "Current package includes DEX and Flutter libapp.so. No complete updater decompilation audit in this assignment; app-side integrity/signature result unknown."
+    }
+  ],
+  "bootloader_material": {
+    "S22": {
+      "status": "missing in supplied image corpus",
+      "available_app_starts": "0x08008000",
+      "nominal_pre_app_search_window": "0x08000000-0x08007fff",
+      "evidence": "External sibling workspace ../s22-research/README_RU.md (not bundled)"
+    },
+    "KS-16X": {
+      "status": "missing in supplied image corpus",
+      "available_app_starts": "0x08008000",
+      "nominal_pre_app_search_window": "0x08000000-0x08007fff",
+      "evidence": "ks16x/REPORT_RU.md; decrypted OTA files map to app at 0x08008000"
+    },
+    "KS-XE comparative fragment": {
+      "status": "present, different product; not transferable as loader policy",
+      "file": "../s22-research/evidence/KS-XE-public-flash-dump.bin (external sibling workspace; not bundled; source URL in ../s22-research/sources.json)",
+      "sha256": "a3277fd12df7635eaa37ce7b01428e8f41576c683d46e930eb4ec06667fec9e1",
+      "file_range": "0x0000-0xffff (flash base 0x08000000)",
+      "known_bootloader_vs_app_boundary": "app vectors at file offset 0x2800; bootloader functions around 0x08000000-0x080027ff",
+      "known_crypto_addresses": [
+        "0x08001bac",
+        "0x08001cc8"
+      ]
+    }
+  },
+  "reproduction": {
+    "command": "python research/update-trust-boundary/extract_descriptors.py",
+    "script": "research/update-trust-boundary/extract_descriptors.py",
+    "result": "18 images (15 S22, 3 KS-16X): descriptor relation matches 18/18; body sum matches all 11 nonzero-APPSIZE images; 7 zero-APPSIZE descriptors are not body-summed. Exact corpus and manifest hashes are checked before interpretation."
+  },
+  "corpus": {
+    "manifest": "FIRMWARE_SHA256SUMS.txt",
+    "validation": "Each input SHA-256 is checked against the manifest before descriptor bytes are interpreted; exact filenames/counts are asserted.",
+    "expected_counts": {
+      "S22": 15,
+      "KS-16X": 3,
+      "total": 18
+    },
+    "s22_dir": "s22-developer-pack/firmware/decrypted/",
+    "ks16x_dir": "ks16x/firmware/",
+    "provenance": {
+      "S22 original OTA": "s22-developer-pack/evidence/downloads.json; source URLs are https://www.kingsong.vip/upload/firmware/...",
+      "KS-16X original OTA": "ks16x/evidence/intake.json; source URLs are https://www.kingsong.vip/upload/firmware/...",
+      "decrypted image lineage": "Decryption artifacts are bundled; extraction records their hashes. Method provenance for earlier sample checks is described in the nonbundled ../s22-research workspace."
+    }
+  }
+}

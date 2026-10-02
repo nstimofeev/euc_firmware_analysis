@@ -1,0 +1,1482 @@
+{
+  "229": {
+    "firmware_sha256": "cb005b9361d22a53cda1ed30f2d33ba8c748360c01d27c7b990a707e7003be68",
+    "initialized_ram_sha256": "d205362ad3a48b753bdbc3eb9e81d1374db19c745257fcdaeeea21c85df4bc4f",
+    "instructions": {
+      "0x800f62e": {
+        "bytes": "0864",
+        "text": "str r0, [r1, #0x40]"
+      },
+      "0x800f670": {
+        "bytes": "0860",
+        "text": "str r0, [r1]"
+      },
+      "0x800f68c": {
+        "bytes": "0860",
+        "text": "str r0, [r1]"
+      },
+      "0x800f696": {
+        "bytes": "0860",
+        "text": "str r0, [r1]"
+      },
+      "0x800f5be": {
+        "bytes": "c864",
+        "text": "str r0, [r1, #0x4c]"
+      },
+      "0x8010468": {
+        "bytes": "0860",
+        "text": "str r0, [r1]"
+      },
+      "0x801097a": {
+        "bytes": "0860",
+        "text": "str r0, [r1]"
+      }
+    },
+    "cases": {
+      "zero_speed": {
+        "input": {
+          "speed": 0,
+          "state": 7,
+          "flags": "0x4",
+          "roll": 0,
+          "motor": 4,
+          "offset": 0,
+          "pitch": 0,
+          "rolltag": 163840,
+          "rolltag_cap": null
+        },
+        "after_motion": {
+          "state": 7,
+          "target": -102400,
+          "offset": -100,
+          "rolltag": 163840
+        },
+        "after_control": {
+          "reference": -100,
+          "command": -100,
+          "command_short": -100
+        },
+        "writes": [
+          {
+            "pc": "0x800f63c",
+            "address": "0x200032b0",
+            "size": 4,
+            "value": "0xfffe7000"
+          },
+          {
+            "pc": "0x800f670",
+            "address": "0x200002a0",
+            "size": 4,
+            "value": "0xffffff9c"
+          },
+          {
+            "pc": "0x8010468",
+            "address": "0x20000298",
+            "size": 4,
+            "value": "0xffffff9c"
+          },
+          {
+            "pc": "0x801097a",
+            "address": "0x20000294",
+            "size": 4,
+            "value": "0xffffff8a"
+          },
+          {
+            "pc": "0x80109bc",
+            "address": "0x20000294",
+            "size": 4,
+            "value": "0xffffff9c"
+          },
+          {
+            "pc": "0x80109f4",
+            "address": "0x20000314",
+            "size": 2,
+            "value": "0xff9c"
+          }
+        ]
+      },
+      "positive_speed": {
+        "input": {
+          "speed": 100,
+          "state": 7,
+          "flags": "0x4",
+          "roll": 0,
+          "motor": 4,
+          "offset": 0,
+          "pitch": 0,
+          "rolltag": 163840,
+          "rolltag_cap": null
+        },
+        "after_motion": {
+          "state": 7,
+          "target": 102400,
+          "offset": 100,
+          "rolltag": 163840
+        },
+        "after_control": {
+          "reference": 100,
+          "command": 100,
+          "command_short": 100
+        },
+        "writes": [
+          {
+            "pc": "0x800f62e",
+            "address": "0x200032b0",
+            "size": 4,
+            "value": "0x19000"
+          },
+          {
+            "pc": "0x800f68c",
+            "address": "0x200002a0",
+            "size": 4,
+            "value": "0x64"
+          },
+          {
+            "pc": "0x8010468",
+            "address": "0x20000298",
+            "size": 4,
+            "value": "0x64"
+          },
+          {
+            "pc": "0x801097a",
+            "address": "0x20000294",
+            "size": 4,
+            "value": "0x76"
+          },
+          {
+            "pc": "0x80109a2",
+            "address": "0x20000294",
+            "size": 4,
+            "value": "0x64"
+          },
+          {
+            "pc": "0x80109f4",
+            "address": "0x20000314",
+            "size": 2,
+            "value": "0x64"
+          }
+        ]
+      },
+      "negative_speed": {
+        "input": {
+          "speed": -100,
+          "state": 7,
+          "flags": "0x4",
+          "roll": 0,
+          "motor": 4,
+          "offset": 0,
+          "pitch": 0,
+          "rolltag": 163840,
+          "rolltag_cap": null
+        },
+        "after_motion": {
+          "state": 7,
+          "target": -102400,
+          "offset": -100,
+          "rolltag": 163840
+        },
+        "after_control": {
+          "reference": -100,
+          "command": -100,
+          "command_short": -100
+        },
+        "writes": [
+          {
+            "pc": "0x800f64e",
+            "address": "0x200032b0",
+            "size": 4,
+            "value": "0xfffe7000"
+          },
+          {
+            "pc": "0x800f670",
+            "address": "0x200002a0",
+            "size": 4,
+            "value": "0xffffff9c"
+          },
+          {
+            "pc": "0x8010468",
+            "address": "0x20000298",
+            "size": 4,
+            "value": "0xffffff9c"
+          },
+          {
+            "pc": "0x801097a",
+            "address": "0x20000294",
+            "size": 4,
+            "value": "0xffffff8a"
+          },
+          {
+            "pc": "0x80109bc",
+            "address": "0x20000294",
+            "size": 4,
+            "value": "0xffffff9c"
+          },
+          {
+            "pc": "0x80109f4",
+            "address": "0x20000314",
+            "size": 2,
+            "value": "0xff9c"
+          }
+        ]
+      },
+      "fast_positive": {
+        "input": {
+          "speed": 13000,
+          "state": 7,
+          "flags": "0x4",
+          "roll": 0,
+          "motor": 4,
+          "offset": 0,
+          "pitch": 0,
+          "rolltag": 163840,
+          "rolltag_cap": null
+        },
+        "after_motion": {
+          "state": 7,
+          "target": 73728,
+          "offset": 100,
+          "rolltag": 163840
+        },
+        "after_control": {
+          "reference": 100,
+          "command": 100,
+          "command_short": 100
+        },
+        "writes": [
+          {
+            "pc": "0x800f61c",
+            "address": "0x200032b0",
+            "size": 4,
+            "value": "0x12000"
+          },
+          {
+            "pc": "0x800f68c",
+            "address": "0x200002a0",
+            "size": 4,
+            "value": "0x64"
+          },
+          {
+            "pc": "0x8010468",
+            "address": "0x20000298",
+            "size": 4,
+            "value": "0x64"
+          },
+          {
+            "pc": "0x801097a",
+            "address": "0x20000294",
+            "size": 4,
+            "value": "0x76"
+          },
+          {
+            "pc": "0x80109a2",
+            "address": "0x20000294",
+            "size": 4,
+            "value": "0x64"
+          },
+          {
+            "pc": "0x80109f4",
+            "address": "0x20000314",
+            "size": 2,
+            "value": "0x64"
+          }
+        ]
+      },
+      "fast_negative": {
+        "input": {
+          "speed": -13000,
+          "state": 7,
+          "flags": "0x4",
+          "roll": 0,
+          "motor": 4,
+          "offset": 0,
+          "pitch": 0,
+          "rolltag": 163840,
+          "rolltag_cap": null
+        },
+        "after_motion": {
+          "state": 7,
+          "target": -73728,
+          "offset": -100,
+          "rolltag": 163840
+        },
+        "after_control": {
+          "reference": -100,
+          "command": -100,
+          "command_short": -100
+        },
+        "writes": [
+          {
+            "pc": "0x800f656",
+            "address": "0x200032b0",
+            "size": 4,
+            "value": "0xfffee000"
+          },
+          {
+            "pc": "0x800f670",
+            "address": "0x200002a0",
+            "size": 4,
+            "value": "0xffffff9c"
+          },
+          {
+            "pc": "0x8010468",
+            "address": "0x20000298",
+            "size": 4,
+            "value": "0xffffff9c"
+          },
+          {
+            "pc": "0x801097a",
+            "address": "0x20000294",
+            "size": 4,
+            "value": "0xffffff8a"
+          },
+          {
+            "pc": "0x80109bc",
+            "address": "0x20000294",
+            "size": 4,
+            "value": "0xffffff9c"
+          },
+          {
+            "pc": "0x80109f4",
+            "address": "0x20000314",
+            "size": 2,
+            "value": "0xff9c"
+          }
+        ]
+      },
+      "near_target": {
+        "input": {
+          "speed": 100,
+          "state": 7,
+          "flags": "0x4",
+          "roll": 0,
+          "motor": 4,
+          "offset": 102200,
+          "pitch": 0,
+          "rolltag": 163840,
+          "rolltag_cap": null
+        },
+        "after_motion": {
+          "state": 7,
+          "target": 102400,
+          "offset": 102400,
+          "rolltag": 163840
+        },
+        "after_control": {
+          "reference": 102400,
+          "command": 100,
+          "command_short": 100
+        },
+        "writes": [
+          {
+            "pc": "0x800f62e",
+            "address": "0x200032b0",
+            "size": 4,
+            "value": "0x19000"
+          },
+          {
+            "pc": "0x800f696",
+            "address": "0x200002a0",
+            "size": 4,
+            "value": "0x19000"
+          },
+          {
+            "pc": "0x8010468",
+            "address": "0x20000298",
+            "size": 4,
+            "value": "0x19000"
+          },
+          {
+            "pc": "0x801097a",
+            "address": "0x20000294",
+            "size": 4,
+            "value": "0x11d00"
+          },
+          {
+            "pc": "0x80109a2",
+            "address": "0x20000294",
+            "size": 4,
+            "value": "0x64"
+          },
+          {
+            "pc": "0x80109f4",
+            "address": "0x20000314",
+            "size": 2,
+            "value": "0x64"
+          }
+        ]
+      },
+      "roll_gate": {
+        "input": {
+          "speed": 100,
+          "state": 7,
+          "flags": "0x4",
+          "roll": 286720,
+          "motor": 4,
+          "offset": 0,
+          "pitch": 0,
+          "rolltag": 163840,
+          "rolltag_cap": null
+        },
+        "after_motion": {
+          "state": 2,
+          "target": 0,
+          "offset": 0,
+          "rolltag": 163840
+        },
+        "after_control": {
+          "reference": 0,
+          "command": 0,
+          "command_short": 0
+        },
+        "writes": [
+          {
+            "pc": "0x80103ea",
+            "address": "0x20000294",
+            "size": 4,
+            "value": "0x0"
+          },
+          {
+            "pc": "0x80103ee",
+            "address": "0x20000298",
+            "size": 4,
+            "value": "0x0"
+          },
+          {
+            "pc": "0x80103f6",
+            "address": "0x200002a0",
+            "size": 4,
+            "value": "0x0"
+          }
+        ]
+      },
+      "flag_gate": {
+        "input": {
+          "speed": 100,
+          "state": 7,
+          "flags": "0x0",
+          "roll": 0,
+          "motor": 4,
+          "offset": 0,
+          "pitch": 0,
+          "rolltag": 163840,
+          "rolltag_cap": null
+        },
+        "after_motion": {
+          "state": 2,
+          "target": 0,
+          "offset": 0,
+          "rolltag": 163840
+        },
+        "after_control": {
+          "reference": 0,
+          "command": 0,
+          "command_short": 0
+        },
+        "writes": [
+          {
+            "pc": "0x80103ea",
+            "address": "0x20000294",
+            "size": 4,
+            "value": "0x0"
+          },
+          {
+            "pc": "0x80103ee",
+            "address": "0x20000298",
+            "size": 4,
+            "value": "0x0"
+          },
+          {
+            "pc": "0x80103f6",
+            "address": "0x200002a0",
+            "size": 4,
+            "value": "0x0"
+          }
+        ]
+      },
+      "motor_gate": {
+        "input": {
+          "speed": 100,
+          "state": 7,
+          "flags": "0x4",
+          "roll": 0,
+          "motor": 1,
+          "offset": 0,
+          "pitch": 0,
+          "rolltag": 163840,
+          "rolltag_cap": null
+        },
+        "after_motion": {
+          "state": 7,
+          "target": 102400,
+          "offset": 100,
+          "rolltag": 163840
+        },
+        "after_control": {
+          "reference": 21845,
+          "command": 0,
+          "command_short": 0
+        },
+        "writes": [
+          {
+            "pc": "0x800f62e",
+            "address": "0x200032b0",
+            "size": 4,
+            "value": "0x19000"
+          },
+          {
+            "pc": "0x800f68c",
+            "address": "0x200002a0",
+            "size": 4,
+            "value": "0x64"
+          }
+        ]
+      },
+      "state4": {
+        "input": {
+          "speed": 100,
+          "state": 4,
+          "flags": "0x4",
+          "roll": 0,
+          "motor": 4,
+          "offset": 0,
+          "pitch": 0,
+          "rolltag": 163840,
+          "rolltag_cap": null
+        },
+        "after_motion": {
+          "state": 4,
+          "target": 0,
+          "offset": 42,
+          "rolltag": 163840
+        },
+        "after_control": {
+          "reference": 42,
+          "command": 49,
+          "command_short": 49
+        },
+        "writes": [
+          {
+            "pc": "0x800f0f4",
+            "address": "0x200002a0",
+            "size": 4,
+            "value": "0x2a"
+          },
+          {
+            "pc": "0x8010468",
+            "address": "0x20000298",
+            "size": 4,
+            "value": "0x2a"
+          },
+          {
+            "pc": "0x801097a",
+            "address": "0x20000294",
+            "size": 4,
+            "value": "0x31"
+          },
+          {
+            "pc": "0x80109f4",
+            "address": "0x20000314",
+            "size": 2,
+            "value": "0x31"
+          }
+        ]
+      },
+      "rolltag_7": {
+        "input": {
+          "speed": 7000,
+          "state": 7,
+          "flags": "0x4",
+          "roll": 0,
+          "motor": 4,
+          "offset": 0,
+          "pitch": 0,
+          "rolltag": 163840,
+          "rolltag_cap": 196608
+        },
+        "after_motion": {
+          "state": 7,
+          "target": 102400,
+          "offset": 100,
+          "rolltag": 164340
+        },
+        "after_control": {
+          "reference": 100,
+          "command": 100,
+          "command_short": 100
+        },
+        "writes": [
+          {
+            "pc": "0x800f5be",
+            "address": "0x200032bc",
+            "size": 4,
+            "value": "0x281f4"
+          },
+          {
+            "pc": "0x800f62e",
+            "address": "0x200032b0",
+            "size": 4,
+            "value": "0x19000"
+          },
+          {
+            "pc": "0x800f68c",
+            "address": "0x200002a0",
+            "size": 4,
+            "value": "0x64"
+          },
+          {
+            "pc": "0x8010468",
+            "address": "0x20000298",
+            "size": 4,
+            "value": "0x64"
+          },
+          {
+            "pc": "0x801097a",
+            "address": "0x20000294",
+            "size": 4,
+            "value": "0x76"
+          },
+          {
+            "pc": "0x80109a2",
+            "address": "0x20000294",
+            "size": 4,
+            "value": "0x64"
+          },
+          {
+            "pc": "0x80109f4",
+            "address": "0x20000314",
+            "size": 2,
+            "value": "0x64"
+          }
+        ]
+      },
+      "rolltag_4": {
+        "input": {
+          "speed": 7000,
+          "state": 4,
+          "flags": "0x4",
+          "roll": 0,
+          "motor": 4,
+          "offset": 0,
+          "pitch": 0,
+          "rolltag": 163840,
+          "rolltag_cap": 196608
+        },
+        "after_motion": {
+          "state": 4,
+          "target": 0,
+          "offset": 147,
+          "rolltag": 164840
+        },
+        "after_control": {
+          "reference": 147,
+          "command": 100,
+          "command_short": 100
+        },
+        "writes": [
+          {
+            "pc": "0x800f0f4",
+            "address": "0x200002a0",
+            "size": 4,
+            "value": "0x93"
+          },
+          {
+            "pc": "0x800f47c",
+            "address": "0x200032bc",
+            "size": 4,
+            "value": "0x283e8"
+          },
+          {
+            "pc": "0x8010468",
+            "address": "0x20000298",
+            "size": 4,
+            "value": "0x93"
+          },
+          {
+            "pc": "0x801097a",
+            "address": "0x20000294",
+            "size": 4,
+            "value": "0xae"
+          },
+          {
+            "pc": "0x80109a2",
+            "address": "0x20000294",
+            "size": 4,
+            "value": "0x64"
+          },
+          {
+            "pc": "0x80109f4",
+            "address": "0x20000314",
+            "size": 2,
+            "value": "0x64"
+          }
+        ]
+      }
+    },
+    "linked_severe": [
+      {
+        "aggregated_severe": 0,
+        "warning_flags": "0x4",
+        "state_after_first_motion": 4,
+        "after_second_motion": {
+          "state": 4,
+          "target": 0,
+          "offset": 42
+        },
+        "controller_reference": 42,
+        "controller_command": 49
+      },
+      {
+        "aggregated_severe": 1,
+        "warning_flags": "0x24",
+        "state_after_first_motion": 7,
+        "after_second_motion": {
+          "state": 7,
+          "target": 102400,
+          "offset": 100
+        },
+        "controller_reference": 100,
+        "controller_command": 100
+      }
+    ]
+  },
+  "231": {
+    "firmware_sha256": "ce3fafd837474142bb4f3cbe135f6c670835e63c63d28fe93836ab952c99d1ca",
+    "initialized_ram_sha256": "7bf994220b60045a53414978035722f6e6758f457f85c83b032be5404674c77b",
+    "instructions": {
+      "0x800f622": {
+        "bytes": "0864",
+        "text": "str r0, [r1, #0x40]"
+      },
+      "0x800f664": {
+        "bytes": "0860",
+        "text": "str r0, [r1]"
+      },
+      "0x800f680": {
+        "bytes": "0860",
+        "text": "str r0, [r1]"
+      },
+      "0x800f68a": {
+        "bytes": "0860",
+        "text": "str r0, [r1]"
+      },
+      "0x800f5b2": {
+        "bytes": "c864",
+        "text": "str r0, [r1, #0x4c]"
+      },
+      "0x801045c": {
+        "bytes": "0860",
+        "text": "str r0, [r1]"
+      },
+      "0x801096e": {
+        "bytes": "0860",
+        "text": "str r0, [r1]"
+      }
+    },
+    "cases": {
+      "zero_speed": {
+        "input": {
+          "speed": 0,
+          "state": 7,
+          "flags": "0x4",
+          "roll": 0,
+          "motor": 4,
+          "offset": 0,
+          "pitch": 0,
+          "rolltag": 163840,
+          "rolltag_cap": null
+        },
+        "after_motion": {
+          "state": 7,
+          "target": -102400,
+          "offset": -100,
+          "rolltag": 163840
+        },
+        "after_control": {
+          "reference": -100,
+          "command": -100,
+          "command_short": -100
+        },
+        "writes": [
+          {
+            "pc": "0x800f630",
+            "address": "0x200032b4",
+            "size": 4,
+            "value": "0xfffe7000"
+          },
+          {
+            "pc": "0x800f664",
+            "address": "0x200002a0",
+            "size": 4,
+            "value": "0xffffff9c"
+          },
+          {
+            "pc": "0x801045c",
+            "address": "0x20000298",
+            "size": 4,
+            "value": "0xffffff9c"
+          },
+          {
+            "pc": "0x801096e",
+            "address": "0x20000294",
+            "size": 4,
+            "value": "0xffffff8a"
+          },
+          {
+            "pc": "0x80109b0",
+            "address": "0x20000294",
+            "size": 4,
+            "value": "0xffffff9c"
+          },
+          {
+            "pc": "0x80109e8",
+            "address": "0x20000314",
+            "size": 2,
+            "value": "0xff9c"
+          }
+        ]
+      },
+      "positive_speed": {
+        "input": {
+          "speed": 100,
+          "state": 7,
+          "flags": "0x4",
+          "roll": 0,
+          "motor": 4,
+          "offset": 0,
+          "pitch": 0,
+          "rolltag": 163840,
+          "rolltag_cap": null
+        },
+        "after_motion": {
+          "state": 7,
+          "target": 102400,
+          "offset": 100,
+          "rolltag": 163840
+        },
+        "after_control": {
+          "reference": 100,
+          "command": 100,
+          "command_short": 100
+        },
+        "writes": [
+          {
+            "pc": "0x800f622",
+            "address": "0x200032b4",
+            "size": 4,
+            "value": "0x19000"
+          },
+          {
+            "pc": "0x800f680",
+            "address": "0x200002a0",
+            "size": 4,
+            "value": "0x64"
+          },
+          {
+            "pc": "0x801045c",
+            "address": "0x20000298",
+            "size": 4,
+            "value": "0x64"
+          },
+          {
+            "pc": "0x801096e",
+            "address": "0x20000294",
+            "size": 4,
+            "value": "0x76"
+          },
+          {
+            "pc": "0x8010996",
+            "address": "0x20000294",
+            "size": 4,
+            "value": "0x64"
+          },
+          {
+            "pc": "0x80109e8",
+            "address": "0x20000314",
+            "size": 2,
+            "value": "0x64"
+          }
+        ]
+      },
+      "negative_speed": {
+        "input": {
+          "speed": -100,
+          "state": 7,
+          "flags": "0x4",
+          "roll": 0,
+          "motor": 4,
+          "offset": 0,
+          "pitch": 0,
+          "rolltag": 163840,
+          "rolltag_cap": null
+        },
+        "after_motion": {
+          "state": 7,
+          "target": -102400,
+          "offset": -100,
+          "rolltag": 163840
+        },
+        "after_control": {
+          "reference": -100,
+          "command": -100,
+          "command_short": -100
+        },
+        "writes": [
+          {
+            "pc": "0x800f642",
+            "address": "0x200032b4",
+            "size": 4,
+            "value": "0xfffe7000"
+          },
+          {
+            "pc": "0x800f664",
+            "address": "0x200002a0",
+            "size": 4,
+            "value": "0xffffff9c"
+          },
+          {
+            "pc": "0x801045c",
+            "address": "0x20000298",
+            "size": 4,
+            "value": "0xffffff9c"
+          },
+          {
+            "pc": "0x801096e",
+            "address": "0x20000294",
+            "size": 4,
+            "value": "0xffffff8a"
+          },
+          {
+            "pc": "0x80109b0",
+            "address": "0x20000294",
+            "size": 4,
+            "value": "0xffffff9c"
+          },
+          {
+            "pc": "0x80109e8",
+            "address": "0x20000314",
+            "size": 2,
+            "value": "0xff9c"
+          }
+        ]
+      },
+      "fast_positive": {
+        "input": {
+          "speed": 13000,
+          "state": 7,
+          "flags": "0x4",
+          "roll": 0,
+          "motor": 4,
+          "offset": 0,
+          "pitch": 0,
+          "rolltag": 163840,
+          "rolltag_cap": null
+        },
+        "after_motion": {
+          "state": 7,
+          "target": 73728,
+          "offset": 100,
+          "rolltag": 163840
+        },
+        "after_control": {
+          "reference": 100,
+          "command": 100,
+          "command_short": 100
+        },
+        "writes": [
+          {
+            "pc": "0x800f610",
+            "address": "0x200032b4",
+            "size": 4,
+            "value": "0x12000"
+          },
+          {
+            "pc": "0x800f680",
+            "address": "0x200002a0",
+            "size": 4,
+            "value": "0x64"
+          },
+          {
+            "pc": "0x801045c",
+            "address": "0x20000298",
+            "size": 4,
+            "value": "0x64"
+          },
+          {
+            "pc": "0x801096e",
+            "address": "0x20000294",
+            "size": 4,
+            "value": "0x76"
+          },
+          {
+            "pc": "0x8010996",
+            "address": "0x20000294",
+            "size": 4,
+            "value": "0x64"
+          },
+          {
+            "pc": "0x80109e8",
+            "address": "0x20000314",
+            "size": 2,
+            "value": "0x64"
+          }
+        ]
+      },
+      "fast_negative": {
+        "input": {
+          "speed": -13000,
+          "state": 7,
+          "flags": "0x4",
+          "roll": 0,
+          "motor": 4,
+          "offset": 0,
+          "pitch": 0,
+          "rolltag": 163840,
+          "rolltag_cap": null
+        },
+        "after_motion": {
+          "state": 7,
+          "target": -73728,
+          "offset": -100,
+          "rolltag": 163840
+        },
+        "after_control": {
+          "reference": -100,
+          "command": -100,
+          "command_short": -100
+        },
+        "writes": [
+          {
+            "pc": "0x800f64a",
+            "address": "0x200032b4",
+            "size": 4,
+            "value": "0xfffee000"
+          },
+          {
+            "pc": "0x800f664",
+            "address": "0x200002a0",
+            "size": 4,
+            "value": "0xffffff9c"
+          },
+          {
+            "pc": "0x801045c",
+            "address": "0x20000298",
+            "size": 4,
+            "value": "0xffffff9c"
+          },
+          {
+            "pc": "0x801096e",
+            "address": "0x20000294",
+            "size": 4,
+            "value": "0xffffff8a"
+          },
+          {
+            "pc": "0x80109b0",
+            "address": "0x20000294",
+            "size": 4,
+            "value": "0xffffff9c"
+          },
+          {
+            "pc": "0x80109e8",
+            "address": "0x20000314",
+            "size": 2,
+            "value": "0xff9c"
+          }
+        ]
+      },
+      "near_target": {
+        "input": {
+          "speed": 100,
+          "state": 7,
+          "flags": "0x4",
+          "roll": 0,
+          "motor": 4,
+          "offset": 102200,
+          "pitch": 0,
+          "rolltag": 163840,
+          "rolltag_cap": null
+        },
+        "after_motion": {
+          "state": 7,
+          "target": 102400,
+          "offset": 102400,
+          "rolltag": 163840
+        },
+        "after_control": {
+          "reference": 102400,
+          "command": 100,
+          "command_short": 100
+        },
+        "writes": [
+          {
+            "pc": "0x800f622",
+            "address": "0x200032b4",
+            "size": 4,
+            "value": "0x19000"
+          },
+          {
+            "pc": "0x800f68a",
+            "address": "0x200002a0",
+            "size": 4,
+            "value": "0x19000"
+          },
+          {
+            "pc": "0x801045c",
+            "address": "0x20000298",
+            "size": 4,
+            "value": "0x19000"
+          },
+          {
+            "pc": "0x801096e",
+            "address": "0x20000294",
+            "size": 4,
+            "value": "0x11d00"
+          },
+          {
+            "pc": "0x8010996",
+            "address": "0x20000294",
+            "size": 4,
+            "value": "0x64"
+          },
+          {
+            "pc": "0x80109e8",
+            "address": "0x20000314",
+            "size": 2,
+            "value": "0x64"
+          }
+        ]
+      },
+      "roll_gate": {
+        "input": {
+          "speed": 100,
+          "state": 7,
+          "flags": "0x4",
+          "roll": 286720,
+          "motor": 4,
+          "offset": 0,
+          "pitch": 0,
+          "rolltag": 163840,
+          "rolltag_cap": null
+        },
+        "after_motion": {
+          "state": 2,
+          "target": 0,
+          "offset": 0,
+          "rolltag": 163840
+        },
+        "after_control": {
+          "reference": 0,
+          "command": 0,
+          "command_short": 0
+        },
+        "writes": [
+          {
+            "pc": "0x80103de",
+            "address": "0x20000294",
+            "size": 4,
+            "value": "0x0"
+          },
+          {
+            "pc": "0x80103e2",
+            "address": "0x20000298",
+            "size": 4,
+            "value": "0x0"
+          },
+          {
+            "pc": "0x80103ea",
+            "address": "0x200002a0",
+            "size": 4,
+            "value": "0x0"
+          }
+        ]
+      },
+      "flag_gate": {
+        "input": {
+          "speed": 100,
+          "state": 7,
+          "flags": "0x0",
+          "roll": 0,
+          "motor": 4,
+          "offset": 0,
+          "pitch": 0,
+          "rolltag": 163840,
+          "rolltag_cap": null
+        },
+        "after_motion": {
+          "state": 2,
+          "target": 0,
+          "offset": 0,
+          "rolltag": 163840
+        },
+        "after_control": {
+          "reference": 0,
+          "command": 0,
+          "command_short": 0
+        },
+        "writes": [
+          {
+            "pc": "0x80103de",
+            "address": "0x20000294",
+            "size": 4,
+            "value": "0x0"
+          },
+          {
+            "pc": "0x80103e2",
+            "address": "0x20000298",
+            "size": 4,
+            "value": "0x0"
+          },
+          {
+            "pc": "0x80103ea",
+            "address": "0x200002a0",
+            "size": 4,
+            "value": "0x0"
+          }
+        ]
+      },
+      "motor_gate": {
+        "input": {
+          "speed": 100,
+          "state": 7,
+          "flags": "0x4",
+          "roll": 0,
+          "motor": 1,
+          "offset": 0,
+          "pitch": 0,
+          "rolltag": 163840,
+          "rolltag_cap": null
+        },
+        "after_motion": {
+          "state": 7,
+          "target": 102400,
+          "offset": 100,
+          "rolltag": 163840
+        },
+        "after_control": {
+          "reference": 21845,
+          "command": 0,
+          "command_short": 0
+        },
+        "writes": [
+          {
+            "pc": "0x800f622",
+            "address": "0x200032b4",
+            "size": 4,
+            "value": "0x19000"
+          },
+          {
+            "pc": "0x800f680",
+            "address": "0x200002a0",
+            "size": 4,
+            "value": "0x64"
+          }
+        ]
+      },
+      "state4": {
+        "input": {
+          "speed": 100,
+          "state": 4,
+          "flags": "0x4",
+          "roll": 0,
+          "motor": 4,
+          "offset": 0,
+          "pitch": 0,
+          "rolltag": 163840,
+          "rolltag_cap": null
+        },
+        "after_motion": {
+          "state": 4,
+          "target": 0,
+          "offset": 42,
+          "rolltag": 163840
+        },
+        "after_control": {
+          "reference": 42,
+          "command": 49,
+          "command_short": 49
+        },
+        "writes": [
+          {
+            "pc": "0x800f0e8",
+            "address": "0x200002a0",
+            "size": 4,
+            "value": "0x2a"
+          },
+          {
+            "pc": "0x801045c",
+            "address": "0x20000298",
+            "size": 4,
+            "value": "0x2a"
+          },
+          {
+            "pc": "0x801096e",
+            "address": "0x20000294",
+            "size": 4,
+            "value": "0x31"
+          },
+          {
+            "pc": "0x80109e8",
+            "address": "0x20000314",
+            "size": 2,
+            "value": "0x31"
+          }
+        ]
+      },
+      "rolltag_7": {
+        "input": {
+          "speed": 7000,
+          "state": 7,
+          "flags": "0x4",
+          "roll": 0,
+          "motor": 4,
+          "offset": 0,
+          "pitch": 0,
+          "rolltag": 163840,
+          "rolltag_cap": 196608
+        },
+        "after_motion": {
+          "state": 7,
+          "target": 102400,
+          "offset": 100,
+          "rolltag": 164340
+        },
+        "after_control": {
+          "reference": 100,
+          "command": 100,
+          "command_short": 100
+        },
+        "writes": [
+          {
+            "pc": "0x800f5b2",
+            "address": "0x200032c0",
+            "size": 4,
+            "value": "0x281f4"
+          },
+          {
+            "pc": "0x800f622",
+            "address": "0x200032b4",
+            "size": 4,
+            "value": "0x19000"
+          },
+          {
+            "pc": "0x800f680",
+            "address": "0x200002a0",
+            "size": 4,
+            "value": "0x64"
+          },
+          {
+            "pc": "0x801045c",
+            "address": "0x20000298",
+            "size": 4,
+            "value": "0x64"
+          },
+          {
+            "pc": "0x801096e",
+            "address": "0x20000294",
+            "size": 4,
+            "value": "0x76"
+          },
+          {
+            "pc": "0x8010996",
+            "address": "0x20000294",
+            "size": 4,
+            "value": "0x64"
+          },
+          {
+            "pc": "0x80109e8",
+            "address": "0x20000314",
+            "size": 2,
+            "value": "0x64"
+          }
+        ]
+      },
+      "rolltag_4": {
+        "input": {
+          "speed": 7000,
+          "state": 4,
+          "flags": "0x4",
+          "roll": 0,
+          "motor": 4,
+          "offset": 0,
+          "pitch": 0,
+          "rolltag": 163840,
+          "rolltag_cap": 196608
+        },
+        "after_motion": {
+          "state": 4,
+          "target": 0,
+          "offset": 147,
+          "rolltag": 164840
+        },
+        "after_control": {
+          "reference": 147,
+          "command": 100,
+          "command_short": 100
+        },
+        "writes": [
+          {
+            "pc": "0x800f0e8",
+            "address": "0x200002a0",
+            "size": 4,
+            "value": "0x93"
+          },
+          {
+            "pc": "0x800f470",
+            "address": "0x200032c0",
+            "size": 4,
+            "value": "0x283e8"
+          },
+          {
+            "pc": "0x801045c",
+            "address": "0x20000298",
+            "size": 4,
+            "value": "0x93"
+          },
+          {
+            "pc": "0x801096e",
+            "address": "0x20000294",
+            "size": 4,
+            "value": "0xae"
+          },
+          {
+            "pc": "0x8010996",
+            "address": "0x20000294",
+            "size": 4,
+            "value": "0x64"
+          },
+          {
+            "pc": "0x80109e8",
+            "address": "0x20000314",
+            "size": 2,
+            "value": "0x64"
+          }
+        ]
+      }
+    },
+    "linked_severe": [
+      {
+        "aggregated_severe": 0,
+        "warning_flags": "0x4",
+        "state_after_first_motion": 4,
+        "after_second_motion": {
+          "state": 4,
+          "target": 0,
+          "offset": 42
+        },
+        "controller_reference": 42,
+        "controller_command": 49
+      },
+      {
+        "aggregated_severe": 1,
+        "warning_flags": "0x24",
+        "state_after_first_motion": 7,
+        "after_second_motion": {
+          "state": 7,
+          "target": 102400,
+          "offset": 100
+        },
+        "controller_reference": 100,
+        "controller_command": 100
+      }
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "task": "S22 configuration and serial selection, reproducible first slice",
+  "state": "completed_first_slice",
+  "completed": [
+    "Checked application image and restored-RAM SHA-256 for 2.19, 2.35, 2.41",
+    "Traced 2.35/2.41 dual-Flash-slot checksum, copy, serial fallback, parser and Bluetooth name selection",
+    "Corroborated selected serial byte reads and name branch against original Thumb listing",
+    "Extracted diagnostic RAM addresses and initial signed 16-bit motor direction/Hall offset values",
+    "Compared the earlier 2.19 serial literal bounds and initial direction values"
+  ],
+  "verification": {
+    "command_from_repository_root": "../s22-analysis-venv/bin/python research/s22-configuration/trace_configuration.py",
+    "result": "PASS: verified 219, 235, 241; wrote research/s22-configuration/evidence.json",
+    "source_image_sha256": {
+      "219": "333fd1b4109cefec10f7be85704b79001d10f091384286189b857f3c36b2fd8b",
+      "235": "3354a12174c93a5bf2296b8ec5984dd67e897ecd646dc123e5c314b97b7a1f44",
+      "241": "99491754f5478caf5d97a5fa31c0a17bc7be55f0c14ee3f87058b55916fe9509"
+    }
+  },
+  "open_questions": [
+    "Enumerate all writes to motor_spdir, motor_egdir and Hall tables after initialization, including indirect diagnostic writes",
+    "Determine complete conditional effects of serial-derived flags on effective runtime configuration",
+    "Inspect actual saved Flash only if independently authorized and available; current images contain application code, not wheel-specific slot contents",
+    "Bootloader and device compatibility policy remain outside this application's evidence"
+  ],
+  "next_concrete_step": "Trace RAM xrefs and diagnostic parameter write dispatch for 0x2000059c/0x2000059e/0x200005a0 across 2.35/2.41, separating direct stores from generic memory-copy writes; audit serial-controlled flag consumers without inferring motor compatibility."
+}
