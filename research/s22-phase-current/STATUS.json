@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-11",
+  "status": "PASS_phase_current_measurement_verified_v241",
+  "completed": [
+    "ADC2 JDR1/JDR2 reads traced to IA/IB",
+    "Three analog channels and six-sector pair switching executed",
+    "Per-phase 64-sample zero calibration executed",
+    "ADC IRQ to Clarke path executed for states 4 and 5",
+    "Original Park transform and IQ/ID slew limiter executed"
+  ],
+  "checks": {
+    "command": "python research/s22-phase-current/trace_phase_current.py",
+    "result": "PASS",
+    "sector_pairs": 6,
+    "phase_cases": 30,
+    "IRQ_to_Clarke_cases": 12,
+    "Park_cases": 4,
+    "IQ_ID_slew_cases": 2,
+    "firmware_helper_stubs": 0
+  },
+  "open": [
+    "Exact physical sensor and hardware revision",
+    "Calibration in amperes and actual sampling accuracy/latency",
+    "Other firmware versions not validated in this slice"
+  ],
+  "next_step": "Trace phase current scaling to physical units and compare hardware revisions using schematics or board evidence."
+}

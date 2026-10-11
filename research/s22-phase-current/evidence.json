@@ -1,0 +1,929 @@
+{
+  "version": "S22 mainboard 2.41",
+  "inputs_sha256": {
+    "s22-developer-pack/firmware/decrypted/S22-v241-decrypted.bin": "99491754f5478caf5d97a5fa31c0a17bc7be55f0c14ee3f87058b55916fe9509",
+    "s22-platform-research/initialized-data/S22-v241-decrypted-initialized-ram.bin": "aaa8b3bc063cf1c0f7e200d01b6c1c204161abd764ad9b7dbce6048866a7ffea"
+  },
+  "firmware_helper_stubs": 0,
+  "MMIO": "inert memory",
+  "phase_cases": [
+    {
+      "sector": 1,
+      "JDR1_JDR2": [
+        16384,
+        16384
+      ],
+      "zeros": [
+        32768,
+        32768,
+        32768
+      ],
+      "IA_IB": [
+        0,
+        0
+      ],
+      "actual_MMIO_reads": [
+        "0x4001283c",
+        "0x40012840"
+      ]
+    },
+    {
+      "sector": 1,
+      "JDR1_JDR2": [
+        16300,
+        16500
+      ],
+      "zeros": [
+        32768,
+        32768,
+        32768
+      ],
+      "IA_IB": [
+        64,
+        168
+      ],
+      "actual_MMIO_reads": [
+        "0x4001283c",
+        "0x40012840"
+      ]
+    },
+    {
+      "sector": 1,
+      "JDR1_JDR2": [
+        16500,
+        16300
+      ],
+      "zeros": [
+        32768,
+        32768,
+        32768
+      ],
+      "IA_IB": [
+        64,
+        -232
+      ],
+      "actual_MMIO_reads": [
+        "0x4001283c",
+        "0x40012840"
+      ]
+    },
+    {
+      "sector": 1,
+      "JDR1_JDR2": [
+        0,
+        65520
+      ],
+      "zeros": [
+        32768,
+        32768,
+        32768
+      ],
+      "IA_IB": [
+        32767,
+        32767
+      ],
+      "actual_MMIO_reads": [
+        "0x4001283c",
+        "0x40012840"
+      ]
+    },
+    {
+      "sector": 1,
+      "JDR1_JDR2": [
+        16200,
+        16600
+      ],
+      "zeros": [
+        32768,
+        32800,
+        33000
+      ],
+      "IA_IB": [
+        -200,
+        400
+      ],
+      "actual_MMIO_reads": [
+        "0x4001283c",
+        "0x40012840"
+      ]
+    },
+    {
+      "sector": 2,
+      "JDR1_JDR2": [
+        16384,
+        16384
+      ],
+      "zeros": [
+        32768,
+        32768,
+        32768
+      ],
+      "IA_IB": [
+        0,
+        0
+      ],
+      "actual_MMIO_reads": [
+        "0x4001283c",
+        "0x40012840"
+      ]
+    },
+    {
+      "sector": 2,
+      "JDR1_JDR2": [
+        16300,
+        16500
+      ],
+      "zeros": [
+        32768,
+        32768,
+        32768
+      ],
+      "IA_IB": [
+        168,
+        64
+      ],
+      "actual_MMIO_reads": [
+        "0x4001283c",
+        "0x40012840"
+      ]
+    },
+    {
+      "sector": 2,
+      "JDR1_JDR2": [
+        16500,
+        16300
+      ],
+      "zeros": [
+        32768,
+        32768,
+        32768
+      ],
+      "IA_IB": [
+        -232,
+        64
+      ],
+      "actual_MMIO_reads": [
+        "0x4001283c",
+        "0x40012840"
+      ]
+    },
+    {
+      "sector": 2,
+      "JDR1_JDR2": [
+        0,
+        65520
+      ],
+      "zeros": [
+        32768,
+        32768,
+        32768
+      ],
+      "IA_IB": [
+        32767,
+        32767
+      ],
+      "actual_MMIO_reads": [
+        "0x4001283c",
+        "0x40012840"
+      ]
+    },
+    {
+      "sector": 2,
+      "JDR1_JDR2": [
+        16200,
+        16600
+      ],
+      "zeros": [
+        32768,
+        32800,
+        33000
+      ],
+      "IA_IB": [
+        368,
+        -168
+      ],
+      "actual_MMIO_reads": [
+        "0x4001283c",
+        "0x40012840"
+      ]
+    },
+    {
+      "sector": 3,
+      "JDR1_JDR2": [
+        16384,
+        16384
+      ],
+      "zeros": [
+        32768,
+        32768,
+        32768
+      ],
+      "IA_IB": [
+        0,
+        0
+      ],
+      "actual_MMIO_reads": [
+        "0x4001283c",
+        "0x40012840"
+      ]
+    },
+    {
+      "sector": 3,
+      "JDR1_JDR2": [
+        16300,
+        16500
+      ],
+      "zeros": [
+        32768,
+        32768,
+        32768
+      ],
+      "IA_IB": [
+        168,
+        64
+      ],
+      "actual_MMIO_reads": [
+        "0x4001283c",
+        "0x40012840"
+      ]
+    },
+    {
+      "sector": 3,
+      "JDR1_JDR2": [
+        16500,
+        16300
+      ],
+      "zeros": [
+        32768,
+        32768,
+        32768
+      ],
+      "IA_IB": [
+        -232,
+        64
+      ],
+      "actual_MMIO_reads": [
+        "0x4001283c",
+        "0x40012840"
+      ]
+    },
+    {
+      "sector": 3,
+      "JDR1_JDR2": [
+        0,
+        65520
+      ],
+      "zeros": [
+        32768,
+        32768,
+        32768
+      ],
+      "IA_IB": [
+        32767,
+        32767
+      ],
+      "actual_MMIO_reads": [
+        "0x4001283c",
+        "0x40012840"
+      ]
+    },
+    {
+      "sector": 3,
+      "JDR1_JDR2": [
+        16200,
+        16600
+      ],
+      "zeros": [
+        32768,
+        32800,
+        33000
+      ],
+      "IA_IB": [
+        368,
+        -168
+      ],
+      "actual_MMIO_reads": [
+        "0x4001283c",
+        "0x40012840"
+      ]
+    },
+    {
+      "sector": 4,
+      "JDR1_JDR2": [
+        16384,
+        16384
+      ],
+      "zeros": [
+        32768,
+        32768,
+        32768
+      ],
+      "IA_IB": [
+        0,
+        0
+      ],
+      "actual_MMIO_reads": [
+        "0x4001283c",
+        "0x40012840"
+      ]
+    },
+    {
+      "sector": 4,
+      "JDR1_JDR2": [
+        16300,
+        16500
+      ],
+      "zeros": [
+        32768,
+        32768,
+        32768
+      ],
+      "IA_IB": [
+        168,
+        -232
+      ],
+      "actual_MMIO_reads": [
+        "0x4001283c",
+        "0x40012840"
+      ]
+    },
+    {
+      "sector": 4,
+      "JDR1_JDR2": [
+        16500,
+        16300
+      ],
+      "zeros": [
+        32768,
+        32768,
+        32768
+      ],
+      "IA_IB": [
+        -232,
+        168
+      ],
+      "actual_MMIO_reads": [
+        "0x4001283c",
+        "0x40012840"
+      ]
+    },
+    {
+      "sector": 4,
+      "JDR1_JDR2": [
+        0,
+        65520
+      ],
+      "zeros": [
+        32768,
+        32768,
+        32768
+      ],
+      "IA_IB": [
+        32767,
+        -32768
+      ],
+      "actual_MMIO_reads": [
+        "0x4001283c",
+        "0x40012840"
+      ]
+    },
+    {
+      "sector": 4,
+      "JDR1_JDR2": [
+        16200,
+        16600
+      ],
+      "zeros": [
+        32768,
+        32800,
+        33000
+      ],
+      "IA_IB": [
+        368,
+        -400
+      ],
+      "actual_MMIO_reads": [
+        "0x4001283c",
+        "0x40012840"
+      ]
+    },
+    {
+      "sector": 5,
+      "JDR1_JDR2": [
+        16384,
+        16384
+      ],
+      "zeros": [
+        32768,
+        32768,
+        32768
+      ],
+      "IA_IB": [
+        0,
+        0
+      ],
+      "actual_MMIO_reads": [
+        "0x4001283c",
+        "0x40012840"
+      ]
+    },
+    {
+      "sector": 5,
+      "JDR1_JDR2": [
+        16300,
+        16500
+      ],
+      "zeros": [
+        32768,
+        32768,
+        32768
+      ],
+      "IA_IB": [
+        168,
+        -232
+      ],
+      "actual_MMIO_reads": [
+        "0x4001283c",
+        "0x40012840"
+      ]
+    },
+    {
+      "sector": 5,
+      "JDR1_JDR2": [
+        16500,
+        16300
+      ],
+      "zeros": [
+        32768,
+        32768,
+        32768
+      ],
+      "IA_IB": [
+        -232,
+        168
+      ],
+      "actual_MMIO_reads": [
+        "0x4001283c",
+        "0x40012840"
+      ]
+    },
+    {
+      "sector": 5,
+      "JDR1_JDR2": [
+        0,
+        65520
+      ],
+      "zeros": [
+        32768,
+        32768,
+        32768
+      ],
+      "IA_IB": [
+        32767,
+        -32768
+      ],
+      "actual_MMIO_reads": [
+        "0x4001283c",
+        "0x40012840"
+      ]
+    },
+    {
+      "sector": 5,
+      "JDR1_JDR2": [
+        16200,
+        16600
+      ],
+      "zeros": [
+        32768,
+        32800,
+        33000
+      ],
+      "IA_IB": [
+        368,
+        -400
+      ],
+      "actual_MMIO_reads": [
+        "0x4001283c",
+        "0x40012840"
+      ]
+    },
+    {
+      "sector": 6,
+      "JDR1_JDR2": [
+        16384,
+        16384
+      ],
+      "zeros": [
+        32768,
+        32768,
+        32768
+      ],
+      "IA_IB": [
+        0,
+        0
+      ],
+      "actual_MMIO_reads": [
+        "0x4001283c",
+        "0x40012840"
+      ]
+    },
+    {
+      "sector": 6,
+      "JDR1_JDR2": [
+        16300,
+        16500
+      ],
+      "zeros": [
+        32768,
+        32768,
+        32768
+      ],
+      "IA_IB": [
+        64,
+        168
+      ],
+      "actual_MMIO_reads": [
+        "0x4001283c",
+        "0x40012840"
+      ]
+    },
+    {
+      "sector": 6,
+      "JDR1_JDR2": [
+        16500,
+        16300
+      ],
+      "zeros": [
+        32768,
+        32768,
+        32768
+      ],
+      "IA_IB": [
+        64,
+        -232
+      ],
+      "actual_MMIO_reads": [
+        "0x4001283c",
+        "0x40012840"
+      ]
+    },
+    {
+      "sector": 6,
+      "JDR1_JDR2": [
+        0,
+        65520
+      ],
+      "zeros": [
+        32768,
+        32768,
+        32768
+      ],
+      "IA_IB": [
+        32767,
+        32767
+      ],
+      "actual_MMIO_reads": [
+        "0x4001283c",
+        "0x40012840"
+      ]
+    },
+    {
+      "sector": 6,
+      "JDR1_JDR2": [
+        16200,
+        16600
+      ],
+      "zeros": [
+        32768,
+        32800,
+        33000
+      ],
+      "IA_IB": [
+        -200,
+        400
+      ],
+      "actual_MMIO_reads": [
+        "0x4001283c",
+        "0x40012840"
+      ]
+    }
+  ],
+  "sector_selector_cases": [
+    {
+      "voltage_alpha_beta": [
+        1000,
+        -1000
+      ],
+      "sector": 1,
+      "channels": [
+        1,
+        2
+      ],
+      "JSQR": "0x110400",
+      "TIM1_CCR4": 2999,
+      "trigger_rearmed": true
+    },
+    {
+      "voltage_alpha_beta": [
+        0,
+        -1000
+      ],
+      "sector": 2,
+      "channels": [
+        3,
+        2
+      ],
+      "JSQR": "0x110c00",
+      "TIM1_CCR4": 2999,
+      "trigger_rearmed": true
+    },
+    {
+      "voltage_alpha_beta": [
+        -1000,
+        -1000
+      ],
+      "sector": 3,
+      "channels": [
+        3,
+        2
+      ],
+      "JSQR": "0x110c00",
+      "TIM1_CCR4": 2999,
+      "trigger_rearmed": true
+    },
+    {
+      "voltage_alpha_beta": [
+        -1000,
+        1000
+      ],
+      "sector": 4,
+      "channels": [
+        3,
+        1
+      ],
+      "JSQR": "0x108c00",
+      "TIM1_CCR4": 2999,
+      "trigger_rearmed": true
+    },
+    {
+      "voltage_alpha_beta": [
+        0,
+        1000
+      ],
+      "sector": 5,
+      "channels": [
+        3,
+        1
+      ],
+      "JSQR": "0x108c00",
+      "TIM1_CCR4": 2999,
+      "trigger_rearmed": true
+    },
+    {
+      "voltage_alpha_beta": [
+        1000,
+        1000
+      ],
+      "sector": 6,
+      "channels": [
+        1,
+        2
+      ],
+      "JSQR": "0x110400",
+      "TIM1_CCR4": 2999,
+      "trigger_rearmed": true
+    }
+  ],
+  "IRQ_to_Clarke_cases": [
+    {
+      "IRQ_state": 4,
+      "sector": 1,
+      "IA_IB": [
+        64,
+        168
+      ],
+      "Ialpha_Ibeta": [
+        64,
+        -230
+      ],
+      "BusCurrent_unchanged": 12345
+    },
+    {
+      "IRQ_state": 4,
+      "sector": 2,
+      "IA_IB": [
+        168,
+        64
+      ],
+      "Ialpha_Ibeta": [
+        168,
+        -170
+      ],
+      "BusCurrent_unchanged": 12345
+    },
+    {
+      "IRQ_state": 4,
+      "sector": 3,
+      "IA_IB": [
+        168,
+        64
+      ],
+      "Ialpha_Ibeta": [
+        168,
+        -170
+      ],
+      "BusCurrent_unchanged": 12345
+    },
+    {
+      "IRQ_state": 4,
+      "sector": 4,
+      "IA_IB": [
+        168,
+        -232
+      ],
+      "Ialpha_Ibeta": [
+        168,
+        170
+      ],
+      "BusCurrent_unchanged": 12345
+    },
+    {
+      "IRQ_state": 4,
+      "sector": 5,
+      "IA_IB": [
+        168,
+        -232
+      ],
+      "Ialpha_Ibeta": [
+        168,
+        170
+      ],
+      "BusCurrent_unchanged": 12345
+    },
+    {
+      "IRQ_state": 4,
+      "sector": 6,
+      "IA_IB": [
+        64,
+        168
+      ],
+      "Ialpha_Ibeta": [
+        64,
+        -230
+      ],
+      "BusCurrent_unchanged": 12345
+    },
+    {
+      "IRQ_state": 5,
+      "sector": 1,
+      "IA_IB": [
+        64,
+        168
+      ],
+      "Ialpha_Ibeta": [
+        64,
+        -230
+      ],
+      "BusCurrent_unchanged": 12345
+    },
+    {
+      "IRQ_state": 5,
+      "sector": 2,
+      "IA_IB": [
+        168,
+        64
+      ],
+      "Ialpha_Ibeta": [
+        168,
+        -170
+      ],
+      "BusCurrent_unchanged": 12345
+    },
+    {
+      "IRQ_state": 5,
+      "sector": 3,
+      "IA_IB": [
+        168,
+        64
+      ],
+      "Ialpha_Ibeta": [
+        168,
+        -170
+      ],
+      "BusCurrent_unchanged": 12345
+    },
+    {
+      "IRQ_state": 5,
+      "sector": 4,
+      "IA_IB": [
+        168,
+        -232
+      ],
+      "Ialpha_Ibeta": [
+        168,
+        170
+      ],
+      "BusCurrent_unchanged": 12345
+    },
+    {
+      "IRQ_state": 5,
+      "sector": 5,
+      "IA_IB": [
+        168,
+        -232
+      ],
+      "Ialpha_Ibeta": [
+        168,
+        170
+      ],
+      "BusCurrent_unchanged": 12345
+    },
+    {
+      "IRQ_state": 5,
+      "sector": 6,
+      "IA_IB": [
+        64,
+        168
+      ],
+      "Ialpha_Ibeta": [
+        64,
+        -230
+      ],
+      "BusCurrent_unchanged": 12345
+    }
+  ],
+  "Park_cases": [
+    {
+      "angle_raw": 0,
+      "coefficients": [
+        32766,
+        0
+      ],
+      "IQ_ID_before_slew_limiter": [
+        167,
+        169
+      ]
+    },
+    {
+      "angle_raw": 7500,
+      "coefficients": [
+        24547,
+        21554
+      ],
+      "IQ_ID_before_slew_limiter": [
+        14,
+        237
+      ]
+    },
+    {
+      "angle_raw": 15000,
+      "coefficients": [
+        4210,
+        32469
+      ],
+      "IQ_ID_before_slew_limiter": [
+        -146,
+        188
+      ]
+    },
+    {
+      "angle_raw": 22500,
+      "coefficients": [
+        -18037,
+        27245
+      ],
+      "IQ_ID_before_slew_limiter": [
+        -233,
+        46
+      ]
+    }
+  ],
+  "injected_init": {
+    "entry": "0x0800c978",
+    "JSQR": "0x108c00",
+    "CR2": "0x9000",
+    "phase_A_B_C_channels": [
+      3,
+      1,
+      2
+    ],
+    "injected_conversions": 2
+  },
+  "phase_zero_calibration": {
+    "entry": "0x0800c6b0",
+    "samples_per_phase": 64,
+    "ADC_register_inputs": [
+      16384,
+      16400,
+      16500
+    ],
+    "offsets_A_B_C": [
+      32768,
+      32800,
+      33000
+    ]
+  },
+  "IQ_ID_slew_cases": 2,
+  "status": "PASS",
+  "unique_executed_addresses": 855
+}

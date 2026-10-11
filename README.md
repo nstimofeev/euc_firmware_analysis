@@ -85,3 +85,5 @@ python -m venv .venv
 
 
 BMS S22 2.10 (`KSS22BA-2202`): [собственный ADC → поле тока ответа 0x42, образ и воспроизводимая проверка](research/s22-bms-current/bms210/REPORT_RU.md).
+
+S22 2.41: [измерение фазных токов ADC2, пары каналов по секторам и путь в Iq/Id](research/s22-phase-current/REPORT_RU.md).
