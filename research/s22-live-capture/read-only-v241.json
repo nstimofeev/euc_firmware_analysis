@@ -1,0 +1,933 @@
+{
+  "firmware_version": "2.41",
+  "firmware_sha256": "99491754f5478caf5d97a5fa31c0a17bc7be55f0c14ee3f87058b55916fe9509",
+  "handler_address": "0x080151a4",
+  "table_address": "0x080275fc",
+  "scope": "action=0 selects RAM-to-response branch. BLE reachability, mode-entry effects, units and other firmware versions are not established.",
+  "read_count": 95,
+  "excluded_write_count": 20,
+  "read_records": [
+    {
+      "index": 10,
+      "name": "cartstep",
+      "record_address": "0x0802769c",
+      "value_address": "0x20003188",
+      "size_bytes": 1,
+      "action": 0
+    },
+    {
+      "index": 11,
+      "name": "motionstep",
+      "record_address": "0x080276ac",
+      "value_address": "0x200032a8",
+      "size_bytes": 1,
+      "action": 0
+    },
+    {
+      "index": 12,
+      "name": "motorstep",
+      "record_address": "0x080276bc",
+      "value_address": "0x20003310",
+      "size_bytes": 1,
+      "action": 0
+    },
+    {
+      "index": 13,
+      "name": "HallRSP",
+      "record_address": "0x080276cc",
+      "value_address": "0x200005b8",
+      "size_bytes": 4,
+      "action": 0
+    },
+    {
+      "index": 14,
+      "name": "VQ",
+      "record_address": "0x080276dc",
+      "value_address": "0x200034b0",
+      "size_bytes": 4,
+      "action": 0
+    },
+    {
+      "index": 15,
+      "name": "VD",
+      "record_address": "0x080276ec",
+      "value_address": "0x200034b4",
+      "size_bytes": 4,
+      "action": 0
+    },
+    {
+      "index": 16,
+      "name": "IA",
+      "record_address": "0x080276fc",
+      "value_address": "0x20003488",
+      "size_bytes": 4,
+      "action": 0
+    },
+    {
+      "index": 17,
+      "name": "IB",
+      "record_address": "0x0802770c",
+      "value_address": "0x2000348c",
+      "size_bytes": 4,
+      "action": 0
+    },
+    {
+      "index": 18,
+      "name": "IQCurrent",
+      "record_address": "0x0802771c",
+      "value_address": "0x200034a0",
+      "size_bytes": 4,
+      "action": 0
+    },
+    {
+      "index": 19,
+      "name": "IDCurrent",
+      "record_address": "0x0802772c",
+      "value_address": "0x200034a4",
+      "size_bytes": 4,
+      "action": 0
+    },
+    {
+      "index": 20,
+      "name": "acce_x",
+      "record_address": "0x0802773c",
+      "value_address": "0x20003374",
+      "size_bytes": 4,
+      "action": 0
+    },
+    {
+      "index": 21,
+      "name": "acce_y",
+      "record_address": "0x0802774c",
+      "value_address": "0x20003378",
+      "size_bytes": 4,
+      "action": 0
+    },
+    {
+      "index": 22,
+      "name": "acce_z",
+      "record_address": "0x0802775c",
+      "value_address": "0x2000337c",
+      "size_bytes": 4,
+      "action": 0
+    },
+    {
+      "index": 23,
+      "name": "gyro_x",
+      "record_address": "0x0802776c",
+      "value_address": "0x20003368",
+      "size_bytes": 4,
+      "action": 0
+    },
+    {
+      "index": 24,
+      "name": "gyro_y",
+      "record_address": "0x0802777c",
+      "value_address": "0x2000336c",
+      "size_bytes": 4,
+      "action": 0
+    },
+    {
+      "index": 25,
+      "name": "gyro_z",
+      "record_address": "0x0802778c",
+      "value_address": "0x20003370",
+      "size_bytes": 4,
+      "action": 0
+    },
+    {
+      "index": 26,
+      "name": "pintch",
+      "record_address": "0x0802779c",
+      "value_address": "0x200033dc",
+      "size_bytes": 4,
+      "action": 0
+    },
+    {
+      "index": 27,
+      "name": "pintch_in",
+      "record_address": "0x080277ac",
+      "value_address": "0x200033d8",
+      "size_bytes": 4,
+      "action": 0
+    },
+    {
+      "index": 28,
+      "name": "s_acc",
+      "record_address": "0x080277bc",
+      "value_address": "0x200033e8",
+      "size_bytes": 4,
+      "action": 0
+    },
+    {
+      "index": 29,
+      "name": "sta_pitch",
+      "record_address": "0x080277cc",
+      "value_address": "0x200033cc",
+      "size_bytes": 4,
+      "action": 0
+    },
+    {
+      "index": 30,
+      "name": "fus_roll",
+      "record_address": "0x080277dc",
+      "value_address": "0x200033e0",
+      "size_bytes": 4,
+      "action": 0
+    },
+    {
+      "index": 31,
+      "name": "rollacc",
+      "record_address": "0x080277ec",
+      "value_address": "0x200033ec",
+      "size_bytes": 4,
+      "action": 0
+    },
+    {
+      "index": 32,
+      "name": "sta_roll",
+      "record_address": "0x080277fc",
+      "value_address": "0x200033d0",
+      "size_bytes": 4,
+      "action": 0
+    },
+    {
+      "index": 33,
+      "name": "yaw_acc",
+      "record_address": "0x0802780c",
+      "value_address": "0x200033f0",
+      "size_bytes": 4,
+      "action": 0
+    },
+    {
+      "index": 34,
+      "name": "angleoffset_int",
+      "record_address": "0x0802781c",
+      "value_address": "0x200002a8",
+      "size_bytes": 4,
+      "action": 0
+    },
+    {
+      "index": 36,
+      "name": "g_winespeed_lv",
+      "record_address": "0x0802783c",
+      "value_address": "0x200001ec",
+      "size_bytes": 4,
+      "action": 0
+    },
+    {
+      "index": 37,
+      "name": "rollptag_auto",
+      "record_address": "0x0802784c",
+      "value_address": "0x20003300",
+      "size_bytes": 4,
+      "action": 0
+    },
+    {
+      "index": 39,
+      "name": "PhcurrLimit",
+      "record_address": "0x0802786c",
+      "value_address": "0x20000340",
+      "size_bytes": 4,
+      "action": 0
+    },
+    {
+      "index": 41,
+      "name": "VqIqRateRT",
+      "record_address": "0x0802788c",
+      "value_address": "0x20000318",
+      "size_bytes": 2,
+      "action": 0
+    },
+    {
+      "index": 42,
+      "name": "PhcurrLimit_Vq_P",
+      "record_address": "0x0802789c",
+      "value_address": "0x20000348",
+      "size_bytes": 4,
+      "action": 0
+    },
+    {
+      "index": 43,
+      "name": "PhcurrLimit_Vq_N",
+      "record_address": "0x080278ac",
+      "value_address": "0x2000034c",
+      "size_bytes": 4,
+      "action": 0
+    },
+    {
+      "index": 45,
+      "name": "BuscurLimit",
+      "record_address": "0x080278cc",
+      "value_address": "0x20000338",
+      "size_bytes": 4,
+      "action": 0
+    },
+    {
+      "index": 46,
+      "name": "IbusRateRT",
+      "record_address": "0x080278dc",
+      "value_address": "0x2000031a",
+      "size_bytes": 2,
+      "action": 0
+    },
+    {
+      "index": 47,
+      "name": "buscurrcalc",
+      "record_address": "0x080278ec",
+      "value_address": "0x200032d0",
+      "size_bytes": 4,
+      "action": 0
+    },
+    {
+      "index": 48,
+      "name": "BusCurrent",
+      "record_address": "0x080278fc",
+      "value_address": "0x200032c4",
+      "size_bytes": 4,
+      "action": 0
+    },
+    {
+      "index": 49,
+      "name": "buscurlmt_vq",
+      "record_address": "0x0802790c",
+      "value_address": "0x20000354",
+      "size_bytes": 4,
+      "action": 0
+    },
+    {
+      "index": 51,
+      "name": "VqSpeedRateRT",
+      "record_address": "0x0802792c",
+      "value_address": "0x20000316",
+      "size_bytes": 2,
+      "action": 0
+    },
+    {
+      "index": 52,
+      "name": "RsSpeedVq",
+      "record_address": "0x0802793c",
+      "value_address": "0x20003308",
+      "size_bytes": 4,
+      "action": 0
+    },
+    {
+      "index": 53,
+      "name": "RtIqVq",
+      "record_address": "0x0802794c",
+      "value_address": "0x2000330c",
+      "size_bytes": 4,
+      "action": 0
+    },
+    {
+      "index": 54,
+      "name": "Rpm",
+      "record_address": "0x0802795c",
+      "value_address": "0x20003306",
+      "size_bytes": 2,
+      "action": 0
+    },
+    {
+      "index": 55,
+      "name": "TotalVoltage",
+      "record_address": "0x0802796c",
+      "value_address": "0x200030bc",
+      "size_bytes": 4,
+      "action": 0
+    },
+    {
+      "index": 56,
+      "name": "TotalVol_show",
+      "record_address": "0x0802797c",
+      "value_address": "0x200030c0",
+      "size_bytes": 4,
+      "action": 0
+    },
+    {
+      "index": 57,
+      "name": "TotalCurrent",
+      "record_address": "0x0802798c",
+      "value_address": "0x200030cc",
+      "size_bytes": 4,
+      "action": 0
+    },
+    {
+      "index": 58,
+      "name": "VehicleSpeed",
+      "record_address": "0x0802799c",
+      "value_address": "0x200030c4",
+      "size_bytes": 4,
+      "action": 0
+    },
+    {
+      "index": 59,
+      "name": "speedAcc",
+      "record_address": "0x080279ac",
+      "value_address": "0x200030c8",
+      "size_bytes": 2,
+      "action": 0
+    },
+    {
+      "index": 60,
+      "name": "VectorVol",
+      "record_address": "0x080279bc",
+      "value_address": "0x200030d8",
+      "size_bytes": 4,
+      "action": 0
+    },
+    {
+      "index": 61,
+      "name": "MotorTemp",
+      "record_address": "0x080279cc",
+      "value_address": "0x200030e2",
+      "size_bytes": 2,
+      "action": 0
+    },
+    {
+      "index": 62,
+      "name": "MosTemp",
+      "record_address": "0x080279dc",
+      "value_address": "0x200030e4",
+      "size_bytes": 2,
+      "action": 0
+    },
+    {
+      "index": 63,
+      "name": "CpuTemp",
+      "record_address": "0x080279ec",
+      "value_address": "0x200030e6",
+      "size_bytes": 2,
+      "action": 0
+    },
+    {
+      "index": 64,
+      "name": "GYTemp",
+      "record_address": "0x080279fc",
+      "value_address": "0x200030e8",
+      "size_bytes": 2,
+      "action": 0
+    },
+    {
+      "index": 65,
+      "name": "cpuvol",
+      "record_address": "0x08027a0c",
+      "value_address": "0x200030ec",
+      "size_bytes": 2,
+      "action": 0
+    },
+    {
+      "index": 66,
+      "name": "lightad",
+      "record_address": "0x08027a1c",
+      "value_address": "0x200030ee",
+      "size_bytes": 2,
+      "action": 0
+    },
+    {
+      "index": 67,
+      "name": "IQCurrent",
+      "record_address": "0x08027a2c",
+      "value_address": "0x200030d4",
+      "size_bytes": 4,
+      "action": 0
+    },
+    {
+      "index": 68,
+      "name": "HallState",
+      "record_address": "0x08027a3c",
+      "value_address": "0x200030d0",
+      "size_bytes": 1,
+      "action": 0
+    },
+    {
+      "index": 69,
+      "name": "cpurate",
+      "record_address": "0x08027a4c",
+      "value_address": "0x200030ea",
+      "size_bytes": 1,
+      "action": 0
+    },
+    {
+      "index": 70,
+      "name": "readoutmeter",
+      "record_address": "0x08027a5c",
+      "value_address": "0x20003104",
+      "size_bytes": 4,
+      "action": 0
+    },
+    {
+      "index": 71,
+      "name": "kilometer",
+      "record_address": "0x08027a6c",
+      "value_address": "0x20003108",
+      "size_bytes": 4,
+      "action": 0
+    },
+    {
+      "index": 72,
+      "name": "currentmeter",
+      "record_address": "0x08027a7c",
+      "value_address": "0x2000310c",
+      "size_bytes": 4,
+      "action": 0
+    },
+    {
+      "index": 73,
+      "name": "commbospeed",
+      "record_address": "0x08027a8c",
+      "value_address": "0x200002b4",
+      "size_bytes": 4,
+      "action": 0
+    },
+    {
+      "index": 75,
+      "name": "g_dif_iq",
+      "record_address": "0x08027aac",
+      "value_address": "0x20000368",
+      "size_bytes": 2,
+      "action": 0
+    },
+    {
+      "index": 76,
+      "name": "g_average_iq",
+      "record_address": "0x08027abc",
+      "value_address": "0x20000360",
+      "size_bytes": 4,
+      "action": 0
+    },
+    {
+      "index": 77,
+      "name": "hall_err",
+      "record_address": "0x08027acc",
+      "value_address": "0x200005a4",
+      "size_bytes": 4,
+      "action": 0
+    },
+    {
+      "index": 78,
+      "name": "allwarnbit",
+      "record_address": "0x08027adc",
+      "value_address": "0x20003160",
+      "size_bytes": 4,
+      "action": 0
+    },
+    {
+      "index": 79,
+      "name": "AgeModeflg",
+      "record_address": "0x08027aec",
+      "value_address": "0x2000317b",
+      "size_bytes": 1,
+      "action": 0
+    },
+    {
+      "index": 80,
+      "name": "AgeChgflg",
+      "record_address": "0x08027afc",
+      "value_address": "0x2000317c",
+      "size_bytes": 1,
+      "action": 0
+    },
+    {
+      "index": 81,
+      "name": "AgeStepShow",
+      "record_address": "0x08027b0c",
+      "value_address": "0x2000317d",
+      "size_bytes": 1,
+      "action": 0
+    },
+    {
+      "index": 82,
+      "name": "ChgStepShow",
+      "record_address": "0x08027b1c",
+      "value_address": "0x2000317e",
+      "size_bytes": 1,
+      "action": 0
+    },
+    {
+      "index": 83,
+      "name": "ChgCurrShow",
+      "record_address": "0x08027b2c",
+      "value_address": "0x20003180",
+      "size_bytes": 2,
+      "action": 0
+    },
+    {
+      "index": 84,
+      "name": "BatState",
+      "record_address": "0x08027b3c",
+      "value_address": "0x20003152",
+      "size_bytes": 1,
+      "action": 0
+    },
+    {
+      "index": 85,
+      "name": "Ialfa",
+      "record_address": "0x08027b4c",
+      "value_address": "0x20003498",
+      "size_bytes": 4,
+      "action": 0
+    },
+    {
+      "index": 86,
+      "name": "Ibeta",
+      "record_address": "0x08027b5c",
+      "value_address": "0x2000349c",
+      "size_bytes": 4,
+      "action": 0
+    },
+    {
+      "index": 87,
+      "name": "Valfa",
+      "record_address": "0x08027b6c",
+      "value_address": "0x200034b8",
+      "size_bytes": 4,
+      "action": 0
+    },
+    {
+      "index": 88,
+      "name": "Vbeta",
+      "record_address": "0x08027b7c",
+      "value_address": "0x200034bc",
+      "size_bytes": 4,
+      "action": 0
+    },
+    {
+      "index": 89,
+      "name": "kiloWh",
+      "record_address": "0x08027b8c",
+      "value_address": "0x20003140",
+      "size_bytes": 4,
+      "action": 0
+    },
+    {
+      "index": 90,
+      "name": "this_ws",
+      "record_address": "0x08027b9c",
+      "value_address": "0x200032e4",
+      "size_bytes": 4,
+      "action": 0
+    },
+    {
+      "index": 91,
+      "name": "curr_wsp",
+      "record_address": "0x08027bac",
+      "value_address": "0x20003148",
+      "size_bytes": 4,
+      "action": 0
+    },
+    {
+      "index": 92,
+      "name": "curr_wsn",
+      "record_address": "0x08027bbc",
+      "value_address": "0x2000314c",
+      "size_bytes": 4,
+      "action": 0
+    },
+    {
+      "index": 93,
+      "name": "g_averX10_iq",
+      "record_address": "0x08027bcc",
+      "value_address": "0x20000364",
+      "size_bytes": 4,
+      "action": 0
+    },
+    {
+      "index": 98,
+      "name": "BOOTVERSION",
+      "record_address": "0x08027c1c",
+      "value_address": "0x08005308",
+      "size_bytes": 4,
+      "action": 0
+    },
+    {
+      "index": 99,
+      "name": "APPVERSION",
+      "record_address": "0x08027c2c",
+      "value_address": "0x08008308",
+      "size_bytes": 4,
+      "action": 0
+    },
+    {
+      "index": 100,
+      "name": "RUNOKFLG",
+      "record_address": "0x08027c3c",
+      "value_address": "0x08008310",
+      "size_bytes": 4,
+      "action": 0
+    },
+    {
+      "index": 101,
+      "name": "APPSIZE",
+      "record_address": "0x08027c4c",
+      "value_address": "0x08008314",
+      "size_bytes": 4,
+      "action": 0
+    },
+    {
+      "index": 102,
+      "name": "APPCRCCODE",
+      "record_address": "0x08027c5c",
+      "value_address": "0x08008318",
+      "size_bytes": 4,
+      "action": 0
+    },
+    {
+      "index": 103,
+      "name": "APPCRCCHECK",
+      "record_address": "0x08027c6c",
+      "value_address": "0x0800831c",
+      "size_bytes": 4,
+      "action": 0
+    },
+    {
+      "index": 104,
+      "name": "VqSpeedRateCFG",
+      "record_address": "0x08027c7c",
+      "value_address": "0x20000310",
+      "size_bytes": 2,
+      "action": 0
+    },
+    {
+      "index": 105,
+      "name": "VqIqRateCFG",
+      "record_address": "0x08027c8c",
+      "value_address": "0x20000312",
+      "size_bytes": 2,
+      "action": 0
+    },
+    {
+      "index": 106,
+      "name": "IbusRateCFG",
+      "record_address": "0x08027c9c",
+      "value_address": "0x20000314",
+      "size_bytes": 2,
+      "action": 0
+    },
+    {
+      "index": 107,
+      "name": "VqSprate_vpCFG",
+      "record_address": "0x08027cac",
+      "value_address": "0x2000030c",
+      "size_bytes": 2,
+      "action": 0
+    },
+    {
+      "index": 108,
+      "name": "VqIqrate_vpCFG",
+      "record_address": "0x08027cbc",
+      "value_address": "0x2000030e",
+      "size_bytes": 2,
+      "action": 0
+    },
+    {
+      "index": 109,
+      "name": "halloffset",
+      "record_address": "0x08027ccc",
+      "value_address": "0x200005a0",
+      "size_bytes": 2,
+      "action": 0
+    },
+    {
+      "index": 110,
+      "name": "motor_spdir",
+      "record_address": "0x08027cdc",
+      "value_address": "0x2000059c",
+      "size_bytes": 2,
+      "action": 0
+    },
+    {
+      "index": 111,
+      "name": "motor_egdir",
+      "record_address": "0x08027cec",
+      "value_address": "0x2000059e",
+      "size_bytes": 2,
+      "action": 0
+    },
+    {
+      "index": 112,
+      "name": "readoutmeter",
+      "record_address": "0x08027cfc",
+      "value_address": "0x20003104",
+      "size_bytes": 4,
+      "action": 0
+    },
+    {
+      "index": 113,
+      "name": "kilometer",
+      "record_address": "0x08027d0c",
+      "value_address": "0x20003108",
+      "size_bytes": 4,
+      "action": 0
+    },
+    {
+      "index": 114,
+      "name": "currentmeter",
+      "record_address": "0x08027d1c",
+      "value_address": "0x2000310c",
+      "size_bytes": 4,
+      "action": 0
+    }
+  ],
+  "excluded_write_records": [
+    {
+      "index": 0,
+      "name": "pidk_acc",
+      "record_address": "0x080275fc",
+      "value_address": "0x200005fe",
+      "size_bytes": 2,
+      "action": 1
+    },
+    {
+      "index": 1,
+      "name": "pidk_p",
+      "record_address": "0x0802760c",
+      "value_address": "0x20000600",
+      "size_bytes": 2,
+      "action": 1
+    },
+    {
+      "index": 2,
+      "name": "pidk_speed",
+      "record_address": "0x0802761c",
+      "value_address": "0x20000602",
+      "size_bytes": 2,
+      "action": 1
+    },
+    {
+      "index": 3,
+      "name": "k_pcurr",
+      "record_address": "0x0802762c",
+      "value_address": "0x20000604",
+      "size_bytes": 2,
+      "action": 1
+    },
+    {
+      "index": 4,
+      "name": "pidk_cmbfw",
+      "record_address": "0x0802763c",
+      "value_address": "0x20000606",
+      "size_bytes": 2,
+      "action": 1
+    },
+    {
+      "index": 5,
+      "name": "pidk_cmbtn",
+      "record_address": "0x0802764c",
+      "value_address": "0x20000608",
+      "size_bytes": 2,
+      "action": 1
+    },
+    {
+      "index": 6,
+      "name": "pidk_agfac_v",
+      "record_address": "0x0802765c",
+      "value_address": "0x2000060a",
+      "size_bytes": 2,
+      "action": 1
+    },
+    {
+      "index": 7,
+      "name": "pidk_ncurr",
+      "record_address": "0x0802766c",
+      "value_address": "0x2000060c",
+      "size_bytes": 2,
+      "action": 1
+    },
+    {
+      "index": 8,
+      "name": "halldebugflg",
+      "record_address": "0x0802767c",
+      "value_address": "0x2000032f",
+      "size_bytes": 1,
+      "action": 1
+    },
+    {
+      "index": 9,
+      "name": "halloffset",
+      "record_address": "0x0802768c",
+      "value_address": "0x200005a0",
+      "size_bytes": 2,
+      "action": 1
+    },
+    {
+      "index": 35,
+      "name": "LimitSpeed",
+      "record_address": "0x0802782c",
+      "value_address": "0x200032d8",
+      "size_bytes": 4,
+      "action": 1
+    },
+    {
+      "index": 38,
+      "name": "PhcurrLimit_set",
+      "record_address": "0x0802785c",
+      "value_address": "0x2000033c",
+      "size_bytes": 4,
+      "action": 1
+    },
+    {
+      "index": 40,
+      "name": "VqIqRateCFG",
+      "record_address": "0x0802787c",
+      "value_address": "0x20000312",
+      "size_bytes": 2,
+      "action": 1
+    },
+    {
+      "index": 44,
+      "name": "BuscurLimit_set",
+      "record_address": "0x080278bc",
+      "value_address": "0x20000334",
+      "size_bytes": 4,
+      "action": 1
+    },
+    {
+      "index": 50,
+      "name": "VqSpeedRateCFG",
+      "record_address": "0x0802791c",
+      "value_address": "0x20000310",
+      "size_bytes": 2,
+      "action": 1
+    },
+    {
+      "index": 74,
+      "name": "manualsetVd",
+      "record_address": "0x08027a9c",
+      "value_address": "0x20000320",
+      "size_bytes": 2,
+      "action": 1
+    },
+    {
+      "index": 94,
+      "name": "vttest[0]",
+      "record_address": "0x08027bdc",
+      "value_address": "0x200039bc",
+      "size_bytes": 4,
+      "action": 1
+    },
+    {
+      "index": 95,
+      "name": "vttest[1]",
+      "record_address": "0x08027bec",
+      "value_address": "0x200039c0",
+      "size_bytes": 4,
+      "action": 1
+    },
+    {
+      "index": 96,
+      "name": "vttest[2]",
+      "record_address": "0x08027bfc",
+      "value_address": "0x200039c4",
+      "size_bytes": 4,
+      "action": 1
+    },
+    {
+      "index": 97,
+      "name": "vttest[3]",
+      "record_address": "0x08027c0c",
+      "value_address": "0x200039c8",
+      "size_bytes": 4,
+      "action": 1
+    }
+  ]
+}
