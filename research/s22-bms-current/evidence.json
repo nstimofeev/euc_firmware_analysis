@@ -1,0 +1,264 @@
+{
+  "scope": "Original S22 mainboard v2.41, not BMS firmware",
+  "inputs_sha256": {
+    "s22-developer-pack/firmware/decrypted/S22-v241-decrypted.bin": "99491754f5478caf5d97a5fa31c0a17bc7be55f0c14ee3f87058b55916fe9509",
+    "s22-platform-research/initialized-data/S22-v241-decrypted-initialized-ram.bin": "aaa8b3bc063cf1c0f7e200d01b6c1c204161abd764ad9b7dbce6048866a7ffea"
+  },
+  "stubbed_helpers": [],
+  "cases": [
+    {
+      "kind": "mainboard_current",
+      "adc_12bit": 2000,
+      "zero": 2000,
+      "old_current_raw": 0,
+      "current_raw": 0,
+      "BusCurrent": 99
+    },
+    {
+      "kind": "mainboard_current",
+      "adc_12bit": 2100,
+      "zero": 2000,
+      "old_current_raw": 0,
+      "current_raw": 7,
+      "BusCurrent": 100
+    },
+    {
+      "kind": "mainboard_current",
+      "adc_12bit": 1900,
+      "zero": 2000,
+      "old_current_raw": 0,
+      "current_raw": -7,
+      "BusCurrent": 99
+    },
+    {
+      "kind": "mainboard_current",
+      "adc_12bit": 2100,
+      "zero": 2000,
+      "old_current_raw": 100,
+      "current_raw": 105,
+      "BusCurrent": 110
+    },
+    {
+      "kind": "mainboard_current",
+      "adc_12bit": 1900,
+      "zero": 2000,
+      "old_current_raw": -100,
+      "current_raw": -105,
+      "BusCurrent": 89
+    },
+    {
+      "kind": "mainboard_current",
+      "adc_12bit": 4095,
+      "zero": 2048,
+      "old_current_raw": 777,
+      "current_raw": 917,
+      "BusCurrent": 191
+    },
+    {
+      "kind": "BMS_response",
+      "slot": 0,
+      "payload_bytes": 93,
+      "payload_current_raw": 0,
+      "state_current_address": "0x200050c6",
+      "state_current_raw": 0,
+      "mainboard_BusCurrent_unchanged": 4321,
+      "forwarded_F1_page0": "aa55e02e000000000000000000000000f1005a5a"
+    },
+    {
+      "kind": "BMS_response",
+      "slot": 0,
+      "payload_bytes": 93,
+      "payload_current_raw": 1000,
+      "state_current_address": "0x200050c6",
+      "state_current_raw": 1000,
+      "mainboard_BusCurrent_unchanged": 4321,
+      "forwarded_F1_page0": "aa55e02ee80300000000000000000000f1005a5a"
+    },
+    {
+      "kind": "BMS_response",
+      "slot": 0,
+      "payload_bytes": 93,
+      "payload_current_raw": 65535,
+      "state_current_address": "0x200050c6",
+      "state_current_raw": 65535,
+      "mainboard_BusCurrent_unchanged": 4321,
+      "forwarded_F1_page0": "aa55e02effff00000000000000000000f1005a5a"
+    },
+    {
+      "kind": "BMS_response",
+      "slot": 0,
+      "payload_bytes": 93,
+      "payload_current_raw": 32768,
+      "state_current_address": "0x200050c6",
+      "state_current_raw": 32768,
+      "mainboard_BusCurrent_unchanged": 4321,
+      "forwarded_F1_page0": "aa55e02e008000000000000000000000f1005a5a"
+    },
+    {
+      "kind": "BMS_response",
+      "slot": 0,
+      "payload_bytes": 93,
+      "payload_current_raw": 64536,
+      "state_current_address": "0x200050c6",
+      "state_current_raw": 64536,
+      "mainboard_BusCurrent_unchanged": 4321,
+      "forwarded_F1_page0": "aa55e02e18fc00000000000000000000f1005a5a"
+    },
+    {
+      "kind": "BMS_response",
+      "slot": 0,
+      "payload_bytes": 104,
+      "payload_current_raw": 0,
+      "state_current_address": "0x200050c6",
+      "state_current_raw": 0,
+      "mainboard_BusCurrent_unchanged": 4321,
+      "forwarded_F1_page0": "aa55e02e000000000000000000000000f1005a5a"
+    },
+    {
+      "kind": "BMS_response",
+      "slot": 0,
+      "payload_bytes": 104,
+      "payload_current_raw": 1000,
+      "state_current_address": "0x200050c6",
+      "state_current_raw": 1000,
+      "mainboard_BusCurrent_unchanged": 4321,
+      "forwarded_F1_page0": "aa55e02ee80300000000000000000000f1005a5a"
+    },
+    {
+      "kind": "BMS_response",
+      "slot": 0,
+      "payload_bytes": 104,
+      "payload_current_raw": 65535,
+      "state_current_address": "0x200050c6",
+      "state_current_raw": 65535,
+      "mainboard_BusCurrent_unchanged": 4321,
+      "forwarded_F1_page0": "aa55e02effff00000000000000000000f1005a5a"
+    },
+    {
+      "kind": "BMS_response",
+      "slot": 0,
+      "payload_bytes": 104,
+      "payload_current_raw": 32768,
+      "state_current_address": "0x200050c6",
+      "state_current_raw": 32768,
+      "mainboard_BusCurrent_unchanged": 4321,
+      "forwarded_F1_page0": "aa55e02e008000000000000000000000f1005a5a"
+    },
+    {
+      "kind": "BMS_response",
+      "slot": 0,
+      "payload_bytes": 104,
+      "payload_current_raw": 64536,
+      "state_current_address": "0x200050c6",
+      "state_current_raw": 64536,
+      "mainboard_BusCurrent_unchanged": 4321,
+      "forwarded_F1_page0": "aa55e02e18fc00000000000000000000f1005a5a"
+    },
+    {
+      "kind": "BMS_response",
+      "slot": 1,
+      "payload_bytes": 93,
+      "payload_current_raw": 0,
+      "state_current_address": "0x200053ce",
+      "state_current_raw": 0,
+      "mainboard_BusCurrent_unchanged": 4321
+    },
+    {
+      "kind": "BMS_response",
+      "slot": 1,
+      "payload_bytes": 93,
+      "payload_current_raw": 1000,
+      "state_current_address": "0x200053ce",
+      "state_current_raw": 1000,
+      "mainboard_BusCurrent_unchanged": 4321
+    },
+    {
+      "kind": "BMS_response",
+      "slot": 1,
+      "payload_bytes": 93,
+      "payload_current_raw": 65535,
+      "state_current_address": "0x200053ce",
+      "state_current_raw": 65535,
+      "mainboard_BusCurrent_unchanged": 4321
+    },
+    {
+      "kind": "BMS_response",
+      "slot": 1,
+      "payload_bytes": 93,
+      "payload_current_raw": 32768,
+      "state_current_address": "0x200053ce",
+      "state_current_raw": 32768,
+      "mainboard_BusCurrent_unchanged": 4321
+    },
+    {
+      "kind": "BMS_response",
+      "slot": 1,
+      "payload_bytes": 93,
+      "payload_current_raw": 64536,
+      "state_current_address": "0x200053ce",
+      "state_current_raw": 64536,
+      "mainboard_BusCurrent_unchanged": 4321
+    },
+    {
+      "kind": "BMS_response",
+      "slot": 1,
+      "payload_bytes": 104,
+      "payload_current_raw": 0,
+      "state_current_address": "0x200053ce",
+      "state_current_raw": 0,
+      "mainboard_BusCurrent_unchanged": 4321
+    },
+    {
+      "kind": "BMS_response",
+      "slot": 1,
+      "payload_bytes": 104,
+      "payload_current_raw": 1000,
+      "state_current_address": "0x200053ce",
+      "state_current_raw": 1000,
+      "mainboard_BusCurrent_unchanged": 4321
+    },
+    {
+      "kind": "BMS_response",
+      "slot": 1,
+      "payload_bytes": 104,
+      "payload_current_raw": 65535,
+      "state_current_address": "0x200053ce",
+      "state_current_raw": 65535,
+      "mainboard_BusCurrent_unchanged": 4321
+    },
+    {
+      "kind": "BMS_response",
+      "slot": 1,
+      "payload_bytes": 104,
+      "payload_current_raw": 32768,
+      "state_current_address": "0x200053ce",
+      "state_current_raw": 32768,
+      "mainboard_BusCurrent_unchanged": 4321
+    },
+    {
+      "kind": "BMS_response",
+      "slot": 1,
+      "payload_bytes": 104,
+      "payload_current_raw": 64536,
+      "state_current_address": "0x200053ce",
+      "state_current_raw": 64536,
+      "mainboard_BusCurrent_unchanged": 4321
+    }
+  ],
+  "dma_setup": {
+    "entry": "0x0800c8e0",
+    "registers": {
+      "0x40020008": "0x5a1",
+      "0x4002000c": "0x9",
+      "0x40020010": "0x4001244c",
+      "0x40020014": "0x200034f0"
+    },
+    "note": "Inert MMIO, hardware transfers not simulated"
+  },
+  "calibration": {
+    "entry": "0x0800c6b0",
+    "samples": 128,
+    "adc_12bit": 2048,
+    "zero_offset": 2048
+  }
+}

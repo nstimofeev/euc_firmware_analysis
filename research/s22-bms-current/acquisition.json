@@ -1,0 +1,67 @@
+{
+  "retrieved_utc_date": "2026-10-11",
+  "repository_head_examined": "e75240eb204a4b23842fa7e389c0fd04903d6fb0",
+  "BMS_firmware_present_in_repository": false,
+  "BMS_firmware_obtained": false,
+  "sources": [
+    {
+      "url": "https://raw.githubusercontent.com/BenjaminSoelberg/kingsong-soft-tuner-hack/main/KingSong_SoftTuner_139_original.apk",
+      "sha256": "23abbf159a6f061a6f577b2627a7817dc2f326b76c8a4cd8bb49d1129025e4e1",
+      "size": 7593022,
+      "scope": "Official APK copy, not BMS firmware"
+    },
+    {
+      "url": "https://www.kingsong.vip/upload/android_version/kingsongSoftTuner.apk",
+      "sha256": "562d8b8bac43d31c6941e8e04f2e38829728158307e99e601541f54c4cfef34f",
+      "size": 38097276,
+      "package": "com.kingsong.tune",
+      "version": "1.4.163",
+      "version_code": 2001,
+      "scope": "Current Flutter APK, not BMS firmware",
+      "libapp_sha256": "1c50e9f511854763b9e5bac2e50be698332268e8f5af28084ca9233129d4abe7",
+      "observed_strings": [
+        "https://www.kingsong.site/index.php/api/",
+        "swap/getBMSList",
+        "postBmsFilename",
+        "bmsName",
+        "bmsTypeNum"
+      ]
+    }
+  ],
+  "requests": [
+    {
+      "method": "POST",
+      "url": "https://www.kingsong.site/index.php/api/swap/getBMSList",
+      "fields": {
+        "firmwareName": "KS-S22",
+        "apiversions": "1.4.163",
+        "lang": "en",
+        "key": ""
+      },
+      "response": {
+        "status": "0",
+        "code": "1100021",
+        "msg": "message.1100021",
+        "page": "0",
+        "total": "0",
+        "pagenum": "0",
+        "data": ""
+      }
+    },
+    {
+      "method": "POST",
+      "url": "https://www.kingsong.vip/index.php/api/swap/version",
+      "fields": {},
+      "response": {
+        "status": "0",
+        "code": "1100021",
+        "msg": "Please login first",
+        "page": "0",
+        "total": "0",
+        "pagenum": "0",
+        "data": ""
+      }
+    }
+  ],
+  "open_requirement": "Exact BMS firmware identifier/file or authenticated catalog access. Authentication was not bypassed. Empty catalog response for a guessed name does not prove absence of firmware."
+}

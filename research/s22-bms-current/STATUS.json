@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-11",
+  "status": "first_slice_verified_BMS_firmware_acquisition_open",
+  "completed": [
+    "Repository method and source inventory inspected",
+    "Mainboard v2.41 current traced from ADC DMA buffer to calibrated and filtered BusCurrent",
+    "128-sample zero calibration executed",
+    "BMS command 0x42 raw current field traced to per-pack RAM",
+    "BMS0 current forwarded unchanged to F1 page0 by original code",
+    "Original current SoftTuner downloaded and BMS catalog endpoint identified"
+  ],
+  "checks": {
+    "command": "python research/s22-bms-current/trace_current.py",
+    "result": "PASS",
+    "mainboard_current_cases": 6,
+    "BMS_parser_cases": 20,
+    "BMS0_forwarding_cases": 10,
+    "helper_stubs": 0
+  },
+  "open": [
+    "Separate BMS firmware absent from examined repository and not yet obtained",
+    "BMS internal origin of current field: measured versus calculated",
+    "Exact hardware current sensor and amperes calibration",
+    "Earlier mainboard versions and BMS hardware revisions not validated by this slice"
+  ],
+  "next_step": "Obtain exact BMS firmware identifier or original update file; trace response 0x42 current producer inside BMS firmware."
+}
