@@ -1,0 +1,533 @@
+{
+  "scope": "Direct candidates in automatic Ghidra C; may duplicate overlapping entries and omit indirect references.",
+  "source_sha256": "83305c3fcfca955aaa2a407eaaf133222a9aa897f41d296e5716e6f2fc14fdb6",
+  "functions": [
+    {
+      "function": "0x08009d6c",
+      "name": "FUN_08009d6c",
+      "candidate_flash_literals": [
+        "0803a800"
+      ],
+      "candidate_fmc_calls": []
+    },
+    {
+      "function": "0x0800abb0",
+      "name": "FUN_0800abb0",
+      "candidate_flash_literals": [
+        "0803b000",
+        "0803b800"
+      ],
+      "candidate_fmc_calls": []
+    },
+    {
+      "function": "0x0800ac08",
+      "name": "FUN_0800ac08",
+      "candidate_flash_literals": [
+        "0803e000",
+        "0803e014",
+        "0803e800",
+        "0803e814"
+      ],
+      "candidate_fmc_calls": []
+    },
+    {
+      "function": "0x0800acb4",
+      "name": "FUN_0800acb4",
+      "candidate_flash_literals": [
+        "0803f000",
+        "0803f014",
+        "0803f800",
+        "0803f814"
+      ],
+      "candidate_fmc_calls": []
+    },
+    {
+      "function": "0x0800ad60",
+      "name": "FUN_0800ad60",
+      "candidate_flash_literals": [
+        "0803b000",
+        "0803b800"
+      ],
+      "candidate_fmc_calls": [
+        "0800b588",
+        "0800b5d8"
+      ]
+    },
+    {
+      "function": "0x0800ad9c",
+      "name": "FUN_0800ad9c",
+      "candidate_flash_literals": [
+        "0803e000",
+        "0803e800"
+      ],
+      "candidate_fmc_calls": [
+        "0800b588",
+        "0800b5d8"
+      ]
+    },
+    {
+      "function": "0x0800add8",
+      "name": "FUN_0800add8",
+      "candidate_flash_literals": [
+        "0803f000",
+        "0803f800"
+      ],
+      "candidate_fmc_calls": [
+        "0800b588",
+        "0800b5d8"
+      ]
+    },
+    {
+      "function": "0x0800ae14",
+      "name": "FUN_0800ae14",
+      "candidate_flash_literals": [
+        "0803e004"
+      ],
+      "candidate_fmc_calls": []
+    },
+    {
+      "function": "0x0800ae74",
+      "name": "FUN_0800ae74",
+      "candidate_flash_literals": [
+        "0803f004"
+      ],
+      "candidate_fmc_calls": []
+    },
+    {
+      "function": "0x0800aee4",
+      "name": "FUN_0800aee4",
+      "candidate_flash_literals": [],
+      "candidate_fmc_calls": [
+        "0800b658",
+        "0800b57c",
+        "0800b5c8"
+      ]
+    },
+    {
+      "function": "0x0800af1c",
+      "name": "FUN_0800af1c",
+      "candidate_flash_literals": [],
+      "candidate_fmc_calls": [
+        "0800b658",
+        "0800b57c",
+        "0800b5c8"
+      ]
+    },
+    {
+      "function": "0x0800af54",
+      "name": "FUN_0800af54",
+      "candidate_flash_literals": [
+        "0803b000",
+        "0803b800"
+      ],
+      "candidate_fmc_calls": [
+        "0800b588",
+        "0800b5d8"
+      ]
+    },
+    {
+      "function": "0x0800b04c",
+      "name": "FUN_0800b04c",
+      "candidate_flash_literals": [
+        "0803e000",
+        "0803e800"
+      ],
+      "candidate_fmc_calls": [
+        "0800b588",
+        "0800b5d8"
+      ]
+    },
+    {
+      "function": "0x0800b04e",
+      "name": "FUN_0800b04e",
+      "candidate_flash_literals": [
+        "0803e000",
+        "0803e800"
+      ],
+      "candidate_fmc_calls": [
+        "0800b588",
+        "0800b5d8"
+      ]
+    },
+    {
+      "function": "0x0800b0e4",
+      "name": "FUN_0800b0e4",
+      "candidate_flash_literals": [
+        "0803f000",
+        "0803f800"
+      ],
+      "candidate_fmc_calls": [
+        "0800b588",
+        "0800b5d8"
+      ]
+    },
+    {
+      "function": "0x0800b0e6",
+      "name": "FUN_0800b0e6",
+      "candidate_flash_literals": [
+        "0803f000",
+        "0803f800"
+      ],
+      "candidate_fmc_calls": [
+        "0800b588",
+        "0800b5d8"
+      ]
+    },
+    {
+      "function": "0x0800b2b0",
+      "name": "FUN_0800b2b0",
+      "candidate_flash_literals": [],
+      "candidate_fmc_calls": [
+        "0800b5d8"
+      ]
+    },
+    {
+      "function": "0x0800b338",
+      "name": "FUN_0800b338",
+      "candidate_flash_literals": [],
+      "candidate_fmc_calls": [
+        "0800b5d8"
+      ]
+    },
+    {
+      "function": "0x0800b33a",
+      "name": "FUN_0800b33a",
+      "candidate_flash_literals": [],
+      "candidate_fmc_calls": [
+        "0800b5d8"
+      ]
+    },
+    {
+      "function": "0x0800b3c8",
+      "name": "FUN_0800b3c8",
+      "candidate_flash_literals": [],
+      "candidate_fmc_calls": [
+        "0800b5d8"
+      ]
+    },
+    {
+      "function": "0x0800b3ca",
+      "name": "FUN_0800b3ca",
+      "candidate_flash_literals": [],
+      "candidate_fmc_calls": [
+        "0800b5d8"
+      ]
+    },
+    {
+      "function": "0x0800b47c",
+      "name": "FUN_0800b47c",
+      "candidate_flash_literals": [],
+      "candidate_fmc_calls": [
+        "0800b658",
+        "0800b57c",
+        "0800b5c8"
+      ]
+    },
+    {
+      "function": "0x0800b47e",
+      "name": "FUN_0800b47e",
+      "candidate_flash_literals": [],
+      "candidate_fmc_calls": [
+        "0800b658",
+        "0800b57c",
+        "0800b5c8"
+      ]
+    },
+    {
+      "function": "0x0800b4c4",
+      "name": "FUN_0800b4c4",
+      "candidate_flash_literals": [],
+      "candidate_fmc_calls": [
+        "0800b658",
+        "0800b57c",
+        "0800b5c8"
+      ]
+    },
+    {
+      "function": "0x0800b4c6",
+      "name": "FUN_0800b4c6",
+      "candidate_flash_literals": [],
+      "candidate_fmc_calls": [
+        "0800b658",
+        "0800b57c",
+        "0800b5c8"
+      ]
+    },
+    {
+      "function": "0x0800b57c",
+      "name": "FUN_0800b57c",
+      "candidate_flash_literals": [],
+      "candidate_fmc_calls": [
+        "0800b57c"
+      ]
+    },
+    {
+      "function": "0x0800b588",
+      "name": "FUN_0800b588",
+      "candidate_flash_literals": [],
+      "candidate_fmc_calls": [
+        "0800b588"
+      ]
+    },
+    {
+      "function": "0x0800b5c8",
+      "name": "FUN_0800b5c8",
+      "candidate_flash_literals": [],
+      "candidate_fmc_calls": [
+        "0800b5c8"
+      ]
+    },
+    {
+      "function": "0x0800b5d8",
+      "name": "FUN_0800b5d8",
+      "candidate_flash_literals": [],
+      "candidate_fmc_calls": [
+        "0800b5d8"
+      ]
+    },
+    {
+      "function": "0x0800b610",
+      "name": "FUN_0800b610",
+      "candidate_flash_literals": [],
+      "candidate_fmc_calls": [
+        "0800b610"
+      ]
+    },
+    {
+      "function": "0x0800b658",
+      "name": "FUN_0800b658",
+      "candidate_flash_literals": [],
+      "candidate_fmc_calls": [
+        "0800b658"
+      ]
+    },
+    {
+      "function": "0x0800c268",
+      "name": "FUN_0800c268",
+      "candidate_flash_literals": [
+        "0803b000"
+      ],
+      "candidate_fmc_calls": []
+    },
+    {
+      "function": "0x08015818",
+      "name": "FUN_08015818",
+      "candidate_flash_literals": [
+        "0803b000",
+        "0803b006",
+        "0803b800",
+        "0803b806"
+      ],
+      "candidate_fmc_calls": [
+        "0800b588",
+        "0800b5d8"
+      ]
+    },
+    {
+      "function": "0x08015a10",
+      "name": "FUN_08015a10",
+      "candidate_flash_literals": [
+        "0803e000",
+        "0803e004",
+        "0803e800",
+        "0803e804"
+      ],
+      "candidate_fmc_calls": [
+        "0800b588",
+        "0800b5d8",
+        "0800b658",
+        "0800b57c"
+      ]
+    },
+    {
+      "function": "0x08015c48",
+      "name": "FUN_08015c48",
+      "candidate_flash_literals": [
+        "0803f000",
+        "0803f004",
+        "0803f800",
+        "0803f804"
+      ],
+      "candidate_fmc_calls": [
+        "0800b588",
+        "0800b5d8",
+        "0800b658",
+        "0800b57c"
+      ]
+    },
+    {
+      "function": "0x08015fbc",
+      "name": "FUN_08015fbc",
+      "candidate_flash_literals": [
+        "08001340",
+        "08001342",
+        "08001344"
+      ],
+      "candidate_fmc_calls": []
+    },
+    {
+      "function": "0x08017344",
+      "name": "FUN_08017344",
+      "candidate_flash_literals": [],
+      "candidate_fmc_calls": [
+        "0800b588",
+        "0800b5d8",
+        "0800b658",
+        "0800b57c",
+        "0800b5c8"
+      ]
+    },
+    {
+      "function": "0x0801739c",
+      "name": "FUN_0801739c",
+      "candidate_flash_literals": [],
+      "candidate_fmc_calls": [
+        "0800b610",
+        "0800b658",
+        "0800b57c",
+        "0800b5c8"
+      ]
+    },
+    {
+      "function": "0x0801c14c",
+      "name": "FUN_0801c14c",
+      "candidate_flash_literals": [
+        "0803a800"
+      ],
+      "candidate_fmc_calls": [
+        "0800b588",
+        "0800b658",
+        "0800b5c8"
+      ]
+    },
+    {
+      "function": "0x0801c168",
+      "name": "FUN_0801c168",
+      "candidate_flash_literals": [],
+      "candidate_fmc_calls": [
+        "0800b588",
+        "0800b658",
+        "0800b5c8"
+      ]
+    },
+    {
+      "function": "0x0801f0bc",
+      "name": "FUN_0801f0bc",
+      "candidate_flash_literals": [
+        "08008300"
+      ],
+      "candidate_fmc_calls": [
+        "0800b610",
+        "0800b658",
+        "0800b57c",
+        "0800b5c8"
+      ]
+    },
+    {
+      "function": "0x0801f11c",
+      "name": "FUN_0801f11c",
+      "candidate_flash_literals": [],
+      "candidate_fmc_calls": [
+        "0800b658",
+        "0800b5c8"
+      ]
+    },
+    {
+      "function": "0x0801ff5c",
+      "name": "FUN_0801ff5c",
+      "candidate_flash_literals": [
+        "0803d000"
+      ],
+      "candidate_fmc_calls": [
+        "0800b588",
+        "0800b658",
+        "0800b5c8"
+      ]
+    },
+    {
+      "function": "0x0801ff7c",
+      "name": "FUN_0801ff7c",
+      "candidate_flash_literals": [
+        "0803d000"
+      ],
+      "candidate_fmc_calls": [
+        "0800b588",
+        "0800b610",
+        "0800b658",
+        "0800b5c8"
+      ]
+    },
+    {
+      "function": "0x08021b08",
+      "name": "FUN_08021b08",
+      "candidate_flash_literals": [],
+      "candidate_fmc_calls": [
+        "0800b588",
+        "0800b610",
+        "0800b658",
+        "0800b57c",
+        "0800b5c8"
+      ]
+    },
+    {
+      "function": "0x08022b18",
+      "name": "FUN_08022b18",
+      "candidate_flash_literals": [],
+      "candidate_fmc_calls": [
+        "0800b658",
+        "0800b5c8"
+      ]
+    },
+    {
+      "function": "0x08022cc0",
+      "name": "FUN_08022cc0",
+      "candidate_flash_literals": [],
+      "candidate_fmc_calls": [
+        "0800b588",
+        "0800b5d8",
+        "0800b658",
+        "0800b5c8"
+      ]
+    },
+    {
+      "function": "0x08023444",
+      "name": "FUN_08023444",
+      "candidate_flash_literals": [
+        "08001340",
+        "08001342",
+        "08001344"
+      ],
+      "candidate_fmc_calls": [
+        "0800b5d8",
+        "0800b658",
+        "0800b57c",
+        "0800b5c8"
+      ]
+    },
+    {
+      "function": "0x08023530",
+      "name": "FUN_08023530",
+      "candidate_flash_literals": [
+        "0803a800"
+      ],
+      "candidate_fmc_calls": [
+        "0800b610",
+        "0800b658",
+        "0800b5c8"
+      ]
+    },
+    {
+      "function": "0x080236a8",
+      "name": "FUN_080236a8",
+      "candidate_flash_literals": [
+        "08008304"
+      ],
+      "candidate_fmc_calls": [
+        "0800b610",
+        "0800b658",
+        "0800b57c",
+        "0800b5c8"
+      ]
+    }
+  ]
+}

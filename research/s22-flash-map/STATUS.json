@@ -1,0 +1,30 @@
+{
+  "status": "verified_storage_paths_with_open_hardware_capacity",
+  "date": "2026-10-11",
+  "application": "S22-v241-decrypted.bin",
+  "application_sha256": "99491754f5478caf5d97a5fa31c0a17bc7be55f0c14ee3f87058b55916fe9509",
+  "historical_boot_sha256": "53d73b57cdedcb46f99c97e81d071e422810d9ab1d0dc0139b38e7499e0c2326",
+  "verification": "python research/s22-flash-map/trace_flash.py",
+  "result": "PASS",
+  "scenarios": 36,
+  "additional_incomplete_backup_word_program_boundaries": 68,
+  "completed": [
+    "2.41 config program, checksum, backup selection and serial salvage",
+    "EEPROM latest key, page rollover and calibration CRC round trip",
+    "same CRC counter record written to two journals",
+    "voltage calibration read and one-time program inside historical boot area",
+    "BMS declared count 5800/5801 and writer addresses beyond 64 KiB erase-loop",
+    "synthetic final BMS chunk crosses declared total into counter page",
+    "SPI opcodes, 64-byte records, page boundary, log reset ranges and chip erase",
+    "six historical OTA declared sizes: contiguous erase overlaps BMS/config, no partition bound"
+  ],
+  "open": [
+    "physical MCU variant/capacity and current wheel loader identity",
+    "live internal persistent data and external SPI flash dump",
+    "remaining config fields and complete command route to chip erase",
+    "expanded application execution/admission and loader identity on the user's wheel",
+    "hardware write timing, brownout, endurance and recovery"
+  ],
+  "hardware_written": false,
+  "installable_image_created": false
+}
