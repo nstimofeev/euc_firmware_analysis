@@ -1,0 +1,13 @@
+{
+  "source_url": "https://raw.githubusercontent.com/jeremy-prater/ks-s22-mods/9258eac039304991a815b8880c4dddca7a4e983c/firmware/capture.bin",
+  "source_commit": "9258eac039304991a815b8880c4dddca7a4e983c",
+  "source_sha256": "e1ad38200189fd445cf9cf805206ed853398124b2ffa2f5326040269d7fc3552",
+  "source_bytes": 524288,
+  "extracted_offset": 0,
+  "extracted_bytes": 32768,
+  "mapped_base": "0x08000000",
+  "extracted_sha256": "53d73b57cdedcb46f99c97e81d071e422810d9ab1d0dc0139b38e7499e0c2326",
+  "extracted_file": "S22-boot-area-20220406.bin",
+  "date_checked": "2026-10-11",
+  "provenance_limit": "Public project author reports SWD readout from S22; not a readout from the user's board. Date 20220406 comes from loader string."
+}

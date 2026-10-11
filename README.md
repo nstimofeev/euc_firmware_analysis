@@ -89,3 +89,5 @@ BMS S22 2.10 (`KSS22BA-2202`): [собственный ADC → поле тока
 S22 2.41: [измерение фазных токов ADC2, пары каналов по секторам и путь в Iq/Id](research/s22-phase-current/REPORT_RU.md).
 
 S22 2.41: [размер приложения, разметка flash/RAM и границы свободного места](research/s22-memory/REPORT_RU.md). Проверка: `python research/s22-memory/inspect_memory.py`. Номинальная ёмкость конкретного MCU остаётся неподтверждённой.
+
+Загрузчик S22: [публичный SWD-фрагмент 20220406 и первый проверенный срез](research/s22-bootloader/REPORT_RU.md). Проверка: `python research/s22-bootloader/inspect_bootloader.py`. Код теперь доступен; полный протокол и принятие модифицированного приложения ещё не установлены.

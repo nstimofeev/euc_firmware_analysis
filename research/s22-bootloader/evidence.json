@@ -1,0 +1,101 @@
+{
+  "input_sha256": "53d73b57cdedcb46f99c97e81d071e422810d9ab1d0dc0139b38e7499e0c2326",
+  "loader_string": "BootSoftVersion-Date-20220406-Model-KS-S22----CPUTYPE_0",
+  "source": "public historical S22 SWD capture; not current wheel readout",
+  "vectors": {
+    "0x8000000": [
+      "0x20000e70",
+      "0x80001cd"
+    ],
+    "0x8004000": [
+      "0x200024d0",
+      "0x80041ed"
+    ]
+  },
+  "descriptor_function": "0x0800278c",
+  "descriptor_cases": [
+    {
+      "name": "sentinel",
+      "R0": 1,
+      "body_read_addresses": []
+    },
+    {
+      "name": "sentinel_body_changed",
+      "R0": 1,
+      "body_read_addresses": []
+    },
+    {
+      "name": "ordinary_sum_match",
+      "R0": 1,
+      "body_read_addresses": [
+        "0x8008320",
+        "0x8008324"
+      ]
+    },
+    {
+      "name": "ordinary_sum_mismatch",
+      "R0": 0,
+      "body_read_addresses": [
+        "0x8008320",
+        "0x8008324"
+      ]
+    },
+    {
+      "name": "ordinary_size_over",
+      "R0": 0,
+      "body_read_addresses": []
+    },
+    {
+      "name": "ordinary_invalid_runflag",
+      "R0": 0,
+      "body_read_addresses": []
+    },
+    {
+      "name": "old_version",
+      "R0": 0,
+      "body_read_addresses": []
+    },
+    {
+      "name": "bad_relation",
+      "R0": 1,
+      "body_read_addresses": []
+    }
+  ],
+  "branch_entry": "0x08002ca4",
+  "branch_cases": [
+    {
+      "marker": "0x28635690",
+      "aux_SP": "0x200024d0",
+      "target_PC": "0x80041ec",
+      "new_SP": "0x200024d0",
+      "stubbed_setup_helpers": [
+        "0x800225c",
+        "0x8001d8c",
+        "0x8002db0"
+      ]
+    },
+    {
+      "marker": "0x0",
+      "aux_SP": "0x200024d0",
+      "target_PC": "0x800820c",
+      "new_SP": "0x200076f0",
+      "stubbed_setup_helpers": [
+        "0x800225c",
+        "0x8001d8c",
+        "0x8002db0"
+      ]
+    },
+    {
+      "marker": "0x28635690",
+      "aux_SP": "0x0",
+      "target_PC": "0x800820c",
+      "new_SP": "0x200076f0",
+      "stubbed_setup_helpers": [
+        "0x800225c",
+        "0x8001d8c",
+        "0x8002db0"
+      ]
+    }
+  ],
+  "signature_and_end_to_end_OTA_acceptance": "not established"
+}

@@ -1,0 +1,8 @@
+{
+  "status": "loader_acquired_initial_original_code_checks_passed",
+  "completed": ["pinned public SWD provenance and first 32 KiB archived", "S22 loader identity string and two pre-app vector tables", "bounded original descriptor consumer execution", "bounded marker/vector branch selection"],
+  "open": ["complete reset/update control flow", "full OTA decrypt/write/acceptance policy", "signature presence or absence", "second image purpose", "user board loader equivalence"],
+  "verification": "python research/s22-bootloader/inspect_bootloader.py",
+  "result": "PASS: 8 descriptor cases and 3 bounded branch cases",
+  "next": "Trace reset and every caller of 0x0800278c before interpreting image acceptance"
+}
