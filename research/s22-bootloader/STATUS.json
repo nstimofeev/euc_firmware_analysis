@@ -1,8 +1,34 @@
 {
-  "status": "loader_acquired_initial_original_code_checks_passed",
-  "completed": ["pinned public SWD provenance and first 32 KiB archived", "S22 loader identity string and two pre-app vector tables", "bounded original descriptor consumer execution", "bounded marker/vector branch selection"],
-  "open": ["complete reset/update control flow", "full OTA decrypt/write/acceptance policy", "signature presence or absence", "second image purpose", "user board loader equivalence"],
-  "verification": "python research/s22-bootloader/inspect_bootloader.py",
-  "result": "PASS: 8 descriptor cases and 3 bounded branch cases",
-  "next": "Trace reset and every caller of 0x0800278c before interpreting image acceptance"
+  "status": "historical_loader_primary_update_and_recovery_flow_verified_offline",
+  "completed": [
+    "pinned SWD provenance, S22 20220406 identity and reset/CRT/main reconstruction",
+    "original main startup and AES-256-CBC/frame CRC/retry execution",
+    "six original full-primary-main receive/write/final-check decisions",
+    "flash-error ACK behavior and bounded declared-size mismatch",
+    "power-cut flash snapshots, fresh RAM restart and erase/marker ordering",
+    "original S22 2.41 startup marker erasure",
+    "auxiliary D0/D1 framed plaintext transfer, buffering and marker helpers",
+    "auxiliary first-start pairing and synthetic UID/application gates",
+    "automatic Ghidra C, scripts and addressed disassembly archived"
+  ],
+  "findings": [
+    "one application slot rewritten in place; no old-app rollback in recovered flows",
+    "marker 0x0803d000 enables receiver after restart and whole-file retry",
+    "header erases app before main persists marker when temporary entry is used",
+    "invalid app without marker sets active flag but skips RX setup unless hardware probe returns 7",
+    "sentinel and bad relation allow primary main to jump without body checksum",
+    "writer mismatch result ignored by receive state machine",
+    "second image is a bound updater, not a spare application"
+  ],
+  "signature_scope": "Recovered primary 20220406 accept path has no additional digital-signature check after transport/AES; not a conclusion about later loaders or acceptance on a physical wheel.",
+  "open": [
+    "user loader/MCU equivalence, register values and physical entry trigger",
+    "BLE/client interoperability and actual power-loss behavior",
+    "late-app OTA entry commands and 0x0803a800 marker semantics",
+    "complete auxiliary finish flow on a real bound MCU",
+    "loader replacement and external SWD/ROM recovery on user board"
+  ],
+  "verification": ["python research/s22-bootloader/inspect_bootloader.py", "python research/s22-bootloader/trace_recovery.py"],
+  "hardware_actions": "none",
+  "next": "Identify actual loader and client entry/transport before hardware recovery guarantees"
 }

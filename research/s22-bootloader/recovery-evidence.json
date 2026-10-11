@@ -1,0 +1,714 @@
+{
+  "input_sha256": "53d73b57cdedcb46f99c97e81d071e422810d9ab1d0dc0139b38e7499e0c2326",
+  "scope": "Historical 20220406 image, offline; no physical UART, BLE, FMC, power-loss or watchdog simulation",
+  "boundaries": "Flash controller helpers, hardware setup, UART RX/TX only. Primary main, descriptor, parser, AES, higher-level flash loops execute original ARM bytes.",
+  "startup": {
+    "normal_valid": {
+      "PC": "0x800820c",
+      "target": "0x800820c",
+      "active": 0,
+      "temporary": 0,
+      "receiver_initialized": false,
+      "marker": "0xffffffff",
+      "hardware_boundaries": [
+        "0x800116c",
+        "0x8002904",
+        "0x800225c",
+        "0x8001d8c",
+        "0x8002db0"
+      ]
+    },
+    "marker_valid": {
+      "PC": "0x80030f8",
+      "target": null,
+      "active": 1,
+      "temporary": 0,
+      "receiver_initialized": true,
+      "marker": "0x55aaaa55",
+      "hardware_boundaries": [
+        "0x800116c",
+        "0x8002904",
+        "0x8002eb8",
+        "0x8000f98",
+        "0x8002f80",
+        "0x8001dac",
+        "0x8002dec"
+      ]
+    },
+    "marker_bad_body": {
+      "PC": "0x80030f8",
+      "target": null,
+      "active": 1,
+      "temporary": 0,
+      "receiver_initialized": true,
+      "marker": "0x55aaaa55",
+      "hardware_boundaries": [
+        "0x800116c",
+        "0x8002904",
+        "0x8002eb8",
+        "0x8000f98",
+        "0x8002f80",
+        "0x8001dac",
+        "0x8002dec"
+      ]
+    },
+    "bad_body_no_marker": {
+      "PC": "0x80030f8",
+      "target": null,
+      "active": 1,
+      "temporary": 0,
+      "receiver_initialized": false,
+      "marker": "0xffffffff",
+      "hardware_boundaries": [
+        "0x800116c",
+        "0x8002904"
+      ]
+    },
+    "hardware_entry": {
+      "PC": "0x80030f8",
+      "target": null,
+      "active": 0,
+      "temporary": 1,
+      "receiver_initialized": true,
+      "marker": "0xffffffff",
+      "hardware_boundaries": [
+        "0x800116c",
+        "0x8002904",
+        "0x8002eb8",
+        "0x8000f98",
+        "0x8002f80",
+        "0x8001dac",
+        "0x8002dec"
+      ]
+    },
+    "aux_valid": {
+      "PC": "0x80041ec",
+      "target": "0x80041ec",
+      "active": 0,
+      "temporary": 0,
+      "receiver_initialized": false,
+      "marker": "0xffffffff",
+      "hardware_boundaries": [
+        "0x800116c",
+        "0x8002904",
+        "0x800225c",
+        "0x8001d8c",
+        "0x8002db0"
+      ]
+    },
+    "aux_bad_body": {
+      "PC": "0x80030f8",
+      "target": null,
+      "active": 1,
+      "temporary": 0,
+      "receiver_initialized": false,
+      "marker": "0xffffffff",
+      "hardware_boundaries": [
+        "0x800116c",
+        "0x8002904"
+      ]
+    },
+    "erased_app_no_marker": {
+      "PC": "0x80030f8",
+      "target": null,
+      "active": 1,
+      "temporary": 0,
+      "receiver_initialized": false,
+      "marker": "0xffffffff",
+      "hardware_boundaries": [
+        "0x800116c",
+        "0x8002904"
+      ]
+    }
+  },
+  "protocol": {
+    "AES": "PASS: 4 chained original AES-256-CBC blocks vs cryptography; IV zero",
+    "sequence": {
+      "header_result": 2,
+      "data_result": 1,
+      "duplicate": "ACK, no second write",
+      "CRC_error": "NAK, no write",
+      "retry": "original CBC state preserved",
+      "EOT": "NAK then ACK",
+      "empty_header_result": 4,
+      "operations": [
+        {
+          "op": "erase",
+          "address": "0x8008000",
+          "status": 4
+        },
+        {
+          "op": "program",
+          "address": "0x8008000",
+          "value": "0x3020100",
+          "status": 4
+        },
+        {
+          "op": "program",
+          "address": "0x8008004",
+          "value": "0x7060504",
+          "status": 4
+        },
+        {
+          "op": "program",
+          "address": "0x8008008",
+          "value": "0xb0a0908",
+          "status": 4
+        },
+        {
+          "op": "program",
+          "address": "0x800800c",
+          "value": "0xf0e0d0c",
+          "status": 4
+        },
+        {
+          "op": "program",
+          "address": "0x8008010",
+          "value": "0x13121110",
+          "status": 4
+        },
+        {
+          "op": "program",
+          "address": "0x8008014",
+          "value": "0x17161514",
+          "status": 4
+        },
+        {
+          "op": "program",
+          "address": "0x8008018",
+          "value": "0x1b1a1918",
+          "status": 4
+        },
+        {
+          "op": "program",
+          "address": "0x800801c",
+          "value": "0x1f1e1d1c",
+          "status": 4
+        }
+      ],
+      "tx": [
+        "0643",
+        "06",
+        "06",
+        "15",
+        "06",
+        "15",
+        "06"
+      ]
+    },
+    "program_failure": {
+      "parser_result": 1,
+      "reply": "06",
+      "next_address": "0x8008010",
+      "ops": [
+        {
+          "op": "erase",
+          "address": "0x8008000",
+          "status": 4
+        },
+        {
+          "op": "program",
+          "address": "0x8008000",
+          "value": "0x3020100",
+          "status": 2
+        }
+      ]
+    },
+    "erase_failure": {
+      "parser_result": 2,
+      "next_address": "0x8008000",
+      "ops": [
+        {
+          "op": "erase",
+          "address": "0x8008000",
+          "status": 2
+        }
+      ]
+    },
+    "full_main": {
+      "ordinary_good": {
+        "outcome": {
+          "PC": "0x800820c",
+          "target": "0x800820c",
+          "active": 0,
+          "temporary": 0,
+          "receiver_initialized": true,
+          "marker": "0x55aaaa55",
+          "hardware_boundaries": [
+            "0x800116c",
+            "0x8002904",
+            "0x8002eb8",
+            "0x8000f98",
+            "0x8002f80",
+            "0x8001dac",
+            "0x8002dec",
+            "0x8000bf4",
+            "0x800225c",
+            "0x8001d8c",
+            "0x8002db0",
+            "0x800225c",
+            "0x8001d8c",
+            "0x8002db0"
+          ]
+        },
+        "flash_operations": 257,
+        "programmed_application_matches_payload": true,
+        "boot_area_unchanged": true,
+        "watchdog_configured": true
+      },
+      "ordinary_bad_sum": {
+        "outcome": {
+          "PC": "0x80030f8",
+          "target": null,
+          "active": 1,
+          "temporary": 0,
+          "receiver_initialized": true,
+          "marker": "0x55aaaa55",
+          "hardware_boundaries": [
+            "0x800116c",
+            "0x8002904",
+            "0x8002eb8",
+            "0x8000f98",
+            "0x8002f80",
+            "0x8001dac",
+            "0x8002dec"
+          ]
+        },
+        "flash_operations": 257,
+        "programmed_application_matches_payload": true,
+        "boot_area_unchanged": true,
+        "watchdog_configured": false
+      },
+      "sentinel_bad_body": {
+        "outcome": {
+          "PC": "0x800820c",
+          "target": "0x800820c",
+          "active": 0,
+          "temporary": 0,
+          "receiver_initialized": true,
+          "marker": "0x55aaaa55",
+          "hardware_boundaries": [
+            "0x800116c",
+            "0x8002904",
+            "0x8002eb8",
+            "0x8000f98",
+            "0x8002f80",
+            "0x8001dac",
+            "0x8002dec",
+            "0x8000bf4",
+            "0x800225c",
+            "0x8001d8c",
+            "0x8002db0",
+            "0x800225c",
+            "0x8001d8c",
+            "0x8002db0"
+          ]
+        },
+        "flash_operations": 257,
+        "programmed_application_matches_payload": true,
+        "boot_area_unchanged": true,
+        "watchdog_configured": true
+      },
+      "bad_relation_bad_body": {
+        "outcome": {
+          "PC": "0x800820c",
+          "target": "0x800820c",
+          "active": 0,
+          "temporary": 0,
+          "receiver_initialized": true,
+          "marker": "0x55aaaa55",
+          "hardware_boundaries": [
+            "0x800116c",
+            "0x8002904",
+            "0x8002eb8",
+            "0x8000f98",
+            "0x8002f80",
+            "0x8001dac",
+            "0x8002dec",
+            "0x8000bf4",
+            "0x800225c",
+            "0x8001d8c",
+            "0x8002db0",
+            "0x800225c",
+            "0x8001d8c",
+            "0x8002db0"
+          ]
+        },
+        "flash_operations": 257,
+        "programmed_application_matches_payload": true,
+        "boot_area_unchanged": true,
+        "watchdog_configured": true
+      },
+      "ordinary_flash_error": {
+        "outcome": {
+          "PC": "0x80030f8",
+          "target": null,
+          "active": 1,
+          "temporary": 0,
+          "receiver_initialized": true,
+          "marker": "0x55aaaa55",
+          "hardware_boundaries": [
+            "0x800116c",
+            "0x8002904",
+            "0x8002eb8",
+            "0x8000f98",
+            "0x8002f80",
+            "0x8001dac",
+            "0x8002dec"
+          ]
+        },
+        "flash_operations": 254,
+        "programmed_application_matches_payload": false,
+        "boot_area_unchanged": true,
+        "watchdog_configured": false
+      },
+      "sentinel_flash_error": {
+        "outcome": {
+          "PC": "0x800820c",
+          "target": "0x800820c",
+          "active": 0,
+          "temporary": 0,
+          "receiver_initialized": true,
+          "marker": "0x55aaaa55",
+          "hardware_boundaries": [
+            "0x800116c",
+            "0x8002904",
+            "0x8002eb8",
+            "0x8000f98",
+            "0x8002f80",
+            "0x8001dac",
+            "0x8002dec",
+            "0x8000bf4",
+            "0x800225c",
+            "0x8001d8c",
+            "0x8002db0",
+            "0x800225c",
+            "0x8001d8c",
+            "0x8002db0"
+          ]
+        },
+        "flash_operations": 254,
+        "programmed_application_matches_payload": false,
+        "boot_area_unchanged": true,
+        "watchdog_configured": true
+      }
+    },
+    "declared_size": {
+      "advertised_bytes": 16,
+      "accepted_bytes": 32,
+      "next_address": "0x8008020",
+      "scope": "bounded 32-byte synthetic input; no large overrun exercised"
+    }
+  },
+  "power_cut": {
+    "after_erase_before_marker": {
+      "before_cut": {
+        "PC": "0x8002c0e",
+        "target": null,
+        "active": 0,
+        "temporary": 1,
+        "receiver_initialized": true,
+        "marker": "0xffffffff",
+        "hardware_boundaries": [
+          "0x800116c",
+          "0x8002904",
+          "0x8002eb8",
+          "0x8000f98",
+          "0x8002f80",
+          "0x8001dac",
+          "0x8002dec"
+        ]
+      },
+      "ops": [
+        {
+          "op": "erase",
+          "address": "0x8008000",
+          "status": 4
+        }
+      ],
+      "restart": {
+        "PC": "0x80030f8",
+        "target": null,
+        "active": 1,
+        "temporary": 0,
+        "receiver_initialized": false,
+        "marker": "0xffffffff",
+        "hardware_boundaries": [
+          "0x800116c",
+          "0x8002904"
+        ]
+      },
+      "restart_with_hardware_condition_7": {
+        "PC": "0x80030f8",
+        "target": null,
+        "active": 1,
+        "temporary": 0,
+        "receiver_initialized": true,
+        "marker": "0xffffffff",
+        "hardware_boundaries": [
+          "0x800116c",
+          "0x8002904",
+          "0x8002eb8",
+          "0x8000f98",
+          "0x8002f80",
+          "0x8001dac",
+          "0x8002dec"
+        ]
+      }
+    },
+    "after_marker": {
+      "before_cut": {
+        "PC": "0x80030f8",
+        "target": null,
+        "active": 1,
+        "temporary": 0,
+        "receiver_initialized": true,
+        "marker": "0x55aaaa55",
+        "hardware_boundaries": [
+          "0x800116c",
+          "0x8002904",
+          "0x8002eb8",
+          "0x8000f98",
+          "0x8002f80",
+          "0x8001dac",
+          "0x8002dec"
+        ]
+      },
+      "ops": [
+        {
+          "op": "erase",
+          "address": "0x8008000",
+          "status": 4
+        },
+        {
+          "op": "erase",
+          "address": "0x803d000",
+          "status": 4
+        },
+        {
+          "op": "program",
+          "address": "0x803d000",
+          "value": "0x55aaaa55",
+          "status": 4
+        },
+        {
+          "op": "program",
+          "address": "0x8008000",
+          "value": "0x3020100",
+          "status": 4
+        },
+        {
+          "op": "program",
+          "address": "0x8008004",
+          "value": "0x7060504",
+          "status": 4
+        },
+        {
+          "op": "program",
+          "address": "0x8008008",
+          "value": "0xb0a0908",
+          "status": 4
+        },
+        {
+          "op": "program",
+          "address": "0x800800c",
+          "value": "0xf0e0d0c",
+          "status": 4
+        }
+      ],
+      "restart": {
+        "PC": "0x80030f8",
+        "target": null,
+        "active": 1,
+        "temporary": 0,
+        "receiver_initialized": true,
+        "marker": "0x55aaaa55",
+        "hardware_boundaries": [
+          "0x800116c",
+          "0x8002904",
+          "0x8002eb8",
+          "0x8000f98",
+          "0x8002f80",
+          "0x8001dac",
+          "0x8002dec"
+        ]
+      }
+    },
+    "mid_data": {
+      "restart": {
+        "PC": "0x80030f8",
+        "target": null,
+        "active": 1,
+        "temporary": 0,
+        "receiver_initialized": true,
+        "marker": "0x55aaaa55",
+        "hardware_boundaries": [
+          "0x800116c",
+          "0x8002904",
+          "0x8002eb8",
+          "0x8000f98",
+          "0x8002f80",
+          "0x8001dac",
+          "0x8002dec"
+        ]
+      },
+      "restart_header_ops": [
+        {
+          "op": "erase",
+          "address": "0x8008000",
+          "status": 4
+        }
+      ],
+      "next_address": "0x8008000"
+    },
+    "valid_app_marker_persists": {
+      "before_app_clears_marker": {
+        "PC": "0x80030f8",
+        "target": null,
+        "active": 1,
+        "temporary": 0,
+        "receiver_initialized": true,
+        "marker": "0x55aaaa55",
+        "hardware_boundaries": [
+          "0x800116c",
+          "0x8002904",
+          "0x8002eb8",
+          "0x8000f98",
+          "0x8002f80",
+          "0x8001dac",
+          "0x8002dec"
+        ]
+      },
+      "after_marker_cleared": {
+        "PC": "0x800820c",
+        "target": "0x800820c",
+        "active": 0,
+        "temporary": 0,
+        "receiver_initialized": false,
+        "marker": "0xffffffff",
+        "hardware_boundaries": [
+          "0x800116c",
+          "0x8002904",
+          "0x800225c",
+          "0x8001d8c",
+          "0x8002db0"
+        ]
+      }
+    },
+    "v241_application_clear": {
+      "input_sha256": "99491754f5478caf5d97a5fa31c0a17bc7be55f0c14ee3f87058b55916fe9509",
+      "routine": "0x08019dd8 -> 0x0801ff5c",
+      "operations": [
+        {
+          "op": "erase",
+          "address": "0x803d000",
+          "status": 4
+        }
+      ],
+      "hardware_boundaries": [
+        "0x800c144",
+        "0x801f16c",
+        "0x80225b8",
+        "0x801f674",
+        "0x800ca0e"
+      ],
+      "marker_after": "0xffffffff"
+    }
+  },
+  "second_updater": {
+    "entry": "0x080043d6",
+    "dispatcher": "0x08005326",
+    "state_address": "0x2000003e",
+    "start_frame": "55aa0bd0000000000000000056d7",
+    "data_frame": "55aa26d1000020000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1fdd72",
+    "finish_frame": "55aa0bd00001000000000000eeb6",
+    "partial_page": "32 plaintext bytes buffered in RAM, no flash op until D0/1",
+    "ops": [
+      {
+        "op": "erase",
+        "address": "0x8008000",
+        "status": 4
+      },
+      {
+        "op": "program",
+        "address": "0x8008000",
+        "value": "0x3020100",
+        "status": 4
+      },
+      {
+        "op": "program",
+        "address": "0x8008004",
+        "value": "0x7060504",
+        "status": 4
+      },
+      {
+        "op": "program",
+        "address": "0x8008008",
+        "value": "0xb0a0908",
+        "status": 4
+      },
+      {
+        "op": "program",
+        "address": "0x800800c",
+        "value": "0xf0e0d0c",
+        "status": 4
+      },
+      {
+        "op": "program",
+        "address": "0x8008010",
+        "value": "0x13121110",
+        "status": 4
+      },
+      {
+        "op": "program",
+        "address": "0x8008014",
+        "value": "0x17161514",
+        "status": 4
+      },
+      {
+        "op": "program",
+        "address": "0x8008018",
+        "value": "0x1b1a1918",
+        "status": 4
+      },
+      {
+        "op": "program",
+        "address": "0x800801c",
+        "value": "0x1f1e1d1c",
+        "status": 4
+      }
+    ],
+    "rx_output_address": "0x20001040",
+    "rx_queue_address": "0x20000058",
+    "first_start_initialization": {
+      "synthetic_UID": "all zero; not board identification",
+      "routine": "0x08004804 -> callback 0x080047c8",
+      "ops": [
+        {
+          "op": "program",
+          "address": "0x8005304",
+          "value": "0x0",
+          "status": 4
+        },
+        {
+          "op": "program",
+          "address": "0x8005300",
+          "value": "0x0",
+          "status": 4
+        }
+      ],
+      "same_UID_restart": "returned normally",
+      "different_UID_PC": "0x0800484a infinite loop",
+      "application_UID_gate": {
+        "all_FF_field_R0": 0,
+        "matching_synthetic_field_R0": 1
+      },
+      "scope": "Original binding/gate code tested with synthetic UID registers; actual user MCU/UID unknown"
+    },
+    "selection_helpers": {
+      "set": "0x08004962",
+      "clear": "0x08004978",
+      "marker_address": "0x803d800"
+    }
+  }
+}
