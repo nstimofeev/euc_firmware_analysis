@@ -1,0 +1,8 @@
+{
+  "status": "verified_layout_with_open_physical_capacity",
+  "completed": ["v2.41 application file size and fixed staging gap", "original RAM scatter table and bounded zero initializer", "original heap/stack limits", "BMS staging erase address loop", "pinned older capture upper-half FF verification"],
+  "open": ["physical MCU RC/RE suffix and nominal flash/SRAM", "bootloader acceptance of larger images", "live heap and task stack free space", "external SPI flash occupancy"],
+  "verification": "python research/s22-memory/inspect_memory.py --capture /path/to/capture.bin",
+  "result": "PASS",
+  "next": "Verify MCU marking or hardware flash-capacity register for a known board revision"
+}
