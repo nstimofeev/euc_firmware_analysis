@@ -1,13 +1,16 @@
 {
   "date": "2026-10-11",
-  "status": "first_slice_verified_BMS_firmware_acquisition_open",
+  "status": "BMS_2.10_ADC_to_current_response_verified",
   "completed": [
     "Repository method and source inventory inspected",
     "Mainboard v2.41 current traced from ADC DMA buffer to calibrated and filtered BusCurrent",
     "128-sample zero calibration executed",
     "BMS command 0x42 raw current field traced to per-pack RAM",
     "BMS0 current forwarded unchanged to F1 page0 by original code",
-    "Original current SoftTuner downloaded and BMS catalog endpoint identified"
+    "Original current SoftTuner downloaded and BMS catalog endpoint identified",
+    "Recovered CRC-verified STM8 BMS 2.10 staged image from pinned public flash capture",
+    "Executed own BMS ADC to command 0x42 current dataflow without firmware helper stubs",
+    "Verified 200-sample trimmed mean and 0.3/0.7 filter"
   ],
   "checks": {
     "command": "python research/s22-bms-current/trace_current.py",
@@ -15,13 +18,20 @@
     "mainboard_current_cases": 6,
     "BMS_parser_cases": 20,
     "BMS0_forwarding_cases": 10,
-    "helper_stubs": 0
+    "helper_stubs": 0,
+    "BMS_2_10": {
+      "command": "python research/s22-bms-current/bms210/trace_bms210.py",
+      "result": "PASS",
+      "ADC_to_response_cases": 7,
+      "trimmed_mean": "PASS",
+      "filter": "PASS",
+      "helper_stubs": 0
+    }
   },
   "open": [
-    "Separate BMS firmware absent from examined repository and not yet obtained",
-    "BMS internal origin of current field: measured versus calculated",
-    "Exact hardware current sensor and amperes calibration",
-    "Earlier mainboard versions and BMS hardware revisions not validated by this slice"
+    "Official BMS catalog query parameters / model and serial routing",
+    "Physical current sensor, calibration units and actual hardware accuracy",
+    "Other BMS versions and hardware revisions"
   ],
-  "next_step": "Obtain exact BMS firmware identifier or original update file; trace response 0x42 current producer inside BMS firmware."
+  "next_step": "Trace ADC configuration, reference RAM 0x10 and calibration storage; compare another BMS version when acquired."
 }

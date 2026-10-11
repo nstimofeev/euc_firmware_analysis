@@ -1,0 +1,110 @@
+{
+  "status": "PASS",
+  "image_sha256": "2003d5236b08f7a8dc51585ef34fb60eb7ad796f0716a6c1530c61cfcd09f843",
+  "staging_crc16_ccitt_init0": "e81a",
+  "architecture": "STM8",
+  "image_base": "0x8b00",
+  "naken_asm_commit": "247c23706909f09bac77c587780b8a826bbda27c",
+  "simulator_changes": [
+    "suppress run banner",
+    "correct 8/16-bit signed overflow flags; see patch_naken.py"
+  ],
+  "firmware_helper_stubs": 0,
+  "real_peripherals_modeled": false,
+  "cases": [
+    {
+      "adc_signed_counts": 0,
+      "samples": 200,
+      "reference_input_RAM_0x10": 3300,
+      "positive_gain": 1,
+      "negative_gain": 1,
+      "mode_RAM_0x815": 4,
+      "raw_current_RAM_0x737": 0.0,
+      "filtered_current_RAM_0x73b": 0.0,
+      "wire_int16": 0,
+      "payload_80_81_hex": "0000",
+      "payload_bytes": 93
+    },
+    {
+      "adc_signed_counts": 50,
+      "samples": 200,
+      "reference_input_RAM_0x10": 3300,
+      "positive_gain": 1,
+      "negative_gain": 1,
+      "mode_RAM_0x815": 4,
+      "raw_current_RAM_0x737": 657.7808227539062,
+      "filtered_current_RAM_0x73b": 657.7808227539062,
+      "wire_int16": 70,
+      "payload_80_81_hex": "0046",
+      "payload_bytes": 93
+    },
+    {
+      "adc_signed_counts": 100,
+      "samples": 200,
+      "reference_input_RAM_0x10": 3300,
+      "positive_gain": 1,
+      "negative_gain": 1,
+      "mode_RAM_0x815": 4,
+      "raw_current_RAM_0x737": 1315.5616455078125,
+      "filtered_current_RAM_0x73b": 1315.5616455078125,
+      "wire_int16": 136,
+      "payload_80_81_hex": "0088",
+      "payload_bytes": 93
+    },
+    {
+      "adc_signed_counts": 1000,
+      "samples": 200,
+      "reference_input_RAM_0x10": 3300,
+      "positive_gain": 1,
+      "negative_gain": 1,
+      "mode_RAM_0x815": 4,
+      "raw_current_RAM_0x737": 13155.615234375,
+      "filtered_current_RAM_0x73b": 13155.615234375,
+      "wire_int16": 1315,
+      "payload_80_81_hex": "0523",
+      "payload_bytes": 93
+    },
+    {
+      "adc_signed_counts": -50,
+      "samples": 200,
+      "reference_input_RAM_0x10": 3300,
+      "positive_gain": 1,
+      "negative_gain": 1,
+      "mode_RAM_0x815": 4,
+      "raw_current_RAM_0x737": -649.727783203125,
+      "filtered_current_RAM_0x73b": -649.727783203125,
+      "wire_int16": -69,
+      "payload_80_81_hex": "ffbb",
+      "payload_bytes": 93
+    },
+    {
+      "adc_signed_counts": -100,
+      "samples": 200,
+      "reference_input_RAM_0x10": 3300,
+      "positive_gain": 1,
+      "negative_gain": 1,
+      "mode_RAM_0x815": 4,
+      "raw_current_RAM_0x737": -1299.45556640625,
+      "filtered_current_RAM_0x73b": -1299.45556640625,
+      "wire_int16": -134,
+      "payload_80_81_hex": "ff7a",
+      "payload_bytes": 93
+    },
+    {
+      "adc_signed_counts": -1000,
+      "samples": 200,
+      "reference_input_RAM_0x10": 3300,
+      "positive_gain": 1,
+      "negative_gain": 1,
+      "mode_RAM_0x815": 4,
+      "raw_current_RAM_0x737": -12994.5556640625,
+      "filtered_current_RAM_0x73b": -12994.5556640625,
+      "wire_int16": -1299,
+      "payload_80_81_hex": "faed",
+      "payload_bytes": 93
+    }
+  ],
+  "trimmed_mean_outliers": "PASS",
+  "filter_0_3_new_0_7_old": "PASS",
+  "unique_executed_addresses": 1302
+}

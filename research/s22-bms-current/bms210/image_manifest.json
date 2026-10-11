@@ -1,0 +1,22 @@
+{
+  "source_url": "https://raw.githubusercontent.com/jeremy-prater/ks-s22-mods/9258eac039304991a815b8880c4dddca7a4e983c/firmware/capture.bin",
+  "source_commit": "9258eac039304991a815b8880c4dddca7a4e983c",
+  "source_kind": "public mainboard flash capture containing staged BMS update, not an official catalog download",
+  "capture_size": 524288,
+  "capture_sha256": "e1ad38200189fd445cf9cf805206ed853398124b2ffa2f5326040269d7fc3552",
+  "header_offset": "0x29000",
+  "body_offset": "0x29008",
+  "record_count": 5115,
+  "record_size": 12,
+  "body_size": 61380,
+  "crc_algorithm": "CRC-16/CCITT poly 0x1021 init 0 xorout 0 (binascii.crc_hqx)",
+  "crc16": "e81a",
+  "body_sha256": "2003d5236b08f7a8dc51585ef34fb60eb7ad796f0716a6c1530c61cfcd09f843",
+  "inferred_load_address": "0x8b00",
+  "reset_vector": "0x17846",
+  "model_string_address": "0x90c2",
+  "model_string": "KSS22BA-2202-2.10",
+  "serial_placeholder": "KSC02A30222408***",
+  "architecture": "STM8",
+  "exact_MCU_and_sensor": "not established"
+}
