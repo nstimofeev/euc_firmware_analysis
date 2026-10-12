@@ -1,0 +1,106 @@
+{
+  "scope": "Saved-data comparisons only. Function-level behavior and runtime settings are not inferred.",
+  "matching": "Name plus zero-based occurrence in descriptor order; compare width/raw bytes, ignore relocated addresses. Repeated names are retained.",
+  "source_snapshot_commit": "896da3bde44e58ec9fe5ba7d90f8fa333f04dc52",
+  "input_sha256": {
+    "ks16x/evidence/initial-values.json": "c8ef87d8182d0f44b662ff02e588963d27a8d04a96b4ce51e27a51770dba4e76",
+    "ks16x/evidence/diff.json": "4751de8361122f3b02c942d3e81a230bc9a42b05f4eff6aa690219b32b518990",
+    "ks16x/evidence/catalog_version0.json": "11cbb349d8b3d9f128b104d97856a16f822ea906dc285eeb7651af2c3dad7c00"
+  },
+  "catalog_entries": [
+    {
+      "version": 223,
+      "introduction": "主板大包升级跳转配合",
+      "binary_url_present": true,
+      "createtime": "1705543430"
+    },
+    {
+      "version": 220,
+      "introduction": "new gyro ,baterry high temperature alarm code 234",
+      "binary_url_present": true,
+      "createtime": "1666695773"
+    },
+    {
+      "version": 212,
+      "introduction": "电压采样优化",
+      "binary_url_present": true,
+      "createtime": "1637028656"
+    },
+    {
+      "version": 207,
+      "introduction": "",
+      "binary_url_present": false,
+      "createtime": "1616549576"
+    },
+    {
+      "version": 203,
+      "introduction": "",
+      "binary_url_present": false,
+      "createtime": "1602573664"
+    },
+    {
+      "version": 202,
+      "introduction": "",
+      "binary_url_present": false,
+      "createtime": "1589337465"
+    }
+  ],
+  "pairs": [
+    {
+      "from": 212,
+      "to": 220,
+      "image_bytes_from": 100224,
+      "image_bytes_to": 101248,
+      "descriptor_names_added": [],
+      "descriptor_names_removed": [],
+      "initialized_records_from": 39,
+      "initialized_records_to": 39,
+      "common_initialized_records": 39,
+      "unchanged_initialized_records": 39,
+      "changed_initialized_records": [],
+      "added_initialized_records": [],
+      "removed_initialized_records": []
+    },
+    {
+      "from": 220,
+      "to": 223,
+      "image_bytes_from": 101248,
+      "image_bytes_to": 102528,
+      "descriptor_names_added": [
+        "adcch_tg_en",
+        "g_averX10_iq"
+      ],
+      "descriptor_names_removed": [],
+      "initialized_records_from": 39,
+      "initialized_records_to": 41,
+      "common_initialized_records": 39,
+      "unchanged_initialized_records": 39,
+      "changed_initialized_records": [],
+      "added_initialized_records": [
+        {
+          "record_offset": "0x18678",
+          "name": "adcch_tg_en",
+          "name_pointer": "0x8020b0c",
+          "value_address": "0x200002f8",
+          "metadata_raw": "0x404",
+          "width_bytes": 4,
+          "raw_le": "00000000",
+          "unsigned_le": 0,
+          "signed_le": 0
+        },
+        {
+          "record_offset": "0x18688",
+          "name": "g_averX10_iq",
+          "name_pointer": "0x8020ba4",
+          "value_address": "0x2000036c",
+          "metadata_raw": "0x405",
+          "width_bytes": 4,
+          "raw_le": "00000000",
+          "unsigned_le": 0,
+          "signed_le": 0
+        }
+      ],
+      "removed_initialized_records": []
+    }
+  ]
+}
